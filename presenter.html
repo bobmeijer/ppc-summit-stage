@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Presenter</title>
+<link rel="stylesheet" href="_runtime/stage.css">
+</head>
+<body class="presenter">
+<header class="bar">
+  <div class="bar-l">
+    <a class="home" href="index.html" title="All blocks">PPC Summit</a>
+    <strong id="block-title"></strong>
+    <span class="muted" id="block-window"></span>
+  </div>
+  <div class="bar-c">
+    <span class="clock" id="clock"></span>
+    <span class="timer" title="Block elapsed (starts on first advance)">Block <b id="block-timer">--:--</b></span>
+    <span class="timer" title="Time on this segment (T resets)">Segment <b id="seg-timer">00:00</b></span>
+    <button id="btn-timer" title="Reset timers">Reset</button>
+  </div>
+  <div class="bar-r">
+    <span class="link-state" id="link-state"></span>
+    <button id="btn-open" class="primary" title="Open audience window (O)">Open audience</button>
+    <button id="btn-black" title="Black screen (B)">Black</button>
+    <span class="grp">Notes <button id="btn-notes-minus">A-</button><span id="notes-size"></span><button id="btn-notes-plus">A+</button></span>
+    <span class="grp">UI <button id="btn-ui-minus">-</button><span id="ui-zoom"></span><button id="btn-ui-plus">+</button></span>
+    <button id="btn-list" title="Toggle running order (L)">List</button>
+    <button id="btn-help" title="Shortcuts (?)">?</button>
+  </div>
+</header>
+
+<main class="deskgrid">
+  <section class="slides">
+    <div class="label-row">
+      <span class="seg-title" id="seg-title"></span>
+      <span class="step-count" id="step-count"></span>
+    </div>
+    <div class="shot current" id="current"></div>
+    <div class="label-row small">
+      <span class="step-label" id="step-label"></span>
+      <span class="deck-state" id="deck-state"></span>
+    </div>
+    <div class="label-row"><span id="next-label">Next</span></div>
+    <div class="shot next" id="next"></div>
+    <div class="navbtns">
+      <button id="btn-prev">Previous</button>
+      <button id="btn-reload-deck" title="Reload the current deck on the audience screen">Reload deck</button>
+      <button id="btn-next" class="primary">Next</button>
+    </div>
+  </section>
+  <section class="notes-wrap">
+    <div class="notes" id="notes"></div>
+  </section>
+  <aside class="list">
+    <ol id="seglist"></ol>
+  </aside>
+</main>
+
+<div class="help" id="help">
+  <div class="card">
+    <h2>Shortcuts</h2>
+    <table>
+      <tr><td>Right, Down, PageDown, Space, N</td><td>Next (clicker forward)</td></tr>
+      <tr><td>Left, Up, PageUp, P</td><td>Previous (clicker back)</td></tr>
+      <tr><td>B or .</td><td>Black screen on/off</td></tr>
+      <tr><td>O</td><td>Open audience window</td></tr>
+      <tr><td>+ / -</td><td>Notes text size</td></tr>
+      <tr><td>[ / ]</td><td>Whole view zoom</td></tr>
+      <tr><td>, / &gt;</td><td>Slides vs notes width</td></tr>
+      <tr><td>L</td><td>Running order list</td></tr>
+      <tr><td>T</td><td>Reset segment timer</td></tr>
+      <tr><td>Home</td><td>Back to the first slide</td></tr>
+    </table>
+    <p class="muted">Click a row in the running order to jump. Click the current or next preview to advance.</p>
+  </div>
+</div>
+
+<script src="_runtime/manifest.js"></script>
+<script src="_runtime/link.js"></script>
+<script src="_runtime/presenter.js"></script>
+</body>
+</html>

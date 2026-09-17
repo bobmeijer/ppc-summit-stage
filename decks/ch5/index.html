@@ -1,0 +1,1841 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script src="../../_runtime/bridge.js" data-adapter="reveal"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Client Codebase · PPC Summit 2026</title>
+
+  <!--
+    PPC Summit 2026 — Alfred Simon — "The Client Codebase"
+    Built from created/ppcsummit/storyboard.md (single source of truth).
+    Style: Poster Press (mockups/slide-language.html), scaled to 1920x1080.
+    Speaker notes are GENERATED from the storyboard's spoken/cue/gate fields.
+    Never hand-edit notes here — edit storyboard.md and regenerate.
+    Assets: local assets/ paths. Final build: find-replace "assets/" with the
+    Bunny pull-zone URL (ppcsummit2026/ folder) per how-we-meme.md.
+    Press S for speaker view. F for fullscreen.
+  -->
+
+  <link rel="stylesheet" href="vendor/cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reset.css">
+  <link rel="stylesheet" href="vendor/cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css">
+
+  <style>
+    /* =========================================================
+       POSTER PRESS · locked in ticket 05
+       cream + grain paper · 3px-class ink borders · gold/teal
+       hard shadows · Impact caps · gold pages = structural
+       ========================================================= */
+    :root {
+      --paper: #F6F1E3;
+      --goldpaper: #F2B843;
+      --ink: #1C1917;
+      --teal: #157876;
+      --gold: #EAA020;
+      --mut: #78716C;
+      --white: #ffffff;
+    }
+
+    .reveal-viewport { background: var(--paper); }
+    /* paper grain on every slide background, gold pages keep it too */
+    .reveal .slide-background {
+      background-color: var(--paper);
+    }
+    .reveal .slide-background-content {
+      background-image: repeating-linear-gradient(0deg, rgba(28,25,23,.028) 0 1px, transparent 1px 10px);
+    }
+
+    .reveal {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-size: 30px;
+      color: var(--ink);
+    }
+    .reveal .slides section {
+      height: 100%;
+      padding: 90px 120px;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+      box-sizing: border-box;
+    }
+    .reveal .slides section.centered { align-items: center; text-align: center; }
+
+    .imp, .reveal h1, .reveal h2, .reveal h3 {
+      font-family: 'Impact', 'Arial Black', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      color: var(--ink);
+      margin: 0;
+      line-height: 1.05;
+    }
+
+    /* ---- gold structural pages ---- */
+    .kicker {
+      align-self: flex-start; font-size: 23px; letter-spacing: 4px; text-transform: uppercase;
+      font-weight: 700; margin-bottom: 44px; padding: 9px 21px;
+      background: var(--paper); border: 4px solid var(--ink);
+    }
+    .s-title h1 { font-size: 158px; line-height: 1.0; }
+    .s-title h1 em { font-style: normal; color: #fff; background: var(--teal); padding: 0 26px; box-shadow: 12px 12px 0 var(--ink); }
+    .s-title .who {
+      margin-top: 80px; font-size: 23px; letter-spacing: 1.5px; font-weight: 700;
+      align-self: flex-start; padding-top: 18px; border-top: 6px solid var(--ink);
+    }
+
+    .partchip {
+      align-self: flex-start; font-size: 24px; letter-spacing: 4px; text-transform: uppercase;
+      font-weight: 700; margin-bottom: 32px; padding: 9px 21px;
+      background: var(--ink); color: var(--goldpaper);
+    }
+    .s-div h2 { font-size: 170px; text-shadow: 10px 10px 0 rgba(255,255,255,.4); }
+    .tracker { display: flex; gap: 15px; margin-top: 76px; flex-wrap: wrap; }
+    .pstep {
+      font-size: 18px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 600;
+      padding: 10px 21px; border: 4px solid var(--ink); background: var(--paper); color: var(--ink);
+    }
+    .pstep.done { background: var(--teal); color: #fff; border-color: var(--teal); }
+    .pstep.now { background: var(--ink); color: var(--goldpaper); }
+
+    /* ---- one-liners ---- */
+    .s-line h2 { font-size: 124px; line-height: 1.08; max-width: 1600px; text-wrap: balance; }
+    .s-line h2 em { font-style: normal; background: var(--gold); padding: 0 18px; }
+    .s-line h2 em.tealblock { background: var(--teal); color: #fff; }
+    .s-line .subline { margin-top: 40px; font-size: 34px; font-weight: 600; color: var(--mut); }
+
+    /* ---- checkpoint cards ---- */
+    .checkcard {
+      width: 1470px; padding: 66px 80px; position: relative;
+      background: #fff; border: 4px solid var(--ink); box-shadow: 15px 15px 0 var(--gold);
+      text-align: left;
+    }
+    .checkcard .tag {
+      position: absolute; top: -30px; left: 80px; font-size: 21px; font-weight: 800;
+      letter-spacing: 3px; text-transform: uppercase; padding: 12px 27px;
+      background: var(--ink); color: var(--paper);
+    }
+    .checkcard .cq {
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase;
+      font-size: 64px; line-height: 1.15; text-wrap: balance; letter-spacing: .5px;
+    }
+    .checkcard .csteer {
+      margin-top: 39px; font-size: 37px; line-height: 1.4; padding-top: 36px;
+      font-weight: 600; color: var(--teal); border-top: 4px solid var(--ink);
+    }
+    .checkcard .cnum { position: absolute; top: 39px; right: 57px; font-size: 22px; font-weight: 700; letter-spacing: 2px; color: var(--mut); }
+    .checkcard.goldcard { box-shadow: 15px 15px 0 var(--teal); }
+    .checkcard.goldcard .tag { background: var(--gold); color: var(--ink); }
+
+    /* ---- meme frame ---- */
+    .memeframe { position: relative; border: 4px solid var(--ink); background: #fff; box-shadow: 15px 15px 0 var(--teal); }
+    .memeframe video, .memeframe img.meme { display: block; max-width: 1080px; max-height: 720px; }
+    .memecap { font-size: 26px; padding: 20px 27px; text-align: center; font-weight: 600; color: var(--ink); }
+
+    /* ---- proof frame (plain browser window) ---- */
+    .shotwin { overflow: hidden; background: #fff; border: 4px solid var(--ink); box-shadow: 18px 18px 0 rgba(28,25,23,.9); position: relative; z-index: 2; }
+    .shotbar { display: flex; align-items: center; gap: 10px; padding: 16px 24px; background: var(--paper); border-bottom: 4px solid var(--ink); }
+    .shotbar .d { width: 15px; height: 15px; border-radius: 50%; background: var(--ink); }
+    .shotbar .url { margin-left: 15px; font-size: 18px; font-family: ui-monospace, Menlo, monospace; color: var(--mut); }
+    .shotwin img.shot { display: block; width: 100%; height: auto; }
+
+    /* ---- mockup frame (story costume: ink bar + editor tabs) ---- */
+    .mockwin { overflow: hidden; background: #fff; border: 4px solid var(--ink); box-shadow: 18px 18px 0 var(--gold); position: relative; z-index: 2; text-align: left; }
+    .mocktop { display: flex; align-items: stretch; background: var(--ink); padding: 0 0 0 27px; }
+    .mocktop .dots { display: flex; align-items: center; gap: 10px; margin-right: 33px; }
+    .mocktop .d { width: 16px; height: 16px; border-radius: 50%; background: var(--paper); opacity: .55; }
+    .mocktop .tabs { display: flex; align-items: stretch; margin-top: 12px; }
+    .mocktop .tab { font-family: ui-monospace, Menlo, monospace; font-size: 19px; padding: 15px 30px 18px; color: #B8B2A6; display: flex; align-items: center; }
+    .mocktop .tab.on { background: #fff; color: var(--ink); font-weight: 700; box-shadow: inset 0 4px 0 var(--teal); }
+
+    /* ---- annotation system: side rail ---- */
+    .area { display: flex; flex-direction: row; gap: 66px; align-items: center; justify-content: center; text-align: left; }
+    .anno-rail { width: 465px; flex: none; }
+    .anno-rail .eyebrow {
+      display: inline-block; font-size: 18px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase;
+      background: var(--gold); border: 4px solid var(--ink); padding: 6px 18px; margin-bottom: 27px;
+    }
+    .anno-rail h4 { font-family: 'Impact','Arial Black',sans-serif; font-weight: 400; text-transform: uppercase; font-size: 58px; line-height: 1.1; margin: 0 0 24px; }
+    .anno-rail p { font-size: 27px; line-height: 1.5; font-weight: 500; margin: 0; }
+    .anno-rail p b { color: var(--teal); }
+
+    /* ---- the clock through-prop ---- */
+    .clockchip {
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase;
+      background: #fff; border: 4px solid var(--ink); box-shadow: 10px 10px 0 var(--gold);
+      color: var(--ink); line-height: 1; display: inline-block;
+    }
+    .clockchip.small { font-size: 54px; padding: 18px 30px; position: absolute; right: 120px; bottom: 90px; }
+    .clockchip.huge { font-size: 340px; padding: 40px 90px 30px; box-shadow: 20px 20px 0 var(--gold); }
+    .clockchip.goldfinal { background: var(--gold); box-shadow: 20px 20px 0 var(--ink); }
+
+    /* ---- about me ---- */
+    .about { display: flex; gap: 80px; align-items: center; justify-content: center; }
+    .about img { width: 480px; height: 480px; object-fit: cover; border: 4px solid var(--ink); box-shadow: 15px 15px 0 var(--teal); }
+    .aboutchips { display: flex; flex-direction: column; gap: 22px; }
+    .aboutchips .chip {
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 46px;
+      border: 4px solid var(--ink); background: #fff; padding: 16px 34px; box-shadow: 8px 8px 0 var(--gold);
+    }
+    .aboutchips .chip:nth-child(2n) { box-shadow: 8px 8px 0 var(--teal); }
+
+    /* ---- inbox mockup (S3 / S11 pair) ---- */
+    .inboxwin { width: 1150px; }
+    .mailhead { padding: 30px 40px 0; }
+    .mailrow { display: flex; align-items: baseline; justify-content: space-between; }
+    .mailfrom { font-size: 26px; font-weight: 700; }
+    .mailfrom small { display: block; font-weight: 400; color: var(--mut); font-size: 19px; margin-top: 4px; }
+    .mailstamp { font-family: 'Impact','Arial Black',sans-serif; font-size: 30px; color: var(--mut); }
+    .mailstamp.big { font-size: 96px; color: var(--ink); background: var(--gold); padding: 0 20px; }
+    .mailsub { font-size: 32px; font-weight: 700; margin-top: 18px; }
+    .mailbody { padding: 24px 40px 36px; font-size: 27px; line-height: 1.55; color: #44403C; border-bottom: 1px solid #EEECEB; }
+    .replyzone { padding: 24px 40px 36px; display: flex; flex-direction: column; gap: 18px; background: #FAFAF9; }
+    .replycard { border: 3px solid var(--ink); background: #fff; padding: 20px 28px; }
+    .replycard .rlabel { font-size: 15px; letter-spacing: 2px; text-transform: uppercase; font-weight: 800; color: var(--teal); margin-bottom: 8px; }
+    .replycard .rtext { font-size: 23px; line-height: 1.45; color: #44403C; }
+    .changerow { display: flex; align-items: center; justify-content: space-between; border: 3px solid var(--ink); background: #fff; padding: 20px 28px; }
+    .changerow .rtext { font-size: 23px; font-weight: 600; }
+    .btn {
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 26px;
+      padding: 12px 34px; border: 3px solid var(--ink); cursor: default;
+    }
+    .btn.accept { background: var(--teal); color: #fff; box-shadow: 6px 6px 0 var(--ink); }
+    .btn.block { background: var(--ink); color: var(--paper); }
+    .glow { animation: glowpulse 1.6s ease-in-out infinite; }
+    @keyframes glowpulse {
+      0%, 100% { box-shadow: 6px 6px 0 var(--ink); }
+      50% { box-shadow: 6px 6px 0 var(--ink), 0 0 34px rgba(21,120,118,.75); }
+    }
+
+    /* ---- chat mockup (S9 method 2, S52 refusal) ---- */
+    .chatwin { width: 1150px; }
+    .chatbody { padding: 30px 40px 40px; display: flex; flex-direction: column; gap: 20px; background: #FAFAF9; }
+    .bub { max-width: 82%; padding: 20px 28px; font-size: 24px; line-height: 1.5; border: 3px solid var(--ink); }
+    .bub.user { align-self: flex-end; background: var(--teal); color: #fff; }
+    .bub.agent { align-self: flex-start; background: #fff; }
+    .bub .blabel { font-size: 14px; letter-spacing: 2px; text-transform: uppercase; font-weight: 800; opacity: .7; margin-bottom: 8px; }
+    .bub ul { margin: 10px 0 0 26px; padding: 0; }
+    .bub li { margin: 6px 0; }
+    .codecheck {
+      align-self: flex-start; font-family: ui-monospace, Menlo, monospace; font-size: 20px;
+      color: var(--paper); background: var(--ink); padding: 10px 20px;
+    }
+
+    /* ---- logo pile (S7) + sources diagram (S21/22) ---- */
+    .logopile { position: relative; width: 1100px; height: 560px; margin: 0 auto; }
+    .logopile .pileitem {
+      position: absolute; background: #fff; border: 4px solid var(--ink);
+      padding: 26px 40px; box-shadow: 10px 10px 0 rgba(28,25,23,.85);
+      display: flex; align-items: center; gap: 20px;
+    }
+    .pileitem img { height: 72px; width: auto; display: block; }
+    .pileitem.tall img { height: 100px; }
+    .pileitem .plabel { font-size: 26px; font-weight: 700; }
+
+    .srcdiagram { display: flex; align-items: center; gap: 56px; justify-content: center; }
+    .srccol { display: flex; flex-direction: column; gap: 16px; }
+    .srcitem { display: flex; align-items: center; gap: 18px; background: #fff; border: 3px solid var(--ink); padding: 12px 24px; width: 330px; box-sizing: border-box; }
+    .srcitem img { height: 44px; width: auto; }
+    .srcitem .slabel { font-size: 22px; font-weight: 700; }
+    .flowarrow { font-family: 'Impact','Arial Black',sans-serif; font-size: 84px; color: var(--gold); text-shadow: 4px 4px 0 var(--ink); }
+    .clientcard { background: #fff; border: 4px solid var(--ink); box-shadow: 12px 12px 0 var(--gold); padding: 34px 40px; width: 460px; box-sizing: border-box; text-align: left; }
+    .clientcard h5 { font-family: 'Impact','Arial Black',sans-serif; font-weight: 400; text-transform: uppercase; font-size: 40px; margin: 0 0 18px; }
+    .clientcard ul { margin: 0; padding: 0; list-style: none; font-size: 22px; line-height: 1.7; }
+    .clientcard li b { color: var(--teal); font-family: ui-monospace, Menlo, monospace; font-size: 20px; }
+    .agentblock {
+      background: var(--ink); color: var(--goldpaper); font-family: 'Impact','Arial Black',sans-serif;
+      text-transform: uppercase; font-size: 52px; padding: 44px 50px; box-shadow: 12px 12px 0 var(--teal);
+    }
+
+    /* ---- question rows (S19) + layers (S27) ---- */
+    .qrows { display: flex; flex-direction: column; gap: 34px; align-items: center; }
+    .qrow {
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 62px;
+      background: #fff; border: 4px solid var(--ink); padding: 26px 54px; box-shadow: 10px 10px 0 var(--teal);
+    }
+    .qrow:nth-child(2) { box-shadow: 10px 10px 0 var(--gold); }
+    .qrow:nth-child(3) { box-shadow: 10px 10px 0 rgba(28,25,23,.85); }
+
+    .layerstack { display: flex; flex-direction: column; gap: 36px; align-items: center; }
+    .layerblock { width: 1240px; background: #fff; border: 4px solid var(--ink); padding: 34px 50px; box-shadow: 10px 10px 0 rgba(28,25,23,.85); box-sizing: border-box; }
+    .layerblock.moat { box-shadow: 14px 14px 0 var(--gold); }
+    .layerblock h5 { font-family: 'Impact','Arial Black',sans-serif; font-weight: 400; text-transform: uppercase; font-size: 56px; margin: 0 0 10px; }
+    .layerblock p { margin: 0; font-size: 27px; color: #44403C; font-weight: 500; }
+
+    /* ---- six parts big list (S17) ---- */
+    .sixlist { display: grid; grid-template-columns: 1fr 1fr; gap: 30px 70px; }
+    .sixitem { display: flex; align-items: center; gap: 30px; background: #fff; border: 4px solid var(--ink); padding: 24px 40px; box-shadow: 8px 8px 0 var(--teal); }
+    .sixitem:nth-child(2n) { box-shadow: 8px 8px 0 var(--gold); }
+    .sixitem .num { font-family: 'Impact','Arial Black',sans-serif; font-size: 60px; color: var(--teal); width: 64px; }
+    .sixitem .nm { font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 60px; }
+
+    /* ---- security pipeline (S38 / S40) ---- */
+    .rail { display: flex; align-items: center; gap: 22px; justify-content: center; flex-wrap: wrap; }
+    .railchip {
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 40px;
+      background: #fff; border: 4px solid var(--ink); padding: 20px 34px; box-shadow: 8px 8px 0 rgba(28,25,23,.85);
+    }
+    .railchip.dim { opacity: .45; box-shadow: none; }
+    .railchip.you { background: var(--gold); font-size: 48px; box-shadow: 10px 10px 0 var(--ink); }
+    .railarrow { font-family: 'Impact','Arial Black',sans-serif; font-size: 52px; color: var(--teal); }
+    .forkzone { display: flex; gap: 90px; margin-top: 56px; justify-content: center; align-items: flex-start; }
+    .lane { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+    .lanelabel { font-size: 21px; letter-spacing: 3px; text-transform: uppercase; font-weight: 800; padding: 8px 20px; border: 3px solid var(--ink); background: var(--paper); }
+    .lane .railchip.smaller { font-size: 30px; padding: 14px 24px; }
+    .forknote { font-size: 24px; font-weight: 700; font-style: italic; margin-top: 30px; text-align: center; color: var(--ink); }
+
+    /* ---- accept-or-block review card (S41 / S48 / S64) ---- */
+    .revcard { width: 1240px; background: #fff; border: 4px solid var(--ink); box-shadow: 18px 18px 0 var(--gold); text-align: left; position: relative; }
+    .revhead { background: var(--ink); color: var(--paper); padding: 18px 36px; font-size: 20px; letter-spacing: 2.5px; text-transform: uppercase; font-weight: 800; }
+    .revbody { padding: 36px 44px; }
+    .revchange { font-size: 34px; font-weight: 700; line-height: 1.4; }
+    .revimpact { margin-top: 18px; font-size: 25px; color: #44403C; line-height: 1.5; }
+    .revimpact b { color: var(--teal); }
+    .revbtns { display: flex; gap: 28px; margin-top: 40px; }
+    .revbtns .btn { font-size: 34px; padding: 18px 52px; }
+    .stamp {
+      position: absolute; right: 60px; top: 50%; transform: rotate(-8deg) translateY(-50%);
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 60px;
+      color: var(--ink); border: 6px solid var(--ink); padding: 10px 30px; background: rgba(246,241,227,.92);
+    }
+
+    /* ---- one engine many windows (S49) ---- */
+    .winsrow { display: flex; gap: 70px; justify-content: center; }
+    .miniwin { width: 380px; background: #fff; border: 4px solid var(--ink); box-shadow: 8px 8px 0 rgba(28,25,23,.85); }
+    .miniwin .mbar { background: var(--ink); padding: 10px 16px; display: flex; gap: 7px; }
+    .miniwin .mbar .d { width: 10px; height: 10px; border-radius: 50%; background: var(--paper); opacity: .55; }
+    .miniwin .mname { font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 34px; padding: 26px 24px 30px; text-align: center; }
+    .conn { width: 8px; height: 90px; background: var(--gold); border: 3px solid var(--ink); margin: 0 auto; }
+    .enginebig {
+      margin: 0 auto; background: var(--ink); color: var(--goldpaper);
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 72px;
+      padding: 40px 120px; box-shadow: 16px 16px 0 var(--teal);
+    }
+
+    /* ---- client memory timeline (S59) ---- */
+    .memwin { width: 1280px; }
+    .mockhead { display: flex; align-items: baseline; justify-content: space-between; padding: 30px 40px 0; background: #fff; }
+    .mockhead h3 { font-size: 34px; font-weight: 700; margin: 0; font-family: inherit; text-transform: none; }
+    .mockhead h3 .accent { color: var(--teal); }
+    .mockhead .mu { font-size: 19px; color: var(--mut); }
+    .mockhead .mu b { color: var(--teal); }
+    .mockentries { padding: 15px 40px 34px; background: #fff; }
+    .mentry { display: flex; gap: 22px; padding: 20px 0; }
+    .mentry + .mentry { border-top: 1px solid #EEECEB; }
+    .mwhen { width: 130px; flex: none; text-align: right; font-size: 20px; font-weight: 600; padding-top: 3px; }
+    .mwhen small { display: block; font-weight: 400; margin-top: 3px; color: var(--mut); }
+    .mbody { flex: 1; }
+    .mrow { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+    .mbadge { font-size: 15px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; border-radius: 8px; padding: 5px 12px; }
+    .mbadge.ai { background: var(--teal); color: #fff; }
+    .mbadge.human { background: #FEF3C7; color: #92610b; }
+    .mwhat { font-size: 24px; font-weight: 600; }
+    .msrc { font-size: 16px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; color: var(--mut); }
+    .mwhy { font-size: 21px; margin-top: 9px; line-height: 1.45; color: #44403C; }
+    .mwhy b { color: var(--teal); }
+    .mfollow {
+      display: inline-flex; align-items: center; gap: 10px; margin-top: 12px; font-size: 19px; font-weight: 700;
+      border-radius: 999px; padding: 8px 18px; color: #92610b; background: #FEF3C7; border: 3px solid var(--gold);
+    }
+    .mfollow.big { font-size: 34px; padding: 18px 40px; border-width: 4px; box-shadow: 8px 8px 0 var(--ink); }
+
+    /* ---- the stack diagram (S63/S64/S65) ---- */
+    .stackzone { position: relative; width: 1500px; margin: 0 auto; }
+    .stackcol { display: flex; flex-direction: column; gap: 18px; width: 760px; margin: 0 auto; }
+    .stacklayer {
+      display: flex; align-items: center; justify-content: space-between;
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 42px;
+      background: var(--paper); border: 4px solid var(--ink); padding: 18px 34px;
+      transition: background .3s, box-shadow .3s;
+    }
+    .stacklayer .lnum { font-size: 26px; color: var(--mut); }
+    .stacklayer.lit { background: var(--gold); box-shadow: 8px 8px 0 var(--ink); }
+    .stackanno {
+      position: absolute; left: 1180px; width: 320px; font-size: 23px; font-weight: 600; line-height: 1.35;
+      background: #fff; border: 3px solid var(--ink); padding: 12px 18px; box-shadow: 5px 5px 0 var(--teal);
+      text-align: left;
+    }
+    .emailtoken {
+      position: absolute; left: 20px; top: -30px; width: 300px;
+      background: #fff; border: 3px solid var(--ink); box-shadow: 6px 6px 0 var(--gold);
+      padding: 12px 18px; font-size: 19px; text-align: left;
+      transition: top .7s cubic-bezier(.3,.8,.3,1);
+    }
+    .emailtoken .efrom { font-weight: 800; font-size: 17px; }
+    .emailtoken .esub { color: #44403C; }
+    .emailtoken .etime { font-family: 'Impact','Arial Black',sans-serif; font-size: 22px; color: var(--teal); }
+    .stampclock {
+      position: absolute; right: -40px; top: -185px; z-index: 6;
+      font-family: 'Impact','Arial Black',sans-serif; font-size: 104px;
+      background: var(--gold); border: 4px solid var(--ink); box-shadow: 12px 12px 0 var(--ink);
+      padding: 12px 36px 6px; line-height: 1;
+    }
+    .photoframe {
+      position: absolute; inset: -70px -60px; border: 10px solid var(--gold);
+      box-shadow: 0 0 0 4px var(--ink), inset 0 0 0 4px var(--ink);
+      pointer-events: none;
+    }
+
+    /* ---- stacked six questions (S68) ---- */
+    .qstack { display: flex; flex-direction: column; gap: 20px; width: 1400px; }
+    .srow { display: flex; align-items: center; gap: 24px; padding: 19px 30px; background: #fff; border: 4px solid var(--ink); box-shadow: 7px 7px 0 rgba(28,25,23,.9); text-align: left; }
+    .srow .ok { flex: none; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 800; background: var(--teal); color: #fff; }
+    .srow .sq { font-size: 26px; font-weight: 600; flex: 1; }
+    .srow .sname { font-size: 16px; letter-spacing: 1.8px; text-transform: uppercase; font-weight: 700; flex: none; width: 130px; color: var(--teal); }
+
+    /* ---- S68 foundation fragment (ticket 21): dim the hardening rows, gold the machine ---- */
+    .srow { transition: opacity .45s ease, background .45s ease, box-shadow .45s ease; }
+    section.minlive .srow.harden { opacity: .22; box-shadow: none; }
+    section.minlive .srow.machine { background: var(--goldpaper); }
+    section.minlive .srow.machine .ok { background: var(--ink); color: var(--goldpaper); }
+    .safetytag {
+      display: none; flex: none; font-size: 15px; letter-spacing: 1.2px; text-transform: uppercase;
+      font-weight: 700; background: var(--teal); color: #fff; padding: 6px 12px; margin-left: 8px;
+    }
+    section.minlive .safetytag { display: block; }
+    .minline { margin-top: 34px; text-align: center; }
+    .minline .imp { font-size: 62px; }
+    .minline .imp em { font-style: normal; background: var(--goldpaper); padding: 0 16px; box-shadow: 7px 7px 0 var(--ink); }
+    .minline .sub { margin-top: 16px; font-size: 27px; font-weight: 600; color: var(--mut); }
+
+    /* ---- prompt strip (S30/S33 thin prompt captures) ---- */
+    .promptwrap { display: flex; flex-direction: column; gap: 30px; align-items: center; }
+    .prompttag {
+      font-family: 'Impact','Arial Black',sans-serif; text-transform: uppercase; font-size: 44px;
+      background: var(--gold); border: 4px solid var(--ink); padding: 10px 30px;
+    }
+    .prompttag.tealtag { background: var(--teal); color: #fff; }
+
+    /* ---- Pitcocy brandmark, every slide: Poster Press badge ---- */
+    .brandbadge {
+      position: fixed; right: 26px; bottom: 22px; z-index: 60; pointer-events: none;
+      background: var(--paper); border: 3px solid var(--ink); box-shadow: 5px 5px 0 var(--gold);
+      padding: 9px 16px 7px; line-height: 0;
+    }
+    .brandbadge img { height: 30px; }
+
+    /* ---- zoomed proof slides (S28/S29) ---- */
+    .proofband { display: flex; gap: 30px; align-items: center; }
+    .proofband .eyebrow2 {
+      font-size: 18px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase;
+      background: var(--gold); border: 4px solid var(--ink); padding: 6px 18px; white-space: nowrap;
+    }
+    .proofband h4 { font-family: 'Impact','Arial Black',sans-serif; font-weight: 400; text-transform: uppercase; font-size: 50px; margin: 0; }
+    .shotcrop { overflow: hidden; }
+    .shotcrop img.shot { width: 100%; height: auto; display: block; }
+
+    /* Reveal tweaks */
+    .reveal .progress { display: none; }
+    .reveal .controls { display: none; }
+    .reveal .slide-number { display: none; }
+    /* ---- QR takeaway (qr-page map, ticket 13): corner card on S68/S69, the beat on S70 ---- */
+    .qrcard {
+      background: #fff; border: 4px solid var(--ink); box-shadow: 8px 8px 0 var(--teal);
+      padding: 14px 14px 10px; text-align: center; line-height: 0;
+    }
+    .qrcard svg { display: block; width: 100%; height: auto; }
+    .qrcard .qrurl {
+      font-family: 'Impact','Arial Black',sans-serif; font-size: 20px; line-height: 1;
+      letter-spacing: .5px; color: var(--ink); margin-top: 10px;
+    }
+    .qrcorner { position: absolute; left: 30px; bottom: 30px; width: 180px; z-index: 5; }
+    .qrcorner .qrurl { font-size: 19px; }
+    .closerow { display: flex; align-items: center; gap: 90px; width: 100%; }
+    .closeleft { flex: 1; min-width: 0; }
+    .closeleft h2 { max-width: 1050px; }
+    .nextup { display: flex; align-items: center; gap: 28px; margin-top: 80px; font-size: 26px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .nextup img { width: 220px; height: 220px; border-radius: 50%; object-fit: cover; border: 4px solid var(--ink); box-shadow: 8px 8px 0 var(--teal); }
+    .qrbeat { flex: none; width: 400px; box-shadow: 16px 16px 0 var(--ink); }
+    .qrbeat .qrurl { font-size: 46px; margin-top: 18px; letter-spacing: 1px; }
+  </style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ================= ACT 1 — Opening + three methods ================= -->
+
+<!-- S1 — Title -->
+<section class="s-title" data-background-color="#F2B843">
+  <div class="kicker">PPC Summit 2026</div>
+  <h1>THE CLIENT <em>CODEBASE</em></h1>
+  <div class="who">Alfred Simon · FAFO Engineer</div>
+  <aside class="notes">
+    CLOCK 0:00–0:15<br><br>
+    SPOKEN: (Bob's intro lands, walk up) "Good afternoon. Lunch was awesome isn't it. I hope you don't fall now into a food coma, because what I want to share is super exciting and needs your attention"
+  </aside>
+</section>
+
+<!-- S2 — About me -->
+<section class="centered">
+  <h2 style="font-size:96px; margin-bottom:50px;">ALFRED SIMON</h2>
+  <div class="about">
+    <img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/act1-alfred-photo.jpeg" alt="Alfred">
+    <div class="aboutchips fragment">
+      <div class="chip">FAFO Engineer</div>
+      <div class="chip">Adwise · Pitcocy · PPC OS</div>
+      <div class="chip">Browns Fan</div>
+      <div class="chip">Dog Dad</div>
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 0:15–0:40<br><br>
+    SPOKEN: "A quick intro for the new people: I'm Alfred. FAFO engineer — that stands for F around and find out. Freelance PPC, building AI systems at Pitcocy, part of the PPC OS build. Cleveland Browns fan, I know it's weird for a European and I'm also a proud dog dad."
+  </aside>
+</section>
+
+<!-- S3 — The email (cold open) -->
+<section class="centered">
+  <div class="mockwin inboxwin">
+    <div class="mocktop">
+      <div class="dots"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+      <div class="tabs">
+        <span class="tab on">inbox</span>
+        <span class="tab">context.md</span>
+        <span class="tab">memory.md</span>
+      </div>
+    </div>
+    <div class="mailhead">
+      <div class="mailrow">
+        <div class="mailfrom">Sarah · Demo Bikes<small>sarah@demobikes.nl</small></div>
+        <div class="mailstamp big fragment fade-up" data-fragment-index="2">09:00</div>
+      </div>
+      <div class="mailsub">Performance drop?</div>
+    </div>
+    <div class="mailbody fragment" data-fragment-index="1">
+      Hi, why do we have a performance drop in the past 7 days? Can you check?
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 0:40–1:20<br><br>
+    SPOKEN: "Nine o'clock. Monday." … (say nothing for a good five seconds, let the room read) … "Why is performance down the past seven days. No context, no screenshot, just this."<br><br>
+    CUE: hold the full five seconds of silence — the pause IS the beat; speak again only after the room has read the email.
+  </aside>
+</section>
+
+<!-- S4 — The reaction (meme) -->
+<section class="centered">
+  <div class="memeframe">
+    <video src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/act1-email-reaction.mp4" data-autoplay loop muted playsinline></video>
+    <div class="memecap">you, at 09:00:04</div>
+  </div>
+  <aside class="notes">
+    CLOCK 1:20–1:35<br><br>
+    SPOKEN: "And this is you. Ten seconds ago the coffee was still warm."
+  </aside>
+</section>
+
+<!-- S5 — One-liner: everyone got it -->
+<section class="s-line centered">
+  <h2>EVERYONE IN THIS ROOM GOT THIS EMAIL <em>THIS MONTH</em></h2>
+  <aside class="notes">
+    CLOCK 1:35–1:55<br><br>
+    SPOKEN: "Everyone in this room got this email this month. Some of you got it this morning and I'm sorry for reminding you. Personally I hate this emails because clients only send emails when something is wrong and never when it's good"
+  </aside>
+</section>
+
+<!-- S6 — The metric: the clock -->
+<section class="s-line centered">
+  <h2>ONE METRIC: <em>WHEN DOES THE CLIENT GET THE ANSWER?</em></h2>
+  <div class="clockchip small fragment">09:00</div>
+  <aside class="notes">
+    CLOCK 1:55–2:25<br><br>
+    SPOKEN: "One metric for the next half hour. Not CTR, not ROAS. When does the client have the answer? The email came in at 9:00. Start the clock."
+  </aside>
+</section>
+
+<!-- S7a — Method 1: the old way, first three tools -->
+<section>
+  <h2 style="font-size:96px; margin-bottom:50px;">THE OLD WAY</h2>
+  <div class="logopile">
+    <div class="pileitem fragment" style="left:30px; top:20px; transform:rotate(-2deg);"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-google-ads.png" class="tall" style="height:96px;" alt=""><span class="plabel">Google Ads</span></div>
+    <div class="pileitem fragment" style="left:330px; top:130px; transform:rotate(1.5deg);"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-profitmetrics.png" alt="" style="height:40px;"></div>
+    <div class="pileitem fragment" style="left:120px; top:260px; transform:rotate(-1deg);"><span class="plabel">Auction insights, row 340 of 2,118</span></div>
+  </div>
+  <div class="clockchip small">09:00</div>
+  <aside class="notes">
+    CLOCK 2:25–3:15 (runs through the meme cut and the pile's second half)<br><br>
+    SPOKEN: "Method one. Miles says it's dead, so let's check it. Opens the account manually, opens ProfitMetrics — great tool and Frederik is here so I have to mention it, digs through auction insights…"<br><br>
+    NOTE: +~4s shoutout gag (ticket 13) — first cut under time pressure.<br><br>
+    CUE: auction insights lands → cut to the math lady, then back to the pile.
+  </aside>
+</section>
+
+<!-- S7-meme — the deep-scroll (fires right after auction insights) -->
+<section class="centered">
+  <div class="memeframe">
+    <video src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/act1-math-lady.mp4" data-autoplay loop muted playsinline></video>
+    <div class="memecap">the auction insights deep-scroll</div>
+  </div>
+  <aside class="notes">
+    SPOKEN: (nothing — the meme and caption do it, then straight back to the pile)
+  </aside>
+</section>
+
+<!-- S7b — Method 1: the pile continues -->
+<section data-auto-animate data-auto-animate-id="c1">
+  <h2 style="font-size:96px; margin-bottom:50px;">THE OLD WAY</h2>
+  <div class="logopile">
+    <div class="pileitem" style="left:30px; top:20px; transform:rotate(-2deg);"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-google-ads.png" class="tall" style="height:96px;" alt=""><span class="plabel">Google Ads</span></div>
+    <div class="pileitem" style="left:330px; top:130px; transform:rotate(1.5deg);"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-profitmetrics.png" alt="" style="height:40px;"></div>
+    <div class="pileitem" style="left:120px; top:260px; transform:rotate(-1deg);"><span class="plabel">Auction insights, row 340 of 2,118</span></div>
+    <div class="pileitem fragment" style="left:520px; top:330px; transform:rotate(2deg);"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-google-sheets.png" alt="" style="height:88px;"><span class="plabel">the spreadsheet</span></div>
+    <div class="pileitem fragment" style="left:300px; top:420px; transform:rotate(-2.5deg);"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-gmail.png" alt="" style="height:64px;"><span class="plabel">the reply, by hand</span></div>
+  </div>
+  <div class="clockchip small" data-id="clock">09:00</div>
+  <aside class="notes">
+    SPOKEN: "…cross-checks the spreadsheet, then writes the email by hand? Keep them up. Be honest, this is a safe space. :D You look up at the clock when you hit send…"<br><br>
+    CUE: pocket save if no hands go up: "Nobody? Either this room is way ahead of the market, or some of you are lying. I respect both. :D" (only scripted fallback in the deck)
+  </aside>
+</section>
+
+<!-- S8 — 10:15 -->
+<section class="centered" data-auto-animate data-auto-animate-id="c1">
+  <div class="clockchip huge" data-id="clock">10:15</div>
+  <aside class="notes">
+    CLOCK 3:15–3:25<br><br>
+    SPOKEN: "10:15. Hour and a quarter. For one email. And you still have nine clients."
+  </aside>
+</section>
+
+<!-- S9 — Method 2: the agentic way -->
+<section class="centered" data-auto-animate data-auto-animate-id="c2">
+  <h2 style="font-size:96px; margin-bottom:50px;">THE AGENTIC WAY</h2>
+  <div class="mockwin chatwin">
+    <div class="mocktop">
+      <div class="dots"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+      <div class="tabs">
+        <span class="tab on">context.md</span>
+        <span class="tab">memory.md</span>
+        <span class="tab">security.md</span>
+      </div>
+    </div>
+    <div class="chatbody">
+      <div class="bub user fragment">
+        <div class="blabel">You</div>
+        Demo Bikes sent this: "why do we have a performance drop in the past 7 days?" Pull the data, let's research.
+      </div>
+      <div class="bub agent fragment">
+        <div class="blabel">Agent</div>
+        Performance is down 18% week over week. Root cause: a competitor entered the brand auction on Tuesday, CPC up 38%. Conversion rate is stable.
+      </div>
+      <div class="bub agent fragment">
+        <div class="blabel">Agent · proposed changes</div>
+        <ul>
+          <li>Increase CPC by 12% on branded</li>
+          <li>Add the competitor to the monitoring list</li>
+          <li>Shift saved budget to the top Performance Max asset group</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="clockchip small" data-id="clock">09:00</div>
+  <aside class="notes">
+    CLOCK 3:35–4:15<br><br>
+    SPOKEN: "Method two. Who's here: you open your Claude setup and go 'client X sent this, pull the data, let's research.' PPC OS people, 8020 people, hands up. You all saw Frederik do exactly this before lunch — asking Claude for the plan straight through the ProfitMetrics MCP. This is already a different sport. You read the analysis, the proposed changes, you write the reply."<br><br>
+    NOTE: rehearsal check — confirm Frederik's Claude+MCP demo survived to his final deck, else drop the clause.
+  </aside>
+</section>
+
+<!-- S10 — 9:20 -->
+<section class="centered" data-auto-animate data-auto-animate-id="c2">
+  <div class="clockchip huge" data-id="clock">9:20</div>
+  <aside class="notes">
+    CLOCK 4:15–4:30<br><br>
+    SPOKEN: "9:20. Twenty minutes, most of that reading. Honestly? Already more than ideal. Last year this was the finish line."
+  </aside>
+</section>
+
+<!-- S11a — Method 3: the inbox again (re-shown S3 state) -->
+<section class="centered" data-auto-animate data-auto-animate-id="inbox">
+  <h2 style="font-size:96px; margin-bottom:30px;" data-id="m3title">THE GOAL</h2>
+  <div class="mockwin inboxwin" data-id="inboxwin">
+    <div class="mocktop">
+      <div class="dots"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+      <div class="tabs">
+        <span class="tab on">inbox</span>
+        <span class="tab">context.md</span>
+        <span class="tab">memory.md</span>
+      </div>
+    </div>
+    <div class="mailhead">
+      <div class="mailrow">
+        <div class="mailfrom">Sarah · Demo Bikes<small>sarah@demobikes.nl</small></div>
+        <div class="mailstamp big">09:00</div>
+      </div>
+      <div class="mailsub">Performance drop?</div>
+    </div>
+    <div class="mailbody">
+      Hi, why do we have a performance drop in the past 7 days? Can you check?
+    </div>
+  </div>
+  <div class="clockchip small" data-id="clock">09:00</div>
+  <aside class="notes">
+    CLOCK 4:30 — beat one of method 3, the S3 inbox returns. Advance immediately into the grown state.<br><br>
+    SPOKEN: "Method three. You open your inbox."
+  </aside>
+</section>
+
+<!-- S11b — Method 3: the answer is already there -->
+<section class="centered" data-auto-animate data-auto-animate-id="inbox">
+  <h2 style="font-size:96px; margin-bottom:30px;" data-id="m3title">THE GOAL</h2>
+  <div class="mockwin inboxwin" data-id="inboxwin">
+    <div class="mocktop">
+      <div class="dots"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+      <div class="tabs">
+        <span class="tab on">inbox</span>
+        <span class="tab">context.md</span>
+        <span class="tab">memory.md</span>
+      </div>
+    </div>
+    <div class="mailhead" style="padding:20px 40px 0;">
+      <div class="mailrow">
+        <div class="mailfrom">Sarah · Demo Bikes<small>sarah@demobikes.nl</small></div>
+        <div class="mailstamp big" style="font-size:72px;">09:00</div>
+      </div>
+      <div class="mailsub">Performance drop?</div>
+    </div>
+    <div class="mailbody" style="padding:16px 40px 22px;">
+      Hi, why do we have a performance drop in the past 7 days? Can you check?
+    </div>
+    <div class="replyzone" style="padding:16px 40px 22px; gap:12px;">
+      <div class="replycard fragment" style="padding:14px 24px;">
+        <div class="rlabel">Drafted reply · waiting for you</div>
+        <div class="rtext">Hi Sarah, we found it: a competitor entered your brand auction on Tuesday, pushing CPC up 38%. Fix is prepared, details attached.</div>
+      </div>
+      <div class="replycard fragment" style="padding:14px 24px;">
+        <div class="rlabel">Analysis · attached</div>
+        <div class="rtext">Brand CPC +38% · conversion rate stable · root cause: new auction entrant</div>
+      </div>
+      <div class="changerow fragment" style="padding:14px 24px;">
+        <span class="rtext">Prepared change: increase CPC by 12% on branded</span>
+        <span class="btn accept glow">Approve</span>
+      </div>
+    </div>
+  </div>
+  <div class="clockchip small" data-id="clock">09:00</div>
+  <aside class="notes">
+    CLOCK 4:30–5:05<br><br>
+    SPOKEN: "The reply is already drafted. The analysis is attached. The change is prepared and waiting. You read it, you press approve. That's the whole job."
+  </aside>
+</section>
+
+<!-- S12 — 9:05 -->
+<section class="centered" data-auto-animate data-auto-animate-id="inbox">
+  <div class="clockchip huge goldfinal" data-id="clock">9:05</div>
+  <aside class="notes">
+    CLOCK 5:05–5:20<br><br>
+    SPOKEN: "Replied and fixed. 9:05."
+  </aside>
+</section>
+
+<!-- S13 — The skeptics (meme) -->
+<section class="centered">
+  <div class="memeframe">
+    <video src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/act1-side-eye-dog.mp4" data-autoplay loop muted playsinline></video>
+    <div class="memecap">the room, right now</div>
+  </div>
+  <aside class="notes">
+    CLOCK 5:20–5:35<br><br>
+    SPOKEN: "I can see the side-eyes from up here. Fair. Last year you were right to side-eye me too."
+  </aside>
+</section>
+
+<!-- S14 — Not magic + signpost -->
+<section class="s-line centered">
+  <h2 class="fragment" data-fragment-index="1">NOT MAGIC. <em>AN ENGINE.</em></h2>
+  <div class="tracker fragment" data-fragment-index="2" style="margin-top:70px; justify-content:center;">
+    <span class="pstep">Database</span>
+    <span class="pstep">Backend</span>
+    <span class="pstep">Security</span>
+    <span class="pstep">Frontend</span>
+    <span class="pstep">Auth</span>
+    <span class="pstep">Git</span>
+  </div>
+  <aside class="notes">
+    ⏱ GATE 5:35 — mid-act-1 checkpoint<br>
+    CLOCK 5:35–6:05<br><br>
+    SPOKEN: "This is not magic. It's an engine. Six parts, same as any app you've ever used. I'll show you all six, and then we'll run that exact 9:00 email through the whole thing, live on the slides."
+  </aside>
+</section>
+
+<!-- S15a — 2025 callback: 15% -->
+<section class="s-line centered" data-auto-animate data-auto-animate-id="s15">
+  <h2 data-id="cb">THE AGENT IS <em>15%</em> OF THE WORK.</h2>
+  <aside class="notes">
+    CLOCK 6:05–6:25<br><br>
+    SPOKEN: "Last year I stood here and told you building the agent is only 15% of the work."
+  </aside>
+</section>
+
+<!-- S15b — 2025 callback: 70% -->
+<section class="s-line centered" data-auto-animate data-auto-animate-id="s15">
+  <h2 data-id="cb">THIS IS WHAT THE OTHER <em class="tealblock">70%</em> BUYS YOU.</h2>
+  <aside class="notes">
+    CLOCK 6:05–6:25<br><br>
+    SPOKEN: "This talk is what the other 70% buys you."<br><br>
+    CUE: exit = hard cut to the PART 1 OF 6 gold divider.
+  </aside>
+</section>
+
+<!-- ================= ACT 2 — The six codebase sections ================= -->
+
+<!-- S16 — The frame -->
+<section class="s-line centered">
+  <h2>EVERY CLIENT IS A <em>CODEBASE</em></h2>
+  <aside class="notes">
+    CLOCK 6:25–6:45<br><br>
+    SPOKEN: "Bob told you this morning: the advantage moved outside the account. This is where you keep everything you find out there. Here's the frame for the next twenty minutes. Think of every client as a codebase. A place where an agent can securely find things and do things. The moment you do that, your agency stops being a pile of tabs and becomes a software product. And every piece of software has the same six parts."
+  </aside>
+</section>
+
+<!-- S17 — The six parts -->
+<section class="centered">
+  <div class="sixlist fragment">
+    <div class="sixitem"><span class="num">1</span><span class="nm">Database</span></div>
+    <div class="sixitem"><span class="num">2</span><span class="nm">Backend</span></div>
+    <div class="sixitem"><span class="num">3</span><span class="nm">Security</span></div>
+    <div class="sixitem"><span class="num">4</span><span class="nm">Frontend</span></div>
+    <div class="sixitem"><span class="num">5</span><span class="nm">Auth</span></div>
+    <div class="sixitem"><span class="num">6</span><span class="nm">Git</span></div>
+  </div>
+  <aside class="notes">
+    CLOCK 6:45–7:05<br><br>
+    SPOKEN: "Six parts. The database, the backend, the security, the frontend, the auth, the git. Same anatomy as every app on your phone. That's the next twenty minutes, and we end every part with one thing you can steal."
+  </aside>
+</section>
+
+<!-- S18 — Divider: Part 1 -->
+<section class="s-div" data-background-color="#F2B843">
+  <div class="partchip">Part 1 of 6</div>
+  <h2>THE DATABASE</h2>
+  <div class="tracker">
+    <span class="pstep now">Database</span>
+    <span class="pstep">Backend</span>
+    <span class="pstep">Security</span>
+    <span class="pstep">Frontend</span>
+    <span class="pstep">Auth</span>
+    <span class="pstep">Git</span>
+  </div>
+  <aside class="notes">
+    ⏱ GATE 7:05<br>
+    CLOCK 7:05–7:15<br><br>
+    SPOKEN: "Part one. The database."
+  </aside>
+</section>
+
+<!-- S19 — Show of hands x3 -->
+<section class="centered">
+  <div class="qrows">
+    <div class="qrow fragment">STILL LOG INTO SHOPIFY?</div>
+    <div class="qrow fragment">A SPREADSHEET PER CLIENT?</div>
+    <div class="qrow fragment">ONE PLACE FOR EVERYTHING?</div>
+  </div>
+  <aside class="notes">
+    CLOCK 7:15–7:55<br><br>
+    SPOKEN: "Three quick hands. Who still logs into Shopify just to check numbers? … Who has a spreadsheet per client? … And who has ONE place where everything about one client lives? … Yeah. That last forest of hands is thin."
+  </aside>
+</section>
+
+<!-- S20 — The diagnosis -->
+<section class="s-line centered">
+  <h2>YOUR DATA IS BUILT FOR <em>HUMAN</em> WORK</h2>
+  <aside class="notes">
+    CLOCK 7:55–8:15<br><br>
+    SPOKEN: "Nothing wrong with you. Your data is organized for human work. A sheet here, a GA4 there, all built for you to click through it manually. An agent can't live there."
+  </aside>
+</section>
+
+<!-- S21 — The goal: where the agent lives -->
+<section class="centered" data-auto-animate data-auto-animate-id="db">
+  <div class="srcdiagram">
+    <div class="srccol fragment" data-fragment-index="1">
+      <div class="srcitem" data-id="src-ads"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-google-ads.png" alt=""><span class="slabel">Google Ads</span></div>
+      <div class="srcitem" data-id="src-ga4"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-ga4.png" alt="" style="height:30px;"><span class="slabel">GA4</span></div>
+      <div class="srcitem" data-id="src-shop"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-magento.png" alt="" style="height:26px;"></div>
+      <div class="srcitem" data-id="src-gmail"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-gmail.png" alt="" style="height:34px;"><span class="slabel">Gmail</span></div>
+      <div class="srcitem" data-id="src-slack"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-slack.png" alt=""><span class="slabel">Slack</span></div>
+      <div class="srcitem" data-id="src-meet"><span class="slabel">Meeting notes</span></div>
+    </div>
+    <div class="flowarrow fragment" data-fragment-index="3" data-id="arr1">→</div>
+    <div class="clientcard fragment" data-fragment-index="2" data-id="card">
+      <h5>Demo Bikes</h5>
+      <ul>
+        <li><b>ads/</b> · accounts + performance</li>
+        <li><b>shop/</b> · orders, margins</li>
+        <li><b>comms/</b> · email + Slack, auto-routed</li>
+        <li><b>meetings/</b> · notes + decisions</li>
+        <li><b>context.md</b> · who they are, what matters</li>
+      </ul>
+    </div>
+    <div class="flowarrow fragment" data-fragment-index="3" data-id="arr2">→</div>
+    <div class="agentblock fragment" data-fragment-index="3" data-id="agent">The<br>Agent</div>
+  </div>
+  <aside class="notes">
+    CLOCK 8:15–9:10<br><br>
+    SPOKEN: "The goal is a layer between all the platforms and the agent. Google Ads, GA4, Shopify, email, Slack, meeting notes, all flowing into one place per client. It doesn't have to be a copy of the data. A connection is enough. And every client gets one card that tells the agent where everything lives. Like a schema in a real database."
+  </aside>
+</section>
+
+<!-- S22 — The connector swap gag -->
+<section class="centered" data-auto-animate data-auto-animate-id="db">
+  <div class="srcdiagram">
+    <div class="srccol">
+      <div class="srcitem" data-id="src-ads"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-google-ads.png" alt=""><span class="slabel">Google Ads</span></div>
+      <div class="srcitem" data-id="src-ga4"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-ga4.png" alt="" style="height:30px;"><span class="slabel">GA4</span></div>
+      <div class="srcitem" style="border-color:var(--teal); box-shadow:6px 6px 0 var(--teal);" data-id="src-shop-new"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-shopify.png" alt="" style="height:34px;"></div>
+      <div class="srcitem" data-id="src-gmail"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-gmail.png" alt="" style="height:34px;"><span class="slabel">Gmail</span></div>
+      <div class="srcitem" data-id="src-slack"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/logo-slack.png" alt=""><span class="slabel">Slack</span></div>
+      <div class="srcitem" data-id="src-meet"><span class="slabel">Meeting notes</span></div>
+    </div>
+    <div class="flowarrow" data-id="arr1">→</div>
+    <div class="clientcard" data-id="card">
+      <h5>Demo Bikes</h5>
+      <ul>
+        <li><b>ads/</b> · accounts + performance</li>
+        <li><b>shop/</b> · orders, margins</li>
+        <li><b>comms/</b> · email + Slack, auto-routed</li>
+        <li><b>meetings/</b> · notes + decisions</li>
+        <li><b>context.md</b> · who they are, what matters</li>
+      </ul>
+    </div>
+    <div class="flowarrow" data-id="arr2">→</div>
+    <div class="agentblock" data-id="agent">The<br>Agent</div>
+  </div>
+  <aside class="notes">
+    CLOCK 9:10–9:35<br><br>
+    SPOKEN: "Client migrates from Magento to Shopify. First of all: congratulations to them. :D Second: look what changes in our system. One connector out, one connector in. Everything else doesn't even notice."
+  </aside>
+</section>
+
+<!-- S23 — Proof: the real client folder -->
+<section class="centered">
+  <div class="area">
+    <div class="anno-rail">
+      <span class="eyebrow">Database · Proof</span>
+      <h4>One folder per client</h4>
+      <p>Slack, meeting notes, ads data, changelog. All landing here <b>automatically</b>. Not a quarterly cleanup weekend.</p>
+    </div>
+    <div class="shotwin" style="width:560px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">demo-client · folder</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/db-client-folder.png" alt="Real client folder">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 9:35–10:05<br><br>
+    SPOKEN: "This is what it looks like for real. A client folder in our system: Slack messages, meeting notes, ads data, changelog, all landing in there automatically. That word matters. Automatic, not a quarterly cleanup weekend."
+  </aside>
+</section>
+
+<!-- S24 — The stakes -->
+<section class="s-line centered">
+  <h2>CONNECTING GOOGLE ADS IS <em>NOT ENOUGH</em> ANYMORE</h2>
+  <aside class="notes">
+    CLOCK 10:05–10:25<br><br>
+    SPOKEN: "And this is why it matters: connecting a Google Ads account is not enough anymore. The winners of the next wave will tell a client 'I can handle all your marketing.' You can only say that if you have all the data points to decide with."
+  </aside>
+</section>
+
+<!-- S25 — Checkpoint 1/6 -->
+<section class="centered">
+  <div class="checkcard">
+    <div class="tag">Steal This</div>
+    <div class="cnum">1 / 6</div>
+    <div class="cq">If your agent asked "where does this client's data live?", could you point to one place?</div>
+    <div class="csteer">Give every client one card that says where everything lives. Start with business context, it changes slowest.</div>
+  </div>
+  <aside class="notes">
+    CLOCK 10:25–10:45<br><br>
+    SPOKEN: "First steal-this. If your agent asked 'where does this client's data live', could you point to one place? If not: give every client one card that says where everything lives. Start with business context. It changes slowest."
+  </aside>
+</section>
+
+<!-- S26 — Divider: Part 2 -->
+<section class="s-div" data-background-color="#F2B843">
+  <div class="partchip">Part 2 of 6</div>
+  <h2>THE BACKEND</h2>
+  <div class="tracker">
+    <span class="pstep done">Database</span>
+    <span class="pstep now">Backend</span>
+    <span class="pstep">Security</span>
+    <span class="pstep">Frontend</span>
+    <span class="pstep">Auth</span>
+    <span class="pstep">Git</span>
+  </div>
+  <aside class="notes">
+    ⏱ GATE 10:45<br>
+    CLOCK 10:45–10:55<br><br>
+    SPOKEN: "Part two. The backend. How the agent thinks."
+  </aside>
+</section>
+
+<!-- S27 — The three layers -->
+<section class="centered">
+  <div class="layerstack">
+    <div class="layerblock fragment">
+      <h5>Tools</h5>
+      <p>How the agent reaches the database, what it may change, what external sources it can use</p>
+    </div>
+    <div class="layerblock moat fragment">
+      <h5>The Moat</h5>
+      <p>Does it write an RSA to YOUR standards, does it analyse performance in YOUR order</p>
+    </div>
+    <div class="layerblock fragment">
+      <h5>Business</h5>
+      <p>What does THIS client need, what goal are we driving toward</p>
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 10:55–11:40<br><br>
+    SPOKEN: "Three layers. Tools: how the agent reaches the database, what it's allowed to change, what external sources it can use. The moat layer: does it write an RSA to YOUR standards, does it analyse performance in YOUR order. And the business layer: what does THIS client need, what goal are we driving toward. Tools everyone has. The moat is where agencies win or lose."
+  </aside>
+</section>
+
+<!-- S28 — Proof: a skill is just a file -->
+<section class="centered">
+  <div style="display:flex; flex-direction:column; gap:26px; align-items:flex-start;">
+    <div class="proofband">
+      <span class="eyebrow2">Backend · Proof</span>
+      <h4>One task, one file: the RSA writer</h4>
+    </div>
+    <div class="shotwin" style="width:1450px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">skills/rsa-writer.md</span></div>
+      <div class="shotcrop" style="height:650px;"><img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/be-skill.png" alt="RSA writer skill file"></div>
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 11:40–12:05<br><br>
+    SPOKEN: "A skill is not magic either. It's a file. This is our RSA writer: our way of building an RSA, written down where the agent can read it. If a new hire could follow it, the agent can follow it."
+  </aside>
+</section>
+
+<!-- S29 — Proof: the moat, written down -->
+<section class="centered">
+  <div style="display:flex; flex-direction:column; gap:26px; align-items:flex-start;">
+    <div class="proofband">
+      <span class="eyebrow2">Backend · Proof</span>
+      <h4>Your standards, in writing</h4>
+    </div>
+    <div class="shotwin" style="width:1450px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">moat/diagnostic-rules.md</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/be-moat-rules.png" alt="Diagnostic rules">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 12:05–12:30<br><br>
+    SPOKEN: "And this is the moat layer for audits: our diagnostic rules. The order we check things in, the thresholds we care about. Not a prompt, a standard."
+  </aside>
+</section>
+
+<!-- S30 — The request, no tricks -->
+<section class="centered" data-auto-animate data-auto-animate-id="moat1">
+  <div class="promptwrap">
+    <div class="prompttag" data-id="moat1tag">THE EXACT PROMPT</div>
+    <div class="shotwin" data-id="moat1frame" style="width:1200px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">plain model · the request</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/be-moat-without-prompt.png" alt="The exact prompt">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 12:30–12:45<br><br>
+    SPOKEN: "Now watch what the moat buys you. Here's the exact request, so you see there's no trick: write an RSA for this product. That's everything the plain model gets."
+  </aside>
+</section>
+
+<!-- S31 — Without the moat -->
+<section class="centered" data-auto-animate data-auto-animate-id="moat1">
+  <div class="promptwrap">
+    <div class="prompttag" data-id="moat1tag">PLAIN MODEL, NO CONTEXT</div>
+    <div class="shotwin" data-id="moat1frame" style="width:900px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">plain model · the output</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/be-moat-without-output.png" alt="Output without the moat">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 12:45–13:10<br><br>
+    SPOKEN: "And here's what comes back. Looks fine from a distance. Then you actually read it."
+  </aside>
+</section>
+
+<!-- S32 — The reaction (meme) -->
+<section class="centered">
+  <div class="memeframe">
+    <video src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/act2-really-kid.mp4" data-autoplay loop muted playsinline></video>
+    <div class="memecap">your senior, reviewing AI copy</div>
+  </div>
+  <aside class="notes">
+    CLOCK 13:10–13:25<br><br>
+    SPOKEN: "Every senior in this room reading generic AI copy:"
+  </aside>
+</section>
+
+<!-- S33 — Same request, through the skill -->
+<section class="centered" data-auto-animate data-auto-animate-id="moat2">
+  <div class="promptwrap">
+    <div class="prompttag tealtag" data-id="moat2tag">SAME ASK, THROUGH THE SKILL</div>
+    <div class="shotwin" data-id="moat2frame" style="width:1200px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">rsa-writer skill · the request</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/be-moat-with-prompt.png" alt="Same prompt through the skill">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 13:25–13:40<br><br>
+    SPOKEN: "Now the same request, one difference: this time it runs through the RSA skill. The ask is the same. What changes is everything the agent gets to read before it answers."
+  </aside>
+</section>
+
+<!-- S34 — With the moat -->
+<section class="centered" data-auto-animate data-auto-animate-id="moat2">
+  <div class="promptwrap">
+    <div class="prompttag tealtag" data-id="moat2tag">SAME MODEL. YOUR MOAT.</div>
+    <div class="shotwin" data-id="moat2frame" style="width:880px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">rsa-writer skill · the output</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/be-moat-with-output.png" alt="Output with the moat">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 13:40–14:15<br><br>
+    SPOKEN: "And here's what comes back now: our structure, our tone rules, the client's actual USPs pulled from the database layer. This is the whole argument in one screen. The difference between slop and standard is not the model. It's what you wrote down. Or, as I keep telling everyone: if it's only in your head, it does not exist."<br><br>
+    NOTE: Miles' finale quotes this line verbatim — rehearsal check that his close still carries it.
+  </aside>
+</section>
+
+<!-- S35 — Checkpoint 2/6 -->
+<section class="centered">
+  <div class="checkcard">
+    <div class="tag">Steal This</div>
+    <div class="cnum">2 / 6</div>
+    <div class="cq">Can you point an LLM at a single source of truth for how YOU write an RSA?</div>
+    <div class="csteer">Write down YOUR way of doing one task. One task, one file the agent can read. That's your first skill.</div>
+  </div>
+  <aside class="notes">
+    CLOCK 14:15–14:45<br><br>
+    SPOKEN: "Steal this one. Can you point an LLM at a single source of truth for how YOU write an RSA? If not, that's your starting point. Write down your way of doing one task. One task, one file the agent can read. That's your first skill."
+  </aside>
+</section>
+
+<!-- S36 — Divider: Part 3 -->
+<section class="s-div" data-background-color="#F2B843">
+  <div class="partchip">Part 3 of 6</div>
+  <h2>THE SECURITY</h2>
+  <div class="tracker">
+    <span class="pstep done">Database</span>
+    <span class="pstep done">Backend</span>
+    <span class="pstep now">Security</span>
+    <span class="pstep">Frontend</span>
+    <span class="pstep">Auth</span>
+    <span class="pstep">Git</span>
+  </div>
+  <aside class="notes">
+    ⏱ GATE 14:45<br>
+    CLOCK 14:45–14:55<br><br>
+    SPOKEN: "Part three. Security. This is the one that makes 9:05 possible without losing sleep."
+  </aside>
+</section>
+
+<!-- S37a — The fear, named -->
+<section class="s-line centered" data-auto-animate data-auto-animate-id="fear">
+  <h2 data-id="fearline">WOULD YOU LET AN AGENT PUSH CHANGES ALONE?</h2>
+  <aside class="notes">
+    CLOCK 14:55–15:15<br><br>
+    SPOKEN: "The question everyone actually has: would you let an agent push changes to a live account on its own? …"
+  </aside>
+</section>
+
+<!-- S37b — No. And you never have to. -->
+<section class="s-line centered" data-auto-animate data-auto-animate-id="fear">
+  <h2 data-id="fearline"><em class="tealblock">NO.</em> AND YOU NEVER HAVE TO.</h2>
+  <aside class="notes">
+    CLOCK 14:55–15:15<br><br>
+    SPOKEN: "No. Me neither. And you never have to."
+  </aside>
+</section>
+
+<!-- S38 — The pipeline, agent's half -->
+<section class="centered">
+  <h2 style="font-size:72px; margin-bottom:80px;">THE PIPELINE · THE AGENT'S HALF</h2>
+  <div class="rail">
+    <span class="railchip fragment">Email in</span>
+    <span class="railarrow fragment">→</span>
+    <span class="railchip fragment">Analysis</span>
+    <span class="railarrow fragment">→</span>
+    <span class="railchip fragment">Proposed change</span>
+    <span class="railarrow fragment">→</span>
+    <span class="railchip fragment">Ops file</span>
+  </div>
+  <aside class="notes">
+    CLOCK 15:15–15:55<br><br>
+    SPOKEN: "Here's the pipeline, step by step. Email comes in. Agent makes the analysis. Proposes a change. And then it writes the change down as a boring machine-readable file. Not 'the agent does it.' The agent writes down what it WANTS to do. Reasoning logged next to it."
+  </aside>
+</section>
+
+<!-- S39 — The real artifact -->
+<section class="centered">
+  <div class="area">
+    <div class="anno-rail">
+      <span class="eyebrow">Security · Proof</span>
+      <h4>The machine artifact</h4>
+      <p>JSON, boring, readable by code. <b>Boring is the feature:</b> from this point on, nothing creative is allowed to happen.</p>
+    </div>
+    <div class="shotwin" style="width:1000px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">ops/2026-07-18-bid-change.json</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/sec-ops-file.png" alt="The ops file">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 15:55–16:15<br><br>
+    SPOKEN: "That ops file is real. This is one. JSON, boring, readable by code. Boring is the feature: from this point on, nothing creative is allowed to happen."
+  </aside>
+</section>
+
+<!-- S40 — The pipeline, code's half -->
+<section class="centered">
+  <h2 style="font-size:72px; margin-bottom:60px;">THE PIPELINE · THE CODE'S HALF</h2>
+  <div class="rail">
+    <span class="railchip dim">Ops file</span>
+    <span class="railarrow">→</span>
+    <span class="railchip fragment" data-fragment-index="1">Dry run</span>
+    <span class="railarrow fragment" data-fragment-index="2">→</span>
+    <span class="railchip fragment" data-fragment-index="2">Classify</span>
+  </div>
+  <div class="forkzone">
+    <div class="lane fragment" data-fragment-index="3">
+      <div class="lanelabel">Auto lane</div>
+      <span class="railchip smaller">Within your rules</span>
+      <span class="railarrow" style="transform:rotate(90deg);">→</span>
+      <span class="railchip smaller" style="box-shadow:8px 8px 0 var(--teal);">Applied + logged</span>
+    </div>
+    <div class="lane fragment" data-fragment-index="4">
+      <div class="lanelabel">Review lane</div>
+      <span class="railchip smaller">Big change</span>
+      <span class="railarrow" style="transform:rotate(90deg);">→</span>
+      <span class="railchip you">YOU</span>
+    </div>
+  </div>
+  <div class="forknote fragment" data-fragment-index="3">your rules decide the lane</div>
+  <aside class="notes">
+    CLOCK 16:15–16:55<br><br>
+    SPOKEN: "Now the code takes over. Dry run against the API: would this change even work? Then the part that makes this livable: classification. Some actions you let run automatic. A budget tweak within the rules you set? Straight through, logged. A new campaign, a big bid change? Review line. And here's the important part: YOU decide which action goes which lane. It's a setting in your engine, not the agent's mood. Everything in the review lane waits. It waits for you."
+  </aside>
+</section>
+
+<!-- S41 — The accept-or-block card -->
+<section class="centered">
+  <div class="revcard fragment" data-fragment-index="1">
+    <div class="revhead">Review · Demo Bikes · waiting since 09:02</div>
+    <div class="revbody">
+      <div class="revchange">Increase CPC by 12% on branded</div>
+      <div class="revimpact">Expected: branded impression share defended against the new auction entrant, top-of-page rate back above target. <b>Nothing touches the account until you decide.</b></div>
+      <div class="revbtns">
+        <span class="btn accept glow">Accept</span>
+        <span class="btn block">Block</span>
+      </div>
+    </div>
+    <div class="stamp fragment fade-in-then-out" data-fragment-index="2">Blocked · logged</div>
+  </div>
+  <aside class="notes">
+    CLOCK 16:55–17:40<br><br>
+    SPOKEN: "And this is where it waits. The change, in plain language. What it expects to happen. Two buttons. Accept is a real blocker in code, not a vibe: nothing touches the account until this button is pressed. Press block and it dies right here, logged. By the way, you've seen this button before. It's the one you pressed at 9:05."<br><br>
+    CUE: fragment 2 stamps BLOCKED, fragment 3 clears it back to the waiting state — walk the block path out loud, then reset.
+  </aside>
+</section>
+
+<!-- S42 — The line -->
+<section class="s-line centered">
+  <h2>THE AGENT PROPOSES. <em>CODE ENFORCES.</em> YOU DECIDE.</h2>
+  <aside class="notes">
+    CLOCK 17:40–17:55<br><br>
+    SPOKEN: "One sentence to take a photo of: the agent proposes. Code enforces. You decide."
+  </aside>
+</section>
+
+<!-- S43 — Checkpoint 3/6 -->
+<section class="centered">
+  <div class="checkcard">
+    <div class="tag">Steal This</div>
+    <div class="cnum">3 / 6</div>
+    <div class="cq">What stops your agent from pushing a change you would never allow?</div>
+    <div class="csteer">Put one real approval step between the agent and the API. The agent proposes. Code enforces. You decide.</div>
+  </div>
+  <aside class="notes">
+    CLOCK 17:55–18:25<br><br>
+    SPOKEN: "Steal this. What stops your agent from pushing a change you'd never allow? If the answer is 'the prompt says to be careful', you don't have a security layer. Put ONE real approval step between the agent and the API. That's the whole start."
+  </aside>
+</section>
+
+<!-- S44 — Divider: Part 4 -->
+<section class="s-div" data-background-color="#F2B843">
+  <div class="partchip">Part 4 of 6</div>
+  <h2>THE FRONTEND</h2>
+  <div class="tracker">
+    <span class="pstep done">Database</span>
+    <span class="pstep done">Backend</span>
+    <span class="pstep done">Security</span>
+    <span class="pstep now">Frontend</span>
+    <span class="pstep">Auth</span>
+    <span class="pstep">Git</span>
+  </div>
+  <aside class="notes">
+    ⏱ GATE 18:25<br>
+    CLOCK 18:25–18:35<br><br>
+    SPOKEN: "Part four. The frontend. This one is shorter than you think, on purpose."
+  </aside>
+</section>
+
+<!-- S45 — The key idea -->
+<section class="s-line centered">
+  <h2>THE FRONTEND IS JUST A <em>WINDOW</em></h2>
+  <aside class="notes">
+    CLOCK 18:35–19:00<br><br>
+    SPOKEN: "The frontend is just a window. It's where you talk to the agent and the data. It is not the system. And it's not one thing you have to pick. Engine underneath, windows on top."
+  </aside>
+</section>
+
+<!-- S46 — Window 1: the editor -->
+<section class="centered">
+  <div class="area">
+    <div class="anno-rail">
+      <span class="eyebrow">Frontend · Window 1</span>
+      <h4>The editor</h4>
+      <p>Cursor or Claude Code. PPC OS in its <b>natural habitat</b>: markdown files and an agent.</p>
+    </div>
+    <div class="shotwin" style="width:1100px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">the editor · real session</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/fe-cursor.png" alt="Editor window">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 19:00–19:20<br><br>
+    SPOKEN: "Window one: Cursor or Claude Code. This is PPC OS in its natural habitat. Markdown files and an agent. This is where I live."
+  </aside>
+</section>
+
+<!-- S47 — Window 2: Slack -->
+<section class="centered">
+  <div class="area">
+    <div class="anno-rail">
+      <span class="eyebrow">Frontend · Window 2</span>
+      <h4>The Slack window</h4>
+      <p>Tag the agent like a colleague, it answers in the thread. <b>Claude Tag</b>, straight from Anthropic. Same engine underneath.</p>
+    </div>
+    <div class="shotwin" style="width:660px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">slack · #demo-bikes</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/fe-slack.png" alt="Claude Tag in Slack">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 19:20–19:45<br><br>
+    SPOKEN: "Window two: Slack. You tag the agent like a colleague, it answers in the thread. This is Claude Tag, straight from Anthropic — your PM never has to leave Slack and still talks to the same engine."<br><br>
+    CUE: say "Claude Tag" on stage — that's the product name by summit time.
+  </aside>
+</section>
+
+<!-- S48 — Window 3: your own -->
+<section class="centered">
+  <div class="mockwin" style="width:1240px;">
+    <div class="mocktop">
+      <div class="dots"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+      <div class="tabs">
+        <span class="tab on">Review queue</span>
+        <span class="tab">Demo Bikes ▾</span>
+        <span class="tab">History</span>
+      </div>
+    </div>
+    <div class="chatbody" style="gap:16px;">
+      <div class="changerow"><span class="rtext">Increase CPC by 12% on branded · Demo Bikes</span><span class="btn accept">Accept</span></div>
+      <div class="changerow fragment"><span class="rtext">Pause search partner network · Demo Bikes</span><span class="btn accept">Accept</span></div>
+      <div class="changerow fragment"><span class="rtext">New RSA for gravel range · draft ready · Demo Bikes</span><span class="btn accept">Accept</span></div>
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 19:45–20:10<br><br>
+    SPOKEN: "Window three: build your own. Remember the review card from security? That IS a frontend. Wrap it in an app, give it to the team or even the client. Same engine underneath."
+  </aside>
+</section>
+
+<!-- S49 — One engine, many windows -->
+<section class="centered">
+  <div>
+    <div class="winsrow">
+      <div class="miniwin fragment" data-fragment-index="1"><div class="mbar"><span class="d"></span><span class="d"></span><span class="d"></span></div><div class="mname">The editor</div></div>
+      <div class="miniwin fragment" data-fragment-index="2"><div class="mbar"><span class="d"></span><span class="d"></span><span class="d"></span></div><div class="mname">Slack</div></div>
+      <div class="miniwin fragment" data-fragment-index="3"><div class="mbar"><span class="d"></span><span class="d"></span><span class="d"></span></div><div class="mname">Your own</div></div>
+    </div>
+    <div class="fragment" data-fragment-index="4">
+      <div class="conn"></div>
+      <div class="enginebig" style="text-align:center; width:fit-content;">The Engine</div>
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 20:10–20:50<br><br>
+    SPOKEN: "And here's the part people miss: you don't pick one. Your PM lives in Slack. You live in Cursor. The client-facing one is custom. All of them talk to the same engine, and if you swap a window tomorrow, nothing underneath even notices. Sounds familiar? That's exactly the Magento-Shopify story from part one, one layer up."
+  </aside>
+</section>
+
+<!-- S50 — Checkpoint 4/6 -->
+<section class="centered">
+  <div class="checkcard">
+    <div class="tag">Steal This</div>
+    <div class="cnum">4 / 6</div>
+    <div class="cq">If you swapped your chat window tomorrow, would your system survive?</div>
+    <div class="csteer">The frontend is a choice, the engine is the point. Build the engine once and everyone talks to it from wherever they want.</div>
+  </div>
+  <aside class="notes">
+    CLOCK 20:50–21:20<br><br>
+    SPOKEN: "Steal this. If you swapped your chat window tomorrow, would your system survive? The frontend is a choice, the engine is the point. Build the engine once and everyone talks to it from wherever they want."
+  </aside>
+</section>
+
+<!-- S51 — Divider: Part 5 -->
+<section class="s-div" data-background-color="#F2B843">
+  <div class="partchip">Part 5 of 6</div>
+  <h2>THE AUTH</h2>
+  <div class="tracker">
+    <span class="pstep done">Database</span>
+    <span class="pstep done">Backend</span>
+    <span class="pstep done">Security</span>
+    <span class="pstep done">Frontend</span>
+    <span class="pstep now">Auth</span>
+    <span class="pstep">Git</span>
+  </div>
+  <aside class="notes">
+    ⏱ GATE 21:20<br>
+    CLOCK 21:20–21:30<br><br>
+    SPOKEN: "Part five. Auth. Short section, mostly for the agency people in the room."
+  </aside>
+</section>
+
+<!-- S52 — The refusal scene -->
+<section class="centered">
+  <div class="mockwin chatwin">
+    <div class="mocktop">
+      <div class="dots"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+      <div class="tabs">
+        <span class="tab on">chat · junior account</span>
+        <span class="tab">permissions.md</span>
+      </div>
+    </div>
+    <div class="chatbody">
+      <div class="bub user fragment">
+        <div class="blabel">Junior · access: client X</div>
+        Show me client Y's performance
+      </div>
+      <div class="codecheck fragment">access check · client-x only · ✗ denied</div>
+      <div class="bub agent fragment">
+        <div class="blabel">Agent</div>
+        Sorry, you don't have access to client Y.
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 21:30–22:10<br><br>
+    SPOKEN: "Watch this. A junior has access to client X. They ask the agent about client Y. The agent doesn't decide whether that's okay. Code already decided. Permission check runs before the agent even thinks, and the answer is: sorry, no access. What stops the agent from doing whatever anyone asks? Not the AI's good intentions. Code."
+  </aside>
+</section>
+
+<!-- S53 — The four-year-old -->
+<section class="centered">
+  <h2 class="fragment" data-fragment-index="1" style="font-size:92px; max-width:1500px; text-align:center; margin-bottom:60px;">TECHNOLOGY, OR A DISGRUNTLED FOUR-YEAR-OLD?</h2>
+  <div class="memeframe fragment video-frag" data-fragment-index="2">
+    <video src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/act2-toddler-phone.mp4" loop muted playsinline></video>
+    <div class="memecap">an agent with no auth layer</div>
+  </div>
+  <aside class="notes">
+    CLOCK 22:10–22:35<br><br>
+    SPOKEN: "My favorite quote from Google Cloud Next, from Equifax's agent-governance session: 'are we talking about technology or a disgruntled four-year-old?' An agent without auth is a toddler with your API keys. Treat it like one."
+  </aside>
+</section>
+
+<!-- S54 — Proof: this layer is buyable -->
+<section class="centered">
+  <div class="area">
+    <div class="anno-rail">
+      <span class="eyebrow">Auth · Proof</span>
+      <h4>Ready-made, off the shelf</h4>
+      <p>Google's own picture: a gateway in front of your agents. Permissions, rate limits, threat protection. <b>Every action logged.</b></p>
+    </div>
+    <div class="shotwin" style="width:1080px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">Google Cloud Next · Apigee</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/auth-google-next.png" alt="Apigee agent gateway diagram">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 22:35–23:05<br><br>
+    SPOKEN: "Good news: you don't have to invent this layer. This is Google's own picture: a gateway in front of your agents doing authentication, permissions, rate limits, threat protection. And underneath it all: every action logged. By the agent AND by the human. Same rights through the agent you'd have without it."
+  </aside>
+</section>
+
+<!-- S55 — Checkpoint 5/6 -->
+<section class="centered">
+  <div class="checkcard">
+    <div class="tag">Steal This</div>
+    <div class="cnum">5 / 6</div>
+    <div class="cq">Can your intern do more damage through the agent than they could without it?</div>
+    <div class="csteer">Permissions live in code, not in the AI's good intentions. Everyone gets the same rights through the agent they'd have without it, and every action is logged.</div>
+  </div>
+  <aside class="notes">
+    CLOCK 23:05–23:35<br><br>
+    SPOKEN: "Steal this. Can your intern do more damage through the agent than they could without it? If yes, fix that first. Permissions live in code, not in the AI's good intentions. And every action is logged."
+  </aside>
+</section>
+
+<!-- S56 — Divider: Part 6 -->
+<section class="s-div" data-background-color="#F2B843">
+  <div class="partchip">Part 6 of 6</div>
+  <h2>THE GIT</h2>
+  <div class="tracker">
+    <span class="pstep done">Database</span>
+    <span class="pstep done">Backend</span>
+    <span class="pstep done">Security</span>
+    <span class="pstep done">Frontend</span>
+    <span class="pstep done">Auth</span>
+    <span class="pstep now">Git</span>
+  </div>
+  <aside class="notes">
+    ⏱ GATE 23:35<br>
+    CLOCK 23:35–23:45<br><br>
+    SPOKEN: "Part six. The last one. Git. The memory of a client."
+  </aside>
+</section>
+
+<!-- S57 — What it is -->
+<section class="s-line centered">
+  <h2>THE <em>MEMORY</em> OF A CLIENT</h2>
+  <div class="subline">the hardest layer, and the only one that compounds</div>
+  <aside class="notes">
+    CLOCK 23:45–24:10<br><br>
+    SPOKEN: "Every change, every edit, every decision. Not just in the Google Ads account. In the client relationship, in the communication, everywhere. This is the hardest layer to build. And it's the only one that compounds."
+  </aside>
+</section>
+
+<!-- S58 — Proof: the raw memory -->
+<section class="centered">
+  <div class="area">
+    <div class="anno-rail">
+      <span class="eyebrow">Git · Proof</span>
+      <h4>The raw changelog</h4>
+      <p>Dated entries, who did it, agent or human. <b>Deliberately boring.</b> This exists today, it's not a slideware promise.</p>
+    </div>
+    <div class="shotwin" style="width:1000px;">
+      <div class="shotbar"><span class="d"></span><span class="d"></span><span class="d"></span><span class="url">demo-client/CHANGELOG.md</span></div>
+      <img class="shot" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/git-changelog.png" alt="The raw changelog">
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 24:10–24:35<br><br>
+    SPOKEN: "The raw version looks like this. A changelog per client: dated entries, who did it, agent or human. Deliberately boring. This exists today, it's not a slideware promise."
+  </aside>
+</section>
+
+<!-- S59 — Story: the Client Memory -->
+<section class="centered">
+  <div class="mockwin memwin">
+    <div class="mocktop">
+      <div class="dots"><span class="d"></span><span class="d"></span><span class="d"></span></div>
+      <div class="tabs">
+        <span class="tab">context.md</span>
+        <span class="tab on">memory.md</span>
+        <span class="tab">security.md</span>
+      </div>
+    </div>
+    <div class="mockhead">
+      <h3>Client <span class="accent">Memory</span></h3>
+      <div class="mu">Last entry: <b>today 09:05</b> · 1,284 entries</div>
+    </div>
+    <div class="mockentries">
+      <div class="mentry fragment" data-fragment-index="1">
+        <div class="mwhen">Today<small>09:05</small></div>
+        <div class="mbody">
+          <div class="mrow"><span class="mbadge ai">Agent</span><span class="mwhat">CPC increased by 12% on branded</span><span class="msrc">· Google Ads</span></div>
+          <div class="mwhy fragment highlight-current-red" data-fragment-index="2"><b>Why:</b> competitor entered the auction, CPC up 38%, root cause of the performance-drop email. Approved by Alfred at 09:04.</div>
+          <div class="mfollow fragment" data-fragment-index="3">⏰ Agent checks the effect of this change on Jul 25</div>
+        </div>
+      </div>
+      <div class="mentry fragment" data-fragment-index="1">
+        <div class="mwhen">Yesterday<small>14:30</small></div>
+        <div class="mbody">
+          <div class="mrow"><span class="mbadge human">Human</span><span class="mwhat">Client wants to push gravel bikes in August</span><span class="msrc">· Meeting</span></div>
+          <div class="mwhy"><b>Why it's here:</b> logged from meeting notes, the August plan builds on this.</div>
+        </div>
+      </div>
+      <div class="mentry fragment" data-fragment-index="1">
+        <div class="mwhen">Jul 14<small>11:12</small></div>
+        <div class="mbody">
+          <div class="mrow"><span class="mbadge ai">Agent</span><span class="mwhat">Weekly report sent to Sarah</span><span class="msrc">· Email</span></div>
+          <div class="mwhy"><b>Why:</b> Monday cadence agreed in the March review call.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    CLOCK 24:35–25:30<br><br>
+    SPOKEN: "But here's what that file actually means. One timeline per client, across every source. Google Ads changes, emails, Slack decisions, meeting outcomes. Every entry has a badge: agent or human. And every entry has the one thing that usually lives in your head and leaves when you do: the WHY. Look at the last entry. The budget change from our 9 o'clock email. And next to it, a follow-up the agent booked for itself: check the effect in seven days. Remember that chip. We'll see it again in a minute."
+  </aside>
+</section>
+
+<!-- S60 — Checkpoint 6/6 -->
+<section class="centered">
+  <div class="checkcard">
+    <div class="tag">Steal This</div>
+    <div class="cnum">6 / 6</div>
+    <div class="cq">Where is the "why" behind your last 50 changes?</div>
+    <div class="csteer">Make the memory automatic: every change, human or agent, lands in one place with its why. The hardest layer, and the only one that compounds.</div>
+  </div>
+  <aside class="notes">
+    CLOCK 25:30–26:00<br><br>
+    SPOKEN: "Last steal-this. Where is the why behind your last 50 changes? Or does it live in your head and leave when you do? Make the memory automatic. Every change, human or agent, lands in one place with its why. Just like the database layer: automatic, or it doesn't happen."<br><br>
+    CUE: exit line — "That's six. All chips full. Now let's run that email." Hard cut to the payoff.
+  </aside>
+</section>
+
+<!-- ================= ACT 3 — The payoff + close ================= -->
+
+<!-- S61 — The turn: the email again -->
+<section class="s-div" data-background-color="#F2B843">
+  <h2 style="font-size:130px;">NOW WE RUN <span style="color:#fff; background:var(--teal); padding:0 24px; box-shadow:10px 10px 0 var(--ink);">THE EMAIL</span>.</h2>
+  <div class="tracker">
+    <span class="pstep done">Database</span>
+    <span class="pstep done">Backend</span>
+    <span class="pstep done">Security</span>
+    <span class="pstep done">Frontend</span>
+    <span class="pstep done">Auth</span>
+    <span class="pstep done">Git</span>
+  </div>
+  <aside class="notes">
+    CLOCK 26:00–26:20<br><br>
+    SPOKEN: "That's the engine. Six parts, all built. Now the fun part. It's 9:00 Monday again. Same client, same email, same 'why is performance down.'"
+  </aside>
+</section>
+
+<!-- S62 — Meme cut: they don't know us now -->
+<section class="centered">
+  <div class="memeframe">
+    <video src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/act3-not-now.mp4" data-autoplay loop muted playsinline></video>
+    <div class="memecap">the client thinks it's still 75 minutes</div>
+  </div>
+  <aside class="notes">
+    CLOCK 26:20–26:35<br><br>
+    SPOKEN: "And this time…" (meme fires, let it land)
+  </aside>
+</section>
+
+<!-- S63 — The turn, take two: map becomes machine -->
+<section class="s-div" data-auto-animate data-auto-animate-id="stack" data-background-color="#F2B843">
+  <h2 style="font-size:130px;">NOW WE RUN <span style="color:#fff; background:var(--teal); padding:0 24px; box-shadow:10px 10px 0 var(--ink);">THE EMAIL</span>.</h2>
+  <div class="tracker">
+    <span class="pstep done" data-id="chip1">Database</span>
+    <span class="pstep done" data-id="chip2">Backend</span>
+    <span class="pstep done" data-id="chip3">Security</span>
+    <span class="pstep done" data-id="chip4">Frontend</span>
+    <span class="pstep done" data-id="chip5">Auth</span>
+    <span class="pstep done" data-id="chip6">Git</span>
+  </div>
+  <aside class="notes">
+    CLOCK 26:35–26:55<br><br>
+    SPOKEN: "This time we watch it from the inside."<br><br>
+    CUE: advancing fires the chips-to-stack morph — the checklist the room has watched all talk becomes the machine diagram.
+  </aside>
+</section>
+
+<!-- S64 — THE PHOTO SLIDE: the email runs the stack -->
+<section class="centered stackslide" data-auto-animate data-auto-animate-id="stack">
+  <div class="stackzone">
+    <div class="emailtoken" id="token64">
+      <div class="efrom">Sarah · Demo Bikes</div>
+      <div class="esub">Performance drop?</div>
+      <div class="etime">09:00</div>
+    </div>
+    <div class="stackcol" id="stackcol64">
+      <div class="stacklayer" data-id="chip1"><span>Database</span><span class="lnum">1</span></div>
+      <div class="stacklayer" data-id="chip2"><span>Backend</span><span class="lnum">2</span></div>
+      <div class="stacklayer" data-id="chip3"><span>Security</span><span class="lnum">3</span></div>
+      <div class="stacklayer" data-id="chip4"><span>Frontend</span><span class="lnum">4</span></div>
+      <div class="stacklayer" data-id="chip5"><span>Auth</span><span class="lnum">5</span></div>
+      <div class="stacklayer" data-id="chip6"><span>Git</span><span class="lnum">6</span></div>
+    </div>
+    <div class="stackanno fragment" data-fragment-index="1" data-layer="0" style="top:0;">lands in the folder, next to everything we know</div>
+    <div class="stackanno fragment" data-fragment-index="2" data-layer="1" style="top:112px;">analysis + prepared change</div>
+    <div class="stackanno fragment" data-fragment-index="3" data-layer="2" style="top:224px;">dry run → review lane → alert to you</div>
+    <div class="stackanno fragment" data-fragment-index="4" data-layer="3" style="top:336px;">you press <span class="btn accept" style="font-size:18px; padding:5px 16px;">Accept</span></div>
+    <div class="stackanno fragment" data-fragment-index="5" data-layer="4" style="top:448px;">code checked your rights first</div>
+    <div class="stackanno fragment" data-fragment-index="6" data-layer="5" style="top:560px;">logged + follow-up booked<br><span class="mfollow" style="margin-top:8px;">⏰ checks the effect · Jul 25</span></div>
+    <div class="stampclock fragment" data-fragment-index="7">9:05</div>
+    <div class="fragment" data-fragment-index="7" style="position:absolute; left:20px; bottom:-20px; width:300px; background:var(--teal); color:#fff; border:3px solid var(--ink); box-shadow:6px 6px 0 var(--ink); padding:12px 18px; font-size:19px; font-weight:700; text-align:left;">Reply sent · change live · 09:05</div>
+  </div>
+  <aside class="notes">
+    CLOCK 26:55–30:55 — four full minutes budgeted. The descent is the slide's drama.<br><br>
+    SPOKEN: (walking the layers, one beat each) "9:00. The email lands, and the first thing that happens is nothing special: it lands in the client's folder, next to everything else we know about them. Database. … The agent picks up the signal. Searches the email history, pulls the client card, pulls performance. Builds the analysis, prepares the change. Backend. … The change goes through the dry run, gets classified: this one's a review-laner. You get the alert. Security. … Your inbox shows the brief, the drafted reply, the prepared change. You read it. You press the button you've now seen three times. Frontend. … Whether you were even allowed to press it was never a question. Code decided that before you saw the card. Auth. … And the change applies, logs itself with its why, and books its own follow-up: check the effect in seven days. Git. … Look up at the clock."<br><br>
+    CUE: say the layer name first, THEN fire its fragment — don't race the token.
+  </aside>
+</section>
+
+<!-- S65 — The photo moment -->
+<section class="centered stackslide" data-auto-animate data-auto-animate-id="stack">
+  <div class="stackzone">
+    <div class="emailtoken" style="top:560px;">
+      <div class="efrom">Sarah · Demo Bikes</div>
+      <div class="esub">Performance drop?</div>
+      <div class="etime">09:00</div>
+    </div>
+    <div class="stackcol">
+      <div class="stacklayer lit" data-id="chip1"><span>Database</span><span class="lnum">1</span></div>
+      <div class="stacklayer lit" data-id="chip2"><span>Backend</span><span class="lnum">2</span></div>
+      <div class="stacklayer lit" data-id="chip3"><span>Security</span><span class="lnum">3</span></div>
+      <div class="stacklayer lit" data-id="chip4"><span>Frontend</span><span class="lnum">4</span></div>
+      <div class="stacklayer lit" data-id="chip5"><span>Auth</span><span class="lnum">5</span></div>
+      <div class="stacklayer lit" data-id="chip6"><span>Git</span><span class="lnum">6</span></div>
+    </div>
+    <div class="stackanno" style="top:0;">lands in the folder, next to everything we know</div>
+    <div class="stackanno" style="top:112px;">analysis + prepared change</div>
+    <div class="stackanno" style="top:224px;">dry run → review lane → alert to you</div>
+    <div class="stackanno" style="top:336px;">you press <span class="btn accept" style="font-size:18px; padding:5px 16px;">Accept</span></div>
+    <div class="stackanno" style="top:448px;">code checked your rights first</div>
+    <div class="stackanno" style="top:560px;">logged + follow-up booked<br><span class="mfollow" style="margin-top:8px;">⏰ checks the effect · Jul 25</span></div>
+    <div class="stampclock">9:05</div>
+    <div style="position:absolute; left:20px; bottom:-20px; width:300px; background:var(--teal); color:#fff; border:3px solid var(--ink); box-shadow:6px 6px 0 var(--ink); padding:12px 18px; font-size:19px; font-weight:700; text-align:left;">Reply sent · change live · 09:05</div>
+    <div class="photoframe fragment"></div>
+  </div>
+  <aside class="notes">
+    CLOCK 30:55–31:15<br><br>
+    SPOKEN: "This is the slide to photograph. Five minutes of your Monday, run by the thing you just saw in six parts." (pause, let phones come up)<br><br>
+    CUE: 15-second breather. Let them shoot.
+  </aside>
+</section>
+
+<!-- S66 — The last beat: it follows up on itself -->
+<section class="s-line centered">
+  <h2>THE SYSTEM <em>FOLLOWS UP ON ITSELF</em></h2>
+  <div class="mfollow big" style="margin-top:60px;">⏰ Agent checks the effect of this change on Jul 25</div>
+  <aside class="notes">
+    CLOCK 31:15–31:45<br><br>
+    SPOKEN: "And the very last thing that happened up there, nobody asked for. The agent booked its own follow-up. Next Monday there's no 9:00 email, because the client got the update before they thought to ask. The system remembers, and it follows up on itself. Where that compounding goes — that's Mike's talk this afternoon, and I'm not spoiling it."
+  </aside>
+</section>
+
+<!-- S67 — Meme cut: the victory lap -->
+<section class="centered">
+  <div class="memeframe">
+    <img class="meme" src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/act3-smug-victory.jpg" alt="">
+    <div class="memecap"><b>go ahead, email us next week. we email YOU first, b… :D</b></div>
+  </div>
+  <aside class="notes">
+    CLOCK 31:45–32:00<br><br>
+    SPOKEN: (nothing — the meme and caption do it)
+  </aside>
+</section>
+
+<!-- S68 — The six questions, re-stacked + the foundation fragment (ticket 21) -->
+<section class="centered">
+  <div class="qstack">
+    <div class="imp" style="font-size:64px; text-align:center; margin-bottom:20px;">SIX QUESTIONS.</div>
+    <div class="srow machine fragment"><span class="ok">1</span><span class="sname">Database</span><span class="sq">Could you point to one place where this client's data lives?</span></div>
+    <div class="srow machine fragment"><span class="ok">2</span><span class="sname">Backend</span><span class="sq">One source of truth for how YOU write an RSA?</span></div>
+    <div class="srow safety fragment"><span class="ok">3</span><span class="sname">Security</span><span class="sq">What stops the agent from pushing what you would never allow?</span><span class="safetytag">before it touches a live account</span></div>
+    <div class="srow harden fragment"><span class="ok">4</span><span class="sname">Frontend</span><span class="sq">Swap the chat window tomorrow. Does the system survive?</span></div>
+    <div class="srow harden fragment"><span class="ok">5</span><span class="sname">Auth</span><span class="sq">Can your intern do more damage through the agent than without it?</span></div>
+    <div class="srow harden fragment"><span class="ok">6</span><span class="sname">Git</span><span class="sq">Where is the "why" behind your last 50 changes?</span></div>
+    <div class="minline fragment minfrag">
+      <div class="imp"><em>TWO</em> ARE THE FOUNDATION.</div>
+      <div class="sub">One folder + one skill file, built just for yourself. Prototype on it, see what crashes. Everything else stacks on top.</div>
+    </div>
+  </div>
+  <div class="qrcard qrcorner fragment"><svg viewBox="0 0 41 41"><use href="#qr-build"/></svg><div class="qrurl">pitcocy.com/build</div></div>
+  <aside class="notes">
+    CLOCK 32:00–32:47 (QR line adds ~7s, calibrate at rehearsal)<br><br>
+    SPOKEN: "Six questions. You answered them with me on the way here, honestly or not. :D And before you panic: only two of them are the foundation. One folder, one skill file. You can build that alone, even inside an agency, just for yourself. Prototype on it, see what crashes. With those two you can test the whole system. Everything else stacks on top, and number three comes before it touches a live account. If you failed most of them: good. That means Monday morning has a job. … And to help you answer those two, I built you a page. Scan this one, pitcocy.com/build. It walks you through the folder and the skill file, and what usually breaks first."<br><br>
+    CUE: stack the cards fast, roughly one per second. Advance 7 fires the foundation fragment: rows 4-6 dim, rows 1-2 flip gold, Security picks up the teal tag. Advance 8 reveals the QR corner card (bottom-left) on "I built you a page"; point at it. It stays through S69 and S70.
+  </aside>
+</section>
+
+<!-- S69 — Monday, 9:00 -->
+<section class="centered">
+  <div class="qrcard qrcorner"><svg viewBox="0 0 41 41"><use href="#qr-build"/></svg><div class="qrurl">pitcocy.com/build</div></div>
+  <div class="checkcard goldcard">
+    <div class="tag">The Monday Move</div>
+    <div class="cq">MONDAY, 9:00</div>
+    <div class="csteer">Create the first client folder. Business context first, it changes slowest. Then auto-route your most-used comms channel into it.</div>
+  </div>
+  <aside class="notes">
+    CLOCK 32:40–33:15<br><br>
+    SPOKEN: "So here's Monday. Not the whole engine, one move: create the first client folder. Business context first, it changes slowest. Then auto-route your most-used comms channel into it. That's it. That's the start. The email will come in at 9:00 anyway — this time it lands somewhere."
+  </aside>
+</section>
+
+<!-- S70 — Callback + handoff + the QR beat (qr-page map, ticket 13) -->
+<section class="s-div" data-background-color="#F2B843">
+  <div class="closerow">
+    <div class="closeleft">
+      <h2 class="fragment" data-fragment-index="1" style="font-size:150px;">GO AND <span style="color:#fff; background:var(--teal); padding:0 26px; box-shadow:12px 12px 0 var(--ink);">BUILD</span> THE THING.</h2>
+      <div class="fragment nextup" data-fragment-index="3"><span>Next: Cindy.</span><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/close-cindy.jpeg" alt="Cindy"></div>
+    </div>
+    <div class="qrcard qrbeat fragment" data-fragment-index="2"><svg viewBox="0 0 41 41"><use href="#qr-build"/></svg><div class="qrurl">pitcocy.com/build</div></div>
+  </div>
+  <aside class="notes">
+    CLOCK 33:15–33:48 · step off at ~33:48; the URL line costs ~3s of the buffer (calibrate at rehearsal)<br><br>
+    SPOKEN: "Last year I ended by telling you: go and do the thing. This year the thing has six parts, and you've seen all of them running. So: go and build the thing. pitcocy.com/build, it's on the screen. That's where Monday starts. … That's the engine. Cindy's up next — she's going to show you what a normal week looks like when you live on top of one."<br><br>
+    CUE: fragment 2 (the QR card) fires on "pitcocy.com/build". Leave this slide up through the handoff; the small QR was already on S68 and S69.
+  </aside>
+</section>
+
+</div>
+</div>
+
+<!-- QR symbol: pitcocy.com/build?s=qr (assets/qr/build-qr.svg inlined, 33x33 modules + 4-module quiet zone). Used by .qrcard on S68/S69/S70. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="qr-build" viewBox="0 0 41 41" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h41v41H0z"/><path stroke="#1C1917" d="M4 4.5h7m3 0h1m1 0h1m3 0h1m1 0h4m1 0h2m1 0h7M4 5.5h1m5 0h1m1 0h3m6 0h4m3 0h1m1 0h1m5 0h1M4 6.5h1m1 0h3m1 0h1m2 0h4m1 0h3m3 0h2m4 0h1m1 0h3m1 0h1M4 7.5h1m1 0h3m1 0h1m2 0h3m1 0h1m1 0h2m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1M4 8.5h1m1 0h3m1 0h1m2 0h4m3 0h1m2 0h3m2 0h1m1 0h1m1 0h3m1 0h1M4 9.5h1m5 0h1m1 0h1m1 0h1m3 0h2m6 0h1m3 0h1m5 0h1M4 10.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M12 11.5h1m1 0h1m2 0h1m2 0h8M8 12.5h4m3 0h3m4 0h1m1 0h3m1 0h1m1 0h2m3 0h1M4 13.5h1m1 0h1m1 0h2m1 0h6m2 0h3m1 0h1m1 0h1m1 0h1m3 0h1m1 0h1m1 0h1M5 14.5h1m2 0h7m3 0h6m3 0h2m2 0h2m1 0h2M7 15.5h1m1 0h1m2 0h2m2 0h3m1 0h1m1 0h1m3 0h2m1 0h2m1 0h1M4 16.5h1m3 0h4m1 0h2m1 0h2m1 0h3m1 0h2m1 0h2m2 0h3m2 0h2M7 17.5h1m5 0h1m1 0h1m2 0h4m2 0h2m1 0h1m1 0h1m1 0h1m2 0h2M4 18.5h1m3 0h7m3 0h1m1 0h3m4 0h2m3 0h1m1 0h2M4 19.5h2m2 0h2m1 0h2m3 0h1m1 0h1m2 0h2m1 0h2m4 0h4m2 0h1M4 20.5h2m4 0h7m1 0h3m1 0h1m2 0h1m4 0h1m1 0h2M4 21.5h1m3 0h1m2 0h6m1 0h1m3 0h2m1 0h1m1 0h2m2 0h1M4 22.5h3m2 0h3m1 0h1m6 0h2m5 0h2m4 0h1m1 0h1M8 23.5h2m1 0h2m6 0h2m2 0h1m1 0h2m3 0h1m4 0h2M5 24.5h2m1 0h1m1 0h1m1 0h1m2 0h2m2 0h5m1 0h2m1 0h3m1 0h2M4 25.5h1m2 0h3m4 0h3m2 0h1m1 0h4m4 0h3m3 0h1M10 26.5h3m2 0h2m1 0h4m3 0h1m5 0h2m2 0h1M6 27.5h1m1 0h2m3 0h2m4 0h1m1 0h2m2 0h2m1 0h1m3 0h1m2 0h2M4 28.5h2m1 0h1m1 0h3m2 0h1m1 0h1m2 0h1m1 0h3m1 0h1m1 0h7m1 0h2M12 29.5h2m2 0h1m1 0h1m4 0h2m1 0h1m1 0h1m3 0h2M4 30.5h7m1 0h2m3 0h4m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1m2 0h1M4 31.5h1m5 0h1m1 0h1m1 0h2m1 0h2m1 0h1m1 0h4m2 0h1m3 0h2m1 0h2M4 32.5h1m1 0h3m1 0h1m1 0h1m2 0h3m1 0h5m4 0h5M4 33.5h1m1 0h3m1 0h1m10 0h1m2 0h5m1 0h4m2 0h1M4 34.5h1m1 0h3m1 0h1m5 0h4m2 0h1m2 0h2m2 0h2m1 0h1M4 35.5h1m5 0h1m5 0h1m5 0h2m1 0h8M4 36.5h7m2 0h1m2 0h1m1 0h1m1 0h2m2 0h1m2 0h2m2 0h1m1 0h1m2 0h1"/></symbol></svg>
+<div class="brandbadge"><img src="vendor/pitcocy-site.b-cdn.net/ppcsummit2026/pitcocy-bare.svg" alt="Pitcocy"></div>
+
+<script src="vendor/cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
+<script src="vendor/cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/notes/notes.js"></script>
+<script>
+  Reveal.initialize({
+    width: 1920,
+    height: 1080,
+    margin: 0,
+    hash: true,
+    center: false,
+    controls: false,
+    progress: false,
+    slideNumber: false,
+    transition: 'none',          // 2025 DNA: hard cuts; auto-animate carries the morphs
+    autoAnimateDuration: 0.7,
+    autoAnimateEasing: 'cubic-bezier(.3,.8,.3,1)',
+    plugins: [ RevealNotes ]
+  });
+
+  // Meme videos that fire on a FRAGMENT (S53) instead of slide entry
+  Reveal.on('fragmentshown', e => {
+    e.fragment.closest('.video-frag')?.querySelector('video')?.play();
+    if (e.fragment.classList.contains('video-frag')) e.fragment.querySelector('video')?.play();
+    // S68 foundation fragment (ticket 21)
+    if (e.fragment.classList.contains('minfrag')) e.fragment.closest('section').classList.add('minlive');
+  });
+  Reveal.on('fragmenthidden', e => {
+    if (e.fragment.classList.contains('video-frag')) {
+      const v = e.fragment.querySelector('video');
+      if (v) { v.pause(); v.currentTime = 0; }
+    }
+    if (e.fragment.classList.contains('minfrag')) e.fragment.closest('section').classList.remove('minlive');
+  });
+
+  // S64: the email token descends the stack as layer fragments fire
+  const token = document.getElementById('token64');
+  const layers64 = () => [...document.querySelectorAll('#stackcol64 .stacklayer')];
+  function litCount(section) {
+    return [...section.querySelectorAll('.stackanno.fragment.visible')].length;
+  }
+  function syncStack(section) {
+    if (!section || !section.classList.contains('stackslide') || !section.contains(token || null)) return;
+    const layers = layers64();
+    const n = [...section.querySelectorAll('.stackanno.fragment')].filter(f => f.classList.contains('visible')).length;
+    layers.forEach((l, i) => l.classList.toggle('lit', i < n));
+    if (token) {
+      if (n === 0) { token.style.top = '-30px'; }
+      else { token.style.top = layers[n - 1].offsetTop + 8 + 'px'; }
+    }
+  }
+  Reveal.on('fragmentshown',  e => syncStack(e.fragment.closest('section')));
+  Reveal.on('fragmenthidden', e => syncStack(e.fragment.closest('section')));
+  Reveal.on('slidechanged',   e => syncStack(e.currentSlide));
+</script>
+</body>
+</html>

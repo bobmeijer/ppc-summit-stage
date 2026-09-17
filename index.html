@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PPC Summit Stage</title>
+<link rel="stylesheet" href="_runtime/stage.css">
+</head>
+<body class="picker">
+<main>
+  <h1>PPC Summit 2026 · Stage</h1>
+  <p class="muted" id="built"></p>
+  <div id="days"></div>
+  <section class="howto">
+    <h2>How to run a block</h2>
+    <ol>
+      <li>Use Chrome or Edge. Connect the projector as an extended display (not mirrored).</li>
+      <li>Click <b>Presenter</b> for the block. Then click <b>Open audience</b> in the presenter view. If the browser asks to manage windows, allow it: the audience window then opens on the projector.</li>
+      <li>Click once on the audience window to make it fullscreen (or drag it to the projector first, then click).</li>
+      <li>Click back on the presenter window so the clicker drives it. Right / PageDown = next, Left / PageUp = back, B = black screen.</li>
+      <li>Decks keep loading in the background for a few seconds after opening. The running order marks them while they load.</li>
+    </ol>
+    <p class="muted">Single screen fallback: open <b>Audience only</b> and drive it with the clicker directly.</p>
+  </section>
+</main>
+<script src="_runtime/manifest.js"></script>
+<script>
+(function () {
+  var M = window.STAGE_MANIFEST;
+  document.getElementById('built').textContent = 'Build ' + M.built;
+  var days = {};
+  M.blocks.forEach(function (b) { (days[b.day] = days[b.day] || []).push(b); });
+  var root = document.getElementById('days');
+  Object.keys(days).forEach(function (d) {
+    var h = document.createElement('h2');
+    h.textContent = 'Day ' + d;
+    root.appendChild(h);
+    days[d].forEach(function (b) {
+      var groups = [];
+      b.segments.forEach(function (s) { if (groups.indexOf(s.group) < 0) groups.push(s.group); });
+      var steps = b.segments.reduce(function (n, s) { return n + s.steps.length; }, 0);
+      var card = document.createElement('div');
+      card.className = 'blockcard';
+      var q = '?block=' + encodeURIComponent(b.id);
+      card.innerHTML = '<div><h3></h3><p class="muted"></p><p class="groups"></p></div>' +
+        '<div class="actions"><a class="btn primary" href="presenter.html' + q + '">Presenter</a>' +
+        '<a class="btn" href="audience.html' + q + '">Audience only</a></div>';
+      card.querySelector('h3').textContent = b.title;
+      card.querySelector('.muted').textContent = (b.window || '') + ' · ' + steps + ' steps';
+      card.querySelector('.groups').textContent = groups.join('  /  ');
+      root.appendChild(card);
+    });
+  });
+})();
+</script>
+</body>
+</html>
