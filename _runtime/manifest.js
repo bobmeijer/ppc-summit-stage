@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-17 11:16",
+ "built": "2026-09-17 13:25",
  "blocks": [
   {
    "id": "block-1",
@@ -5395,51 +5395,57 @@ window.STAGE_MANIFEST = {
       },
       {
        "key": "86",
-       "label": "90 · Start the loop",
-       "notes": "- Choose a familiar account and concern. W1's stakeholder is a useful default.\n- Today, write Find and the review date on page 3. Missing evidence stays explicit; a provisional choice is enough.\n- Finish Action, Who, Owned and Watch at home before the review. Complete Binding and Next at the review.",
+       "label": "81c · Workbook QR",
+       "notes": "- This is the workbook for the rest of the hour. Scan the code if you need your copy, then work from page 3.\n- Page 3 is the Find sentence: account, goal, symptom, chosen constraint, reopen condition and a review date.\n- Laptops open for the account data. Everything you write stays with you.",
        "thumb": "thumbs/w2/087.jpg"
       },
       {
        "key": "87",
-       "label": "91 · Write · Find: goal + symptom",
-       "notes": "- Write the account, goal and guardrail.\n- For the symptom: one metric, comparison, period and source. Missing evidence says “To verify.”\n- Nine minutes, including one targeted lookup. Stay with one concern.",
+       "label": "90 · Start the loop",
+       "notes": "- Choose a familiar account and concern. W1's stakeholder is a useful default.\n- Today, write Find and the review date on page 3. Missing evidence stays explicit; a provisional choice is enough.\n- Finish Action, Who, Owned and Watch at home before the review. Complete Binding and Next at the review.",
        "thumb": "thumbs/w2/088.jpg"
       },
       {
        "key": "88",
-       "label": "91b · Countdown 9:00",
-       "notes": "- Pens down. Missing evidence says “To verify.”",
+       "label": "91 · Write · Find: goal + symptom",
+       "notes": "- Write the account, goal and guardrail.\n- For the symptom: one metric, comparison, period and source. Missing evidence says “To verify.”\n- Nine minutes, including one targeted lookup. Stay with one concern.",
        "thumb": "thumbs/w2/089.jpg"
       },
       {
        "key": "89",
-       "label": "92 · Write · Find: chosen + reopen",
-       "notes": "- Write one possible condition and its bucket.\n- Add evidence that would reopen it. For example: visitors understand the options but reject the price.\n- Four minutes. A condition to investigate, with uncertainty explicit.",
+       "label": "91b · Countdown 9:00",
+       "notes": "- Pens down. Missing evidence says “To verify.”",
        "thumb": "thumbs/w2/090.jpg"
       },
       {
        "key": "90",
-       "label": "92b · Countdown 4:00",
-       "notes": "- Pens down. One condition, its location, and a reason to reconsider.",
+       "label": "92 · Write · Find: chosen + reopen",
+       "notes": "- Write one possible condition and its bucket.\n- Add evidence that would reopen it. For example: visitors understand the options but reject the price.\n- Four minutes. A condition to investigate, with uncertainty explicit.",
        "thumb": "thumbs/w2/091.jpg"
       },
       {
        "key": "91",
-       "label": "93 · Write · Review date",
-       "notes": "- Write a real review date. Calendar it. Photograph page 3.\n- An evidence or delivery review is valid. It need not be a performance verdict. Two minutes.",
+       "label": "92b · Countdown 4:00",
+       "notes": "- Pens down. One condition, its location, and a reason to reconsider.",
        "thumb": "thumbs/w2/092.jpg"
       },
       {
        "key": "92",
-       "label": "93b · Countdown 2:00",
-       "notes": "- Pens down. Date calendared, page 3 photographed.",
+       "label": "93 · Write · Review date",
+       "notes": "- Write a real review date. Calendar it. Photograph page 3.\n- An evidence or delivery review is valid. It need not be a performance verdict. Two minutes.",
        "thumb": "thumbs/w2/093.jpg"
       },
       {
        "key": "93",
+       "label": "93b · Countdown 2:00",
+       "notes": "- Pens down. Date calendared, page 3 photographed.",
+       "thumb": "thumbs/w2/094.jpg"
+      },
+      {
+       "key": "94",
        "label": "95 · Close and lunch",
        "notes": "- You have a chosen constraint, a reason to reopen it and a review date.\n- Finish Fix and Watch at home, then follow the evidence at your review.\n- Proof earns trust. Trust earns you a bigger problem.\n- Enjoy lunch. We are back at 13:45.",
-       "thumb": "thumbs/w2/094.jpg"
+       "thumb": "thumbs/w2/095.jpg"
       }
      ]
     },
