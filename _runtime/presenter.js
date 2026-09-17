@@ -38,17 +38,73 @@
   function split(d) { prefs.split = Math.max(30, Math.min(75, prefs.split + d)); applyPrefs(); }
 
   // --- timers ---------------------------------------------------------------
-  var blockStart = null, segStart = Date.now(), lastSeg = 0;
+  // One countdown per agenda session (segment.timer, from blocks.json):
+  //   {minutes}: counts down from when the talk starts (its deck opens), kept
+  //              across reloads; {until: 'HH:MM'}: counts down to a Lisbon time.
+  var TIMER_TTL = 3 * 60 * 60 * 1000; // a start older than 3h is a rehearsal: ignore it
+  function timerKey(id) { return 'timer.' + block.id + '.' + id; }
+  function timerStart(id) {
+    var v = +(S.store(timerKey(id)) || 0);
+    return v && Date.now() - v < TIMER_TTL ? v : 0;
+  }
+  function startTimer(id, force) {
+    if (force || !timerStart(id)) S.store(timerKey(id), Date.now());
+  }
+  function lisbonParts() {
+    var parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Lisbon', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).formatToParts(new Date());
+    var get = function (t) { return +((parts.find(function (p) { return p.type === t; }) || {}).value || 0); };
+    return { h: get('hour') % 24, m: get('minute'), s: get('second') };
+  }
   function fmt(ms) {
-    var s = Math.max(0, Math.floor(ms / 1000));
-    var m = Math.floor(s / 60);
-    return (m < 10 ? '0' : '') + m + ':' + (s % 60 < 10 ? '0' : '') + (s % 60);
+    var s = Math.max(0, Math.round(ms / 1000));
+    var h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), sec = s % 60;
+    var mm = (h && m < 10 ? '0' : '') + m;
+    return (h ? h + ':' : '') + mm + ':' + (sec < 10 ? '0' : '') + sec;
+  }
+  function currentTimer() {
+    var seg = block.segments[pos.seg];
+    return seg && seg.timer;
   }
   function tick() {
-    var now = new Date();
-    $('clock').textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    $('seg-timer').textContent = fmt(Date.now() - segStart);
-    $('block-timer').textContent = blockStart ? fmt(Date.now() - blockStart) : '--:--';
+    var lp = lisbonParts();
+    var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+    $('clock').textContent = pad(lp.h) + ':' + pad(lp.m) + ':' + pad(lp.s);
+
+    var t = currentTimer();
+    var box = $('talk-timer');
+    box.className = 'talk-timer';
+    $('btn-timer').style.visibility = t && t.minutes ? 'visible' : 'hidden';
+    if (!t) {
+      $('tt-label').textContent = '';
+      $('tt-value').textContent = '';
+      $('tt-sub').textContent = 'No timer for this part';
+      box.classList.add('idle');
+    } else if (t.until) {
+      var hm = t.until.split(':');
+      var left = ((+hm[0] * 60 + +hm[1]) * 60 - ((lp.h * 60 + lp.m) * 60 + lp.s)) * 1000;
+      $('tt-label').textContent = left >= 0 ? 'Time left:' : 'Break over by:';
+      $('tt-value').textContent = left >= 0 ? fmt(left) : '+' + fmt(-left);
+      $('tt-sub').textContent = 'until ' + t.until;
+      if (left < 0) box.classList.add('over');
+      else if (left <= 2 * 60000) box.classList.add('warn');
+    } else {
+      var total = t.minutes * 60000;
+      var started = timerStart(t.id);
+      if (!started) {
+        $('tt-label').textContent = 'Time left:';
+        $('tt-value').textContent = fmt(total);
+        $('tt-sub').textContent = 'starts when the talk starts';
+        box.classList.add('idle');
+      } else {
+        var remaining = total - (Date.now() - started);
+        $('tt-label').textContent = remaining >= 0 ? 'Time left:' : 'Overtime:';
+        $('tt-value').textContent = remaining >= 0 ? fmt(remaining) : '+' + fmt(-remaining);
+        $('tt-sub').textContent = 'of ' + fmt(total) + ' · ' + t.id;
+        if (remaining < 60000) box.classList.add('over');
+        else if (remaining <= 5 * 60000) box.classList.add('warn');
+      }
+    }
+
     var on = link.connected() && (!popup || !popup.closed || live);
     document.body.classList.toggle('linked', !!on);
     $('link-state').textContent = on ? 'Audience connected' : 'Rehearsal (no audience window)';
@@ -66,8 +122,8 @@
   function esc(t) { return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
   function render() {
-    if (pos.seg !== lastSeg) { lastSeg = pos.seg; segStart = Date.now(); }
     var seg = block.segments[pos.seg];
+    if (seg.timer && seg.timer.minutes && seg.timer.start) startTimer(seg.timer.id, false);
     var steps = seg.steps;
     var known = pos.step >= 0 && pos.step < steps.length;
     var st = known ? steps[pos.step] : null;
@@ -140,9 +196,7 @@
   }
 
   // --- commands ---------------------------------------------------------------
-  function startBlockTimer() { if (!blockStart) blockStart = Date.now(); }
   function next() {
-    startBlockTimer();
     if (link.connected()) return link.send({ type: 'cmd', cmd: 'next' });
     var p = S.nextPos(pos); if (p) { pos = p; render(); }
   }
@@ -151,7 +205,6 @@
     var p = S.prevPos(pos); if (p) { pos = p; render(); }
   }
   function go(seg, step) {
-    startBlockTimer();
     if (link.connected()) return link.send({ type: 'cmd', cmd: 'goto', seg: seg, step: step });
     pos = { seg: seg, step: step }; render();
   }
@@ -202,7 +255,7 @@
     else if (k === '<' || k === ',') split(-4);
     else if (k === '>') split(4);
     else if (k === 'l' || k === 'L') { prefs.list = !prefs.list; applyPrefs(); }
-    else if (k === 't' || k === 'T') { segStart = Date.now(); }
+    else if (k === 't' || k === 'T') { restartTimer(false); }
     else if (k === 'o' || k === 'O') openAudience();
     else if (k === '?' || k === 'h' || k === 'H') $('help').classList.toggle('on');
     else if (k === 'Escape') $('help').classList.remove('on');
@@ -222,7 +275,14 @@
   bind('btn-list', function () { prefs.list = !prefs.list; applyPrefs(); });
   bind('btn-help', function () { $('help').classList.toggle('on'); });
   bind('btn-reload-deck', function () { if (link.connected()) link.send({ type: 'cmd', cmd: 'reload-deck' }); });
-  bind('btn-timer', function () { blockStart = Date.now(); segStart = Date.now(); });
+  function restartTimer(ask) {
+    var t = currentTimer();
+    if (!t || !t.minutes) return;
+    if (ask && !window.confirm('Restart the ' + t.minutes + '-minute timer for ' + t.id + '?')) return;
+    startTimer(t.id, true);
+    tick();
+  }
+  bind('btn-timer', function () { restartTimer(true); });
   $('help').addEventListener('click', function () { $('help').classList.remove('on'); });
   $('current').addEventListener('click', next);
   $('next').addEventListener('click', next);

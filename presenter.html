@@ -15,10 +15,13 @@
     <span class="muted" id="block-window"></span>
   </div>
   <div class="bar-c">
-    <span class="clock" id="clock"></span>
-    <span class="timer" title="Block elapsed (starts on first advance)">Block <b id="block-timer">--:--</b></span>
-    <span class="timer" title="Time on this segment (T resets)">Segment <b id="seg-timer">00:00</b></span>
-    <button id="btn-timer" title="Reset timers">Reset</button>
+    <span class="clock">Current time: <b id="clock"></b></span>
+    <span class="talk-timer" id="talk-timer">
+      <span class="tt-label" id="tt-label"></span>
+      <b class="tt-value" id="tt-value"></b>
+      <span class="tt-sub" id="tt-sub"></span>
+    </span>
+    <button id="btn-timer" title="Restart the timer for this talk (T)">Restart timer</button>
   </div>
   <div class="bar-r">
     <span class="link-state" id="link-state"></span>
@@ -70,7 +73,7 @@
       <tr><td>[ / ]</td><td>Whole view zoom</td></tr>
       <tr><td>, / &gt;</td><td>Slides vs notes width</td></tr>
       <tr><td>L</td><td>Running order list</td></tr>
-      <tr><td>T</td><td>Reset segment timer</td></tr>
+      <tr><td>T</td><td>Restart the timer for this talk</td></tr>
       <tr><td>Home</td><td>Back to the first slide</td></tr>
     </table>
     <p class="muted">Click a row in the running order to jump. Click the current or next preview to advance.</p>

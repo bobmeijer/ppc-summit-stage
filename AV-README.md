@@ -30,10 +30,19 @@ Everything runs offline in Chrome or Edge. You don't need to install anything or
 | [ / ] | Zoom the whole presenter view |
 | , / > | Resize the slide column vs the notes column |
 | L | Show or hide the running order |
-| T | Reset the segment timer |
+| T | Restart the timer for the current talk |
 | F (audience window) | Toggle fullscreen |
 
 Click a row in the running order to jump straight to that part of the block (for example the break slide). A block runs from start to finish: speaker card, talk, then the break slide.
+
+## Timers
+
+The top of the presenter view shows **Current time** (Lisbon) and **Time left** for the part on stage:
+
+- **Talks:** the countdown uses the agenda length (35 min for Day 1 talks, 20 min for CH9, 60 min for each workshop, 12 min for each case study). It starts when the speaker's deck opens, not on the speaker card.
+- **Breaks and lunch:** count down to the "back at" time.
+- **Colours:** amber under 5 minutes, red under 1 minute. After zero it shows **Overtime** in red.
+- **Restart:** if a talk starts late after its deck is already open, press **T** or click **Restart timer**.
 
 ## If something goes wrong
 

@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-17 10:17",
+ "built": "2026-09-17 11:16",
  "blocks": [
   {
    "id": "block-1",
@@ -8,10 +8,15 @@ window.STAGE_MANIFEST = {
    "window": "09:30-10:50",
    "segments": [
     {
-     "group": "Welcome",
+     "group": "Welcome · Sam Kellet",
      "label": "Welcome opening slide",
-     "title": "Welcome · Welcome opening slide",
+     "title": "Welcome · Sam Kellet · Welcome opening slide",
      "kind": "images",
+     "timer": {
+      "id": "Welcome · Sam Kellet",
+      "minutes": 10,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/intro-welcome-opening-slide.jpg",
@@ -21,10 +26,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Welcome",
+     "group": "Welcome · Sam Kellet",
      "label": "Welcome clean",
-     "title": "Welcome · Welcome clean",
+     "title": "Welcome · Sam Kellet · Welcome clean",
      "kind": "images",
+     "timer": {
+      "id": "Welcome · Sam Kellet",
+      "minutes": 10,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/intro-welcome-clean.jpg",
@@ -34,10 +44,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Welcome",
+     "group": "Welcome · Sam Kellet",
      "label": "Houskeeping",
-     "title": "Welcome · Houskeeping",
+     "title": "Welcome · Sam Kellet · Houskeeping",
      "kind": "images",
+     "timer": {
+      "id": "Welcome · Sam Kellet",
+      "minutes": 10,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/intro-houskeeping.jpg",
@@ -47,10 +62,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Welcome",
+     "group": "Welcome · Sam Kellet",
      "label": "Program day 1",
-     "title": "Welcome · Program day 1",
+     "title": "Welcome · Sam Kellet · Program day 1",
      "kind": "images",
+     "timer": {
+      "id": "Welcome · Sam Kellet",
+      "minutes": 10,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/intro-program-day-1.jpg",
@@ -64,6 +84,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH1 · Miles McNair · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH1 · Miles McNair",
+      "minutes": 35,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-miles-mcnair-the-ai-first-shift.jpg",
@@ -77,6 +102,11 @@ window.STAGE_MANIFEST = {
      "label": "The AI-first shift",
      "title": "CH1 · Miles McNair · The AI-first shift",
      "kind": "deck",
+     "timer": {
+      "id": "CH1 · Miles McNair",
+      "minutes": 35,
+      "start": true
+     },
      "deck": {
       "src": "decks/ch1/index.html",
       "adapter": "deckStage"
@@ -401,6 +431,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH2 · Bob Meijer · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH2 · Bob Meijer",
+      "minutes": 35,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-bob-meijer-the-advantage-moved.jpg",
@@ -414,6 +449,11 @@ window.STAGE_MANIFEST = {
      "label": "The Advantage Moved",
      "title": "CH2 · Bob Meijer · The Advantage Moved",
      "kind": "deck",
+     "timer": {
+      "id": "CH2 · Bob Meijer",
+      "minutes": 35,
+      "start": true
+     },
      "deck": {
       "src": "decks/ch2/index.html",
       "adapter": "deckStage"
@@ -762,6 +802,11 @@ window.STAGE_MANIFEST = {
      "label": "Back at 11:05",
      "title": "Break · Back at 11:05",
      "kind": "images",
+     "timer": {
+      "id": "Break",
+      "until": "11:05",
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/breaks-short-break-back-at-11-05.jpg",
@@ -783,6 +828,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH3 · Frederik Boysen · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH3 · Frederik Boysen",
+      "minutes": 35,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-frederik-boysen-the-algorithm-needs-a-boss.jpg",
@@ -796,6 +846,11 @@ window.STAGE_MANIFEST = {
      "label": "The Algorithm Needs a Boss",
      "title": "CH3 · Frederik Boysen · The Algorithm Needs a Boss",
      "kind": "deck",
+     "timer": {
+      "id": "CH3 · Frederik Boysen",
+      "minutes": 35,
+      "start": true
+     },
      "deck": {
       "src": "decks/ch3/index.html",
       "adapter": "frederik"
@@ -1156,6 +1211,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH4 · Danique Bras · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH4 · Danique Bras",
+      "minutes": 35,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-danique-bras-how-ai-makes-it-easy-to-stand-out.jpg",
@@ -1169,6 +1229,11 @@ window.STAGE_MANIFEST = {
      "label": "How AI makes it easy to stand out",
      "title": "CH4 · Danique Bras · How AI makes it easy to stand out",
      "kind": "images",
+     "timer": {
+      "id": "CH4 · Danique Bras",
+      "minutes": 35,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-01.jpg",
@@ -1532,6 +1597,11 @@ window.STAGE_MANIFEST = {
      "label": "Short break lunch",
      "title": "Lunch · Short break lunch",
      "kind": "images",
+     "timer": {
+      "id": "Lunch",
+      "until": "13:45",
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/breaks-short-break-lunch.jpg",
@@ -1553,6 +1623,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH5 · Alfred Simon · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH5 · Alfred Simon",
+      "minutes": 35,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-alfred-simon-the-client-codebase.jpg",
@@ -1566,6 +1641,11 @@ window.STAGE_MANIFEST = {
      "label": "The Client Codebase",
      "title": "CH5 · Alfred Simon · The Client Codebase",
      "kind": "deck",
+     "timer": {
+      "id": "CH5 · Alfred Simon",
+      "minutes": 35,
+      "start": true
+     },
      "deck": {
       "src": "decks/ch5/index.html",
       "adapter": "reveal"
@@ -2466,6 +2546,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH6 · Cindy Ebner · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH6 · Cindy Ebner",
+      "minutes": 35,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-cindy-ebner-google-ads-just-got-fun-again.jpg",
@@ -2479,6 +2564,11 @@ window.STAGE_MANIFEST = {
      "label": "Google Ads just got fun again",
      "title": "CH6 · Cindy Ebner · Google Ads just got fun again",
      "kind": "deck",
+     "timer": {
+      "id": "CH6 · Cindy Ebner",
+      "minutes": 35,
+      "start": true
+     },
      "deck": {
       "src": "decks/ch6/index.html",
       "adapter": "cindy"
@@ -3241,6 +3331,11 @@ window.STAGE_MANIFEST = {
      "label": "Back at 15:10",
      "title": "Break · Back at 15:10",
      "kind": "images",
+     "timer": {
+      "id": "Break",
+      "until": "15:10",
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/breaks-short-break-back-at-15-10.jpg",
@@ -3262,6 +3357,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH7 · Miles McNair · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH7 · Miles McNair",
+      "minutes": 35,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-miles-mcnair-the-dark-side-of-ai.jpg",
@@ -3275,6 +3375,11 @@ window.STAGE_MANIFEST = {
      "label": "The dark side of working AI-first",
      "title": "CH7 · Miles McNair · The dark side of working AI-first",
      "kind": "deck",
+     "timer": {
+      "id": "CH7 · Miles McNair",
+      "minutes": 35,
+      "start": true
+     },
      "deck": {
       "src": "decks/ch7/index.html",
       "adapter": "deckStage"
@@ -3665,6 +3770,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH8 · Mike Rhodes · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH8 · Mike Rhodes",
+      "minutes": 35,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-mike-rhodes-what-do-you-charge-for.jpg",
@@ -3678,6 +3788,11 @@ window.STAGE_MANIFEST = {
      "label": "What do you charge for?",
      "title": "CH8 · Mike Rhodes · What do you charge for?",
      "kind": "deck",
+     "timer": {
+      "id": "CH8 · Mike Rhodes",
+      "minutes": 35,
+      "start": true
+     },
      "deck": {
       "src": "decks/ch8/index.html",
       "adapter": "preso"
@@ -4086,6 +4201,11 @@ window.STAGE_MANIFEST = {
      "label": "Drinks",
      "title": "Drinks · Drinks",
      "kind": "images",
+     "timer": {
+      "id": "Drinks",
+      "until": "17:30",
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/outro-drinks.jpg",
@@ -4103,10 +4223,15 @@ window.STAGE_MANIFEST = {
    "window": "09:30-11:00",
    "segments": [
     {
-     "group": "Welcome",
+     "group": "Day 2 kick-off · Sam Kellet",
      "label": "Welcome clean",
-     "title": "Welcome · Welcome clean",
+     "title": "Day 2 kick-off · Sam Kellet · Welcome clean",
      "kind": "images",
+     "timer": {
+      "id": "Day 2 kick-off · Sam Kellet",
+      "minutes": 10,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/intro-welcome-clean.jpg",
@@ -4116,10 +4241,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Welcome",
+     "group": "Day 2 kick-off · Sam Kellet",
      "label": "Program day 2",
-     "title": "Welcome · Program day 2",
+     "title": "Day 2 kick-off · Sam Kellet · Program day 2",
      "kind": "images",
+     "timer": {
+      "id": "Day 2 kick-off · Sam Kellet",
+      "minutes": 10,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/intro-program-day-2.jpg",
@@ -4133,6 +4263,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "CH9 · Geert Hidding · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "CH9 · Geert Hidding",
+      "minutes": 20,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-geert-hidding-the-pivot-point.jpg",
@@ -4146,6 +4281,11 @@ window.STAGE_MANIFEST = {
      "label": "The Pivot Point",
      "title": "CH9 · Geert Hidding · The Pivot Point",
      "kind": "images",
+     "timer": {
+      "id": "CH9 · Geert Hidding",
+      "minutes": 20,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-01.jpg",
@@ -4204,6 +4344,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "W1 · Bob Meijer · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "W1 · Bob Meijer",
+      "minutes": 60,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-bob-meijer-own-a-bigger-problem.jpg",
@@ -4217,6 +4362,11 @@ window.STAGE_MANIFEST = {
      "label": "Own a Bigger Problem",
      "title": "W1 · Bob Meijer · Own a Bigger Problem",
      "kind": "deck",
+     "timer": {
+      "id": "W1 · Bob Meijer",
+      "minutes": 60,
+      "start": true
+     },
      "deck": {
       "src": "decks/w1/index.html",
       "adapter": "deckStage"
@@ -4673,6 +4823,11 @@ window.STAGE_MANIFEST = {
      "label": "Back at 11:15",
      "title": "Break · Back at 11:15",
      "kind": "images",
+     "timer": {
+      "id": "Break",
+      "until": "11:15",
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/breaks-short-break-back-at-11-15.jpg",
@@ -4694,6 +4849,11 @@ window.STAGE_MANIFEST = {
      "label": "Speaker card",
      "title": "W2 · Bob Meijer · Speaker card",
      "kind": "images",
+     "timer": {
+      "id": "W2 · Bob Meijer",
+      "minutes": 60,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/speaker-cards-speaker-announcement-bob-meijer-find-the-constraint.jpg",
@@ -4707,6 +4867,11 @@ window.STAGE_MANIFEST = {
      "label": "Find the Constraint",
      "title": "W2 · Bob Meijer · Find the Constraint",
      "kind": "deck",
+     "timer": {
+      "id": "W2 · Bob Meijer",
+      "minutes": 60,
+      "start": true
+     },
      "deck": {
       "src": "decks/w2/index.html",
       "adapter": "deckStage"
@@ -5283,6 +5448,11 @@ window.STAGE_MANIFEST = {
      "label": "Short break lunch",
      "title": "Lunch · Short break lunch",
      "kind": "images",
+     "timer": {
+      "id": "Lunch",
+      "until": "13:45",
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/breaks-short-break-lunch.jpg",
@@ -5300,10 +5470,15 @@ window.STAGE_MANIFEST = {
    "window": "13:45-15:00",
    "segments": [
     {
-     "group": "Case study awards",
+     "group": "Case studies · Sam Kellet",
      "label": "Best case study awards",
-     "title": "Case study awards · Best case study awards",
+     "title": "Case studies · Sam Kellet · Best case study awards",
      "kind": "images",
+     "timer": {
+      "id": "Case studies · Sam Kellet",
+      "minutes": 3,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-best-case-study-awards.jpg",
@@ -5313,10 +5488,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Case study awards",
+     "group": "Case studies · Sam Kellet",
      "label": "Contender ramial aqeel",
-     "title": "Case study awards · Contender ramial aqeel",
+     "title": "Case studies · Sam Kellet · Contender ramial aqeel",
      "kind": "images",
+     "timer": {
+      "id": "Case studies · Sam Kellet",
+      "minutes": 3,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-contender-ramial-aqeel.jpg",
@@ -5326,10 +5506,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Case study awards",
+     "group": "Case studies · Sam Kellet",
      "label": "Contender violeta balbae",
-     "title": "Case study awards · Contender violeta balbae",
+     "title": "Case studies · Sam Kellet · Contender violeta balbae",
      "kind": "images",
+     "timer": {
+      "id": "Case studies · Sam Kellet",
+      "minutes": 3,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-contender-violeta-balbae.jpg",
@@ -5339,10 +5524,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Case study awards",
+     "group": "Case studies · Sam Kellet",
      "label": "Contender quint van der meer",
-     "title": "Case study awards · Contender quint van der meer",
+     "title": "Case studies · Sam Kellet · Contender quint van der meer",
      "kind": "images",
+     "timer": {
+      "id": "Case studies · Sam Kellet",
+      "minutes": 3,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-contender-quint-van-der-meer.jpg",
@@ -5356,6 +5546,11 @@ window.STAGE_MANIFEST = {
      "label": "Case announcement",
      "title": "CS1 · Ramial Aqeel · Case announcement",
      "kind": "images",
+     "timer": {
+      "id": "CS1 · Ramial Aqeel",
+      "minutes": 12,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-case-announcement-ramial-aqeel.jpg",
@@ -5369,6 +5564,11 @@ window.STAGE_MANIFEST = {
      "label": "Case study deck",
      "title": "CS1 · Ramial Aqeel · Case study deck",
      "kind": "images",
+     "timer": {
+      "id": "CS1 · Ramial Aqeel",
+      "minutes": 12,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/placeholder-day-2-cs1-ramial.jpg",
@@ -5382,6 +5582,11 @@ window.STAGE_MANIFEST = {
      "label": "Case announcement",
      "title": "CS2 · Violeta Balbae · Case announcement",
      "kind": "images",
+     "timer": {
+      "id": "CS2 · Violeta Balbae",
+      "minutes": 12,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-case-announcement-violeta-balbae.jpg",
@@ -5395,6 +5600,11 @@ window.STAGE_MANIFEST = {
      "label": "Case study deck",
      "title": "CS2 · Violeta Balbae · Case study deck",
      "kind": "images",
+     "timer": {
+      "id": "CS2 · Violeta Balbae",
+      "minutes": 12,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/placeholder-day-2-cs2-violeta.jpg",
@@ -5408,6 +5618,11 @@ window.STAGE_MANIFEST = {
      "label": "Case announcement",
      "title": "CS3 · Quint van der Meer · Case announcement",
      "kind": "images",
+     "timer": {
+      "id": "CS3 · Quint van der Meer",
+      "minutes": 12,
+      "start": false
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-case-announcement-quint-van-der-meer.jpg",
@@ -5421,6 +5636,11 @@ window.STAGE_MANIFEST = {
      "label": "From CAC to CLV",
      "title": "CS3 · Quint van der Meer · From CAC to CLV",
      "kind": "images",
+     "timer": {
+      "id": "CS3 · Quint van der Meer",
+      "minutes": 12,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-01.jpg",
@@ -5585,10 +5805,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Case study awards",
+     "group": "Awards · Miles McNair",
      "label": "Vote",
-     "title": "Case study awards · Vote",
+     "title": "Awards · Miles McNair · Vote",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-best-case-study-awards-vote.jpg",
@@ -5598,10 +5823,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Case study awards",
+     "group": "Awards · Miles McNair",
      "label": "Winner",
-     "title": "Case study awards · Winner",
+     "title": "Awards · Miles McNair · Winner",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/case-study-awards-congrats-winner.jpg",
@@ -5611,10 +5841,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Community awards ceremony",
-     "title": "Community awards · Community awards ceremony",
+     "title": "Awards · Miles McNair · Community awards ceremony",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-community-awards-ceremony.jpg",
@@ -5624,10 +5859,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Community awards overview",
-     "title": "Community awards · Community awards overview",
+     "title": "Awards · Miles McNair · Community awards overview",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-community-awards-overview.jpg",
@@ -5637,10 +5877,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Winner community champion",
-     "title": "Community awards · Winner community champion",
+     "title": "Awards · Miles McNair · Winner community champion",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-winner-community-champion.jpg",
@@ -5650,10 +5895,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Sandra winner",
-     "title": "Community awards · Sandra winner",
+     "title": "Awards · Miles McNair · Sandra winner",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-sandra-winner.jpg",
@@ -5663,10 +5913,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Sandra stats",
-     "title": "Community awards · Sandra stats",
+     "title": "Awards · Miles McNair · Sandra stats",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-sandra-stats.jpg",
@@ -5676,10 +5931,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Winner transformation story",
-     "title": "Community awards · Winner transformation story",
+     "title": "Awards · Miles McNair · Winner transformation story",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-winner-transformation-story.jpg",
@@ -5689,10 +5949,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Maria winner",
-     "title": "Community awards · Maria winner",
+     "title": "Awards · Miles McNair · Maria winner",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-maria-winner.jpg",
@@ -5702,10 +5967,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Maria transformation story",
-     "title": "Community awards · Maria transformation story",
+     "title": "Awards · Miles McNair · Maria transformation story",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-maria-transformation-story.jpg",
@@ -5715,10 +5985,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Winner innovation pioneer",
-     "title": "Community awards · Winner innovation pioneer",
+     "title": "Awards · Miles McNair · Winner innovation pioneer",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-winner-innovation-pioneer.jpg",
@@ -5728,10 +6003,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Louis winner",
-     "title": "Community awards · Louis winner",
+     "title": "Awards · Miles McNair · Louis winner",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-louis-winner.jpg",
@@ -5741,10 +6021,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Louis innovation story",
-     "title": "Community awards · Louis innovation story",
+     "title": "Awards · Miles McNair · Louis innovation story",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-louis-innovation-story.jpg",
@@ -5754,10 +6039,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Community awards",
+     "group": "Awards · Miles McNair",
      "label": "Congrats winners",
-     "title": "Community awards · Congrats winners",
+     "title": "Awards · Miles McNair · Congrats winners",
      "kind": "images",
+     "timer": {
+      "id": "Awards · Miles McNair",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/community-awards-congrats-winners.jpg",
@@ -5767,10 +6057,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Close",
+     "group": "Before you leave · Sam Kellet",
      "label": "Recap closing thoughts",
-     "title": "Close · Recap closing thoughts",
+     "title": "Before you leave · Sam Kellet · Recap closing thoughts",
      "kind": "images",
+     "timer": {
+      "id": "Before you leave · Sam Kellet",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/outro-recap-closing-thoughts.jpg",
@@ -5780,10 +6075,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Close",
+     "group": "Before you leave · Sam Kellet",
      "label": "Drinks",
-     "title": "Close · Drinks",
+     "title": "Before you leave · Sam Kellet · Drinks",
      "kind": "images",
+     "timer": {
+      "id": "Before you leave · Sam Kellet",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/outro-drinks.jpg",
@@ -5793,10 +6093,15 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Close",
+     "group": "Before you leave · Sam Kellet",
      "label": "See you next year",
-     "title": "Close · See you next year",
+     "title": "Before you leave · Sam Kellet · See you next year",
      "kind": "images",
+     "timer": {
+      "id": "Before you leave · Sam Kellet",
+      "minutes": 15,
+      "start": true
+     },
      "steps": [
       {
        "src": "slides/outro-see-you-next-year.jpg",
