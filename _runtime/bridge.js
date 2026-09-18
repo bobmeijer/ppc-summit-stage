@@ -25,6 +25,9 @@
 
   var adapters = {
     deckStage: {
+      // The stage owns navigation while embedded. Authored click handlers must
+      // not independently advance their private build counter behind the bridge.
+      blockClicks: true,
       before: function () {
         try { localStorage.setItem('deck-stage.railVisible', '0'); } catch (e) {}
       },
@@ -37,10 +40,61 @@
         window.postMessage({ __omelette_presenting: true }, '*');
         addStyle(d.shadowRoot, '.overlay,.rail,.rail-resize,.menu{display:none !important}');
       },
-      key: function () { return String(this.el().index); },
-      next: function () { this.el().next(); },
-      prev: function () { this.el().prev(); },
-      goto: function (k) { this.el().goTo(parseInt(k, 10) || 0); },
+      slide: function () {
+        var d = this.el(), s = d._slides && d._slides[d.index];
+        if (s !== this._buildSlide) {
+          this._buildSlide = s;
+          this._build = 0;
+          this.applyBuild();
+        }
+        return s;
+      },
+      buildElements: function () {
+        return this._buildSlide ? Array.from(this._buildSlide.querySelectorAll('[data-build],[data-build-hide]')) : [];
+      },
+      maxBuild: function () {
+        return this.buildElements().reduce(function (max, e) {
+          return Math.max(max, parseInt(e.dataset.build, 10) || 0, parseInt(e.dataset.buildHide, 10) || 0);
+        }, 0);
+      },
+      applyBuild: function () {
+        var elements = this.buildElements(), step = this._build || 0;
+        if (!elements.length) return;
+        // Match the export's declarative build grammar, without changing the
+        // source HTML or its timers. Mark ready so its observer cannot replay
+        // initialization over a position restored by the presenter.
+        this._buildSlide.classList.add('bld-ready');
+        elements.forEach(function (e) {
+          var from = parseInt(e.dataset.build, 10) || 0;
+          var until = e.hasAttribute('data-build-hide') ? parseInt(e.dataset.buildHide, 10) || 0 : Infinity;
+          e.classList.toggle('bld-off', !(step >= from && step < until));
+        });
+      },
+      key: function () {
+        this.slide();
+        // Keep existing integer keys for the initial state and plain slides.
+        return String(this.el().index) + (this._build ? '.' + this._build : '');
+      },
+      next: function () {
+        this.slide();
+        if (this._build < this.maxBuild()) { this._build++; this.applyBuild(); }
+        else { this.el().next(); this.slide(); }
+      },
+      prev: function () {
+        this.slide();
+        if (this._build > 0) { this._build--; this.applyBuild(); return; }
+        var before = this.el().index;
+        this.el().prev();
+        this.slide();
+        if (this.el().index !== before) { this._build = this.maxBuild(); this.applyBuild(); }
+      },
+      goto: function (k) {
+        var parts = String(k).split('.');
+        this.el().goTo(parseInt(parts[0], 10) || 0);
+        this.slide();
+        this._build = Math.max(0, Math.min(this.maxBuild(), parseInt(parts[1], 10) || 0));
+        this.applyBuild();
+      },
       enter: function () {
         var d = this.el(), s = d._slides && d._slides[d.index];
         if (!s) return;

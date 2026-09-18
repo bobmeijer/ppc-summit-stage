@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-18 13:11",
+ "built": "2026-09-18 19:17",
  "blocks": [
   {
    "id": "block-1",
@@ -4159,476 +4159,458 @@ window.STAGE_MANIFEST = {
       {
        "key": "0",
        "label": "19 · Title",
-       "notes": "- Own a bigger problem. Earn the right to help solve it.\n- Today you choose a direction worth exploring and one small step that could earn the next conversation.\n- I have brought my own map. My capability gap is real, my boundary is real, and my test has the same deadline as yours.",
+       "notes": "[01/70 · Title · Budget 00:30 · Clock 10:00:00–10:00:30]\n\nCUE (not spoken): Let the room settle after Geert. No second stand-up or hands-up exercise.\n\nSAY:\n\nThank you, Geert. Mike asked what people will pay us for when execution gets cheaper. Geert has just asked what we are going to do about it.\n\nThis hour makes that personal. Choose one responsibility worth growing into and one practical way to test it.",
        "thumb": "thumbs/w1/001.jpg"
       },
       {
        "key": "1",
        "label": "01 · Mike's question",
-       "notes": "",
+       "notes": "[02/70 · Mike's question · Budget 00:19 · Clock 10:00:30–10:00:49]\n\nCUE (not spoken): Pause on Mike’s question. Do not recap his whole talk.\n\nSAY:\n\nWhat do you charge for when the work is free?\n\nWhen producing reports, campaigns and analysis becomes easier, what does someone still need you to understand, decide or take responsibility for?",
        "thumb": "thumbs/w1/002.jpg"
       },
       {
        "key": "2",
        "label": "02 · The AI question",
-       "notes": "- If AI ran your accounts tomorrow, what would your clients still pay you for?\n- Think about the judgment, understanding or responsibility that would still make your contribution useful.\n- Keep your answer private. The next step is one honest line on your map.",
+       "notes": "[03/70 · The AI question · Budget 00:30 · Clock 10:00:49–10:01:19]\n\nCUE (not spoken): Address the whole room, including people already accountable for business results.\n\nSAY:\n\nIf AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n\nFreelancers: think client. In-house or agency: think employer or client. Team leads: think about the decisions that become better because you are there.\n\nYou may already have a strong answer. We will make it specific and decide where to develop it.",
        "thumb": "thumbs/w1/003.jpg"
       },
       {
        "key": "3",
-       "label": "03 · Workbook QR",
-       "notes": "- This is the workbook for the hour. Scan the code if you need your copy, then work from your printed workbook.\n- On page 2, mark your seat: freelancer, agency specialist, in-house specialist or team lead.\n- Mark where your responsibility usually stops today: the account, the lead, the sale, the customer or the business result. We will come back to that line.\n- Keep your laptop closed. Your own experience is the input for this workshop.",
+       "label": "13 · The three questions",
+       "notes": "[04/70 · The three questions · Budget 00:29 · Clock 10:01:19–10:01:48]\n\nCUE (not spoken): Trace the three parts once; do not explain every workbook field.\n\nSAY:\n\nWe will use Geert’s three questions.\n\nWhat is the gap? Connect today’s work to the result someone relies on you for.\n\nWhat matters most? Choose a direction, a capability and a boundary.\n\nWhat is my next step? Leave with a test, feedback and a date.\n\nOne useful decision about your next ninety days.",
        "thumb": "thumbs/w1/004.jpg"
       },
       {
        "key": "4",
-       "label": "04 · Your seat",
-       "notes": "",
+       "label": "03 · Workbook QR",
+       "notes": "[05/70 · Workbook QR · Budget 00:42 · Clock 10:01:48–10:02:30]\n\nCUE (not spoken): Hold the QR while the floor team resolves copies. Twenty seconds of room time is budgeted here; avoid device troubleshooting on stage.\n\nSAY:\n\nHave the workbook in front of you. We are working on paper this hour. This code gives you the digital copy to keep.\n\nIf you need a printed copy or a pen, raise your hand for the floor team. Everyone else, open page two.",
        "thumb": "thumbs/w1/005.jpg"
       },
       {
        "key": "5",
-       "label": "05 · Write · my stakeholder",
-       "notes": "- Choose one real stakeholder whose outcome could improve: a client, your employer, your team, or a recurring type of business you serve.\n- My map focuses on mature lead-gen and SaaS accounts stuck at a growth ceiling.\n- Write the stakeholder you want to think about for this hour. You can anonymize the name.\n- You have thirty seconds. If choosing is difficult, use the account you would worry about tonight if its results dropped thirty percent tomorrow.",
+       "label": "04 · Your seat",
+       "notes": "[06/70 · Your seat · Budget 00:37 · Clock 10:02:30–10:03:07]\n\nCUE (not spoken): Give twelve seconds to mark page 2, additional to the numbered exercise timers.\n\nSAY:\n\nCircle your main seat. Team lead can apply alongside another role.\n\nMark where your responsibility stops today: the work, the channel result, pipeline or revenue, or profitable growth.\n\nYour next move could mean broader responsibility, deeper expertise or better decisions through other people. All three are valid. Start from where you are.",
        "thumb": "thumbs/w1/006.jpg"
       },
       {
        "key": "6",
-       "label": "05b · Bob's map · my stakeholder",
-       "notes": "",
+       "label": "05 · Write · my stakeholder",
+       "notes": "[07/70 · Write · my stakeholder · Budget 00:25 · Clock 10:03:07–10:03:32]\n\nCUE (not spoken): Explain now; start the thirty seconds only on the countdown slide.\n\nSAY:\n\nPage four, question one. Choose one real person you could involve in a test: a client, manager or someone on your team.\n\nWrite their role and business. Keep that person in mind through the exercises. A real stakeholder will make your answers more useful.",
        "thumb": "thumbs/w1/007.jpg"
       },
       {
        "key": "7",
-       "label": "06 · Countdown 0:30",
-       "notes": "- Pens down. Keep that stakeholder in mind as we look at what they trust you to do.",
+       "label": "05b · Bob's map · my stakeholder",
+       "notes": "[08/70 · Bob's map · my stakeholder · Budget 00:20 · Clock 10:03:32–10:03:52]\n\nCUE (not spoken): This anonymized example does not assert an agreed pilot. Advance to the timer.\n\nSAY:\n\nMy stakeholder is a client who owns a high-value service business. I work directly with the owner.\n\nYou will see my proposed next step throughout. It is a direction I want to explore. Now choose your person.",
        "thumb": "thumbs/w1/008.jpg"
       },
       {
        "key": "8",
-       "label": "07 · Write · what they pay me for",
-       "notes": "",
+       "label": "06 · Countdown 0:30",
+       "notes": "[09/70 · Countdown 0:30 · Budget 00:33 · Clock 10:03:52–10:04:25]\n\nCUE (not spoken): Start the 0:30 countdown. Stay silent. At zero, advance after a brief visual check of the room.\n\nQUIET WORK: 00:30. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/009.jpg"
       },
       {
        "key": "9",
-       "label": "07b · Bob's map · what they pay me for",
-       "notes": "",
+       "label": "07 · Write · what they pay me for",
+       "notes": "[10/70 · Write · what they pay me for · Budget 00:24 · Clock 10:04:25–10:04:49]\n\nCUE (not spoken): Still page 4. The dedicated timer protects the writing time.\n\nSAY:\n\nQuestion two: what does this stakeholder pay you for today? Write at least five lines, including tasks, decisions and conversations.\n\nWhat did you work on last week? Which decisions came to you? What would they notice if you stopped? Write the actual list.",
        "thumb": "thumbs/w1/010.jpg"
       },
       {
        "key": "10",
-       "label": "08 · Countdown 1:30",
-       "notes": "",
+       "label": "07b · Bob's map · what they pay me for",
+       "notes": "[11/70 · Bob's map · what they pay me for · Budget 00:26 · Clock 10:04:49–10:05:15]\n\nCUE (not spoken): Read the grouping, not every numbered line individually. Advance to the timer.\n\nSAY:\n\nMine includes Google Ads strategy, campaigns, budgets, acquisition targets and deciding which tests to run.\n\nI also lead landing-page strategy, wireframes and conversion copy, working with a designer. And I explain results and agree priorities with the client.\n\nThat is my current responsibility. Put your actual contribution on the page.",
        "thumb": "thumbs/w1/011.jpg"
       },
       {
        "key": "11",
-       "label": "09 · Belief · more work",
-       "notes": "- The first belief to question is the one I started with: more account work equals more value.\n- Geert describes work inflation: you stay busy while falling behind your own potential.\n- As AI makes routine execution easier to produce, the amount of account activity becomes a weaker reason to pay someone more.\n- Your expertise becomes more valuable when it helps you recognize which work the business actually needs.",
+       "label": "08 · Countdown 1:30",
+       "notes": "[12/70 · Countdown 1:30 · Budget 01:33 · Clock 10:05:15–10:06:48]\n\nCUE (not spoken): Run the full 1:30 in silence. At zero, move to Mike’s thought experiment.\n\nQUIET WORK: 01:30. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/012.jpg"
       },
       {
        "key": "12",
-       "label": "10 · Write · the sort",
-       "notes": "",
+       "label": "09 · Belief · more work",
+       "notes": "[13/70 · Belief · more work · Budget 00:34 · Clock 10:06:48–10:07:22]\n\nCUE (not spoken): Build 0: Mike’s question. Click 1 before “If producing…” to show the belief. Click 2 before the final sentence.\n\nSAY:\n\nMike asked us to imagine that we cannot charge for execution within three years. Treat that as a thought experiment, not a forecast we need to agree on.\n\nIf producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n\nThe question becomes: which decisions, agreements and responsibilities still matter?",
        "thumb": "thumbs/w1/013.jpg"
       },
       {
-       "key": "13",
-       "label": "10b · Bob's map · the sort",
-       "notes": "",
+       "key": "12.1",
+       "label": "09 · Belief · more work",
+       "notes": "[13/70 · Belief · more work · Budget 00:34 · Clock 10:06:48–10:07:22]\n\nCUE (not spoken): Build 0: Mike’s question. Click 1 before “If producing…” to show the belief. Click 2 before the final sentence.\n\nSAY:\n\nMike asked us to imagine that we cannot charge for execution within three years. Treat that as a thought experiment, not a forecast we need to agree on.\n\nIf producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n\nThe question becomes: which decisions, agreements and responsibilities still matter?",
        "thumb": "thumbs/w1/014.jpg"
       },
       {
-       "key": "14",
-       "label": "11 · Countdown 3:00",
-       "notes": "",
+       "key": "12.2",
+       "label": "09 · Belief · more work",
+       "notes": "[13/70 · Belief · more work · Budget 00:34 · Clock 10:06:48–10:07:22]\n\nCUE (not spoken): Build 0: Mike’s question. Click 1 before “If producing…” to show the belief. Click 2 before the final sentence.\n\nSAY:\n\nMike asked us to imagine that we cannot charge for execution within three years. Treat that as a thought experiment, not a forecast we need to agree on.\n\nIf producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n\nThe question becomes: which decisions, agreements and responsibilities still matter?",
        "thumb": "thumbs/w1/015.jpg"
       },
       {
-       "key": "15",
-       "label": "12 · Potentieelpijn",
-       "notes": "- I could see more potential in these businesses than I could reach through the account alone.\n- Geert has a word for that feeling: potentieelpijn. The nagging sense of unfulfilled potential.\n- For me, it was the frustration of seeing the bigger problem while continuing to work inside the same familiar boundary.\n- If you recognize that feeling, your map gives you a way to explore where it is pointing.",
+       "key": "13",
+       "label": "10 · Write · the sort",
+       "notes": "[14/70 · Write · the sort · Budget 00:32 · Clock 10:07:22–10:07:54]\n\nCUE (not spoken): Keep the distinction about output versus responsibility, not work AI can never assist with.\n\nSAY:\n\nPage five, question three. Sort your list.\n\nLeft: work AI can increasingly produce. Right: what your stakeholder relies on you to judge, agree or take responsibility for.\n\nAn activity can span both. AI might produce the budget analysis while you agree the tradeoff with the client. Split it when that is more honest. Add anything your first list missed.",
        "thumb": "thumbs/w1/016.jpg"
       },
       {
-       "key": "16",
-       "label": "13 · The three questions",
-       "notes": "- Thank you, Geert. You gave us three questions: what is the gap, what matters most, and what is my next step?\n- In this hour, you are going to answer all three for your own work. Your answers become your Bigger Problem Map.\n- Each question follows the three moves from Geert's book: let go of a belief, take a fresh look, and put one small step on paper.\n- We start with the gap between the work you are trusted to do and the result your stakeholder needs. Then you choose a direction and a first step that could earn more responsibility.\n- Everything you write stays private unless you choose to share it. I will use my own map as the example throughout.",
+       "key": "14",
+       "label": "10b · Bob's map · the sort",
+       "notes": "[15/70 · Bob's map · the sort · Budget 00:35 · Clock 10:07:54–10:08:29]\n\nCUE (not spoken): Click 1 for the left answers. Click 2 before “On the right…” for responsibility examples. Do not read category labels as a second list.\n\nSAY:\n\nCampaign builds, analysis, variations and first drafts can go on the left.\n\nOn the right: agreeing what a worthwhile enquiry looks like. Judging the ad and page. Having the honest conversation when leads look good but sales do not.\n\nThen agreeing priorities, and asking what happened to the enquiries we paid for.\n\nThose are Mike’s five in my work. Now sort yours.",
        "thumb": "thumbs/w1/017.jpg"
+      },
+      {
+       "key": "14.1",
+       "label": "10b · Bob's map · the sort",
+       "notes": "[15/70 · Bob's map · the sort · Budget 00:35 · Clock 10:07:54–10:08:29]\n\nCUE (not spoken): Click 1 for the left answers. Click 2 before “On the right…” for responsibility examples. Do not read category labels as a second list.\n\nSAY:\n\nCampaign builds, analysis, variations and first drafts can go on the left.\n\nOn the right: agreeing what a worthwhile enquiry looks like. Judging the ad and page. Having the honest conversation when leads look good but sales do not.\n\nThen agreeing priorities, and asking what happened to the enquiries we paid for.\n\nThose are Mike’s five in my work. Now sort yours.",
+       "thumb": "thumbs/w1/018.jpg"
+      },
+      {
+       "key": "14.2",
+       "label": "10b · Bob's map · the sort",
+       "notes": "[15/70 · Bob's map · the sort · Budget 00:35 · Clock 10:07:54–10:08:29]\n\nCUE (not spoken): Click 1 for the left answers. Click 2 before “On the right…” for responsibility examples. Do not read category labels as a second list.\n\nSAY:\n\nCampaign builds, analysis, variations and first drafts can go on the left.\n\nOn the right: agreeing what a worthwhile enquiry looks like. Judging the ad and page. Having the honest conversation when leads look good but sales do not.\n\nThen agreeing priorities, and asking what happened to the enquiries we paid for.\n\nThose are Mike’s five in my work. Now sort yours.",
+       "thumb": "thumbs/w1/019.jpg"
+      },
+      {
+       "key": "15",
+       "label": "11 · Countdown 3:00",
+       "notes": "[16/70 · Countdown 3:00 · Budget 03:03 · Clock 10:08:29–10:11:32]\n\nCUE (not spoken): Run 3:00 in silence. This export has no visible Mike-five help panel, so do not announce an automatic panel. Floor team can quietly point stuck attendees to the printed prompt.\n\nQUIET WORK: 03:00. Remain silent and advance at zero.",
+       "thumb": "thumbs/w1/020.jpg"
+      },
+      {
+       "key": "16",
+       "label": "12 · Where could your contribution grow?",
+       "notes": "[17/70 · Where could your contribution grow? · Budget 00:26 · Clock 10:11:32–10:11:58]\n\nCUE (not spoken): Allow a short look back at page 5. They write in Q4 shortly.\n\nSAY:\n\nLook at your right-hand column. Where could your contribution grow?\n\nWhich responsibility could become a bigger part of your role? Perhaps you do it occasionally and want to become trusted for it consistently.\n\nFind something worth developing from where you already are.",
+       "thumb": "thumbs/w1/021.jpg"
       },
       {
        "key": "17",
        "label": "20 · The outcome ladder",
-       "notes": "- Managing Search campaigns should create qualified demand. That demand should support a reliable sales pipeline. The pipeline should contribute to predictable, profitable growth.\n- Each step matters to someone responsible for a larger part of the business.\n- Find the line you marked where your responsibility currently stops. Look one step above it.\n- That is a useful place to explore. You can connect your current expertise to a result the stakeholder already cares about.",
-       "thumb": "thumbs/w1/018.jpg"
+       "notes": "[18/70 · The outcome ladder · Budget 00:30 · Clock 10:11:58–10:12:28]\n\nCUE (not spoken): Trace left to right. This is a value connection, not a promotion hierarchy.\n\nSAY:\n\nCampaigns contribute to qualified demand, sales pipeline and profitable growth. Follow that connection without assuming you must personally own every step.\n\nIf you already own a commercial result, your gap might be deeper expertise or a team that makes better decisions without depending on you for everything.\n\nWhere could your contribution become stronger?",
+       "thumb": "thumbs/w1/022.jpg"
       },
       {
        "key": "18",
        "label": "21 · Write · the result",
-       "notes": "- Write the result your task serves. What should become better for the stakeholder because your work exists?\n- Mine is a pipeline of qualified leads that keeps flowing and growing profitably.\n- Then write the gap sentence in the margin: “I am trusted to do this task. The result that matters is this outcome. The space between is my gap.”\n- You have one minute for the result and that sentence. This answers the first big question: what is the gap?",
-       "thumb": "thumbs/w1/019.jpg"
+       "notes": "[19/70 · Write · the result · Budget 00:23 · Clock 10:12:28–10:12:51]\n\nCUE (not spoken): Separate the stakeholder’s desired result from the attendee’s proposed contribution.\n\nSAY:\n\nQuestion four, still page five. Write the result your stakeholder buys.\n\nThen finish the gap sentence: today they rely on me for this; I want to become trusted for that.\n\nKeep it provisional. You are making one possible next contribution visible.",
+       "thumb": "thumbs/w1/023.jpg"
       },
       {
        "key": "19",
        "label": "21b · Bob's map · the result",
-       "notes": "",
-       "thumb": "thumbs/w1/020.jpg"
+       "notes": "[20/70 · Bob's map · the result · Budget 00:28 · Clock 10:12:51–10:13:19]\n\nCUE (not spoken): Present desired value, not a performance guarantee. Advance to 1:30.\n\nSAY:\n\nMy client wants a steady flow of profitable customers the business can serve.\n\nToday I lead Google Ads and landing-page conversion. Next, I want to connect that with Paid Social, matching pages to the traffic temperature, message and offer.\n\nBroader acquisition responsibility, built on existing strengths. Write your result and possible next contribution.",
+       "thumb": "thumbs/w1/024.jpg"
       },
       {
        "key": "20",
        "label": "22 · Countdown 1:30",
-       "notes": "- Pens down. Your gap is now on paper.",
-       "thumb": "thumbs/w1/021.jpg"
+       "notes": "[21/70 · Countdown 1:30 · Budget 01:33 · Clock 10:13:19–10:14:52]\n\nCUE (not spoken): Run 1:30 in silence. Transition into Part 2 at zero. First major clock checkpoint.\n\nQUIET WORK: 01:30. Remain silent and advance at zero.",
+       "thumb": "thumbs/w1/025.jpg"
       },
       {
        "key": "21",
        "label": "23 · Act 2 · What matters most?",
-       "notes": "- You have identified the gap. The second question is what matters most.\n- We will look at your current capabilities, the problems around your account, and the kind of work you want more of.\n- By the end of this act, you will have compared three candidates and chosen one direction to test.",
-       "thumb": "thumbs/w1/022.jpg"
+       "notes": "[22/70 · Act 2 · What matters most? · Budget 00:21 · Clock 10:14:52–10:15:13]\n\nCUE (not spoken): Part 2 begins. Keep the divider brief.\n\nSAY:\n\nYou have a starting point and a possible gap. What is worth building?\n\nWe will look at your capability, compare directions and choose one that matters to your stakeholder and is work you want more of.",
+       "thumb": "thumbs/w1/026.jpg"
       },
       {
        "key": "22",
        "label": "14 · Doing more",
-       "notes": "- For a long time, becoming more valuable meant one thing to me: doing more Google Ads work.\n- Learn another feature. Run another test. Find another improvement. I have always wanted to overdeliver, so I pointed that energy at the account.\n- I was getting better at the work. I was much slower to question whether I was working on the problem that mattered most.",
-       "thumb": "thumbs/w1/023.jpg"
+       "notes": "[23/70 · Doing more · Budget 00:22 · Clock 10:15:13–10:15:35]\n\nCUE (not spoken): Personal history, not an accusation about the room.\n\nSAY:\n\nEarlier in my career, I thought becoming more valuable meant doing more Google Ads work. More optimizations, more account attention.\n\nMy skills improved, but my definition of useful work stayed inside the thing I already knew how to do.",
+       "thumb": "thumbs/w1/027.jpg"
       },
       {
        "key": "23",
        "label": "15 · Diagnosis left the account",
-       "notes": "- The useful diagnosis kept leaving the account.\n- Sometimes the measurement was telling us the wrong story. Sometimes the landing page made the decision difficult. Sometimes the offer was weak, or good leads were being handled badly.\n- I could keep improving campaigns while the same obstacle stayed in place.\n- The account showed the symptom. It did not always contain the answer.",
-       "thumb": "thumbs/w1/024.jpg"
+       "notes": "[24/70 · Diagnosis left the account · Budget 00:26 · Clock 10:15:35–10:16:01]\n\nCUE (not spoken): Short CH2 callback. Do not retell Day 1 cases or diagnose an attendee’s account.\n\nSAY:\n\nThe useful diagnosis kept taking me outside the account: measurement, the page, the offer, how the business handled leads.\n\nYou saw that pattern yesterday. The account could show the symptom without containing the answer.\n\nOnce I could see the issue, how could I contribute to resolving it?",
+       "thumb": "thumbs/w1/028.jpg"
       },
       {
        "key": "24",
        "label": "16 · Knowledge and the rep",
-       "notes": "- So I bought courses. CRO, conversion design, growth, persuasion, analytics. My knowledge went up.\n- For a while, my behavior barely changed. My calendar still contained the same account work.\n- I had become a slightly smarter version of the same specialist, doing the same work.\n- Knowledge gave me a foundation. I still needed to use it on a real problem before it changed what I could contribute.\n- The change came through practice. I did CRO audits for my own clients and turned the diagnosis into a wireframe.\n- My first rep was unpaid, in my own time. It gave me something concrete to bring into the conversation.\n- Instead of asking someone to trust an ambition, I could show them how I understood the problem and what I proposed to change.\n- The useful sequence was the audit, the artifact, and the conversation it made possible. That is what made the learning real.",
-       "thumb": "thumbs/w1/025.jpg"
+       "notes": "[25/70 · Knowledge and the rep · Budget 00:31 · Clock 10:16:01–10:16:32]\n\nCUE (not spoken): Build 0: certificates/knowledge. Click 1 before “An unpaid CRO audit…” to show the audit/wireframe/conversation. Use only the story already on the slide; add no name, uplift, fee or timeline.\n\nSAY:\n\nLearning helped me recognize the issues. Doing adjacent work changed my contribution.\n\nAn unpaid CRO audit became a wireframe and a concrete conversation. The useful sequence was practice, an artifact and feedback.\n\nYour first repetition can happen inside a paid role, with supervision. It does not need to be an unpaid evening project.",
+       "thumb": "thumbs/w1/029.jpg"
+      },
+      {
+       "key": "24.1",
+       "label": "16 · Knowledge and the rep",
+       "notes": "[25/70 · Knowledge and the rep · Budget 00:31 · Clock 10:16:01–10:16:32]\n\nCUE (not spoken): Build 0: certificates/knowledge. Click 1 before “An unpaid CRO audit…” to show the audit/wireframe/conversation. Use only the story already on the slide; add no name, uplift, fee or timeline.\n\nSAY:\n\nLearning helped me recognize the issues. Doing adjacent work changed my contribution.\n\nAn unpaid CRO audit became a wireframe and a concrete conversation. The useful sequence was practice, an artifact and feedback.\n\nYour first repetition can happen inside a paid role, with supervision. It does not need to be an unpaid evening project.",
+       "thumb": "thumbs/w1/030.jpg"
       },
       {
        "key": "25",
        "label": "17 · Own what you can judge",
-       "notes": "- When a client said yes, I owned the decisions I could judge: the diagnosis, landing-page strategy, information hierarchy, visual hierarchy, conversion copy and specification.\n- I could explain why a question needed answering, what a visitor needed to see, and how the page should help them decide.\n- Visual design and development stayed with specialists whose judgment was stronger than mine.\n- Owning the bigger problem meant bringing those contributions together around one outcome. It did not require me to become equally good at every part.",
-       "thumb": "thumbs/w1/026.jpg"
-      },
-      {
-       "key": "26",
-       "label": "18 · Recognize and judge",
-       "notes": "- These are the two abilities behind the story: recognizing where the problem may live and judging the work that could move it.\n- You cannot follow a constraint you cannot recognize. You cannot confidently direct work you cannot judge.\n- Breadth helps you notice the problem. Depth helps you make and defend a useful decision about it.\n- Your map will make both your next capability and your boundary more explicit.",
-       "thumb": "thumbs/w1/027.jpg"
-      },
-      {
-       "key": "27",
-       "label": "24 · Belief · judgment",
-       "notes": "- A belief often sits behind that answer: judgment is something you either have or you do not.\n- Judgment is knowledge applied to a real situation. It depends on channel craft, measurement truth, and understanding how the business works.\n- Knowledge can be learned. Applying it, getting feedback, and seeing what happened develops your judgment.\n- AI can produce more options and more output. Someone still has to recognize what fits the problem and what is wrong.\n- That gives you something practical to build toward. You can choose the capability, then practice the decisions it requires.",
-       "thumb": "thumbs/w1/028.jpg"
-      },
-      {
-       "key": "28",
-       "label": "25 · The five buckets",
-       "notes": "- These are the five areas we introduced yesterday: Business, Measurement, Conversion, Creative and Traffic.\n- Business includes the offer, economics and goals. \n- Measurement asks what is counted and whether the signal can be trusted.\n- Conversion covers what happens between the click and the conversion. \n- Creative carries the message and the offer. \n- Traffic brings demand to the site.\n- You need enough working knowledge across these areas to recognize where a problem may live. Your first depth, Google Ads, sits within Traffic.",
-       "thumb": "thumbs/w1/029.jpg"
-      },
-      {
-       "key": "29",
-       "label": "26 · The M-shaped specialist",
-       "notes": "- The M combines breadth with depth. Breadth helps you recognize problems across the system.\n- Your first depth is the Google Ads judgment you have already built. A second depth is one adjacent capability that serves the bigger problem you choose.\n- The boundary matters as much as the extra leg. It marks where another specialist should lead.\n- This is a direction for your development. You do not need to become an expert in five departments.",
-       "thumb": "thumbs/w1/030.jpg"
-      },
-      {
-       "key": "30",
-       "label": "27 · The four levels",
-       "notes": "- Recognize: you can spot that the problem may live here and flag it responsibly.\n- Understand: you can explain how it works and ask useful questions.\n- Judge: you can direct the work and validate the output, whether a human or AI produced it.\n- Own: you can lead the outcome and stay accountable for what happens.\n- Breadth starts with recognition. A depth leg grows toward Judge and Own, supported by experience you can point to.",
+       "notes": "[26/70 · Own what you can judge · Budget 00:30 · Clock 10:16:32–10:17:02]\n\nCUE (not spoken): Make the past-to-present transition explicit. No implemented-result claim for the wireframe.\n\nSAY:\n\nToday I lead landing-page strategy, wireframes and conversion copy. I can specify what the page needs to do and judge that work.\n\nMy designer has much stronger visual design skills. Development has its own expertise too.\n\nI lead strategy and coordinate delivery while specialists lead their craft. That is an ownership model you can build on.",
        "thumb": "thumbs/w1/031.jpg"
       },
       {
-       "key": "31",
-       "label": "28 · My M, honestly",
-       "notes": "- Here is my current shape. Business is Understand. Measurement is Own. Conversion and Creative are Judge. Traffic is Own.\n- Even that Traffic depth has a boundary: Google Ads. I am not claiming the same level across every advertising platform.\n- That is relevant to my map. I want to get better at judging demand creation through Meta and LinkedIn.\n- The levels reflect capabilities I have deliberately built. Your shape should reflect the work you can actually judge today.",
+       "key": "26",
+       "label": "25 · The five buckets",
+       "notes": "[27/70 · The five buckets · Budget 00:28 · Clock 10:17:02–10:17:30]\n\nCUE (not spoken): Point across the buckets without teaching each definition again.\n\nSAY:\n\nHere are the five buckets from yesterday, now applied to capability.\n\nBuild enough breadth to recognize an issue in business, measurement, conversion, creative or traffic, and recognize when someone else’s judgment is stronger.\n\nBreadth helps you ask better questions and involve the right person. You do not need equal depth everywhere.",
        "thumb": "thumbs/w1/032.jpg"
       },
       {
-       "key": "32",
-       "label": "29 · Write · my M-shape",
-       "notes": "- Open page 7. Color in your current depth in all five buckets using Recognize, Understand, Judge and Own.\n- Use the decisions you could explain and defend today as your reference. This is an honest self-mark, not a formal score.\n- Pencil in one candidate second leg: a capability you might want to develop next.\n- Keep it provisional. After you compare the problems, you may choose a different capability. You have ninety seconds.",
+       "key": "27",
+       "label": "26 · The M-shaped specialist",
+       "notes": "[28/70 · The M-shaped specialist · Budget 00:27 · Clock 10:17:30–10:17:57]\n\nCUE (not spoken): Point to existing depth, breadth and provisional next capability.\n\nSAY:\n\nThe M-shaped idea is selective depth. You already have Google Ads expertise and perhaps other strengths.\n\nYour next capability could sit in another bucket or elsewhere in the same one. Paid Social and Google Ads both sit in Traffic; they require different expertise.\n\nChoose depth because it serves your direction.",
        "thumb": "thumbs/w1/033.jpg"
       },
       {
-       "key": "33",
-       "label": "30 · Countdown 1:30",
-       "notes": "- Pens down. Every bucket should have a depth, with one possible second leg in pencil.",
+       "key": "28",
+       "label": "27 · The four levels",
+       "notes": "[29/70 · The four levels · Budget 00:34 · Clock 10:17:57–10:18:31]\n\nCUE (not spoken): Explain once. Do not add evidence scoring or a certification standard.\n\nSAY:\n\nUse four levels.\n\nRecognize: spot something that needs checking. Understand: explain how it works and ask useful questions. Judge: direct the work and evaluate its output. Lead: guide difficult work, explain tradeoffs and review others’ decisions.\n\nMark a specific capability. Keep capability separate from scope: what you can reliably do and judge versus what someone has agreed you are responsible for.",
        "thumb": "thumbs/w1/034.jpg"
       },
       {
-       "key": "34",
-       "label": "31 · Four credible moves",
-       "notes": "",
+       "key": "29",
+       "label": "28 · My M, honestly",
+       "notes": "[30/70 · My M, honestly · Budget 00:31 · Clock 10:18:31–10:19:02]\n\nCUE (not spoken): Explain Judge+ as a mixed profile, not a fifth workbook level. Do not reread the other bucket ratings.\n\nSAY:\n\nMy Traffic depth is Google Ads. Paid Social is developing.\n\nConversion is mixed: I lead strategy, wireframes and copy. A/B testing and deeper CRO are development areas. That is what Judge-plus is showing. Use the workbook’s four levels and explain differences in a note.\n\nI want to expand into Paid Social, building on those conversion strengths.",
        "thumb": "thumbs/w1/035.jpg"
       },
       {
-       "key": "35",
-       "label": "32 · The candidate sentence",
-       "notes": "- Use this sentence three times: “My stakeholder needs to improve this outcome, but this problem may be getting in the way.”\n- “May be” is deliberate. You are proposing a direction to investigate.\n- Keep the outcome and the possible obstacle in the same sentence. That makes the candidate meaningful to the stakeholder.\n- The next decision also depends on you: whether this is work you want to learn and take responsibility for.",
+       "key": "30",
+       "label": "18 · Today and next",
+       "notes": "[31/70 · Today and next · Budget 00:24 · Clock 10:19:02–10:19:26]\n\nCUE (not spoken): Bridge Bob’s self-assessment to the room’s self-assessment.\n\nSAY:\n\nToday I lead Google Ads and landing-page conversion. Next, I want to connect that with Paid Social.\n\nTraffic temperature means readiness to act. The channel alone does not tell me that. I want to match the message and page to that readiness.",
        "thumb": "thumbs/w1/036.jpg"
       },
       {
-       "key": "36",
-       "label": "33 · Write · three candidates",
-       "notes": "- Write three different candidate problems using the sentence. Give yourself something meaningful to compare.\n- My first candidate is that mature lead-gen and SaaS clients need to keep growing, but the demand Google Ads can reach may be running out.\n- Your other candidates should explore different possible obstacles, rather than three versions of the same tactic.\n- You have three and a half minutes. Use the word bank if it helps and keep the sentences readable rather than polished.",
+       "key": "31",
+       "label": "29 · Write · my M-shape",
+       "notes": "[32/70 · Write · my M-shape · Budget 00:28 · Clock 10:19:26–10:19:54]\n\nCUE (not spoken): Protect the full ninety seconds on the next slide.\n\nSAY:\n\nPage seven, question five. Mark your depth and note which capability you mean. One mark cannot describe everything in a bucket; your note makes it useful.\n\nPencil in a capability you might develop next. You have ninety seconds for an honest first version, which you can refine when you choose your direction.",
        "thumb": "thumbs/w1/037.jpg"
       },
       {
-       "key": "37",
-       "label": "33b · Bob's map · three candidates",
-       "notes": "",
+       "key": "32",
+       "label": "30 · Countdown 1:30",
+       "notes": "[33/70 · Countdown 1:30 · Budget 01:33 · Clock 10:19:54–10:21:27]\n\nCUE (not spoken): Run 1:30 in silence. At zero, move into possible directions.\n\nQUIET WORK: 01:30. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/038.jpg"
       },
       {
-       "key": "38",
-       "label": "34 · Countdown 3:00",
-       "notes": "- Pens down. Keep the candidates you have and compare them in the next step.",
+       "key": "33",
+       "label": "32 · The direction sentence",
+       "notes": "[34/70 · The direction sentence · Budget 00:28 · Clock 10:21:27–10:21:55]\n\nCUE (not spoken): Do not read the long example in full; the next Bob slide supplies the comparison.\n\nSAY:\n\nTurn the capability interest into a contribution somebody values.\n\nMy stakeholder would still pay for someone who does this, because this is why it matters.\n\nLearn Paid Social describes my interest. Connecting channel and page decisions to the same acquisition goal describes a contribution. Use the because to make that connection.",
        "thumb": "thumbs/w1/039.jpg"
       },
       {
-       "key": "39",
-       "label": "35 · Belief · the closed door",
-       "notes": "- The next belief is that your client will never let you near the bigger problem. For an agency specialist, that door might be an account director. In-house, it might be another department.\n- Start with a small, appropriate request: a conversation, a piece of evidence, or a contribution beside the current owner.\n- Then demonstrate that you can understand the problem and make something useful from what you learn.\n- Proof earns trust. Trust earns you a bigger problem.\n- That gives the other person a reason to involve you further. The next examples show what this can look like in practice.",
+       "key": "34",
+       "label": "33 · Write · three directions",
+       "notes": "[35/70 · Write · three directions · Budget 00:29 · Clock 10:21:55–10:22:24]\n\nCUE (not spoken): The four-role teaching slide has been removed. Point to the workbook without adding a lecture.\n\nSAY:\n\nPage eight, question six. Explore up to three directions: broader responsibility, deeper expertise or better decisions through others.\n\nSpend a minute on each. If you have two credible directions, use the final minute to sharpen them.\n\nThere is a word bank here and role examples on page fourteen if you need a starting point.",
        "thumb": "thumbs/w1/040.jpg"
       },
       {
-       "key": "40",
-       "label": "36 · This move has been made",
-       "notes": "- These are real members of our community, applying their expertise to a wider problem.\n- One freelancer was brought in by an agency close to losing a client. He reframed the work around unit economics, the offer and landing pages. The agency builds the pages to his requirements, and he owns the campaigns.\n- Benjamin is also a freelancer. He uses AI personas to challenge landing-page assumptions before spending budget. Those simulations generate questions to check with real evidence.\n- In a separate engagement, Benjamin out-audited a top-tier agency and won a premium client. Those are two distinct examples of how he works.\n- Kenza worked with data and finance to evaluate paid search against a company-approved 21-month payback target. That brought her closer to the economics the business cares about.\n- The common move is contributing something useful beyond the original account task, with a clear role in the work.",
+       "key": "35",
+       "label": "33b · Bob's map · three directions",
+       "notes": "[36/70 · Bob's map · three directions · Budget 00:34 · Clock 10:22:24–10:22:58]\n\nCUE (not spoken): Show two credible directions. The commercial value is the reason to explore them, not a promised uplift.\n\nSAY:\n\nMy first direction combines Google Ads, Paid Social and landing pages tailored to the traffic temperature, message and offer.\n\nMy second is deeper conversion expertise: stronger hypotheses, better testing and understanding what produces qualified enquiries and customers.\n\nBoth would be useful to the client. Both interest me. I am choosing between broader acquisition responsibility and deeper conversion expertise. I have two genuine options. Now write yours.",
        "thumb": "thumbs/w1/041.jpg"
       },
       {
-       "key": "41",
-       "label": "37 · Own, Influence or Flag",
-       "notes": "- You can choose three relationships to a problem: Own, Influence or Flag.\n- Own means leading the outcome, coordinating the work and following the evidence.\n- Influence means making a material contribution beside the accountable owner. Flag means identifying the issue, explaining its consequence and routing it to the right person.\n- Recognition lets you raise a credible flag. Deeper judgment lets you contribute more. Ownership requires the ability and mandate to lead the outcome.\n- Choose the relationship you can support. Seeing the problem does not oblige you to execute every part of the fix.",
+       "key": "36",
+       "label": "34 · Countdown 3:00",
+       "notes": "[37/70 · Countdown 3:00 · Budget 03:03 · Clock 10:22:58–10:26:01]\n\nCUE (not spoken): Run 3:00 in silence. The on-screen markers suggest switching direction after one minute and sharpening or adding a third after two.\n\nQUIET WORK: 03:00. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/042.jpg"
       },
       {
-       "key": "42",
-       "label": "38 · Write · both lines",
-       "notes": "- Before you choose, write what you want more of and what you want less of in your working life.\n- Mine is more time diagnosing what actually blocks growth across the journey, and less comfortable account tweaking that no longer moves the result.\n- You may recognize an important problem and decide that somebody else should own it. Your desired scope should reflect that.\n- As Geert said, performance is personal. You have one minute to write both lines honestly.",
+       "key": "37",
+       "label": "35 · Belief · the closed door",
+       "notes": "[38/70 · Belief · the closed door · Budget 00:32 · Clock 10:26:01–10:26:33]\n\nCUE (not spoken): Keep access and permission real. Evidence can help earn trust; it cannot guarantee authority.\n\nSAY:\n\nYou may already be thinking: my stakeholder will never let me near that.\n\nSometimes the next step is a smaller ask. Offer one useful contribution and ask for feedback. That gives you something concrete to discuss when you ask for more responsibility.\n\nA no also tells you something. It may change your scope, your first test or your direction.",
        "thumb": "thumbs/w1/043.jpg"
       },
       {
-       "key": "43",
-       "label": "38b · Bob's map · both lines",
-       "notes": "",
+       "key": "38",
+       "label": "36 · This move has been made",
+       "notes": "[39/70 · This move has been made · Budget 00:44 · Clock 10:26:33–10:27:17]\n\nCUE (not spoken): Use these as mechanisms, not unsupported success or uplift claims. Do not elaborate beyond the displayed stories.\n\nSAY:\n\nThree examples from the community.\n\nMichael set the landing-page requirements; the agency built the pages. He could contribute beyond campaigns through other specialists.\n\nBenjamin uses AI personas to challenge landing-page assumptions. That can generate questions to investigate; it does not replace evidence from customers.\n\nKenza worked with data and finance around an agreed twenty-one-month payback target. Her contribution included aligning people around a commercial decision.\n\nDifferent roles, different moves. Each makes the contribution more specific than simply doing more account work.",
        "thumb": "thumbs/w1/044.jpg"
       },
       {
-       "key": "44",
-       "label": "39 · Countdown 1:00",
-       "notes": "- Pens down. Use both lines when you choose your scope.",
+       "key": "39",
+       "label": "38 · Write · both lines",
+       "notes": "[40/70 · Write · both lines · Budget 00:33 · Clock 10:27:17–10:27:50]\n\nCUE (not spoken): Explain the private exercise without asking for a public confession.\n\nSAY:\n\nQuestion seven, page nine. What work do you want more of, and what work do you want less of?\n\nThink about last week. Be specific enough to picture it in your calendar.\n\nSomething can matter to the business without being work you want to build your career around. You can flag it responsibly or work with someone who wants to lead it.",
        "thumb": "thumbs/w1/045.jpg"
       },
       {
-       "key": "45",
-       "label": "40 · Two lenses",
-       "notes": "- Compare the candidates through two lenses: impact and access.\n- Impact asks whether the stakeholder would care if this improved. Access asks whether you can get close enough to learn something useful.\n- Access can begin with a smaller request than full responsibility: reviewing a few calls, seeing one report, or discussing one stalled handoff.\n- If the answer is no, record what you learned and see whether a smaller request is possible.\n- Also check your assumption: has the stakeholder actually refused, or have you never asked?",
+       "key": "40",
+       "label": "38b · Bob's map · both lines",
+       "notes": "[41/70 · Bob's map · both lines · Budget 00:31 · Clock 10:27:50–10:28:21]\n\nCUE (not spoken): Keep the distinction about value, not abandoning account optimization.\n\nSAY:\n\nI want more of planning how Google Ads, Paid Social and tailored landing pages work together.\n\nI want less of in-platform optimizations that do not move business results. That is productive avoidance: doing familiar work because it feels useful.\n\nValuable Google Ads work stays valuable. I want my time to follow the contribution, rather than the comfort of the task.",
        "thumb": "thumbs/w1/046.jpg"
       },
       {
-       "key": "46",
-       "label": "41 · Write · compare and circle",
-       "notes": "- For each candidate, mark impact and access as high, medium or low.\n- Choose the scope you want: Own, Influence or Flag. Use your more-of and less-of lines to keep that choice honest.\n- Then mark the pull. Which problem do you keep thinking about? Which would you want to understand better?\n- Compare the rows and circle one. If access is low, consider a smaller first test. You have two and a half minutes.",
+       "key": "41",
+       "label": "39 · Countdown 1:00",
+       "notes": "[42/70 · Countdown 1:00 · Budget 01:03 · Clock 10:28:21–10:29:24]\n\nCUE (not spoken): Run 1:00 in silence. Move straight into comparing directions at zero.\n\nQUIET WORK: 01:00. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/047.jpg"
       },
       {
-       "key": "47",
-       "label": "41b · Bob's map · compare and circle",
-       "notes": "",
+       "key": "42",
+       "label": "40 · Two lenses",
+       "notes": "[43/70 · Two lenses · Budget 00:45 · Clock 10:29:24–10:30:09]\n\nCUE (not spoken): Essential oral definition: this export has no standalone Own / Influence / Flag teaching slide. Deliver it before the comparison table.\n\nSAY:\n\nCompare the stakeholder value, your access and your own interest.\n\nImpact: what decision or result could improve? Access: can you get close enough to learn? Pull: do you want more of this work?\n\nAlso choose your desired scope. Own means taking agreed responsibility for the work and decisions. Influence means contributing while someone else remains accountable. Flag means making the issue visible to the right owner.\n\nThese are useful choices. You can lead through specialists, and deeper existing expertise can be the strongest direction.",
        "thumb": "thumbs/w1/048.jpg"
       },
       {
-       "key": "48",
-       "label": "42 · Countdown 2:30",
-       "notes": "- Pens down. Keep one candidate circled as the direction you will test.",
+       "key": "43",
+       "label": "41 · Write · compare and circle",
+       "notes": "[44/70 · Write · compare and circle · Budget 00:32 · Clock 10:30:09–10:30:41]\n\nCUE (not spoken): Page 9. Do not add numeric scoring or require a third row.\n\nSAY:\n\nCompare only the directions you wrote. Mark impact and access high, medium or low. Choose your desired scope and whether the pull is strong or weak. Then circle one direction.\n\nThese are provisional judgments, not calculated scores. If access is low, consider a smaller first test. You are choosing what to explore next, not signing a new job description.",
        "thumb": "thumbs/w1/049.jpg"
       },
       {
-       "key": "49",
-       "label": "43 · Write · capability edge",
-       "notes": "- Now name the capability required by your selected problem. What must you learn well enough to recognize and judge?\n- Compare it with the second leg you pencilled in earlier. Keep it or change it based on the problem you chose.\n- Mine is judging paid-social demand creation through Meta and LinkedIn well enough to direct and validate the work.\n- I am not yet claiming that I should run those platforms myself. You have one minute to write your capability edge.",
+       "key": "44",
+       "label": "41b · Bob's map · compare and circle",
+       "notes": "[45/70 · Bob's map · compare and circle · Budget 00:35 · Clock 10:30:41–10:31:16]\n\nCUE (not spoken): Point to H/M versus H/H, then the selected first row. No automatic highest-score rule.\n\nSAY:\n\nBoth my directions have high potential value and strong pull. I have easier access to deeper conversion work. The broader acquisition direction needs more learning and another specialist’s input.\n\nI still choose it because it builds on my conversion strengths and expands my responsibility across channels.\n\nOwn is the scope I want to agree with the client. It is not permission I already have. Now make your choice.",
        "thumb": "thumbs/w1/050.jpg"
       },
       {
-       "key": "50",
-       "label": "43b · Bob's map · capability edge",
-       "notes": "",
+       "key": "45",
+       "label": "42 · Countdown 2:30",
+       "notes": "[46/70 · Countdown 2:30 · Budget 02:33 · Clock 10:31:16–10:33:49]\n\nCUE (not spoken): Run the full 2:30 in silence. At zero, move to the capability required by the circled direction.\n\nQUIET WORK: 02:30. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/051.jpg"
       },
       {
-       "key": "51",
-       "label": "44 · Countdown 1:00",
-       "notes": "- Pens down. You should have one specific capability to develop.",
+       "key": "46",
+       "label": "43 · Write · capability edge",
+       "notes": "[47/70 · Write · capability edge · Budget 00:33 · Clock 10:33:49–10:34:22]\n\nCUE (not spoken): Point back to the pencil mark on page 7 without requiring another page change.\n\nSAY:\n\nQuestion nine, page ten. What must you become able to do, judge or coordinate for this direction to be credible?\n\nMake it observable. Learn more about marketing is too broad. What part of a recommendation can you not yet evaluate confidently?\n\nCheck the capability you pencilled in earlier. Your chosen direction may point somewhere different. Write one specific capability to practise.",
        "thumb": "thumbs/w1/052.jpg"
       },
       {
-       "key": "52",
-       "label": "45 · Write · boundary",
-       "notes": "- Write the part another specialist should lead. Make the handoff or non-goal explicit.\n- On my map, creative production and paid-social execution stay with specialists. My next step is learning to judge that work better.\n- In my landing-page work, final design and development also belong with the people best equipped to deliver them.\n- A clear boundary makes your proposed scope credible. You have one minute.",
+       "key": "47",
+       "label": "43b · Bob's map · capability edge",
+       "notes": "[48/70 · Bob's map · capability edge · Budget 00:29 · Clock 10:34:22–10:34:51]\n\nCUE (not spoken): Link the capability to the proposed contribution, rather than simply learning another platform.\n\nSAY:\n\nFor me: judge a Paid Social campaign concept and adapt the landing page to its traffic temperature, message and offer.\n\nWho is the ad for? What is it promising? What does that person need from the page before taking the next step?\n\nI want to make those judgments and have a specialist challenge what I missed.",
        "thumb": "thumbs/w1/053.jpg"
       },
       {
-       "key": "53",
-       "label": "45b · Bob's map · boundary",
-       "notes": "",
+       "key": "48",
+       "label": "44 · Countdown 1:00",
+       "notes": "[49/70 · Countdown 1:00 · Budget 01:03 · Clock 10:34:51–10:35:54]\n\nCUE (not spoken): Run 1:00 in silence. Transition to the boundary at zero.\n\nQUIET WORK: 01:00. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/054.jpg"
       },
       {
-       "key": "54",
-       "label": "46 · Countdown 1:00",
-       "notes": "- Pens down. Keep that boundary with your selected problem.",
+       "key": "49",
+       "label": "45 · Write · boundary",
+       "notes": "[50/70 · Write · boundary · Budget 00:30 · Clock 10:35:54–10:36:24]\n\nCUE (not spoken): Still page 10. Boundary is a deliberate division of responsibility, not a list of weaknesses.\n\nSAY:\n\nQuestion ten: what stays with someone else?\n\nName the work or decision and the role that leads it. Designer, developer, sales lead, finance partner, another specialist. Choose what applies to your direction.\n\nA clear boundary makes your responsibility credible. It shows how the work can be delivered and where you still need someone else’s expertise.",
        "thumb": "thumbs/w1/055.jpg"
       },
       {
-       "key": "55",
-       "label": "49 · Act 3 · What is my next step?",
-       "notes": "- You have answered what the gap is and what matters most.\n- Now we turn that direction into a next step: a 90-day scope bet and a 30-day test.\n- The test should tell you something important about whether this direction deserves more of your time.",
+       "key": "50",
+       "label": "45b · Bob's map · boundary",
+       "notes": "[51/70 · Bob's map · boundary · Budget 00:30 · Clock 10:36:24–10:36:54]\n\nCUE (not spoken): Follow the updated designer/developer boundary. Do not restore the previous version’s automatic Paid Social execution handoff.\n\nSAY:\n\nI want to coordinate acquisition strategy and lead the landing-page strategy, wireframes and conversion copy.\n\nMy designer leads visual design. A developer leads custom landing-page development. Those are real specialist responsibilities.\n\nPaid Social judgment is the capability I am developing. The test will include an experienced specialist who can challenge my work before I propose a pilot.",
        "thumb": "thumbs/w1/056.jpg"
       },
       {
-       "key": "56",
-       "label": "50 · Belief · takes years",
-       "notes": "- Another belief can stop the work here: building a second depth takes years, so there is little point starting now.\n- You can make learning more focused. Use a real problem, study what you need, apply it, and ask someone with stronger judgment to review the work.\n- AI can help explain unfamiliar ideas and challenge your reasoning. Real evidence and qualified feedback show whether your judgment is improving.\n- The practice is what matters. One useful rep gives you more to build on than another month waiting to feel ready.\n- Geert's white-belt example makes the same point: you can begin practicing before you are an expert.",
+       "key": "51",
+       "label": "46 · Countdown 1:00",
+       "notes": "[52/70 · Countdown 1:00 · Budget 01:03 · Clock 10:36:54–10:37:57]\n\nCUE (not spoken): Run 1:00 in silence. At zero, begin Part 3. Second major clock checkpoint.\n\nQUIET WORK: 01:00. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/057.jpg"
       },
       {
-       "key": "57",
-       "label": "51 · Content quality",
-       "notes": "- The knowledge you need is already published, in high quality, by people who do the work.\n- Free material can take you a long way into an unfamiliar capability.\n- Studying it is not the same as judging it. The rep is what turns the material into judgment.",
+       "key": "52",
+       "label": "49 · Act 3 · What is my next step?",
+       "notes": "[53/70 · Act 3 · What is my next step? · Budget 00:25 · Clock 10:37:57–10:38:22]\n\nCUE (not spoken): Keep the Part 3 divider brief.\n\nSAY:\n\nYou have chosen a direction, named a capability and drawn a boundary. Now make the next step small enough to take.\n\nYou are going to put the decision on one card and design a test that tells you whether to keep investing in it.",
        "thumb": "thumbs/w1/058.jpg"
       },
       {
-       "key": "58",
-       "label": "52 · Teach yourself",
-       "notes": "- You can also have the material taught to you, at your level, against your own client situation.\n- This is a lesson built from my own questions: contribution margin for ecommerce, in the vocabulary my clients use.\n- The tool explains. It does not do the rep for you.",
+       "key": "53",
+       "label": "50 · Belief · takes years",
+       "notes": "[54/70 · Belief · takes years · Budget 00:31 · Clock 10:38:22–10:38:53]\n\nCUE (not spoken): The years claim is the belief being challenged. Do not promise mastery in thirty days.\n\nSAY:\n\nUseful judgment develops through practice and feedback. Start with one piece of unfamiliar work and someone qualified to challenge it.\n\nMake an attempt, get specific corrections and revise. Then decide what to practise next.\n\nThat first repetition can reveal a lot about the gap. It does not need to establish that you have mastered the whole discipline.",
        "thumb": "thumbs/w1/059.jpg"
       },
       {
-       "key": "59",
-       "label": "53 · Belief · no time",
-       "notes": "- The final belief is that you have no time for a new capability.\n- Look at repeatable work you already understand well enough to judge. That is a useful place to systemize, with checks you can actually perform.\n- A reliable system names the data it sees, the person who owns the judgment, and the validation gate before its output is used.\n- Miles described this yesterday: optimize the work you own so you can spend more time on work that increases your value.\n- Decide where the freed time will go. Otherwise it is easy to fill it with more of the same activity.",
+       "key": "54",
+       "label": "54 · The pivot point",
+       "notes": "[55/70 · The pivot point · Budget 00:27 · Clock 10:38:53–10:39:20]\n\nCUE (not spoken): Page 12 is the complete decision card. Leave it open through the close.\n\nSAY:\n\nThis is the pivot point: attach action to the direction.\n\nOpen page twelve. Your ninety-day bet names where you want to develop. Your thirty-day test checks something you need to learn before investing more.\n\nWe will gather the choices you already made, identify the main uncertainty and design that test.",
        "thumb": "thumbs/w1/060.jpg"
       },
       {
-       "key": "60",
-       "label": "54 · The pivot point",
-       "notes": "- An insight lives in your head. A pivot point attaches action.\n- Your map has given you a direction. The bet and the test turn that direction into something you can do and learn from.\n- You may still lack knowledge, access, permission or certainty that you want the work. Your next move should help you learn about that gap.\n- You do not own the bigger problem yet. You can own the next honest move toward it.",
+       "key": "55",
+       "label": "55 · Write · direction and 90-day bet",
+       "notes": "[56/70 · Write · direction and 90-day bet · Budget 00:33 · Clock 10:39:20–10:39:53]\n\nCUE (not spoken): No new framework or extra planning fields. Advance through Bob’s card to the timer.\n\nSAY:\n\nQuestion eleven: fill the first block with short phrases. Stakeholder, direction for the next ninety days, desired scope, capability and boundary.\n\nReuse the answers you already wrote. This is where they come together.\n\nIf the scope still needs agreement, say so. You are recording a bet to explore, not claiming a mandate. Two minutes is enough for a usable first version.",
        "thumb": "thumbs/w1/061.jpg"
       },
       {
-       "key": "61",
-       "label": "55 · Write · direction and 90-day bet",
-       "notes": "",
+       "key": "56",
+       "label": "55b · Bob's map · direction and 90-day bet",
+       "notes": "[57/70 · Bob's map · direction and 90-day bet · Budget 00:34 · Clock 10:39:53–10:40:27]\n\nCUE (not spoken): Summarize the bet, capability and boundary. The designer and developer retain their specialist responsibilities; Bob coordinates acquisition strategy and leads landing-page strategy, wireframes and copy.\n\nSAY:\n\nMy bet is to develop and test the Google Ads and Paid Social approach for one client offer, with tailored landing pages.\n\nThe desired scope is Own, by agreement and with specialist support. The capability is judging the Paid Social concept and adapting the page.\n\nThe designer leads visual design, with development handled by a developer as we saw earlier. I coordinate strategy and landing-page work.",
        "thumb": "thumbs/w1/062.jpg"
       },
       {
-       "key": "62",
-       "label": "55b · Bob's map · direction and 90-day bet",
-       "notes": "",
+       "key": "57",
+       "label": "56 · Countdown 2:00",
+       "notes": "[58/70 · Countdown 2:00 · Budget 02:03 · Clock 10:40:27–10:42:30]\n\nCUE (not spoken): Run 2:00 in silence. At zero, move to the uncertainty field on the same page.\n\nQUIET WORK: 02:00. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/063.jpg"
       },
       {
-       "key": "63",
-       "label": "56 · Countdown 2:00",
-       "notes": "- Pens down. Your 90-day bet should now be written in full.",
+       "key": "58",
+       "label": "57 · Write · critical uncertainty",
+       "notes": "[59/70 · Write · critical uncertainty · Budget 00:32 · Clock 10:42:30–10:43:02]\n\nCUE (not spoken): Explain the four options once. Their forty seconds begin on slide 61.\n\nSAY:\n\nQuestion twelve: what do you need to learn before investing more time?\n\nChoose the uncertainty that matters first. Knowledge: can I do or judge this? Access: can I reach the people, information or work? Permission: will the accountable person agree? Desire: do I actually want this work?\n\nWrite one uncertainty and tag it. A useful no can change the direction.",
        "thumb": "thumbs/w1/064.jpg"
       },
       {
-       "key": "64",
-       "label": "57 · Write · critical uncertainty",
-       "notes": "",
+       "key": "59",
+       "label": "57b · Bob's map · critical uncertainty",
+       "notes": "[60/70 · Bob's map · critical uncertainty · Budget 00:26 · Clock 10:43:02–10:43:28]\n\nCUE (not spoken): Permission and commercial fit also matter, but keep one primary learning question.\n\nSAY:\n\nMine is Knowledge: can I judge how Paid Social should work alongside Google Ads, and what its traffic needs from the landing page?\n\nThat gives my first test a clear job. I need to see where my current judgment holds up and where a specialist has to correct it.",
        "thumb": "thumbs/w1/065.jpg"
       },
       {
-       "key": "65",
-       "label": "57b · Bob's map · critical uncertainty",
-       "notes": "",
+       "key": "60",
+       "label": "58 · Countdown 0:40",
+       "notes": "[61/70 · Countdown 0:40 · Budget 00:43 · Clock 10:43:28–10:44:11]\n\nCUE (not spoken): Run 0:40 in silence. At zero, introduce the test shapes.\n\nQUIET WORK: 00:40. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/066.jpg"
       },
       {
-       "key": "66",
-       "label": "58 · Countdown 0:40",
-       "notes": "- Pens down. Use that uncertainty to design the test.",
+       "key": "61",
+       "label": "59 · Five test shapes",
+       "notes": "[62/70 · Five test shapes · Budget 00:39 · Clock 10:44:11–10:44:50]\n\nCUE (not spoken): The sales example illustrates a test shape; it is not a return to follow-up work in Bob’s direction.\n\nSAY:\n\nThe test should answer that uncertainty. It might be a conversation, access to evidence, shadowing someone, making a diagnostic artifact or contributing alongside an accountable owner.\n\nLook at the sales-call example. Assess five calls yourself, compare with the sales lead and record what you missed. That gives you feedback on your judgment.\n\nChoose the smallest useful version for your question. A finished artifact only matters if it helps you learn what you need to know.",
        "thumb": "thumbs/w1/067.jpg"
       },
       {
-       "key": "67",
-       "label": "59 · Five test shapes",
-       "notes": "- Your test can be a conversation with the outcome owner, access to evidence, shadowing or reviewing adjacent work, a diagnostic artifact, or a contribution beside the accountable owner.\n- Choose the shape that can answer your uncertainty with the smallest credible step.\n- “Learn more about sales” is difficult to finish or evaluate. “Review five sales calls with the sales lead and map where qualified leads stall” names a person, an action and evidence.\n- This test is about learning whether you can move toward a wider scope. It does not need to prove a performance uplift in thirty days.\n- Size it so it feels uncomfortable but possible. If it requires authority you do not have, start with the request that could earn access.",
+       "key": "62",
+       "label": "60 · Write · the 30-day test",
+       "notes": "[63/70 · Write · the 30-day test · Budget 00:40 · Clock 10:44:50–10:45:30]\n\nCUE (not spoken): Keep October deadline explicit. The timer starts after Bob’s example, not during these instructions.\n\nSAY:\n\nQuestion thirteen, still page twelve. By twenty-five October, one test that can change your decision.\n\nFill six fields: the action, the person, the access you need, the evidence you will bring back, who can challenge it and what would make you continue, narrow, change or stop.\n\nMake the evidence specific. Completing a course alone does not tell you whether your judgment improved.\n\nYou have five minutes. Bob’s full card is on page thirteen; role examples are on fourteen.",
        "thumb": "thumbs/w1/068.jpg"
       },
       {
-       "key": "68",
-       "label": "60 · Write · the 30-day test",
-       "notes": "",
+       "key": "63",
+       "label": "60b · Bob's map · the 30-day test",
+       "notes": "[64/70 · Bob's map · the 30-day test · Budget 00:47 · Clock 10:45:30–10:46:17]\n\nCUE (not spoken): The independent attempt makes the feedback informative. Proposed pilot is a learning decision, not a live-launch promise.\n\nSAY:\n\nI will draft a Paid Social concept and matching wireframe independently, then review and revise them with a specialist before discussing a pilot with the client.\n\nI need the offer, Google Ads results, current page, creative assets and client context.\n\nI will keep both versions and the corrections, plus a measurement proposal and delivery responsibilities. The specialist challenges channel assumptions; the client challenges commercial fit.\n\nIf the key corrections are addressed and scope is agreed, I can propose a pilot. Otherwise I practise the weak area or let the specialist lead more.",
        "thumb": "thumbs/w1/069.jpg"
       },
       {
-       "key": "69",
-       "label": "60b · Bob's map · the 30-day test",
-       "notes": "",
+       "key": "64",
+       "label": "61 · Countdown 5:00",
+       "notes": "[65/70 · Countdown 5:00 · Budget 05:03 · Clock 10:46:17–10:51:20]\n\nCUE (not spoken): Run 5:00 in silence. Floor team quietly identifies up to two willing sharers in different roles and positions a microphone if available. No compulsory pairing. At zero, move straight to the one-minute completion slide. Planned start of this five-minute timer: about 10:46. Recovery target: begin by 10:51:45 at the latest; omit sharing on that route. Protect the full writing time and the following completion minute.\n\nQUIET WORK: 05:00. Remain silent and advance at zero.",
        "thumb": "thumbs/w1/070.jpg"
       },
       {
-       "key": "70",
-       "label": "61 · Countdown 5:00",
-       "notes": "- Pens down. Underline the date and the evidence.",
+       "key": "65",
+       "label": "66 · Completion check · Countdown 1:00",
+       "notes": "[66/70 · Completion check · Countdown 1:00 · Budget 01:03 · Clock 10:51:20–10:52:23]\n\nCUE (not spoken): Speak these instructions as the one-minute countdown starts; speech is INSIDE the minute. The remaining time is quiet. Phones can be used for the calendar and photos.\n\nSPOKEN INSIDE THE 1:00 COUNTDOWN:\n\nCheck the test answers your uncertainty and names a qualified reviewer. Schedule your first step and October review. Photograph pages five and twelve. Fix your weakest answer.",
        "thumb": "thumbs/w1/071.jpg"
       },
       {
-       "key": "71",
-       "label": "61b · Quality check · Countdown 1:00",
-       "notes": "",
+       "key": "66",
+       "label": "62 · Four seats, four moves",
+       "notes": "[67/70 · Four seats, four moves · Budget 02:00 · Clock 10:52:23–10:54:23]\n\nCUE (not spoken): OPTIONAL: maximum 2:00 total INCLUDING Bob’s words, responses and microphone movement. The four seat labels represent the room, not four required speakers. Use the pre-identified volunteers. Skip if no one is ready or the clock is tight. If the completion check finishes after 10:56, skip this optional slide and go directly to slide 68. The maximum sharing block is two minutes including introduction, replies and microphone movement.\n\nSPOKEN INSIDE THE OPTIONAL 2:00 SHARING BLOCK:\n\nTwo quick examples from different roles. Thirty seconds each: your direction, your scope, the test and what you want to learn.\n\n[After the two responses:] Thank you. Notice how different the next moves can be. Your own card is the one you need to act on.",
        "thumb": "thumbs/w1/072.jpg"
       },
       {
-       "key": "72",
-       "label": "62 · Four seats, four moves",
-       "notes": "- Does anyone want to share their next move? We have room for a freelancer, an agency specialist, an in-house specialist and a team lead.\n- From your seat, give us the stakeholder, the bigger problem, your scope and your 30-day test.\n- Keep it to about thirty seconds so we can hear the different routes. Share only what you are comfortable making public.\n- Your map is complete whether you share it or keep it private.",
+       "key": "67",
+       "label": "63 · Trust is demonstrated",
+       "notes": "[68/70 · Trust is demonstrated · Budget 00:23 · Clock 10:54:23–10:54:46]\n\nCUE (not spoken): Let the quote breathe briefly. Do not introduce another framework or sales pitch.\n\nSAY:\n\nMike said: trust is demonstrated, not asked for.\n\nYour next step gives someone a concrete contribution to challenge. You can show the first attempt, the feedback and what changed.\n\nThat is something you can build on when you discuss greater responsibility.",
        "thumb": "thumbs/w1/073.jpg"
       },
       {
-       "key": "73",
-       "label": "63 · Trust is demonstrated",
-       "notes": "- Mike gave us the rule yesterday: “Trust is demonstrated, not asked for.”\n- Your test is a chance to make that demonstration: understand something useful, contribute within your boundary, and bring back evidence.",
+       "key": "68",
+       "label": "64 · Mike's question, answered through three questions",
+       "notes": "[69/70 · Mike's question, answered through three questions · Budget 00:35 · Clock 10:54:46–10:55:21]\n\nCUE (not spoken): Build 0: Mike’s question. Click 1 before “You now have…” to reveal the three answers. Do not ask for a public answer.\n\nSAY:\n\nCome back to Mike’s question. If AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n\nYou now have a more specific answer. The value you want to strengthen. One direction you chose over the others. And a test, due twenty-five October, that will tell you what to do next.\n\nYou have answered Geert’s three questions on paper.",
        "thumb": "thumbs/w1/074.jpg"
       },
       {
-       "key": "74",
-       "label": "64 · Mike's question, answered",
-       "notes": "",
+       "key": "68.1",
+       "label": "64 · Mike's question, answered through three questions",
+       "notes": "[69/70 · Mike's question, answered through three questions · Budget 00:35 · Clock 10:54:46–10:55:21]\n\nCUE (not spoken): Build 0: Mike’s question. Click 1 before “You now have…” to reveal the three answers. Do not ask for a public answer.\n\nSAY:\n\nCome back to Mike’s question. If AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n\nYou now have a more specific answer. The value you want to strengthen. One direction you chose over the others. And a test, due twenty-five October, that will tell you what to do next.\n\nYou have answered Geert’s three questions on paper.",
        "thumb": "thumbs/w1/075.jpg"
       },
       {
-       "key": "75",
-       "label": "65 · The arena",
-       "notes": "- Geert asked you to step into the arena. You now have a map, a test, and a clear idea of the evidence you want to earn.\n- Imagine it is 25 October. You have a page, a decision or a piece of documented learning that did not exist today.\n- That gives you something concrete for the next stakeholder conversation, even if the test changes your direction.\n- Performance is personal. You have your own arena and your own pace. Keep taking steps that give you evidence.",
+       "key": "69",
+       "label": "68 · Step into the arena",
+       "notes": "[70/70 · Step into the arena · Budget 00:32 · Clock 10:55:21–10:55:53]\n\nCUE (not spoken): Hard release by 11:00. No Q&A block. Keep the final slide on screen.\n\nSAY:\n\nYou zoomed out and chose a direction. Your next step is on the page.\n\nAfter the break, we will decide what one account needs next. Your career direction and that account’s priority may be different. We will let the evidence guide that decision.\n\nKeep the workbook. Enjoy the break. We are back here at eleven fifteen.",
        "thumb": "thumbs/w1/076.jpg"
-      },
-      {
-       "key": "76",
-       "label": "66 · Photograph your map",
-       "notes": "- Photograph pages 11, 13 and 14: your direction and boundary, your scope bet, and your dated test.\n- Check that you have a real stakeholder, three candidate problems, one selected direction, and your Own, Influence or Flag choice.\n- Your capability edge, boundary, 90-day bet and 30-day test complete the map. The test is due 25 October 2026.\n- Keep the workbook and the photographs somewhere you will find them when you return to work.",
-       "thumb": "thumbs/w1/077.jpg"
-      },
-      {
-       "key": "77",
-       "label": "67 · All three answered",
-       "notes": "- What is the gap? The distance between your current mandate and the result that matters.\n- What matters most? The problem you selected, with a capability to build and a boundary you can defend.\n- What is your next step? Your dated test, with a person and evidence attached.\n- Look again at where you marked the end of your responsibility. Your bet gives you a way to explore moving that line.",
-       "thumb": "thumbs/w1/078.jpg"
-      },
-      {
-       "key": "78",
-       "label": "68 · Now you act",
-       "notes": "- Geert calls this moment the switch: het schakelpunt. You zoomed out. You chose. Now you act.\n- My test is due 25 October, the same as yours. Hold me to it in the community.\n- After the break, I will use a real audit to show how I decide what matters first. Then you will make a first diagnostic choice on an account you know.\n- We are back at 11:15. Enjoy the break.",
-       "thumb": "thumbs/w1/079.jpg"
       }
      ]
     },
