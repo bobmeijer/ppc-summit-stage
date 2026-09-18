@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-18 05:51",
+ "built": "2026-09-18 06:04",
  "blocks": [
   {
    "id": "block-1",
@@ -5518,7 +5518,7 @@ window.STAGE_MANIFEST = {
      "kind": "images",
      "timer": {
       "id": "CS1 · Ramial Aqeel",
-      "minutes": 12,
+      "minutes": 15,
       "start": false
      },
      "steps": [
@@ -5536,7 +5536,7 @@ window.STAGE_MANIFEST = {
      "kind": "images",
      "timer": {
       "id": "CS1 · Ramial Aqeel",
-      "minutes": 12,
+      "minutes": 15,
       "start": true
      },
      "steps": [
@@ -5734,7 +5734,7 @@ window.STAGE_MANIFEST = {
      "kind": "images",
      "timer": {
       "id": "CS2 · Violeta Balbae",
-      "minutes": 12,
+      "minutes": 15,
       "start": false
      },
      "steps": [
@@ -5752,7 +5752,7 @@ window.STAGE_MANIFEST = {
      "kind": "images",
      "timer": {
       "id": "CS2 · Violeta Balbae",
-      "minutes": 12,
+      "minutes": 15,
       "start": true
      },
      "steps": [
@@ -5850,7 +5850,7 @@ window.STAGE_MANIFEST = {
      "kind": "images",
      "timer": {
       "id": "CS3 · Quint van der Meer",
-      "minutes": 12,
+      "minutes": 15,
       "start": false
      },
      "steps": [
@@ -5868,7 +5868,7 @@ window.STAGE_MANIFEST = {
      "kind": "images",
      "timer": {
       "id": "CS3 · Quint van der Meer",
-      "minutes": 12,
+      "minutes": 15,
       "start": true
      },
      "steps": [
