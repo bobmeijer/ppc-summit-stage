@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-17 13:25",
+ "built": "2026-09-18 05:51",
  "blocks": [
   {
    "id": "block-1",
@@ -408,21 +408,9 @@ window.STAGE_MANIFEST = {
       },
       {
        "key": "49",
-       "label": "50 · Today, in order",
+       "label": "50 · Over to Bob",
        "notes": "",
        "thumb": "thumbs/ch1/050.jpg"
-      },
-      {
-       "key": "50",
-       "label": "51 · And tomorrow",
-       "notes": "",
-       "thumb": "thumbs/ch1/051.jpg"
-      },
-      {
-       "key": "51",
-       "label": "52 · Over to Bob",
-       "notes": "",
-       "thumb": "thumbs/ch1/052.jpg"
       }
      ]
     },
@@ -4495,326 +4483,302 @@ window.STAGE_MANIFEST = {
       {
        "key": "20",
        "label": "20 · Write · the result",
-       "notes": "- Write the result your task serves. What should become better for the stakeholder because your work exists?\n- Mine is a pipeline of qualified leads that keeps flowing and growing profitably.\n- Then write the gap sentence in the margin: “I am trusted to do this task. The result that matters is this outcome. The space between is my gap.”\n- You have one minute and five seconds for the result and that sentence. This answers the first big question: what is the gap?",
+       "notes": "- Write the result your task serves. What should become better for the stakeholder because your work exists?\n- Mine is a pipeline of qualified leads that keeps flowing and growing profitably.\n- Then write the gap sentence in the margin: “I am trusted to do this task. The result that matters is this outcome. The space between is my gap.”\n- You have one minute for the result and that sentence. This answers the first big question: what is the gap?",
        "thumb": "thumbs/w1/021.jpg"
       },
       {
        "key": "21",
-       "label": "21 · Countdown 1:05",
+       "label": "21 · Countdown 1:00",
        "notes": "- Pens down. Your gap is now on paper.",
        "thumb": "thumbs/w1/022.jpg"
       },
       {
        "key": "22",
-       "label": "22 · Problems, not projects",
-       "notes": "- “Improve the landing pages” names a project. It already assumes what the work should be.\n- “Shoppers cannot tell our products apart, so paid traffic converts below plan” names the blocked result and a possible reason.\n- That leaves room to discover what would actually help: clearer positioning, a comparison, different routing, a different offer, or something else.\n- When you write your candidates, describe the problem before committing to the project.",
+       "label": "23 · Act 2 · What matters most?",
+       "notes": "- You have identified the gap. The second question is what matters most.\n- We will look at your current capabilities, the problems around your account, and the kind of work you want more of.\n- By the end of this act, you will have compared three candidates and chosen one direction to test.",
        "thumb": "thumbs/w1/023.jpg"
       },
       {
        "key": "23",
-       "label": "23 · Act 2 · What matters most?",
-       "notes": "- You have identified the gap. The second question is what matters most.\n- We will look at your current capabilities, the problems around your account, and the kind of work you want more of.\n- By the end of this act, you will have compared three candidates and chosen one direction to test.",
+       "label": "24 · The AI question",
+       "notes": "- If AI ran your accounts tomorrow, what would your clients still pay you for?\n- Think about the judgment, understanding or responsibility that would still make your contribution useful.\n- Keep your answer private. The next step is one honest line on your map.",
        "thumb": "thumbs/w1/024.jpg"
       },
       {
        "key": "24",
-       "label": "24 · The AI question",
-       "notes": "- If AI ran your accounts tomorrow, what would your clients still pay you for?\n- Think about the judgment, understanding or responsibility that would still make your contribution useful.\n- Keep your answer private. The next step is one honest line on your map.",
+       "label": "25 · Write · honest line",
+       "notes": "- Write your honest answer in the map margin. One line.\n- If your answer feels incomplete, write it anyway. It gives you a starting point.\n- Thirty seconds. This line is for your eyes only.",
        "thumb": "thumbs/w1/025.jpg"
       },
       {
        "key": "25",
-       "label": "25 · Write · honest line",
-       "notes": "- Write your honest answer in the map margin. One line.\n- If your answer feels incomplete, write it anyway. It gives you a starting point.\n- Fifteen seconds. This line is for your eyes only.",
+       "label": "26 · Countdown 0:30",
+       "notes": "- Pens down. Keep that answer as a reference for what comes next.",
        "thumb": "thumbs/w1/026.jpg"
       },
       {
        "key": "26",
-       "label": "26 · Countdown 0:15",
-       "notes": "- Pens down. Keep that answer as a reference for what comes next.",
+       "label": "27 · Belief · judgment",
+       "notes": "- A belief often sits behind that answer: judgment is something you either have or you do not.\n- Judgment is knowledge applied to a real situation. It depends on channel craft, measurement truth, and understanding how the business works.\n- Knowledge can be learned. Applying it, getting feedback, and seeing what happened develops your judgment.\n- AI can produce more options and more output. Someone still has to recognize what fits the problem and what is wrong.\n- That gives you something practical to build toward. You can choose the capability, then practice the decisions it requires.",
        "thumb": "thumbs/w1/027.jpg"
       },
       {
        "key": "27",
-       "label": "27 · Belief · judgment",
-       "notes": "- A belief often sits behind that answer: judgment is something you either have or you do not.\n- Judgment is knowledge applied to a real situation. It depends on channel craft, measurement truth, and understanding how the business works.\n- Knowledge can be learned. Applying it, getting feedback, and seeing what happened develops your judgment.\n- AI can produce more options and more output. Someone still has to recognize what fits the problem and what is wrong.\n- That gives you something practical to build toward. You can choose the capability, then practice the decisions it requires.",
+       "label": "28 · The five buckets",
+       "notes": "- These are the five areas we introduced yesterday: Business, Measurement, Conversion, Creative and Traffic.\n- Business includes the offer, economics and goals. \n- Measurement asks what is counted and whether the signal can be trusted.\n- Conversion covers what happens between the click and the conversion. \n- Creative carries the message and the offer. \n- Traffic brings demand to the site.\n- You need enough working knowledge across these areas to recognize where a problem may live. Your first depth, Google Ads, sits within Traffic.",
        "thumb": "thumbs/w1/028.jpg"
       },
       {
        "key": "28",
-       "label": "28 · The five buckets",
-       "notes": "- These are the five areas we introduced yesterday: Business, Measurement, Conversion, Creative and Traffic.\n- Business includes the offer, economics and goals. Measurement asks what is counted and whether the signal can be trusted.\n- Conversion covers what happens between the click and the conversion. Creative carries the message and the offer. Traffic brings demand to the site.\n- You need enough working knowledge across these areas to recognize where a problem may live. Your first depth, Google Ads, sits within Traffic.",
+       "label": "29 · The M-shaped specialist",
+       "notes": "- The M combines breadth with depth. Breadth helps you recognize problems across the system.\n- Your first depth is the Google Ads judgment you have already built. A second depth is one adjacent capability that serves the bigger problem you choose.\n- The boundary matters as much as the extra leg. It marks where another specialist should lead.\n- This is a direction for your development. You do not need to become an expert in five departments.",
        "thumb": "thumbs/w1/029.jpg"
       },
       {
        "key": "29",
-       "label": "29 · The M-shaped specialist",
-       "notes": "- The M combines breadth with depth. Breadth helps you recognize problems across the system.\n- Your first depth is the Google Ads judgment you have already built. A second depth is one adjacent capability that serves the bigger problem you choose.\n- The boundary matters as much as the extra leg. It marks where another specialist should lead.\n- This is a direction for your development. You do not need to become an expert in five departments.",
+       "label": "30 · The four levels",
+       "notes": "- Recognize: you can spot that the problem may live here and flag it responsibly.\n- Understand: you can explain how it works and ask useful questions.\n- Judge: you can direct the work and validate the output, whether a human or AI produced it.\n- Own: you can lead the outcome and stay accountable for what happens.\n- Breadth starts with recognition. A depth leg grows toward Judge and Own, supported by experience you can point to.",
        "thumb": "thumbs/w1/030.jpg"
       },
       {
        "key": "30",
-       "label": "30 · The four levels",
-       "notes": "- Recognize: you can spot that the problem may live here and flag it responsibly.\n- Understand: you can explain how it works and ask useful questions.\n- Judge: you can direct the work and validate the output, whether a human or AI produced it.\n- Own: you can lead the outcome and stay accountable for what happens.\n- Breadth starts with recognition. A depth leg grows toward Judge and Own, supported by experience you can point to.",
+       "label": "31 · My M, honestly",
+       "notes": "- Here is my current shape. Business is Understand. Measurement is Own. Conversion and Creative are Judge. Traffic is Own.\n- Even that Traffic depth has a boundary: Google Ads. I am not claiming the same level across every advertising platform.\n- That is relevant to my map. I want to get better at judging demand creation through Meta and LinkedIn.\n- The levels reflect capabilities I have deliberately built. Your shape should reflect the work you can actually judge today.",
        "thumb": "thumbs/w1/031.jpg"
       },
       {
        "key": "31",
-       "label": "31 · My M, honestly",
-       "notes": "- Here is my current shape. Business is Understand. Measurement is Own. Conversion and Creative are Judge. Traffic is Own.\n- Even that Traffic depth has a boundary: Google Ads. I am not claiming the same level across every advertising platform.\n- That is relevant to my map. I want to get better at judging demand creation through Meta and LinkedIn.\n- The levels reflect capabilities I have deliberately built. Your shape should reflect the work you can actually judge today.",
+       "label": "32 · Write · my M-shape",
+       "notes": "- Open page 7. Color in your current depth in all five buckets using Recognize, Understand, Judge and Own.\n- Use the decisions you could explain and defend today as your reference. This is an honest self-mark, not a formal score.\n- Pencil in one candidate second leg: a capability you might want to develop next.\n- Keep it provisional. After you compare the problems, you may choose a different capability. You have ninety seconds.",
        "thumb": "thumbs/w1/032.jpg"
       },
       {
        "key": "32",
-       "label": "32 · Write · my M-shape",
-       "notes": "- Open page 7. Color in your current depth in all five buckets using Recognize, Understand, Judge and Own.\n- Use the decisions you could explain and defend today as your reference. This is an honest self-mark, not a formal score.\n- Pencil in one candidate second leg: a capability you might want to develop next.\n- Keep it provisional. After you compare the problems, you may choose a different capability. You have ninety seconds.",
+       "label": "33 · Countdown 1:30",
+       "notes": "- Pens down. Every bucket should have a depth, with one possible second leg in pencil.",
        "thumb": "thumbs/w1/033.jpg"
       },
       {
        "key": "33",
-       "label": "33 · Countdown 1:30",
-       "notes": "- Pens down. Every bucket should have a depth, with one possible second leg in pencil.",
+       "label": "39 · The candidate formula",
+       "notes": "- Use this sentence three times: “My stakeholder needs to improve this outcome, but this problem may be getting in the way.”\n- “May be” is deliberate. You are proposing a direction to investigate.\n- Keep the outcome and the possible obstacle in the same sentence. That makes the candidate meaningful to the stakeholder.\n- The next decision also depends on you: whether this is work you want to learn and take responsibility for.",
        "thumb": "thumbs/w1/034.jpg"
       },
       {
        "key": "34",
-       "label": "34 · Capability, not department",
-       "notes": "- Make that second leg specific. Conversion is an area; landing-page strategy, creation and optimization are capabilities.\n- Measurement could mean commercial measurement and customer-value decisions. Business could mean diagnosing the sales process in a lead-gen company.\n- A capability can also be human: running the uncomfortable stakeholder conversation well enough to get access, clarify the problem and agree a next step.\n- If your answer fits on a department door, sharpen it until you can picture a decision you would learn to make.",
+       "label": "40 · Borrow the node",
+       "notes": "- Borrow a problem area from the landscape, then make it specific to your stakeholder.\n- “Speed-to-lead” becomes “Good leads wait two days for a first reply, so show-up may be suffering.”\n- Use that level of specificity when you have evidence for it. When you do not, make the uncertainty clear.\n- The landscape is a starting point for your thinking. Your stakeholder's actual situation supplies the candidate.",
        "thumb": "thumbs/w1/035.jpg"
       },
       {
        "key": "35",
-       "label": "35 · The gallery",
-       "notes": "- The next three slides show landscapes of possible problems around Google Ads: B2C lead generation, B2B SaaS and ecommerce.\n- Nobody owns all of this. Look for the area that connects to your stakeholder's result and makes you curious.\n- Even on a slide outside your vertical, look for a problem your business shares.\n- If a different stakeholder has become the obvious choice, switch now and use that stakeholder consistently from here.",
+       "label": "41 · Write · three candidates",
+       "notes": "- Write three different candidate problems using the sentence. Give yourself something meaningful to compare.\n- My first candidate is that mature lead-gen and SaaS clients need to keep growing, but the demand Google Ads can reach may be running out.\n- Your other candidates should explore different possible obstacles, rather than three versions of the same tactic.\n- You have three and a half minutes. Use the word bank if it helps and keep the sentences readable rather than polished.",
        "thumb": "thumbs/w1/036.jpg"
       },
       {
        "key": "36",
-       "label": "36 · Landscape · B2C leadgen",
-       "notes": "- The outcome here is profitable growth from lead generation.\n- Demand creation, the offer and the post-click experience affect which leads arrive. Response speed, qualification and routing affect what happens next.\n- Show-up rate, quote-to-close and sales capacity can determine how much of that demand becomes business.\n- Google Ads is one part of the landscape. Notice which area might explain a result your stakeholder keeps asking about.",
+       "label": "42 · Countdown 3:30",
+       "notes": "- Pens down. Keep the candidates you have and compare them in the next step.",
        "thumb": "thumbs/w1/037.jpg"
       },
       {
        "key": "37",
-       "label": "37 · Landscape · B2B SaaS",
-       "notes": "- In SaaS, the outcome is profitable, predictable pipeline.\n- Positioning and the ideal customer profile affect who responds. Demand creation and attribution affect how you reach and understand those buyers.\n- Trial or demo conversion, activation and sales quality affect who becomes a customer. Payback, retention and expansion affect how valuable those customers become.\n- Look for the part you would like to understand well enough to contribute to a better decision.",
+       "label": "43 · Belief · the closed door",
+       "notes": "- The next belief is that your client will never let you near the bigger problem. For an agency specialist, that door might be an account director. In-house, it might be another department.\n- Start with a small, appropriate request: a conversation, a piece of evidence, or a contribution beside the current owner.\n- Then demonstrate that you can understand the problem and make something useful from what you learn.\n- Proof earns trust. Trust earns you a bigger problem.\n- That gives the other person a reason to involve you further. The next examples show what this can look like in practice.",
        "thumb": "thumbs/w1/038.jpg"
       },
       {
        "key": "38",
-       "label": "38 · Landscape · ecommerce",
-       "notes": "- In ecommerce, the outcome is profitable growth.\n- That can depend on measurement and incrementality, contribution profit and cash, the offer, pricing and bundles.\n- Creative production, acquisition allocation and the buying journey influence the demand you capture and convert. Retention and customer quality affect what follows the first order.\n- Choose useful problem areas from the landscape. You will translate them into your stakeholder's situation next.",
+       "label": "44 · This move has been made",
+       "notes": "- These are real members of our community, applying their expertise to a wider problem.\n- One freelancer was brought in by an agency close to losing a client. He reframed the work around unit economics, the offer and landing pages. The agency builds the pages to his requirements, and he owns the campaigns.\n- Benjamin is also a freelancer. He uses AI personas to challenge landing-page assumptions before spending budget. Those simulations generate questions to check with real evidence.\n- In a separate engagement, Benjamin out-audited a top-tier agency and won a premium client. Those are two distinct examples of how he works.\n- Kenza worked with data and finance to evaluate paid search against a company-approved 21-month payback target. That brought her closer to the economics the business cares about.\n- The common move is contributing something useful beyond the original account task, with a clear role in the work.",
        "thumb": "thumbs/w1/039.jpg"
       },
       {
        "key": "39",
-       "label": "39 · The candidate formula",
-       "notes": "- Use this sentence three times: “My stakeholder needs to improve this outcome, but this problem may be getting in the way.”\n- “May be” is deliberate. You are proposing a direction to investigate.\n- Keep the outcome and the possible obstacle in the same sentence. That makes the candidate meaningful to the stakeholder.\n- The next decision also depends on you: whether this is work you want to learn and take responsibility for.",
+       "label": "45 · Own, Influence or Flag",
+       "notes": "- You can choose three relationships to a problem: Own, Influence or Flag.\n- Own means leading the outcome, coordinating the work and following the evidence.\n- Influence means making a material contribution beside the accountable owner. Flag means identifying the issue, explaining its consequence and routing it to the right person.\n- Recognition lets you raise a credible flag. Deeper judgment lets you contribute more. Ownership requires the ability and mandate to lead the outcome.\n- Choose the relationship you can support. Seeing the problem does not oblige you to execute every part of the fix.",
        "thumb": "thumbs/w1/040.jpg"
       },
       {
        "key": "40",
-       "label": "40 · Borrow the node",
-       "notes": "- Borrow a problem area from the landscape, then make it specific to your stakeholder.\n- “Speed-to-lead” becomes “Good leads wait two days for a first reply, so show-up may be suffering.”\n- Use that level of specificity when you have evidence for it. When you do not, make the uncertainty clear.\n- The landscape is a starting point for your thinking. Your stakeholder's actual situation supplies the candidate.",
+       "label": "46 · Write · both lines",
+       "notes": "- Before you choose, write what you want more of and what you want less of in your working life.\n- Mine is more time diagnosing what actually blocks growth across the journey, and less comfortable account tweaking that no longer moves the result.\n- You may recognize an important problem and decide that somebody else should own it. Your desired scope should reflect that.\n- As Geert said, performance is personal. You have one minute to write both lines honestly.",
        "thumb": "thumbs/w1/041.jpg"
       },
       {
        "key": "41",
-       "label": "41 · Write · three candidates",
-       "notes": "- Write three different candidate problems using the sentence. Give yourself something meaningful to compare.\n- My first candidate is that mature lead-gen and SaaS clients need to keep growing, but the demand Google Ads can reach may be running out.\n- Your other candidates should explore different possible obstacles, rather than three versions of the same tactic.\n- You have three and a half minutes. Use the word bank if it helps and keep the sentences readable rather than polished.",
+       "label": "47 · Countdown 1:00",
+       "notes": "- Pens down. Use both lines when you choose your scope.",
        "thumb": "thumbs/w1/042.jpg"
       },
       {
        "key": "42",
-       "label": "42 · Countdown 3:30",
-       "notes": "- Pens down. Keep the candidates you have and compare them in the next step.",
+       "label": "48 · Two lenses",
+       "notes": "- Compare the candidates through two lenses: impact and access.\n- Impact asks whether the stakeholder would care if this improved. Access asks whether you can get close enough to learn something useful.\n- Access can begin with a smaller request than full responsibility: reviewing a few calls, seeing one report, or discussing one stalled handoff.\n- If the answer is no, record what you learned and see whether a smaller request is possible.\n- Also check your assumption: has the stakeholder actually refused, or have you never asked?",
        "thumb": "thumbs/w1/043.jpg"
       },
       {
        "key": "43",
-       "label": "43 · Belief · the closed door",
-       "notes": "- The next belief is that your client will never let you near the bigger problem. For an agency specialist, that door might be an account director. In-house, it might be another department.\n- Start with a small, appropriate request: a conversation, a piece of evidence, or a contribution beside the current owner.\n- Then demonstrate that you can understand the problem and make something useful from what you learn.\n- Proof earns trust. Trust earns you a bigger problem.\n- That gives the other person a reason to involve you further. The next examples show what this can look like in practice.",
+       "label": "49 · Write · compare and circle",
+       "notes": "- For each candidate, mark impact and access as high, medium or low.\n- Choose the scope you want: Own, Influence or Flag. Use your more-of and less-of lines to keep that choice honest.\n- Then mark the pull. Which problem do you keep thinking about? Which would you want to understand better?\n- Compare the rows and circle one. If access is low, consider a smaller first test. You have two and a half minutes.",
        "thumb": "thumbs/w1/044.jpg"
       },
       {
        "key": "44",
-       "label": "44 · This move has been made",
-       "notes": "- These are real members of our community, applying their expertise to a wider problem.\n- One freelancer was brought in by an agency close to losing a client. He reframed the work around unit economics, the offer and landing pages. The agency builds the pages to his requirements, and he owns the campaigns.\n- Benjamin is also a freelancer. He uses AI personas to challenge landing-page assumptions before spending budget. Those simulations generate questions to check with real evidence.\n- In a separate engagement, Benjamin out-audited a top-tier agency and won a premium client. Those are two distinct examples of how he works.\n- Kenza worked with data and finance to evaluate paid search against a company-approved 21-month payback target. That brought her closer to the economics the business cares about.\n- The common move is contributing something useful beyond the original account task, with a clear role in the work.",
+       "label": "50 · Countdown 2:30",
+       "notes": "- Pens down. Keep one candidate circled as the direction you will test.",
        "thumb": "thumbs/w1/045.jpg"
       },
       {
        "key": "45",
-       "label": "45 · Own, Influence or Flag",
-       "notes": "- You can choose three relationships to a problem: Own, Influence or Flag.\n- Own means leading the outcome, coordinating the work and following the evidence.\n- Influence means making a material contribution beside the accountable owner. Flag means identifying the issue, explaining its consequence and routing it to the right person.\n- Recognition lets you raise a credible flag. Deeper judgment lets you contribute more. Ownership requires the ability and mandate to lead the outcome.\n- Choose the relationship you can support. Seeing the problem does not oblige you to execute every part of the fix.",
+       "label": "51 · Write · capability edge",
+       "notes": "- Now name the capability required by your selected problem. What must you learn well enough to recognize and judge?\n- Compare it with the second leg you pencilled in earlier. Keep it or change it based on the problem you chose.\n- Mine is judging paid-social demand creation through Meta and LinkedIn well enough to direct and validate the work.\n- I am not yet claiming that I should run those platforms myself. You have one minute to write your capability edge.",
        "thumb": "thumbs/w1/046.jpg"
       },
       {
        "key": "46",
-       "label": "46 · Write · both lines",
-       "notes": "- Before you choose, write what you want more of and what you want less of in your working life.\n- Mine is more time diagnosing what actually blocks growth across the journey, and less comfortable account tweaking that no longer moves the result.\n- You may recognize an important problem and decide that somebody else should own it. Your desired scope should reflect that.\n- As Geert said, performance is personal. You have one minute to write both lines honestly.",
+       "label": "52 · Countdown 1:00",
+       "notes": "- Pens down. You should have one specific capability to develop.",
        "thumb": "thumbs/w1/047.jpg"
       },
       {
        "key": "47",
-       "label": "47 · Countdown 1:00",
-       "notes": "- Pens down. Use both lines when you choose your scope.",
+       "label": "53 · Write · boundary",
+       "notes": "- Write the part another specialist should lead. Make the handoff or non-goal explicit.\n- On my map, creative production and paid-social execution stay with specialists. My next step is learning to judge that work better.\n- In my landing-page work, final design and development also belong with the people best equipped to deliver them.\n- A clear boundary makes your proposed scope credible. You have one minute.",
        "thumb": "thumbs/w1/048.jpg"
       },
       {
        "key": "48",
-       "label": "48 · Two lenses",
-       "notes": "- Compare the candidates through two lenses: impact and access.\n- Impact asks whether the stakeholder would care if this improved. Access asks whether you can get close enough to learn something useful.\n- Access can begin with a smaller request than full responsibility: reviewing a few calls, seeing one report, or discussing one stalled handoff.\n- If the answer is no, record what you learned and see whether a smaller request is possible.\n- Also check your assumption: has the stakeholder actually refused, or have you never asked?",
+       "label": "54 · Countdown 1:00",
+       "notes": "- Pens down. Keep that boundary with your selected problem.",
        "thumb": "thumbs/w1/049.jpg"
       },
       {
        "key": "49",
-       "label": "49 · Write · compare and circle",
-       "notes": "- For each candidate, mark impact and access as high, medium or low.\n- Choose the scope you want: Own, Influence or Flag. Use your more-of and less-of lines to keep that choice honest.\n- Then mark the pull. Which problem do you keep thinking about? Which would you want to understand better?\n- Compare the rows and circle one. If access is low, consider a smaller first test. You have two and a half minutes.",
+       "label": "55 · Write · lock the direction",
+       "notes": "- Bring four things together: the selected problem, your desired scope, the capability edge and the deliberate boundary.\n- Read them as one decision. Do they describe a direction you could responsibly explore with this stakeholder?\n- You are choosing what to test. You are not claiming you already have every capability or permission it requires.\n- You have two minutes to make all four parts explicit.",
        "thumb": "thumbs/w1/050.jpg"
       },
       {
        "key": "50",
-       "label": "50 · Countdown 2:30",
-       "notes": "- Pens down. Keep one candidate circled as the direction you will test.",
+       "label": "56 · Countdown 2:00",
+       "notes": "- Pens down. Your direction is locked for the next part.",
        "thumb": "thumbs/w1/051.jpg"
       },
       {
        "key": "51",
-       "label": "51 · Write · capability edge",
-       "notes": "- Now name the capability required by your selected problem. What must you learn well enough to recognize and judge?\n- Compare it with the second leg you pencilled in earlier. Keep it or change it based on the problem you chose.\n- Mine is judging paid-social demand creation through Meta and LinkedIn well enough to direct and validate the work.\n- I am not yet claiming that I should run those platforms myself. You have one minute to write your capability edge.",
+       "label": "57 · Act 3 · What is my next step?",
+       "notes": "- You have answered what the gap is and what matters most.\n- Now we turn that direction into a next step: a 90-day scope bet and a 30-day test.\n- The test should tell you something important about whether this direction deserves more of your time.",
        "thumb": "thumbs/w1/052.jpg"
       },
       {
        "key": "52",
-       "label": "52 · Countdown 1:00",
-       "notes": "- Pens down. You should have one specific capability to develop.",
+       "label": "58 · Belief · takes years",
+       "notes": "- Another belief can stop the work here: building a second depth takes years, so there is little point starting now.\n- You can make learning more focused. Use a real problem, study what you need, apply it, and ask someone with stronger judgment to review the work.\n- AI can help explain unfamiliar ideas and challenge your reasoning. Real evidence and qualified feedback show whether your judgment is improving.\n- The practice is what matters. One useful rep gives you more to build on than another month waiting to feel ready.\n- Geert's white-belt example makes the same point: you can begin practicing before you are an expert.",
        "thumb": "thumbs/w1/053.jpg"
       },
       {
        "key": "53",
-       "label": "53 · Write · boundary",
-       "notes": "- Write the part another specialist should lead. Make the handoff or non-goal explicit.\n- On my map, creative production and paid-social execution stay with specialists. My next step is learning to judge that work better.\n- In my landing-page work, final design and development also belong with the people best equipped to deliver them.\n- A clear boundary makes your proposed scope credible. You have fifty seconds.",
+       "label": "58b · Content quality",
+       "notes": "- The knowledge you need is already published, in high quality, by people who do the work.\n- Free material can take you a long way into an unfamiliar capability.\n- Studying it is not the same as judging it. The rep is what turns the material into judgment.",
        "thumb": "thumbs/w1/054.jpg"
       },
       {
        "key": "54",
-       "label": "54 · Countdown 0:50",
-       "notes": "- Pens down. Keep that boundary with your selected problem.",
+       "label": "58c · Teach yourself",
+       "notes": "- You can also have the material taught to you, at your level, against your own client situation.\n- This is a lesson built from my own questions: contribution margin for ecommerce, in the vocabulary my clients use.\n- The tool explains. It does not do the rep for you.",
        "thumb": "thumbs/w1/055.jpg"
       },
       {
        "key": "55",
-       "label": "55 · Write · lock the direction",
-       "notes": "- Bring four things together: the selected problem, your desired scope, the capability edge and the deliberate boundary.\n- Read them as one decision. Do they describe a direction you could responsibly explore with this stakeholder?\n- You are choosing what to test. You are not claiming you already have every capability or permission it requires.\n- You have one minute to make all four parts explicit.",
+       "label": "59 · Belief · no time",
+       "notes": "- The final belief is that you have no time for a new capability.\n- Look at repeatable work you already understand well enough to judge. That is a useful place to systemize, with checks you can actually perform.\n- A reliable system names the data it sees, the person who owns the judgment, and the validation gate before its output is used.\n- Miles described this yesterday: optimize the work you own so you can spend more time on work that increases your value.\n- Decide where the freed time will go. Otherwise it is easy to fill it with more of the same activity.",
        "thumb": "thumbs/w1/056.jpg"
       },
       {
        "key": "56",
-       "label": "56 · Countdown 1:00",
-       "notes": "- Pens down. Your direction is locked for the next part.",
+       "label": "60 · The pivot point",
+       "notes": "- An insight lives in your head. A pivot point attaches action.\n- Your map has given you a direction. The bet and the test turn that direction into something you can do and learn from.\n- You may still lack knowledge, access, permission or certainty that you want the work. Your next move should help you learn about that gap.\n- You do not own the bigger problem yet. You can own the next honest move toward it.",
        "thumb": "thumbs/w1/057.jpg"
       },
       {
        "key": "57",
-       "label": "57 · Act 3 · What is my next step?",
-       "notes": "- You have answered what the gap is and what matters most.\n- Now we turn that direction into a next step: a 90-day scope bet and a 30-day test.\n- The test should tell you something important about whether this direction deserves more of your time.",
+       "label": "61 · Write · 90-day bet",
+       "notes": "- Write the whole sentence: “For the next ninety days, I will explore this scope for this problem with this stakeholder.”\n- Use the problem and scope you just locked. Keep the word “explore” because this is a bet you will test.\n- Mine is to explore Influence for the demand ceiling beyond Google Ads with my mature lead-gen and SaaS clients.\n- You have one minute. The words are already on your map; bring them into one sentence.",
        "thumb": "thumbs/w1/058.jpg"
       },
       {
        "key": "58",
-       "label": "58 · Belief · takes years",
-       "notes": "- Another belief can stop the work here: building a second depth takes years, so there is little point starting now.\n- You can make learning more focused. Use a real problem, study what you need, apply it, and ask someone with stronger judgment to review the work.\n- AI can help explain unfamiliar ideas and challenge your reasoning. Real evidence and qualified feedback show whether your judgment is improving.\n- The practice is what matters. One useful rep gives you more to build on than another month waiting to feel ready.\n- Geert's white-belt example makes the same point: you can begin practicing before you are an expert.",
+       "label": "62 · Countdown 1:00",
+       "notes": "- Pens down. Your 90-day bet should now be written in full.",
        "thumb": "thumbs/w1/059.jpg"
       },
       {
        "key": "59",
-       "label": "59 · Belief · no time",
-       "notes": "- The final belief is that you have no time for a new capability.\n- Look at repeatable work you already understand well enough to judge. That is a useful place to systemize, with checks you can actually perform.\n- A reliable system names the data it sees, the person who owns the judgment, and the validation gate before its output is used.\n- Miles described this yesterday: optimize the work you own so you can spend more time on work that increases your value.\n- Decide where the freed time will go. Otherwise it is easy to fill it with more of the same activity.",
+       "label": "63 · Write · critical uncertainty",
+       "notes": "- What must become true before this direction deserves more of your time?\n- Is the uncertainty knowledge, access, permission or desire? Choose the one that most needs an answer first.\n- Mine is whether I can learn to judge where demand beyond Google Ads actually lives well enough to make a useful contribution.\n- You have forty seconds. A test that tells you to change direction has still given you useful evidence.",
        "thumb": "thumbs/w1/060.jpg"
       },
       {
        "key": "60",
-       "label": "60 · The pivot point",
-       "notes": "- An insight lives in your head. A pivot point attaches action.\n- Your map has given you a direction. The bet and the test turn that direction into something you can do and learn from.\n- You may still lack knowledge, access, permission or certainty that you want the work. Your next move should help you learn about that gap.\n- You do not own the bigger problem yet. You can own the next honest move toward it.",
+       "label": "64 · Countdown 0:40",
+       "notes": "- Pens down. Use that uncertainty to design the test.",
        "thumb": "thumbs/w1/061.jpg"
       },
       {
        "key": "61",
-       "label": "61 · Write · 90-day bet",
-       "notes": "- Write the whole sentence: “For the next ninety days, I will explore this scope for this problem with this stakeholder.”\n- Use the problem and scope you just locked. Keep the word “explore” because this is a bet you will test.\n- Mine is to explore Influence for the demand ceiling beyond Google Ads with my mature lead-gen and SaaS clients.\n- You have one minute. The words are already on your map; bring them into one sentence.",
+       "label": "65 · Five test shapes",
+       "notes": "- Your test can be a conversation with the outcome owner, access to evidence, shadowing or reviewing adjacent work, a diagnostic artifact, or a contribution beside the accountable owner.\n- Choose the shape that can answer your uncertainty with the smallest credible step.\n- “Learn more about sales” is difficult to finish or evaluate. “Review five sales calls with the sales lead and map where qualified leads stall” names a person, an action and evidence.\n- This test is about learning whether you can move toward a wider scope. It does not need to prove a performance uplift in thirty days.\n- Size it so it feels uncomfortable but possible. If it requires authority you do not have, start with the request that could earn access.",
        "thumb": "thumbs/w1/062.jpg"
       },
       {
        "key": "62",
-       "label": "62 · Countdown 1:00",
-       "notes": "- Pens down. Your 90-day bet should now be written in full.",
+       "label": "66 · Write · the 30-day test",
+       "notes": "- Complete the sentence: “By 25 October, I will do this action with this person to learn or prove this uncertainty.”\n- Write the action, the person, the access you need and the evidence you will hold. Evidence could be a decision, an artifact, a mapped process or documented learning.\n- My test is to review full-funnel data and past paid-social attempts with the client's marketing lead, to learn whether I can judge where the category's demand actually lives.\n- My evidence is a one-page demand map, due 25 October. Yours needs an equally clear finish.\n- You have five minutes to complete this privately. Use the time to make the action small enough, the person specific, and the evidence clear.",
        "thumb": "thumbs/w1/063.jpg"
       },
       {
        "key": "63",
-       "label": "63 · Write · critical uncertainty",
-       "notes": "- What must become true before this direction deserves more of your time?\n- Is the uncertainty knowledge, access, permission or desire? Choose the one that most needs an answer first.\n- Mine is whether I can learn to judge where demand beyond Google Ads actually lives well enough to make a useful contribution.\n- You have forty seconds. A test that tells you to change direction has still given you useful evidence.",
+       "label": "67 · Countdown 5:00",
+       "notes": "- Pens down. Underline the date and the evidence.",
        "thumb": "thumbs/w1/064.jpg"
       },
       {
        "key": "64",
-       "label": "64 · Countdown 0:40",
-       "notes": "- Pens down. Use that uncertainty to design the test.",
+       "label": "71 · Four seats, four moves",
+       "notes": "- Does anyone want to share their next move? We have room for a freelancer, an agency specialist, an in-house specialist and a team lead.\n- From your seat, give us the stakeholder, the bigger problem, your scope and your 30-day test.\n- Keep it to about thirty seconds so we can hear the different routes. Share only what you are comfortable making public.\n- Your map is complete whether you share it or keep it private.",
        "thumb": "thumbs/w1/065.jpg"
       },
       {
        "key": "65",
-       "label": "65 · Five test shapes",
-       "notes": "- Your test can be a conversation with the outcome owner, access to evidence, shadowing or reviewing adjacent work, a diagnostic artifact, or a contribution beside the accountable owner.\n- Choose the shape that can answer your uncertainty with the smallest credible step.\n- “Learn more about sales” is difficult to finish or evaluate. “Review five sales calls with the sales lead and map where qualified leads stall” names a person, an action and evidence.\n- This test is about learning whether you can move toward a wider scope. It does not need to prove a performance uplift in thirty days.\n- Size it so it feels uncomfortable but possible. If it requires authority you do not have, start with the request that could earn access.",
+       "label": "72 · Trust is demonstrated",
+       "notes": "- Mike gave us the rule yesterday: “Trust is demonstrated, not asked for.”\n- Your test is a chance to make that demonstration: understand something useful, contribute within your boundary, and bring back evidence.",
        "thumb": "thumbs/w1/066.jpg"
       },
       {
        "key": "66",
-       "label": "66 · Write · the 30-day test",
-       "notes": "- Complete the sentence: “By 25 October, I will do this action with this person to learn or prove this uncertainty.”\n- Write the action, the person, the access you need and the evidence you will hold. Evidence could be a decision, an artifact, a mapped process or documented learning.\n- My test is to review full-funnel data and past paid-social attempts with the client's marketing lead, to learn whether I can judge where the category's demand actually lives.\n- My evidence is a one-page demand map, due 25 October. Yours needs an equally clear finish.\n- You have seven minutes and fifty-five seconds to complete this privately. Use the time to make the action small enough, the person specific, and the evidence clear.",
+       "label": "73 · The arena",
+       "notes": "- Geert asked you to step into the arena. You now have a map, a test, and a clear idea of the evidence you want to earn.\n- Imagine it is 25 October. You have a page, a decision or a piece of documented learning that did not exist today.\n- That gives you something concrete for the next stakeholder conversation, even if the test changes your direction.\n- Performance is personal. You have your own arena and your own pace. Keep taking steps that give you evidence.",
        "thumb": "thumbs/w1/067.jpg"
       },
       {
        "key": "67",
-       "label": "67 · Countdown 7:55",
-       "notes": "- Pens down. Underline the date and the evidence.",
+       "label": "74 · Photograph your map",
+       "notes": "- Photograph pages 11, 13 and 14: your direction and boundary, your scope bet, and your dated test.\n- Check that you have a real stakeholder, three candidate problems, one selected direction, and your Own, Influence or Flag choice.\n- Your capability edge, boundary, 90-day bet and 30-day test complete the map. The test is due 25 October 2026.\n- Keep the workbook and the photographs somewhere you will find them when you return to work.",
        "thumb": "thumbs/w1/068.jpg"
       },
       {
        "key": "68",
-       "label": "71 · Four seats, four moves",
-       "notes": "- Does anyone want to share their next move? We have room for a freelancer, an agency specialist, an in-house specialist and a team lead.\n- From your seat, give us the stakeholder, the bigger problem, your scope and your 30-day test.\n- Keep it to about thirty seconds so we can hear the different routes. Share only what you are comfortable making public.\n- Your map is complete whether you share it or keep it private.",
+       "label": "75 · All three answered",
+       "notes": "- What is the gap? The distance between your current mandate and the result that matters.\n- What matters most? The problem you selected, with a capability to build and a boundary you can defend.\n- What is your next step? Your dated test, with a person and evidence attached.\n- Look again at where you marked the end of your responsibility. Your bet gives you a way to explore moving that line.",
        "thumb": "thumbs/w1/069.jpg"
       },
       {
        "key": "69",
-       "label": "72 · Trust is demonstrated",
-       "notes": "- Mike gave us the rule yesterday: “Trust is demonstrated, not asked for.”\n- Your test is a chance to make that demonstration: understand something useful, contribute within your boundary, and bring back evidence.",
-       "thumb": "thumbs/w1/070.jpg"
-      },
-      {
-       "key": "70",
-       "label": "73 · The arena",
-       "notes": "- Geert asked you to step into the arena. You now have a map, a test, and a clear idea of the evidence you want to earn.\n- Imagine it is 25 October. You have a page, a decision or a piece of documented learning that did not exist today.\n- That gives you something concrete for the next stakeholder conversation, even if the test changes your direction.\n- Performance is personal. You have your own arena and your own pace. Keep taking steps that give you evidence.",
-       "thumb": "thumbs/w1/071.jpg"
-      },
-      {
-       "key": "71",
-       "label": "74 · Photograph your map",
-       "notes": "- Photograph pages 11, 13 and 14: your direction and boundary, your scope bet, and your dated test.\n- Check that you have a real stakeholder, three candidate problems, one selected direction, and your Own, Influence or Flag choice.\n- Your capability edge, boundary, 90-day bet and 30-day test complete the map. The test is due 25 October 2026.\n- Keep the workbook and the photographs somewhere you will find them when you return to work.",
-       "thumb": "thumbs/w1/072.jpg"
-      },
-      {
-       "key": "72",
-       "label": "75 · All three answered",
-       "notes": "- What is the gap? The distance between your current mandate and the result that matters.\n- What matters most? The problem you selected, with a capability to build and a boundary you can defend.\n- What is your next step? Your dated test, with a person and evidence attached.\n- Look again at where you marked the end of your responsibility. Your bet gives you a way to explore moving that line.",
-       "thumb": "thumbs/w1/073.jpg"
-      },
-      {
-       "key": "73",
        "label": "76 · Now you act",
        "notes": "- Geert calls this moment the switch: het schakelpunt. You zoomed out. You chose. Now you act.\n- My test is due 25 October, the same as yours. Hold me to it in the community.\n- After the break, I will use a real audit to show how I decide what matters first. Then you will make a first diagnostic choice on an account you know.\n- We are back at 11:15. Enjoy the break.",
-       "thumb": "thumbs/w1/074.jpg"
+       "thumb": "thumbs/w1/070.jpg"
       }
      ]
     },
@@ -5577,9 +5541,189 @@ window.STAGE_MANIFEST = {
      },
      "steps": [
       {
-       "src": "slides/placeholder-day-2-cs1-ramial.jpg",
-       "label": "Case study deck pending",
-       "notes": ""
+       "src": "slides/day-2-cs1-ramial-deck/p-01.jpg",
+       "label": "Page 1",
+       "notes": "[0:00  |  20s]\nSeven years. One clinic. One ad account.\nClient stays anonymous, every number is real.\nThis is about what the account built, not how it was optimised."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-02.jpg",
+       "label": "Page 2",
+       "notes": "[0:20  |  20s]\nIt took seven years, and that is the point.\nThis is a story about patience, not a growth hack.\nSeven years, not a quarter. Invoices, not platform conversions."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-03.jpg",
+       "label": "Page 3",
+       "notes": "[0:40  |  25s]\n'This is the actual room.'\nLate 2019. One clinician, renting a room inside somebody else's clinic."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-04.jpg",
+       "label": "Page 4",
+       "notes": "[1:05  |  30s]\nRead the first two quickly.\nLand the third: 100% of demand had to be bought, from day one."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-05.jpg",
+       "label": "Page 5",
+       "notes": "[1:35  |  20s]\nHe had already paid specialists before me, and it had not worked.\nThe channel itself was on trial, not just the next hire."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-06.jpg",
+       "label": "Page 6",
+       "notes": "[1:55  |  20s]\nHis word, delivered as a fact.\nThat was the bar I had to clear. Not a dig at anyone."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-07.jpg",
+       "label": "Page 7",
+       "notes": "[2:15  |  25s]\nAt the start there was nothing else to credit. No brand, no referrals, no word of mouth.\nToday there is a brand and repeat patients, so stress 'at the start'."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-08.jpg",
+       "label": "Page 8",
+       "notes": "[2:40  |  20s]\nNo brand halo, so a clean read on what actually works.\nAlmost nobody gets that. I got years of it."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-09.jpg",
+       "label": "Page 9",
+       "notes": "[3:00  |  25s]\nThree moves, repeated for seven years.\n'Let me show you what each one looked like.'"
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-10.jpg",
+       "label": "Page 10",
+       "notes": "[3:25  |  30s]\n'This is just the campaigns tab.' All time, 70 campaigns across many services and experiments.\nBudget column: from a penny a day on paused tests up to £335 a day on keloid removal.\nStatus column: Paused sits right next to Limited by budget. Every service got its chance to fail, and the winners got the money."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-11.jpg",
+       "label": "Page 11",
+       "notes": "[3:55  |  35s]\nThe first six months. £1,709 of spend in total.\nRead out two or three terms: skin tags, lipomas, fillers.\nKeloid was already showing up here. It got its own campaign in 2021."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-12.jpg",
+       "label": "Page 12",
+       "notes": "[4:30  |  25s]\nSame report, seven years on.\nKeloid removal is now the top line: about 47% of the last 12 months, circumcision about 33%.\nWe did not pick it. The auction did, and it took years, not weeks."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-13.jpg",
+       "label": "Page 13",
+       "notes": "[4:55  |  35s]\nLet the two columns make the argument.\nName liposuction: over £41k spent, the service everyone assumes makes money, and it never worked.\nCost per conversion only means something next to what the service bills.\nSay 'per tracked conversion', never 'per patient'."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-14.jpg",
+       "label": "Page 14",
+       "notes": "[5:30  |  30s]\nKeloid removal, the biggest winner. Real ad on the left, the page it sends people to on the right.\nTop two headlines pinned so the service always shows in position one.\nThe winner got its own ad, its own page and its own room in the diary."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-15.jpg",
+       "label": "Page 15",
+       "notes": "[6:00  |  30s]\nSpend only went up once they were turning bookings away.\nA full diary is the one signal that does not come from the ad platform."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-16.jpg",
+       "label": "Page 16",
+       "notes": "[6:30  |  30s]\nPoint at the dip on the left first. April 2020 is the only month with zero spend.\nBack in May at £112. January 2021: took a 10x cost per conversion rather than switch off.\n£482 a month to £22,361. 'This is the account, not a chart I drew.'"
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-17.jpg",
+       "label": "Page 17",
+       "notes": "[7:00  |  20s]\n'I am not showing you conversions. I am showing you invoices.'\nPause on the number."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-18.jpg",
+       "label": "Page 18",
+       "notes": "[7:20  |  15s]\nTwo brands, straight out of their practice management system.\nSep 2019 to Aug 2026, lined up with the spend chart."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-19.jpg",
+       "label": "Page 19",
+       "notes": "[7:35  |  15s]\n'A pound in, seven pounds out.' Hold it for a beat.\nReal figure is 7.7, so seven is conservative."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-20.jpg",
+       "label": "Page 20",
+       "notes": "[7:50  |  15s]\n£2M turnover in the last year.\n90% is the client's own estimate. Everything else here is measured.\n46x the starting budget.\nSecond site is in the pipeline, not open yet."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-21.jpg",
+       "label": "Page 21",
+       "notes": "[8:05  |  10s]\nGear change. Slow right down.\nThe numbers are done. Now the photographs."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-22.jpg",
+       "label": "Page 22",
+       "notes": "[8:15  |  15s]\n'2019.' They have seen this room already. Move on."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-23.jpg",
+       "label": "Page 23",
+       "notes": "[8:30  |  15s]\n2020. One year after the rented room, a front door of their own."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-24.jpg",
+       "label": "Page 24",
+       "notes": "[8:45  |  20s]\nThey were turning patients away, so they had to move.\nThe account did not just fill a diary. It outgrew a building."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-25.jpg",
+       "label": "Page 25",
+       "notes": "[9:05  |  10s]\nOne line, then let them look."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-26.jpg",
+       "label": "Page 26",
+       "notes": "[9:15  |  15s]\nSame business, seven years apart.\nHold the silence."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-27.jpg",
+       "label": "Page 27",
+       "notes": "[9:30  |  10s]\nA walk-through. Do not narrate what they can see."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-28.jpg",
+       "label": "Page 28",
+       "notes": "[9:40  |  10s]\n'5,000 square feet. Built out of an ad account.' Then stop."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-29.jpg",
+       "label": "Page 29",
+       "notes": "[9:50  |  20s]\nCount them: doctors, therapists, reception.\nIn 2019 this page had one person on it."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-30.jpg",
+       "label": "Page 30",
+       "notes": "[10:10  |  30s]\nCallback to 'losers'.\nManchester to London. Face to face meetings. Viewing properties together. Dinner at their house.\n'A proper business partner, just without the shares.' Pause."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-31.jpg",
+       "label": "Page 31",
+       "notes": "[10:40  |  25s]\nThe biggest decision they made in seven years, and Google Ads could not answer it.\nTwenty candidate sites, scored on their own booking records. AI plus the PPC OS method.\nThe finding, slowly: 'The answer was never a radius. Adults travel 2.4 times further than children, and a patient is worth 69% more at fifty miles than at two.'\nSo stop bidding down on distance.\nSecond site is in the pipeline, not open yet."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-32.jpg",
+       "label": "Page 32",
+       "notes": "[11:05  |  20s]\nNot a one-off report. A system the business keeps.\nIt runs that analysis on their own data, plus their policies, compliance records and live clinic performance.\nMy build, not their chatbot."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-33.jpg",
+       "label": "Page 33",
+       "notes": "[11:25  |  20s]\n'If you photograph one slide today, make it this one.' Pause two seconds.\nRead the three. No tooling, no clever account, just being in the business."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-34.jpg",
+       "label": "Page 34",
+       "notes": "[11:45  |  40s]\nRead the headline flat. Let them read the screenshot.\n'Seven years. I did ask.' Let the laugh land.\nHe has referred more clients than I can count.\n'Seven years, six point eight million, and I billed about three percent of it. That is the mistake in this story, and it is mine.'"
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-35.jpg",
+       "label": "Page 35",
+       "notes": "[12:25  |  18s]\nThe lesson from my own mistake.\nYour ceiling is how much of the business you understand, and how much of the outcome you own. Pause."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-36.jpg",
+       "label": "Page 36",
+       "notes": "[12:43  |  12s]\n'A pound in, seven pounds out, and a building.'\nThen the line. Slowly. Then stop."
+      },
+      {
+       "src": "slides/day-2-cs1-ramial-deck/p-37.jpg",
+       "label": "Page 37",
+       "notes": "[12:55  |  15s]\nThank you."
       }
      ]
     },
@@ -5613,9 +5757,89 @@ window.STAGE_MANIFEST = {
      },
      "steps": [
       {
-       "src": "slides/placeholder-day-2-cs2-violeta.jpg",
-       "label": "Case study deck pending",
-       "notes": ""
+       "src": "slides/day-2-cs2-violetta-deck/p-01.jpg",
+       "label": "Page 1",
+       "notes": "A keyword tells you what someone typed. It doesn’t tell you who they are, or why they typed it, and this case study is about the moment we found that out in our own account. A marketplace client asked us for buyer traffic, so we built a campaign on buyer keywords, and the leads it brought in turned out to be sellers, at a third of the price of the campaigns we had built for sellers."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-02.jpg",
+       "label": "Page 2",
+       "notes": "Some context on the business. It's the largest marketplace in its country for buying and selling companies: over a thousand businesses listed at any time, fifty thousand registered buyers, over a million visitors a year, and a network of more than 250 business brokers. The money comes from the sell side: listing a company, getting a valuation, hiring a broker. So every campaign is measured on seller leads. There's a sister site in a second country with its own account, and that's our Market 2."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-03.jpg",
+       "label": "Page 3",
+       "notes": "Every campaign in this account was built the way most of us build accounts: the words someone types decide who we think they are. Seller words went into seller campaigns, split by the kind of seller, and buyer words got nothing, because buyers don’t pay the marketplace. That structure carries an assumption nobody had questioned, that buyers and sellers type different things, and that assumption is exactly what this campaign ended up testing."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-04.jpg",
+       "label": "Page 4",
+       "notes": "Then a competitor pulled back on the buyer searches, and the client asked us to pick up the traffic they had left behind. The brief was clicks and impressions on buyer keywords, with no conversion target on the budget. And I want to be honest here: everyone, us included, read those keywords as buyers. Nobody expected to find sellers in that traffic."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-05.jpg",
+       "label": "Page 5",
+       "notes": "We built it on the buyer terms, as briefed, and set it to optimise for seller conversions. That was our call, not the brief: they only asked for clicks, and we didn’t want a campaign that just bought traffic. The conversion goal was the same set of seller actions every other campaign in the account was already measured against, so it competed for budget on the same terms as the rest. Maximize Conversions, no target CPA, and we held the build steady for a month so the result stayed attributable to the objective."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-06.jpg",
+       "label": "Page 6",
+       "notes": "This is what people actually saw, and it matters for the argument. Pure buyer ads: restaurants for sale, companies for sale, fifty thousand registered buyers, and not one word aimed at sellers. We built no landing pages either. In Market 1 the clicks went straight to the site’s own listings. So if sellers converted, it wasn’t because we spoke to them. The only thing in this campaign that pointed at sellers was the conversion goal."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-07.jpg",
+       "label": "Page 7",
+       "notes": "The clean comparison is inside the same account, over the same months. The buyer campaign delivered seller leads at around 40 euros. The seller campaigns delivered them at around 120. A fifth of the spend, over 40% of the leads. And every one of its conversions was a seller action."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-08.jpg",
+       "label": "Page 8",
+       "notes": "This is the slide the whole talk hangs on. These are the real searches, translated, and every one of them is a buyer search: company for sale, restaurant for sale in a city, buy a company. Yet every lead counted here is a seller. Restaurants and cafés alone were about two in five of them, and my reading is that these are owners checking what places like theirs are listed for before they decide to sell. To be straight about the edges: about 12% of these conversions came from sell-intent searches that matched in, and 8% from brand, so 80% were pure buyer searches. The keyword said buyer; the person was a seller."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-09.jpg",
+       "label": "Page 9",
+       "notes": "Keep this one short: it's supporting evidence. Separate account, different language, different competitors. About fifty euros against a hundred, and that market was scaling, so nothing was cut to produce it. If asked: about a third of its search-term conversions were brand, which is why Market 1 carries the story."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-10.jpg",
+       "label": "Page 10",
+       "notes": "Five months against the same months the year before, generic search only. Market one: spend down 34%, seller leads up 25%, cost per lead down 47%. Before anyone does the arithmetic: the buyer campaign is inside that total, not on top of it. Seller spend fell 47% and the buyer campaign put nine thousand back. That nets to the 34%. Market two was scaling: spend up 48%, leads up 57%, cost per lead held."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-11.jpg",
+       "label": "Page 11",
+       "notes": "The obvious objection is that these weren’t really sellers, that the tracking was counting buyers who filled in the wrong form. So we followed them into the CRM and matched closed deals back to the campaign that first brought each customer in. They closed at much the same rate as leads from the seller campaigns, around 14% against 13%, and the buyer-keyword campaign returned about three euros for every euro spent, against about 1.1 for the seller campaigns. Almost half its customers came in on a restaurant or café search. Thirty-odd customers is a small sample, and attribution isn’t a holdout test, but these were real sellers who actually sold."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-12.jpg",
+       "label": "Page 12",
+       "notes": "So why did it work? Three reasons, and the order matters. First, sellers search the buyer side. Before an owner sells, they want a price, and our ads landed them on listings showing turnover and asking prices for businesses like theirs. Second, the keyword can’t tell a buyer from a seller, but the conversion goal can. A buyer campaign would have written those clicks off as failures; with a seller goal, the one in a hundred and seventy who was a seller became the result, and they closed like any other seller. And third, they came at buyer prices: twenty-three cents a click, against five euros on seller searches, so even a conversion rate seven times lower made each seller lead a third of the price. Don’t rush this slide."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-13.jpg",
+       "label": "Page 13",
+       "notes": "Here’s why this matters in your accounts. Our negative keyword lists are built on what people type, and most of us have excluded searches simply because they looked like the wrong audience. These three are where I would test next, not results I have: estate agents skip buyer searches, when homeowners check their neighbours’ asking prices before they sell. Shops negate used and repair searches, when people price those before they buy new. Recruiters cut job and salary searches, when hiring managers check the going pay before they advertise. The test is the one we ran: one campaign on those searches, your own conversion goal, no target CPA, one month. Ours ran on about eighteen hundred euros a month."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-14.jpg",
+       "label": "Page 14",
+       "notes": "So this is the one thing I’d like you to take home. A keyword tells you what someone typed, not why they typed it. Most of the people behind those searches really were buyers, but a small group had the opposite intent, and no keyword could have picked them out. Your conversion goal decides who you actually find, and it’s the same bet Google is making with broad match and AI Max. Thank you."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-15.jpg",
+       "label": "Page 15",
+       "notes": "Proof slide. Names are redacted; don't screen-share the live account."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-16.jpg",
+       "label": "Page 16",
+       "notes": "Proof slide. Names are redacted; don't screen-share the live account."
+      },
+      {
+       "src": "slides/day-2-cs2-violetta-deck/p-17.jpg",
+       "label": "Page 17",
+       "notes": "We cut the seller budgets by 47% in market one over the same period, so I can't separate a genuine funnel effect from trimming the expensive tail. Market two carries no such caveat: its seller campaigns got worse, and nothing was cut. Market one also had a landing-page test in the window, which is why the screenshot shows five seller campaigns, not three. Around 3% of seller spend, under 2% of leads, and market two had no test and produced the same result. And the scale is small: a line item over five months in two countries."
       }
      ]
     },
