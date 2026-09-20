@@ -35,7 +35,40 @@
   }
   function notesSize(d) { prefs.notes = Math.max(14, Math.min(72, prefs.notes + d)); applyPrefs(); }
   function uiZoom(d) { prefs.ui = Math.max(0.6, Math.min(1.8, Math.round((prefs.ui + d) * 10) / 10)); applyPrefs(); }
-  function split(d) { prefs.split = Math.max(30, Math.min(75, prefs.split + d)); applyPrefs(); }
+  var SPLIT_DEFAULT = 58, SPLIT_MIN = 20, SPLIT_MAX = 80;
+  function setSplit(v) { prefs.split = Math.round(Math.max(SPLIT_MIN, Math.min(SPLIT_MAX, v)) * 10) / 10; applyPrefs(); }
+  function split(d) { setSplit(prefs.split + d); }
+
+  // Drag the bar between the slides and the notes, as in a PowerPoint presenter
+  // view. The split is a percentage of the grid width, so it survives UI zoom
+  // and window resizes; double-click puts it back to the default.
+  (function () {
+    var gutter = $('gutter'), grid = gutter.parentNode, drag = null;
+    gutter.addEventListener('pointerdown', function (e) {
+      if (e.button !== 0) return;
+      var r = grid.getBoundingClientRect();
+      var cs = getComputedStyle(grid);
+      drag = { left: r.left + parseFloat(cs.paddingLeft), width: r.width - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight) };
+      gutter.setPointerCapture(e.pointerId);
+      gutter.classList.add('dragging');
+      document.body.classList.add('dragging');
+      e.preventDefault();
+    });
+    gutter.addEventListener('pointermove', function (e) {
+      if (!drag || drag.width <= 0) return;
+      setSplit((e.clientX - drag.left) / drag.width * 100);
+    });
+    var end = function () {
+      if (!drag) return;
+      drag = null;
+      gutter.classList.remove('dragging');
+      document.body.classList.remove('dragging');
+    };
+    gutter.addEventListener('pointerup', end);
+    gutter.addEventListener('pointercancel', end);
+    gutter.addEventListener('lostpointercapture', end);
+    gutter.addEventListener('dblclick', function () { setSplit(SPLIT_DEFAULT); });
+  })();
 
   // --- timers ---------------------------------------------------------------
   // One countdown per agenda session (segment.timer, from blocks.json):

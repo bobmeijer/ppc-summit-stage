@@ -28,7 +28,7 @@ Everything runs offline in Chrome or Edge. You don't need to install anything or
 | O | Open audience window |
 | + / - | Notes text size |
 | [ / ] | Zoom the whole presenter view |
-| , / > | Resize the slide column vs the notes column |
+| , / > | Resize the slide column vs the notes column (or drag the bar between them; double-click it to reset) |
 | L | Show or hide the running order |
 | T | Restart the timer for the current talk |
 | F (audience window) | Toggle fullscreen |

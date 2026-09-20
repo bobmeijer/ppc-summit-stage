@@ -97,10 +97,24 @@ body.black #btn-black { background: #ff4d4d; border-color: #ff4d4d; color: #fff;
 .deskgrid {
   flex: 1; min-height: 0;
   display: grid;
-  grid-template-columns: var(--split) 1fr;
-  gap: 14px; padding: 14px;
+  grid-template-columns: var(--split) 10px 1fr;
+  gap: 14px 8px; padding: 14px;
 }
-body.list-open .deskgrid { grid-template-columns: var(--split) 1fr 260px; }
+body.list-open .deskgrid { grid-template-columns: var(--split) 10px 1fr 260px; }
+body.list-open .list { margin-left: 6px; }
+/* Drag handle between slides and notes (like PowerPoint / Slides presenter view). */
+.gutter {
+  position: relative; cursor: col-resize; touch-action: none; border-radius: 5px;
+  background: transparent; transition: background .15s;
+}
+.gutter::before {
+  content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 4px; margin-left: -2px;
+  border-radius: 2px; background: var(--line);
+}
+.gutter::after { content: ""; position: absolute; top: 0; bottom: 0; left: -8px; right: -8px; }
+.gutter:hover::before, .gutter.dragging::before { background: var(--accent); }
+body.dragging { cursor: col-resize; user-select: none; }
+body.dragging iframe, body.dragging img { pointer-events: none; }
 .slides {
   display: grid; min-height: 0; gap: 6px;
   grid-template-rows: auto minmax(0, 1.75fr) auto auto minmax(0, 1fr) auto;
@@ -150,6 +164,7 @@ body.list-open .list { display: block; }
 
 @media (max-width: 900px) {
   .deskgrid, body.list-open .deskgrid { grid-template-columns: 1fr; overflow: auto; }
+  .gutter { display: none; }
   body.presenter { overflow: auto; }
 }
 
