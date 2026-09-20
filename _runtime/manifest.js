@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-19 10:57",
+ "built": "2026-09-20 07:15",
  "blocks": [
   {
    "id": "block-1",
@@ -450,338 +450,326 @@ window.STAGE_MANIFEST = {
       {
        "key": "0",
        "label": "01 · These walls",
-       "notes": "- This is Groenlo, the town where I was born and raised.\n- The shape you can still see around it is not decorative.\n- Almost four hundred years ago, this was the fortified city of Grol.\n- And the story I want to tell you starts with a failure.\n",
+       "notes": "- This is Groenlo, the town where I was born and raised.\n- Almost four hundred years ago, this was the fortified city of Grol.\n- The shape you can still see around it is not decorative, but highly functional.\n- And the story I want to tell you starts with a failure.\n",
        "thumb": "thumbs/ch2/001.jpg"
       },
       {
        "key": "1",
        "label": "02 · Grol, 1595",
-       "notes": "- Grol was small but strategically important. Its fortifications were formidable. \n- By the time, it was taken by the Spanish.\n- In 1595, Prince Maurits arrived with a State army and attempted to take it. \n- If this is the map you are looking at, the problem appears obvious: get through the walls and take the city.",
+       "notes": "- Grol was small but strategically important. \n- Its fortifications were highly effective. \n- By then, it was taken by the Spanish due to its strategic location. \n- Any Spanish over here? I'd like to get a word after the conference.\n- In 1595, Prince Maurits arrived with a State army and attempted to take it back from the Spanish.\n- If this is the map you are looking at, the plan of attack appears simple: get through the walls and take the city.",
        "thumb": "thumbs/ch2/002.jpg"
       },
       {
        "key": "2",
        "label": "03 · Siege abandoned",
-       "notes": "- But ten days later... The siege was abandoned.\n- It was not because the walls became stronger, but because news arrived that the Spanish were approaching Mautits with a Spanish relief army. \n- Maurits could not safely continue with the siege and withdrew. \n- The outcome was determined by something that was not on this map.",
+       "notes": "- But ten days later... The siege was abandoned.\n- It was not because the walls became stronger, but because news arrived that the Spanish were approaching Prince Maurits with a Spanish relief army. \n- Maurits could not safely continue with the siege and withdrew. ",
        "thumb": "thumbs/ch2/003.jpg"
       },
       {
        "key": "3",
        "label": "03 · Siege abandoned",
-       "notes": "- The outcome was determined by something that was not on this map.\n- The map was accurate, but it was too small. \n- Maurits was too focused on taking down the walls of the fortified city and taking it back from the Spanish.",
+       "notes": "- The outcome of the siege was determined by something that was not on Maurits' map.\n- The map was accurate, but it was simply too small. \n- Maurits was too focused on taking down the walls of the fortified city and taking it back from the Spanish and forgot about the bigger picture.",
        "thumb": "thumbs/ch2/004.jpg"
       },
       {
        "key": "4",
        "label": "03 · Siege abandoned",
-       "notes": "- Frederik Hendrik returned in 1627. \n- His forces built a circumvallation around the wider area. \n- It shut Grol off from the outside world and protected the siege from any relief army trying to help the Spanish from inside. \n- The outside wall created the conditions in which the siege could work. ",
+       "notes": "- Frederik Hendrik returned in 1627. \n- Before he arrived, he made sure to zoom out and to make a game plan.\n- His forces built a circumvallation around the wider area. \n- It shut Grol off from the outside world and protected the siege from any relief army trying to help the Spanish from the outside. \n- The outside wall created the conditions in which the siege could work. \n- A few days later, the Spanish surrendered, and he managed to get Grol back from the Spanish.",
        "thumb": "thumbs/ch2/005.jpg"
       },
       {
        "key": "5",
        "label": "06 · The honest lesson",
-       "notes": "- He did not ignore the walls.\n- He stopped treating the walls as the only battlefield.",
+       "notes": "- He did not ignore the walls of Grol.\n- But he stopped treating the walls as the only battlefield.",
        "thumb": "thumbs/ch2/006.jpg"
       },
       {
        "key": "6",
        "label": "07 · Different walls",
-       "notes": "- The Google Ads UI is where performance problems become visible. \n- It is where clients expect us, Google Ads specialists, to work. \n- It is where our expertise is easiest to demonstrate. \n- Therefore it is where we instinctively search. \n- But the place where a symptom becomes visible is not necessarily the place where its cause lives.",
+       "notes": "- Just like many of you, I built my career inside these walls.\n- The walls of the Google Ads interface.\n- The Google Ads interface is where performance problems become visible. \n- It is where clients expect us, Google Ads specialists, to work. \n- It is where our expertise is easiest to demonstrate. \n- Therefore, it is where we instinctively spend most of our time. \n- But the place where a symptom becomes visible is not necessarily the place where its cause lives.",
        "thumb": "thumbs/ch2/007.jpg"
       },
       {
        "key": "7",
        "label": "08 · Title",
-       "notes": "- The place where specialists create advantage has changed.- \n- Google Ads is not becoming irrelevant, it is becoming more powerful.\n- But where we, Google Ads specialists, create differentiated advantage is changing.",
+       "notes": "- Google Ads itself is becoming more and more powerful.\n- But where we create differentiated advantage is changing rapidly.\n- And in this talk, I'd like to touch on why your next Google Ads win might begin outside of the account.",
        "thumb": "thumbs/ch2/008.jpg"
       },
       {
        "key": "8",
        "label": "09 · The profession",
-       "notes": "- These were real skills and real sources of performance. \n- Better structures, sharper query control and faster adoption of new Google tech created meaningful differences. ",
+       "notes": "- We all built a profession inside the UI.\n- All skills listed here are real skills and real sources of performance. \n- Better structures, sharper query control, better targeting, and faster adoption of new Google AI features created meaningful differences. ",
        "thumb": "thumbs/ch2/009.jpg"
       },
       {
        "key": "9",
        "label": "10 · Advantages were real",
-       "notes": "- Sophisticated execution differentiated Google Ads specialists because it was scarce. \n- Tooling was difficult, knowledge uneven, and implementation slow. \n- Part of our edge was created by doing what competitors could not yet do.",
+       "notes": "- Part of our edge was always doing what competitors could not yet do.\n- And a lot of these things came down to advanced tactics.\n- For example, who of you still remember the Alpha/Beta structure of years ago?\n- It was a Search campaign setup that split keywords into two parallel types of campaigns, with proven \"money-maker\" Exact Match keywords on the one hand for \"harvesting\" and Broad Match Modifier keywords for \"seeding\" on the other hand.\n- Sophisticated execution differentiated Google Ads accounts and specialists because it was scarce. \n- Tooling was also difficult and expensive, knowledge was uneven, and implementation was slow. ",
        "thumb": "thumbs/ch2/010.jpg"
       },
       {
        "key": "10",
        "label": "11 · Absorbed playbook",
-       "notes": "- Google productized specialist behaviours that improved advertiser outcomes. \n- AI accelerates the same process across analysis, generation and execution. \n- What required unusual expertise becomes available to the market.",
+       "notes": "- What required unusual expertise becomes available to everyone.\n- It happens on all layers within Google Ads: from bids, to conversion tracking, to targeting.\n- This all results in a level playing field that is becoming more and more competitive.",
        "thumb": "thumbs/ch2/011.jpg"
       },
       {
        "key": "11",
        "label": "12 · Industrialized",
-       "notes": "- Optimization continues at greater speed, scale and resolution. \n- The machine - Google AI - is often better at executing the decision. ",
+       "notes": "- Google did not eliminate optimization. It industrialized it.\n- The machine - Google AI - is often better at executing the decision. ",
        "thumb": "thumbs/ch2/012.jpg"
       },
       {
        "key": "12",
        "label": "13 · Equal machinery",
-       "notes": "- This does not mean all Google Ads accounts perform identically. \n- Adoption, setup and expertise still matter a lot. \n- But an edge built entirely on a shared feature decays as competitors adopt it and the auction prices it in.",
+       "notes": "- This does not mean all Google Ads accounts perform identically. \n- Adoption, setup, and expertise still matter a lot. \n- But an edge built entirely on a shared feature decays as competitors adopt it and the auction prices it in.",
        "thumb": "thumbs/ch2/013.jpg"
       },
       {
        "key": "13",
        "label": "14 · Advantage migrates",
-       "notes": "- Competitors can use the same Google AI features, but they cannot automatically activate your economics. \n- They can use the same image model, but they do not possess your product assets, customer understanding or taste. \n- They can use Smart Bidding, but they do not automatically have your definition of valuable growth. \n- The machine becomes more important, and what we give it becomes more decisive.",
+       "notes": "- Competitors can use the same Google AI features, but they cannot automatically activate your economics. \n- They can use the same image model, but they do not possess your product assets, customer understanding, or taste. \n- They can use Smart Bidding, but they do not automatically have your definition of valuable growth. \n- The machine itself becomes more important, and it amplifies what enters the machine.\n- This is nothing new, but your inputs are getting more important by the day.",
        "thumb": "thumbs/ch2/014.jpg"
       },
       {
        "key": "14",
        "label": "15 · Control surface",
-       "notes": "- The account shows symptoms from all five. It does not tell us which one is binding\n- These are possible locations of the current constraint, not five departments. \n- Google has the greatest native control and fastest feedback in Traffic. \n- Other inputs can enter the platform but originate in a broader system. \n",
+       "notes": "- I see Google Ads as a control surface inside a larger system.\n- It is where symptoms show up and where you set up, manage, and optimize your campaigns.\n- But other inputs can enter the platform and originate in a larger system. \n- And that larger system is where your constraint might live.",
        "thumb": "thumbs/ch2/015.jpg"
       },
       {
        "key": "15",
        "label": "16 · Three wins",
-       "notes": "- One case changes the offer, one the asset and one the definition of value. \n- Watch where each problem became visible, and where the decisive work happened.",
+       "notes": "- I'm going to show you three concrete Google Ads wins that originated outside the platform. \n- One case changes the offer, one changes the asset, and one changes the definition of value. \n- Watch where each problem became visible, and where the decisive work happened.",
        "thumb": "thumbs/ch2/016.jpg"
       },
       {
        "key": "16",
        "label": "16a · Chapter · Business",
-       "notes": "- Case one. Business: where the offer enters the auction. Timing: 0:15.",
+       "notes": "- Let's start with case 1. \n- This one lives in the Business bucket, where the offer enters the auction. ",
        "thumb": "thumbs/ch2/017.jpg"
       },
       {
        "key": "17",
        "label": "17 · Business · symptom",
-       "notes": "- These symptoms were genuinely visible in Google Ads. \n- The temptation was to bid harder or restructure our performance-based campaign structure. \n- \"Were we failing to buy the traffic, or bringing a weaker proposition into the auction?”",
+       "notes": "- This e-commerce account was losing ground.\n- These symptoms were genuinely visible in Google Ads. \n- Volume dropped, Lost IS (due to lower ad rank) increased, and we weren't able to hit our growth targets.\n- The temptation was to increase our Profit to Acquisition ratio and bid harder. Or restructure our performance-based campaign structure. \n- However, the real question was: \"Were we failing to buy the traffic, or bringing a weaker proposition into the auction?”",
        "thumb": "thumbs/ch2/018.jpg"
       },
       {
        "key": "18",
        "label": "18 · Business · widen",
-       "notes": "- Look at how compelling the promotion appears and what shipping adds for the shopper. \n- The Google Ads account showed the auction symptom; the constraint lived primarily in Business. (Avoid claiming Google ranks solely on total price.)",
+       "notes": "- This is what the shopper compared.\n- Look at how compelling the promotion appears and what shipping adds for the shopper. \n- The Google Ads account showed the auction symptom; the constraint lived primarily in Business.",
        "thumb": "thumbs/ch2/019.jpg"
       },
       {
        "key": "19",
        "label": "19 · Business · fix",
-       "notes": "- Build a tailored sale and discount plan around competitor behaviour. \n- Use Merchant Center Promotions to surface the advantage in Shopping. \n- Factor shipping into the complete customer proposition. \n- The commercial intervention became a stronger platform input (that Google Ads then amplifies).",
+       "notes": "- To fix this constraint, we built a tailored sale and discount plan around competitor behavior (which was very cyclical).\n- During these sale periods, we dropped prices and introduced free shipping.\n- GMC Promotions were used to surface these discounts in Shopping. \n- We gave Google a stronger offer to amplify.",
        "thumb": "thumbs/ch2/020.jpg"
       },
       {
        "key": "20",
        "label": "19b · Business · dynamic promos",
-       "notes": "- We built a promo schedule per (sub)category — the Promo_Schedule tab, a daily discount percentage for schuifdeursystemen, loftdeuren, panelen and the rest. \n- Then we made it dynamic: a custom Google Ads script reads the lowest live price per (sub)category and feeds it into the text ads via Ad Customizers, and keeps the price extensions in sync. ",
+       "notes": "- We built a promo schedule per (sub)category.\n- Then we made it dynamic.\n- GMC promotions were scheduled, and a custom Google Ads script was written (with the help of AI) that reads the lowest live price per (sub)category, feeds it into the text ads via Ad Customizers, and keeps the price extensions in sync. ",
        "thumb": "thumbs/ch2/021.jpg"
       },
       {
        "key": "21",
-       "label": "20b · Business · ad customizers",
-       "notes": "- Ad customizer attributes per category, so ad copy always shows the current lowest price.",
+       "label": "20c · Business · price script",
+       "notes": "- A script reads the GMC account and writes the lowest price per category into the attributes.\n- That lowest price is then adjusted by the scheduled promos (e.g. 10% category discount).\n- And that price is then used as input for the category-specific Ad Customizers that are used in the RSAs.",
        "thumb": "thumbs/ch2/022.jpg"
       },
       {
        "key": "22",
-       "label": "20d · Business · price assets",
-       "notes": "- The same data keeps price assets fresh, updated daily instead of hardcoded.",
+       "label": "20b · Business · ad customizers",
+       "notes": "- Ad customizer attributes are updated dynamically per category, so ad copy always shows the current lowest price.\n- Another script is also updating the price extensions daily based on the lowest calculated price.",
        "thumb": "thumbs/ch2/023.jpg"
       },
       {
        "key": "23",
-       "label": "20c · Business · price script",
-       "notes": "- A script reads the feed and writes the lowest price per category into the attributes.",
+       "label": "20 · Business · loop card",
+       "notes": "- This fix resulted in a stronger impression share, better positions, and drastically increased volumes.\n- Obviously, we gave back some margin by introducing these discounts.\n- However, it was the better choice than simply lowering ROAS targets and raising bids to amplify a broken offer.",
        "thumb": "thumbs/ch2/024.jpg"
       },
       {
        "key": "24",
-       "label": "20 · Business · loop card",
-       "notes": "- Google performed the auction-level execution. \n- Better visibility did not prove that bidding became smarter; the machine had something more competitive to show. \n- Margin is a guardrail: an ads win can still be a business loss.",
+       "label": "16b · Chapter · Creative",
+       "notes": "- Let's continue with case number 2.\n- This one lives in the Creative bucket, where the asset meets the shopper.",
        "thumb": "thumbs/ch2/025.jpg"
       },
       {
        "key": "25",
-       "label": "16b · Chapter · Creative",
-       "notes": "- Case two. Creative: where the asset meets the shopper. Timing: 0:15.",
+       "label": "21 · Creative · sameness",
+       "notes": "- Same account.\n- Every PLA started to look the same in the SERP. \n- Ours, but also ours vs. competitors. \n- A campaign restructure could not solve category-level sameness. \n- The constraint was in the Creative bucket.",
        "thumb": "thumbs/ch2/026.jpg"
       },
       {
        "key": "26",
-       "label": "21 · Creative · sameness",
-       "notes": "- A campaign restructure could not solve category-level sameness. \n- The constraint was Creative.",
+       "label": "22 · Creative · postponed",
+       "notes": "- Better images was one of the largest available levers in the account.\n- But producing it at quality and scale sat outside my capability and capacity.\n- I continued doing legitimate work I already knew how to perform. \n- However, the constraint stayed the same and did not stop being important because it sat outside my skill set.",
        "thumb": "thumbs/ch2/027.jpg"
       },
       {
        "key": "27",
-       "label": "22 · Creative · postponed",
-       "notes": "- Better imagery was likely one of the largest available levers in the account.\n- Producing it at quality and scale sat outside my capability and capacity.\n- I continued doing legitimate work I already knew how to perform. \n- The constraint did not stop being important because it sat outside my skill set.",
+       "label": "23 · Creative · excuse",
+       "notes": "- Image generation models like FLUX2 changed what I could execute personally. \n- I learned the missing skills and used world-class models directly myself. ",
        "thumb": "thumbs/ch2/028.jpg"
       },
       {
        "key": "28",
-       "label": "23 · Creative · excuse",
-       "notes": "- Image generation models changed what I could execute personally. \n- I learned the missing skills and used world-class models directly myself. \n- AI did not diagnose the binding constraint, but it made a previously impractical optimization executable. \n- Product understanding, direction, accuracy checks, taste, and prioritization remained necessary.",
+       "label": "24 · Creative · after (stalen)",
+       "notes": "- Now, this stands out! \n- The same SERP after the creative work: the outlined PLAs are ours.",
        "thumb": "thumbs/ch2/029.jpg"
       },
       {
        "key": "29",
-       "label": "24 · Creative · after (stalen)",
-       "notes": "- The same SERP after the creative work: the outlined PLAs are ours.\n- Optimized lifestyle imagery across the subcategory.",
+       "label": "24b · Creative · after (loftdeuren)",
+       "notes": "- The same pattern in a second subcategory: houten loftdeuren.\n- Nearly the whole sponsored row is ours.",
        "thumb": "thumbs/ch2/030.jpg"
       },
       {
        "key": "30",
-       "label": "24b · Creative · after (loftdeuren)",
-       "notes": "- The same pattern in a second subcategory: houten loftdeuren.\n- Nearly the whole sponsored row is ours.",
+       "label": "25 · Creative · half-life",
+       "notes": "- The images produced a higher relative CTR. \n- Competitors responded a few months later, and the relative edge began to decay. \n- Reassess whether more iterations still offer the best Return on Effort. \n- Move when the constraint moves. ",
        "thumb": "thumbs/ch2/031.jpg"
       },
       {
        "key": "31",
-       "label": "25 · Creative · half-life",
-       "notes": "- The images produced a higher relative CTR. \n- Competitors responded a few months later and the relative edge began to decay. \n- Reassess whether more iterations still offer the best Return on Effort. \n- Move when the constraint moves. ",
+       "label": "25b · Creative · loop card",
+       "notes": "- Same loop, different bucket.\n- The constraint was creative sameness, not campaign structure or something else.\n- The edge was real but temporary (a couple of months).\n- FOLLOW is what caught the decay and decided the next steps.",
        "thumb": "thumbs/ch2/032.jpg"
       },
       {
        "key": "32",
-       "label": "25b · Creative · loop card",
-       "notes": "- Same loop, different bucket: the constraint was creative sameness, not campaign structure. \n- The edge was real but temporary; FOLLOW is what caught the decay.",
+       "label": "16c · Chapter · Measurement",
+       "notes": "- Let's continue with the last case: Case number 3.\n- This one lives in the Measurement bucket: where and how success is defined, and what Google is optimizing for.",
        "thumb": "thumbs/ch2/033.jpg"
       },
       {
        "key": "33",
-       "label": "16c · Chapter · Measurement",
-       "notes": "- Case three. Measurement: where and how success is defined. Timing: 0:15.",
+       "label": "26 · Measurement · green",
+       "notes": "- Nothing was technically broken. \n- Tracking worked. Bidding was doing its thing, and trials arrived.\n- Smart Bidding produced the conversion it was asked to produce. \n- But the business did not need more trials. It needed more paying (new) subscribers.",
        "thumb": "thumbs/ch2/034.jpg"
       },
       {
        "key": "34",
-       "label": "26 · Measurement · green",
-       "notes": "- Nothing was technically broken. \n- Smart Bidding produced the conversion it was asked to produce. \n- But the business did not need more trials. It needed more paying (new) subscribers.",
+       "label": "27 · Measurement · proxy",
+       "notes": "- A trial is never the outcome.\n- Trial starts were measurable but not equally likely to become paying customers. \n- The constraint lived in the connection between Measurement and Business.",
        "thumb": "thumbs/ch2/035.jpg"
       },
       {
        "key": "35",
-       "label": "27 · Measurement · proxy",
-       "notes": "- Trial starts were measurable but not equally likely to become paying customers. \n- The constraint lived in the connection between Measurement and Business.",
+       "label": "27b · Measurement · OCI actions",
+       "notes": "- We fixed it by creating new offline conversion actions. \n- One for subscribers and one for resubscribers.\n- Each with its own lookback window, valued on modeled CLV, with lookback windows that match the business.\n- The machine now optimizes against modeled lifetime value instead of a trial count.",
        "thumb": "thumbs/ch2/036.jpg"
       },
       {
        "key": "36",
-       "label": "27b · Measurement · OCI actions",
-       "notes": "- These are the imported CLV conversion actions, live in the account.\n- Trials plus resubscribers, subscribers and resubscribers, each with its own lookback window.\n- The values come in from the CRM, so the machine optimizes against modelled lifetime value instead of a trial count.",
+       "label": "28 · Measurement · truth",
+       "notes": "- The red line marks the week the target changed (before/after > long story ;-)).\n- Above it, the machine is optimizing for trials. \n- Below it, for new subscribers valued on LTV. \n- A better definition of the outcome. \n- The machine was not failing. It was succeeding at the wrong definition of success.\n- Frederik will go deeper into directing and verifying the algorithm against business truth.",
        "thumb": "thumbs/ch2/037.jpg"
       },
       {
        "key": "37",
-       "label": "28 · Measurement · truth",
-       "notes": "- The red line marks the week the target changed (before/after > long story ;-)).\n- Above it, the machine is optimizing for trials. \n- Below it, for new subscribers valued on LTV. \n- A better definition of the outcome. The machine was not failing. It was succeeding at the wrong definition of success.\n- Handoff: Frederik will go deeper into directing and verifying the algorithm against business truth.",
+       "label": "28b · Measurement · loop card",
+       "notes": "- The machine was not failing; it was succeeding at the wrong definition of success. \n- FIX here was one switch: what counts, and what it is worth.",
        "thumb": "thumbs/ch2/038.jpg"
       },
       {
        "key": "38",
-       "label": "28b · Measurement · loop card",
-       "notes": "- The machine was not failing; it was succeeding at the wrong definition of success. \n- FIX here was one switch: what counts, and what it is worth.",
+       "label": "29 · Three wins, no optimization",
+       "notes": "- Here you have it. Three Google Ads wins. \n- None began with in-plaftorm optimizations. \n- I changed the offer, asset and truth.",
        "thumb": "thumbs/ch2/039.jpg"
       },
       {
        "key": "39",
-       "label": "29 · Three wins, no optimization",
-       "notes": "- All three interventions required Google to execute well. \n- None began with in-plaftorm optimizations. \n- Three Google Ads wins. None began with a Google Ads optimization.",
+       "label": "30 · Why start inside",
+       "notes": "- If the advantage moved, why do we keep starting inside the account?\n- The answer is not laziness.",
        "thumb": "thumbs/ch2/040.jpg"
       },
       {
        "key": "40",
-       "label": "30 · Why start inside",
-       "notes": "- The answer is not laziness. \n- The trap primarily affects skilled, conscientious people. \n- The account makes work unusually comfortable and defensible.",
+       "label": "31 · Comfort zone",
+       "notes": "- It's because the account is our comfort zone.\n- The account makes work unusually comfortable and also defensible.\n- It sits within our authority and demonstrates expertise.\n- Outside constraints require uncertainty, learning, collaboration or difficult conversations.",
        "thumb": "thumbs/ch2/041.jpg"
       },
       {
        "key": "41",
-       "label": "31 · Comfort zone",
-       "notes": "- Account activity produces fast feedback and concrete reporting. \n- It sits inside our authority and demonstrates expertise (if you're well skilled). \n- Outside constraints require uncertainty, learning, collaboration or difficult conversations.",
+       "label": "32 · Productive avoidance",
+       "notes": "- A lot of in-platform optimizations are still very useful.\n- But it becomes avoidance when you start working on the wrong thing.",
        "thumb": "thumbs/ch2/042.jpg"
       },
       {
        "key": "42",
-       "label": "32 · Productive avoidance",
-       "notes": "- The work can be useful, sophisticated and well executed. \n- It becomes avoidance when it displaces the intervention most likely to move the outcome. \n- AI can make avoidance faster, prettier and easier to report.",
+       "label": "33 · The mirror",
+       "notes": "- Ask yourself this: \n- If every diagnosis leads back to the service you already sell … \n- Are you diagnosing the business or defending your business model?\n- Expertise determines which problems we can see and also solve.\n- If the constraint sits outside your skill set, it may mean your skill set has (to) become part of it.",
        "thumb": "thumbs/ch2/043.jpg"
       },
       {
        "key": "43",
-       "label": "33 · The mirror",
-       "notes": "- Expertise determines which problems we can solve and which ones we are willing to see. \n- If the constraint sits outside your skill set, that does not move the constraint. It may mean your skill set has (to) become part of it.\n- We need a method that begins before our preferred solution (productive avoidance).",
+       "label": "34 · The Constraint Loop",
+       "notes": "- I use this simple method to prevent productive avoidance.\n- Find it: Which constraint most binds the commercial outcome? It is either part of the business, measurement, conversion, traffic or creative bucket.\n- Fix it: Intervene where it binds, not where it is comfortable.\n- Follow it: Track the result until the constraint moves.\n- Once the constraint is fixed, it will move, and you simply run it again. And again. And again.\n- Tomorrow I will show you concrete examples, and we're also going to use it on your account.",
        "thumb": "thumbs/ch2/044.jpg"
       },
       {
        "key": "44",
-       "label": "34 · The Constraint Loop",
-       "notes": "- Business: find offer competitiveness, fix the proposition, follow margin and market response. \n- Creative: find sameness, build the capability, follow competitors and Return on Effort. \n- Measurement: find the false success definition, fix the signal, follow subscriber value. \n- Conversion: find the step where demand leaks (a promise the page does not keep), fix the offer clarity and friction on that step, follow conversion rate and margin as competitors respond. ",
+       "label": "35 · Find it",
+       "notes": "- First, ask yourself these questions.\n- 1. What must improve, and what must we protect?\n- 2. Where does the outcome break?\n- 3. What most prevents it, and where does it live?\n- 4. What evidence would make us reopen the choice?",
        "thumb": "thumbs/ch2/045.jpg"
       },
       {
        "key": "45",
-       "label": "35 · Find it",
-       "notes": "Start with the outcome, not a platform task. Separate desired change from current reality. Do not fix five imperfect things because you found five imperfections. Keep missing evidence explicit. Timing: 1:00.",
+       "label": "36 · Fix it",
+       "notes": "- Next, ask yourself:\n- 1. What is the one bounded action with the highest Return on Effort?\n- 2. Who or what executes it?\n- 3. Which judgment stays owned?\n- The future specialist does not need to execute everything personally. \n- They need enough understanding to diagnose, brief and validate. \n- AI belongs here as execution leverage. ",
        "thumb": "thumbs/ch2/046.jpg"
       },
       {
        "key": "46",
-       "label": "36 · Fix it",
-       "notes": "The future specialist does not need to execute everything personally. They need enough understanding to diagnose, brief and validate. AI belongs here as execution leverage. “Delegating execution does not delegate ownership of the diagnosis.” Timing: 0:55.",
+       "label": "37 · Follow it",
+       "notes": "- And lastly, ask yourself:\n- 1. Which number moves first, and what does it read today?\n- 2. When is the earliest honest review?\n- 3. At the review: did the number move, did the goal move, is it still binding?\n- 4. Where does attention move next?\n- The goal is to solve the constraint so the business result moves. \n- The constraint will continuously move. That's because competitors respond, markets change, et cetera.",
        "thumb": "thumbs/ch2/047.jpg"
       },
       {
        "key": "47",
-       "label": "37 · Follow it",
-       "notes": "Completion is not the goal; business movement is. Competitors respond, markets change and bottlenecks move. Follow the constraint rather than defending yesterday’s successful tactic. Timing: 0:55.",
+       "label": "38 · Earn the right",
+       "notes": "- I want to be very clear: Account optimization is not wrong. \n- But it is wrong when performed before the problem is defined. \n- The Traffic bucket may genuinely be the constraint, and only then is deep platform execution the right thing to execute on.",
        "thumb": "thumbs/ch2/048.jpg"
       },
       {
        "key": "48",
-       "label": "38 · Earn the right",
-       "notes": "Account optimization is not wrong. It is wrong when performed before the problem is defined. Traffic may genuinely be the constraint; then deep platform execution is exactly right. The framework changes the sequence, not the legitimacy of account expertise. Timing: 0:35.",
+       "label": "39 · Live diagnosis",
+       "notes": "- Okay, your turn.\n- This account's shopping revenue has plateaued, and everything looks good. \n- What do you optimize next? (Show hands for targets/structure/exclusions/feed titles/assets)\n- Obviously, this is a bit of a trick question since we do not have sufficient evidence to prioritize confidently. ",
        "thumb": "thumbs/ch2/049.jpg"
       },
       {
        "key": "49",
-       "label": "39 · Live diagnosis",
-       "notes": "Let the room choose instinctively. Every option could be legitimate. Ask: “What commercial outcome are we trying to change?” The account evidence is insufficient to prioritize confidently. Ask for hands; do not show an answer. Timing: 0:50 plus room response.",
+       "label": "40 · Widen the map",
+       "notes": "- Now, let's add what the account cannot see.\n- “If you only inspect the account, the account will always appear to contain the answer.” \n- More context does not mean fixing everything. \n- It allows the strongest constraint to be selected relative to the outcome. \n",
        "thumb": "thumbs/ch2/050.jpg"
       },
       {
        "key": "50",
-       "label": "40 · Widen the map",
-       "notes": "More context does not mean fixing everything. It allows the strongest constraint to be selected relative to the outcome. “If you only inspect the account, the account will always appear to contain the answer.” Do not declare one universally correct answer. Timing: 1:00.",
+       "label": "41 · Tomorrow",
+       "notes": "- Tomorrow morning you do both. \n- First, you choose the bigger problem you want to own. \n- Then you find the constraint on a real account, and once on your own. ",
        "thumb": "thumbs/ch2/051.jpg"
       },
       {
        "key": "51",
-       "label": "41 · Tomorrow",
-       "notes": "- Tomorrow morning you do both. \n- First you choose the bigger problem. Then you find the constraint on a real account, and once on your own. \n- No download. You get a workbook in the room. Timing: 0:45.",
+       "label": "42 · Unit of work",
+       "notes": "- If you have to remember one thing from this session:\n- The account is no longer your unit of work. The constraint is.\n- Move away from owning the account to owning the outcome.\n- Google Ads and deep account expertise still matter. \n- But the more capable the machine becomes, the more the outcome depends on what we give it to amplify.",
        "thumb": "thumbs/ch2/052.jpg"
       },
       {
        "key": "52",
-       "label": "42 · Unit of work",
-       "notes": "You do not need to leave Google Ads. You must stop treating the interface as the boundary of responsibility. Specialization remains valuable but cannot predetermine every diagnosis. Timing: 0:50.",
+       "label": "44 · The walls still mattered",
+       "notes": "- Frederik Hendrik still needed trenches, artillery, mines, and skilled execution.\n- But he needed a larger map to understand the full battlefield to win the siege.",
        "thumb": "thumbs/ch2/053.jpg"
       },
       {
        "key": "53",
-       "label": "43 · Capability",
-       "notes": "Foundational breadth makes constraints visible. Selected depth makes meaningful intervention possible. AI expands executional reach; collaboration covers remaining gaps. Day 2 reveals where attendees can follow the constraint and where they retreat into familiar work. Timing: 0:45.",
-       "thumb": "thumbs/ch2/054.jpg"
-      },
-      {
-       "key": "54",
-       "label": "44 · The walls still mattered",
-       "notes": "Frederik Hendrik still needed trenches, artillery, mines and skilled execution. Execution became decisive inside a wider understanding of the system. Google Ads and deep account expertise still matter. “But the more capable the machine becomes, the more the outcome depends on what we give it to amplify.” Timing: 0:30.",
-       "thumb": "thumbs/ch2/055.jpg"
-      },
-      {
-       "key": "55",
        "label": "45 · The advantage moved",
-       "notes": "Final cadence: “Widen the map.” “Find the constraint.” “Fix it.” “Follow it when it moves.” “The advantage moved. Will you follow it?” Hold in silence. Then: thank you, see you tomorrow morning. Timing: 0:30.",
-       "thumb": "thumbs/ch2/056.jpg"
+       "notes": "“The advantage moved. Will you follow it?” Hold in silence. Then: thank you, see you tomorrow morning. Timing: 0:30.",
+       "thumb": "thumbs/ch2/054.jpg"
       }
      ]
     },
