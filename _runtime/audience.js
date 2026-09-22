@@ -1,6 +1,9 @@
 /* Audience window: owns the real position. Images are <img>, decks are preloaded
    same-folder iframes driven through bridge.js. Keys work here too, so the
-   block also runs single-screen without the presenter window. */
+   block also runs single-screen without the presenter window.
+   A PDF page can carry clips (step.videos): they sit where they sit on the
+   slide and play on a forward click. They never autoplay, and they reproduce
+   the speaker's own trim and mute settings from the source deck. */
 (function () {
   var S = window.Stage, block = S.block;
   var link = new S.Link('audience');
@@ -9,6 +12,7 @@
   var blackEl = document.getElementById('black');
   var startEl = document.getElementById('start');
   var toastEl = document.getElementById('toast');
+  var vlayer = document.getElementById('vlayer');
   document.title = block.title + ' · Audience';
 
   var pos = { seg: 0, step: 0 };
@@ -28,6 +32,169 @@
     stageEl.appendChild(el);
     frames[i] = { el: el, ready: false, pending: {} };
   });
+
+  // --- clips ----------------------------------------------------------------
+  // Google Slides bakes only a poster frame into a PDF export, so each embedded
+  // clip is overlaid on the page it belongs to.
+  //
+  // The clip shows its own frame at her trim point as soon as it is armed, and
+  // keeps showing it. The PDF's poster is not usable as the still: these are
+  // phone screen recordings, and what the PDF baked in is the recording paused,
+  // iOS status bar and a play button over the middle. That reads as a
+  // screenshot pasted on the slide, and it jumps the moment it starts. Holding
+  // the clip's own first frame means the still and the motion are the same
+  // picture, so the click just makes it move. The PDF poster stays underneath
+  // as the fallback for a clip that fails to load.
+  var clips = {};            // "seg.step" -> [{ el, v, played }]
+  var pausedByBlack = null;
+  var lastShown = null;
+  block.segments.forEach(function (sg, si) {
+    (sg.steps || []).forEach(function (st, ti) {
+      if (!st.videos || !st.videos.length) return;
+      clips[si + '.' + ti] = st.videos.map(function (v) {
+        var el = document.createElement('video');
+        el.className = 'vid';
+        el.src = v.src;
+        el.preload = 'none';       // armed on approach, so nothing downloads early
+        el.playsInline = true;
+        el.style.left = v.rect[0] + '%';
+        el.style.top = v.rect[1] + '%';
+        el.style.width = v.rect[2] + '%';
+        el.style.height = v.rect[3] + '%';
+        var c = { el: el, v: v, played: false, blocked: false, raf: 0 };
+        if (v.start) el.addEventListener('loadedmetadata', function () {
+          if (c.el.paused) { try { c.el.currentTime = v.start; } catch (e) {} }
+        });
+        el.addEventListener('ended', function () { endClip(c); });
+        el.addEventListener('timeupdate', throttled(publish, 400));
+        el.addEventListener('click', function () { playClip(c); });
+        vlayer.appendChild(el);
+        return c;
+      });
+    });
+  });
+
+  function throttled(fn, ms) {
+    var last = 0;
+    return function () { var t = Date.now(); if (t - last < ms) return; last = t; fn(); };
+  }
+  function clipsAt(seg, step) { return clips[seg + '.' + step] || []; }
+  function playingClip() {
+    var c = clipsAt(pos.seg, pos.step);
+    for (var i = 0; i < c.length; i++) if (!c[i].el.paused && !c[i].el.ended) return c[i];
+    return null;
+  }
+  function nextClip() {
+    var c = clipsAt(pos.seg, pos.step);
+    for (var i = 0; i < c.length; i++) if (!c[i].played) return c[i];
+    return null;
+  }
+  // Preload the clips on this page and the next one, and nothing else: a block
+  // can carry hundreds of megabytes and the venue may be on http, not file://.
+  function armClips(p) {
+    if (!p) return;
+    clipsAt(p.seg, p.step).forEach(function (c) {
+      if (c.el.preload === 'auto') return;
+      c.el.preload = 'auto';
+      c.el.load();
+      // Show it only once it has a frame to show, so nothing flashes black.
+      var show = function () { c.el.classList.add('on'); };
+      if (c.v.start) {
+        c.el.addEventListener('seeked', show, { once: true });
+        c.el.addEventListener('loadeddata', function () {
+          try { c.el.currentTime = c.v.start; } catch (e) { show(); }
+        }, { once: true });
+      } else {
+        c.el.addEventListener('loadeddata', show, { once: true });
+      }
+    });
+  }
+  function resetClips(seg, step) {
+    clipsAt(seg, step).forEach(function (c) {
+      try { c.el.pause(); } catch (e) {}
+      try { c.el.currentTime = c.v.start || 0; } catch (e) {}
+      if (c.raf) { cancelAnimationFrame(c.raf); c.raf = 0; }
+      c.played = false;
+      c.blocked = false;
+    });
+  }
+
+  // She trims a clip in Slides with one start/end pair. Stop on the frame she
+  // chose rather than a timeupdate tick later, which would show the cut.
+  function watchEnd(c) {
+    if (c.raf) cancelAnimationFrame(c.raf);
+    c.raf = 0;
+    if (!c.v.end) return;
+    var tick = function () {
+      if (c.el.paused || c.el.ended) { c.raf = 0; return; }
+      if (c.el.currentTime >= c.v.end) { endClip(c); return; }
+      c.raf = requestAnimationFrame(tick);
+    };
+    c.raf = requestAnimationFrame(tick);
+  }
+  function endClip(c) {
+    if (c.raf) { cancelAnimationFrame(c.raf); c.raf = 0; }
+    try { c.el.pause(); } catch (e) {}
+    c.played = true;
+    publish();
+  }
+  function playClip(c) {
+    if (!c) return;
+    var cur = playingClip();
+    if (cur && cur !== c) stopClip(cur);
+    c.played = true;
+    c.blocked = false;
+    // Her setting, not ours: some of these clips are deliberately silent.
+    c.el.muted = !!c.v.muted;
+    c.el.volume = 1;
+    try { c.el.currentTime = c.v.start || 0; } catch (e) {}
+    c.el.classList.add('on');   // already on unless it loaded late
+    watchEnd(c);
+    var pr = c.el.play();
+    if (pr && pr.catch) pr.catch(function () {
+      // Chrome only allows sound once this window has been clicked. Run the
+      // picture muted rather than not at all, and say what to do about it.
+      // A clip she muted herself never gets here: muted playback is allowed.
+      c.el.muted = true;
+      c.blocked = true;
+      c.el.play().catch(function () {});
+      watchEnd(c);
+      toast('No sound: click the audience screen once, then press V to replay');
+      publish();
+    });
+    publish();
+  }
+  function stopClip(c) {
+    if (c.raf) { cancelAnimationFrame(c.raf); c.raf = 0; }
+    try { c.el.pause(); } catch (e) {}
+    c.played = true;
+  }
+  function replayClip() {
+    var all = clipsAt(pos.seg, pos.step);
+    if (!all.length) return;
+    var c = playingClip();
+    if (!c) {
+      for (var i = all.length - 1; i >= 0; i--) if (all[i].played) { c = all[i]; break; }
+      if (!c) c = all[0];
+    }
+    playClip(c);
+  }
+  function clipState() {
+    var all = clipsAt(pos.seg, pos.step);
+    if (!all.length) return null;
+    var playing = playingClip();
+    var played = 0;
+    all.forEach(function (c) { if (c.played) played++; });
+    var left = 0;
+    if (playing) {
+      var stop = playing.v.end || (isFinite(playing.el.duration) ? playing.el.duration : 0);
+      if (stop) left = Math.max(0, stop - playing.el.currentTime);
+    }
+    return { total: all.length, played: played, playing: playing ? all.indexOf(playing) + 1 : 0,
+      label: playing ? playing.v.label : '', left: left,
+      silent: !!(playing && playing.v.muted),       // she muted it
+      blocked: !!(playing && playing.blocked) };    // we wanted sound and Chrome refused
+  }
 
   window.addEventListener('message', function (e) {
     var d = e.data;
@@ -91,6 +258,14 @@
     } else {
       img.classList.remove('on');
     }
+    // Leaving a page rewinds its clips, so coming back replays from the top.
+    var here = pos.seg + '.' + pos.step;
+    if (lastShown !== here) {
+      if (lastShown) resetClips(+lastShown.split('.')[0], +lastShown.split('.')[1]);
+      lastShown = here;
+    }
+    armClips(pos);
+    armClips(S.nextPos(pos));
     blackEl.classList.toggle('on', black);
     publish();
   }
@@ -98,7 +273,7 @@
   function publish() {
     var ready = {};
     Object.keys(frames).forEach(function (k) { ready[k] = frames[k].ready; });
-    link.send({ type: 'state', seg: pos.seg, step: pos.step, key: live.key, notes: live.notes, label: live.label, black: black, ready: ready });
+    link.send({ type: 'state', seg: pos.seg, step: pos.step, key: live.key, notes: live.notes, label: live.label, black: black, ready: ready, video: clipState() });
     try { location.replace('#' + (pos.seg + 1) + '.' + (pos.step + 1)); } catch (e) {}
   }
 
@@ -137,12 +312,30 @@
         if (dir < 0 && pos.seg > 0) return goTo(pos.seg - 1, 1e9);
       });
     }
+    // On a page with clips a forward click works like Google Slides: it plays
+    // the next one that has not run yet, and only then moves on.
+    if (dir > 0 && clipsAt(pos.seg, pos.step).length) {
+      var cur = playingClip();
+      if (cur) stopClip(cur);
+      var nxt = nextClip();
+      if (nxt) { playClip(nxt); return Promise.resolve(); }
+    }
     var p = dir > 0 ? S.nextPos(pos) : S.prevPos(pos);
     if (!p) return Promise.resolve();
     return goTo(p.seg, p.seg === pos.seg ? p.step : (dir > 0 ? 0 : 1e9));
   }
 
-  function setBlack(on) { black = on; render(); }
+  function setBlack(on) {
+    if (on) {
+      var c = playingClip();
+      if (c) { c.el.pause(); pausedByBlack = c; }
+    } else if (pausedByBlack) {
+      pausedByBlack.el.play().catch(function () {});
+      pausedByBlack = null;
+    }
+    black = on;
+    render();
+  }
 
   function onKey(key) {
     hideStart();
@@ -150,11 +343,12 @@
     else if (key === 'ArrowLeft' || key === 'ArrowUp' || key === 'PageUp') run(function () { return step(-1); });
     else if (key === 'b' || key === 'B' || key === '.') setBlack(!black);
     else if (key === 'Home') run(function () { return goTo(0, 0); });
+    else if (key === 'v' || key === 'V') replayClip();
     else if (key === 'f' || key === 'F') toggleFullscreen();
   }
   window.addEventListener('keydown', function (e) {
     if (e.metaKey || e.ctrlKey || e.altKey) return;
-    if (/^(Arrow|Page)|^[ bB.fF]$|^Home$|^Spacebar$/.test(e.key)) { e.preventDefault(); onKey(e.key); }
+    if (/^(Arrow|Page)|^[ bB.fFvV]$|^Home$|^Spacebar$/.test(e.key)) { e.preventDefault(); onKey(e.key); }
   });
 
   link.on(function (d) {
@@ -165,6 +359,7 @@
     else if (d.cmd === 'prev') run(function () { return step(-1); });
     else if (d.cmd === 'goto') run(function () { return goTo(d.seg, d.step); });
     else if (d.cmd === 'black') setBlack(d.on == null ? !black : !!d.on);
+    else if (d.cmd === 'replay-video') replayClip();
     else if (d.cmd === 'reload-deck' && frames[pos.seg]) { frames[pos.seg].ready = false; frames[pos.seg].el.src = block.segments[pos.seg].deck.src; }
   });
   setInterval(publish, 1500);

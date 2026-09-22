@@ -46,6 +46,26 @@ body.audience.fs { cursor: none; }
 }
 #stage img.frame { object-fit: contain; }
 #stage .frame.on { visibility: visible; }
+/* Clips sit in the same letterboxed 16:9 box as the slide, at the percentage
+   rectangle they occupy on the source slide. Transparent until they play, so
+   the PDF's own poster frame is what the room sees until then. */
+#vlayer {
+  position: absolute; inset: 0; margin: auto;
+  width: min(100vw, calc(100vh * 16 / 9));
+  height: min(100vh, calc(100vw * 9 / 16));
+  pointer-events: none;
+}
+#vlayer video {
+  /* contain, never cover: these are phone recordings whose own UI is the point,
+     so nothing may be cropped away. Where a slot is a hair wider than its clip
+     (CH4 page 58 is 7.7% wider) the background stays transparent, so the PDF's
+     poster frame fills the slack and there is no visible jump on play. */
+  position: absolute; object-fit: contain; background: transparent;
+  opacity: 0; transition: opacity .12s; pointer-events: auto; cursor: pointer;
+}
+#vlayer video.on { opacity: 1; }
+body.audience.fs #vlayer video { cursor: none; }
+
 #black { position: fixed; inset: 0; background: #000; display: none; z-index: 20; }
 #black.on { display: block; }
 #start {
@@ -124,6 +144,7 @@ body.dragging iframe, body.dragging img { pointer-events: none; }
 .seg-title { color: var(--text); font-weight: 600; font-size: 17px; }
 .step-count { font-variant-numeric: tabular-nums; font-size: 17px; color: var(--text); }
 .deck-state { color: var(--accent-2); }
+.video-state { color: var(--accent-2); white-space: nowrap; }
 .shot { min-height: 0; height: 100%; display: flex; align-items: flex-start; cursor: pointer; }
 .shot img, .shot .empty {
   max-width: 100%; max-height: 100%; display: block;

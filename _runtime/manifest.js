@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-22 08:18",
+ "built": "2026-09-22 14:46",
  "blocks": [
   {
    "id": "block-1",
@@ -1351,7 +1351,22 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-26.jpg",
        "label": "Page 26",
-       "notes": ""
+       "notes": "",
+       "videos": [
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p26-betterhelp-street-interview.mp4",
+         "rect": [
+          42.418,
+          32.61,
+          16.642,
+          64.325
+         ],
+         "label": "BetterHelp street interview",
+         "start": 1,
+         "end": 8,
+         "muted": false
+        }
+       ]
       },
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-27.jpg",
@@ -1431,12 +1446,42 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-42.jpg",
        "label": "Page 42",
-       "notes": ""
+       "notes": "",
+       "videos": [
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p42-this-is-real.mp4",
+         "rect": [
+          41.583,
+          27.218,
+          17.617,
+          68.093
+         ],
+         "label": "This is real",
+         "start": 21,
+         "end": 33,
+         "muted": false
+        }
+       ]
       },
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-43.jpg",
        "label": "Page 43",
-       "notes": ""
+       "notes": "",
+       "videos": [
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p43-yungblud-this-is-raw.mp4",
+         "rect": [
+          41.359,
+          25.824,
+          17.282,
+          66.796
+         ],
+         "label": "Yungblud, this is raw",
+         "start": 14,
+         "end": 25,
+         "muted": false
+        }
+       ]
       },
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-44.jpg",
@@ -1446,7 +1491,22 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-45.jpg",
        "label": "Page 45",
-       "notes": ""
+       "notes": "",
+       "videos": [
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p45-wildlife-park-pig.mp4",
+         "rect": [
+          41.297,
+          28.739,
+          17.406,
+          67.279
+         ],
+         "label": "Wildlife park pig",
+         "start": 4,
+         "end": 10,
+         "muted": false
+        }
+       ]
       },
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-46.jpg",
@@ -1511,17 +1571,62 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-58.jpg",
        "label": "Page 58",
-       "notes": ""
+       "notes": "",
+       "videos": [
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p58-ccc-pasta-night.mp4",
+         "rect": [
+          40.034,
+          24.975,
+          19.931,
+          71.553
+         ],
+         "label": "CCC test 1, Pasta night",
+         "start": 1,
+         "end": 4,
+         "muted": false
+        }
+       ]
       },
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-59.jpg",
        "label": "Page 59",
-       "notes": ""
+       "notes": "",
+       "videos": [
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p59-ccc-heineken.mp4",
+         "rect": [
+          38.367,
+          21.197,
+          22.222,
+          70.234
+         ],
+         "label": "CCC test 2, Heineken",
+         "start": 1,
+         "end": 4,
+         "muted": false
+        }
+       ]
       },
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-60.jpg",
        "label": "Page 60",
-       "notes": ""
+       "notes": "",
+       "videos": [
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p60-ccc-eva-alert.mp4",
+         "rect": [
+          40.082,
+          19.519,
+          19.836,
+          76.669
+         ],
+         "label": "CCC test 3, Eva Alert",
+         "start": 12,
+         "end": 17,
+         "muted": false
+        }
+       ]
       },
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-61.jpg",
@@ -1546,7 +1651,61 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-65.jpg",
        "label": "Page 65",
-       "notes": ""
+       "notes": "",
+       "videos": [
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p65-1-anna-spiegel.mp4",
+         "rect": [
+          12.232,
+          39.141,
+          17.653,
+          55.792
+         ],
+         "label": "Hook 1, Anna spiegel",
+         "start": 0,
+         "end": 0,
+         "muted": true
+        },
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p65-2-anna-zorg.mp4",
+         "rect": [
+          31.526,
+          39.141,
+          17.653,
+          55.791
+         ],
+         "label": "Hook 2, Anna zorg",
+         "start": 0,
+         "end": 0,
+         "muted": true
+        },
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p65-3-anna-staart.mp4",
+         "rect": [
+          50.821,
+          39.141,
+          17.653,
+          55.792
+         ],
+         "label": "Hook 3, Anna staart",
+         "start": 0,
+         "end": 0,
+         "muted": true
+        },
+        {
+         "src": "media/day-1-ch4-stand-out-as-a-human-deck/p65-4-clips-schamen.mp4",
+         "rect": [
+          70.115,
+          39.141,
+          17.653,
+          55.792
+         ],
+         "label": "Hook 4, we schamen ons",
+         "start": 0,
+         "end": 0,
+         "muted": true
+        }
+       ]
       },
       {
        "src": "slides/day-1-ch4-stand-out-as-a-human-deck/p-66.jpg",

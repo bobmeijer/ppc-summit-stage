@@ -25,6 +25,7 @@ Everything runs offline in Chrome or Edge. You don't need to install anything or
 | Right, Down, PageDown, Space | Next slide or build step |
 | Left, Up, PageUp | Previous |
 | B or . | Black screen on/off |
+| V | Replay the clip on this slide |
 | O | Open audience window |
 | + / - | Notes text size |
 | [ / ] | Zoom the whole presenter view |
@@ -34,6 +35,19 @@ Everything runs offline in Chrome or Edge. You don't need to install anything or
 | F (audience window) | Toggle fullscreen |
 
 Click a row in the running order to jump straight to that part of the block (for example the break slide). A block runs from start to finish: speaker card, talk, then the break slide.
+
+## Slides with video (CH4, Danique Bras)
+
+Eight of her pages have a clip on them, and one page has four. They do not start by themselves.
+
+- **A forward click plays the clip, with sound. It does not move to the next slide.** The click after it moves on.
+- On the page with four clips they play one per click, left to right. The fifth click moves on.
+- The line under the slide in the presenter view always says which one the next click will do, for example *Playing, 0:12 left, next click moves on*.
+- **V** replays the clip. **B** blacks the screen and pauses the sound with it; pressing **B** again picks it up where it stopped.
+- Going back a slide and forward again replays the clip from the start.
+- **If that line says NO SOUND:** the audience window was never clicked. Click it once, then press **V** to replay with sound. Doing step 3 above prevents this.
+
+Turn the room's sound on before her talk and check page 26 in rehearsal.
 
 ## Timers
 

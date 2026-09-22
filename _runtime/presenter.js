@@ -178,9 +178,28 @@
     var ready = (live && live.ready) || {};
     var loading = seg.kind === 'deck' && link.connected() && ready[pos.seg] === false;
     $('deck-state').textContent = loading ? 'Deck loading on audience screen...' : '';
+    $('video-state').textContent = videoState(st, live && link.connected() ? live.video : null);
 
     document.body.classList.toggle('black', black);
     renderList(ready);
+  }
+
+  // A slide can carry clips that play on a forward click rather than advancing
+  // (PDF decks; see audience.js). Say which click does what, so nobody on the
+  // desk has to guess whether the next press plays or moves on.
+  function videoState(st, v) {
+    var n = (st && st.videos && st.videos.length) || 0;
+    if (!v) return n ? '\u25B6 ' + n + ' clip' + (n > 1 ? 's' : '') + ' on this slide, a forward click plays' : '';
+    var of = v.total > 1 ? ' ' + v.playing + '/' + v.total : '';
+    if (v.playing) {
+      return '\u25B6 Playing' + of + (v.label ? ' \u00B7 ' + v.label : '') +
+        (v.left ? ' \u00B7 ' + fmt(v.left * 1000) + ' left' : '') +
+        (v.silent ? ' \u00B7 silent by design' : '') +
+        (v.blocked ? ' \u00B7 NO SOUND, click the audience screen' : '') +
+        ' \u00B7 next click ' + (v.played < v.total ? 'plays the next clip' : 'moves on');
+    }
+    if (v.played >= v.total) return '\u25A0 ' + v.total + ' clip' + (v.total > 1 ? 's' : '') + ' played \u00B7 next click moves on';
+    return '\u25B6 ' + (v.total - v.played) + ' of ' + v.total + ' clip' + (v.total > 1 ? 's' : '') + ' still to play \u00B7 next click plays';
   }
 
   function formatNotes(t) {
@@ -241,6 +260,9 @@
     if (link.connected()) return link.send({ type: 'cmd', cmd: 'goto', seg: seg, step: step });
     pos = { seg: seg, step: step }; render();
   }
+  function replayVideo() {
+    if (link.connected()) link.send({ type: 'cmd', cmd: 'replay-video' });
+  }
   function toggleBlack() {
     if (link.connected()) return link.send({ type: 'cmd', cmd: 'black' });
     black = !black; render();
@@ -280,6 +302,7 @@
     if (k === 'ArrowRight' || k === 'ArrowDown' || k === 'PageDown' || k === ' ' || k === 'n' || k === 'N') next();
     else if (k === 'ArrowLeft' || k === 'ArrowUp' || k === 'PageUp' || k === 'p' || k === 'P') prev();
     else if (k === 'b' || k === 'B' || k === '.') toggleBlack();
+    else if (k === 'v' || k === 'V') replayVideo();
     else if (k === 'Home') go(0, 0);
     else if (k === '+' || k === '=') notesSize(2);
     else if (k === '-' || k === '_') notesSize(-2);
