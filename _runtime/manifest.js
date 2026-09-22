@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-22 06:47",
+ "built": "2026-09-22 08:18",
  "blocks": [
   {
    "id": "block-1",
@@ -462,13 +462,13 @@ window.STAGE_MANIFEST = {
       {
        "key": "0",
        "label": "01 · These walls",
-       "notes": "- This is Groenlo, the town where I was born and raised.\n- Almost four hundred years ago, this was the fortified city of Grol.\n- The shape you can still see around it is not decorative, but highly functional.\n- And the story I want to tell you starts with a failure.\n",
+       "notes": "- This is Groenlo, the town where I was born and raised.\n- Almost four hundred years ago, this was the fortified city of Grol.\n- The shape you can still see around it is not decorative, but highly functional.",
        "thumb": "thumbs/ch2/001.jpg"
       },
       {
        "key": "1",
        "label": "02 · Grol, 1595",
-       "notes": "- Grol was small but strategically important. \n- Its fortifications were highly effective. \n- By then, it was taken by the Spanish due to its strategic location. \n- Any Spanish over here? I'd like to get a word after the conference.\n- In 1595, Prince Maurits arrived with a State army and attempted to take it back from the Spanish.\n- If this is the map you are looking at, the plan of attack appears simple: get through the walls and take the city.",
+       "notes": "- A few hundred years ago, it was taken by the Spanish due to its strategic location. \n- Any Spanish over here? I'd like to get a word with you after the conference.\n- In 1595, Prince Maurits arrived with a State army and attempted to take it back from the Spanish.\n- If this is the map you are looking at, the plan of attack appears simple: get through the walls and take the city.",
        "thumb": "thumbs/ch2/002.jpg"
       },
       {
@@ -480,7 +480,7 @@ window.STAGE_MANIFEST = {
       {
        "key": "3",
        "label": "03 · Siege abandoned",
-       "notes": "- The outcome of the siege was determined by something that was not on Maurits' map.\n- The map was accurate, but it was simply too small. \n- Maurits was too focused on taking down the walls of the fortified city and taking it back from the Spanish and forgot about the bigger picture.",
+       "notes": "- The outcome of the siege was determined by something that was not on Maurits' map.\n- The map was accurate, but it was simply too small. \n- Maurits was too focused on taking down the walls of the fortified city and taking it back from the Spanish.\n- He forgot about the bigger picture.",
        "thumb": "thumbs/ch2/004.jpg"
       },
       {
@@ -540,223 +540,223 @@ window.STAGE_MANIFEST = {
       {
        "key": "13",
        "label": "14 · Advantage migrates",
-       "notes": "- Competitors can use the same Google AI features, but they cannot automatically activate your economics. \n- They can use the same image model, but they do not possess your product assets, customer understanding, or taste. \n- They can use Smart Bidding, but they do not automatically have your definition of valuable growth. \n- The machine itself becomes more important, and it amplifies what enters the machine.\n- This is nothing new, but your inputs are getting more important by the day.",
+       "notes": "- As execution becomes commoditized, the advantage migrates toward the inputs.\n- Competitors can use the same Google AI features, but they cannot automatically activate your economics. \n- They can use the same image model, but they do not possess your product assets, customer understanding, or taste. \n- They can use Smart Bidding, but they do not automatically have your definition of valuable growth. \n- The machine itself becomes more important, and it amplifies what enters the machine.\n- This is nothing new, but your inputs are getting more important by the day.",
        "thumb": "thumbs/ch2/014.jpg"
       },
       {
        "key": "14",
        "label": "15 · Control surface",
-       "notes": "- I see Google Ads as a control surface inside a larger system.\n- It is where symptoms show up and where you set up, manage, and optimize your campaigns.\n- But other inputs can enter the platform and originate in a larger system. \n- And that larger system is where your constraint might live.",
+       "notes": "- Google Ads is part of a larger system.\n- It is where you set up, manage, and optimize your campaigns, but also where symptoms show up.\n- These symptoms aren't always related to your Google Ads account. \n- Inputs can enter the platform and originate from a larger system. \n- And that larger system is where your constraint might live.",
        "thumb": "thumbs/ch2/015.jpg"
       },
       {
        "key": "15",
-       "label": "16 · Three wins",
-       "notes": "- I'm going to show you three concrete Google Ads wins that originated outside the platform. \n- One case changes the offer, one changes the asset, and one changes the definition of value. \n- Watch where each problem became visible, and where the decisive work happened.",
+       "label": "39 · Live diagnosis",
+       "notes": "- For example, let's look at an account where shopping revenue has plateaued, and everything looks good. \n- What do you optimize next?\n- Most will pick a comfortable in-platform action, like changing targets, changing structure, or optimizing feed titles. ",
        "thumb": "thumbs/ch2/016.jpg"
       },
       {
        "key": "16",
-       "label": "16a · Chapter · Business",
-       "notes": "- Let's start with case 1. \n- This one lives in the Business bucket, where the offer enters the auction. ",
+       "label": "40 · Widen the map",
+       "notes": "- Now, let's add what the account cannot see.\n- The constraint that's holding your account back could very well live somewhere in the larger system.\n- If you only inspect the account, the account will always appear to contain the answer.",
        "thumb": "thumbs/ch2/017.jpg"
       },
       {
        "key": "17",
-       "label": "17 · Business · symptom",
-       "notes": "- This e-commerce account was losing ground.\n- These symptoms were genuinely visible in Google Ads. \n- Volume dropped, Lost IS (due to lower ad rank) increased, and we weren't able to hit our growth targets.\n- The temptation was to increase our Profit to Acquisition ratio and bid harder. Or restructure our performance-based campaign structure. \n- However, the real question was: \"Were we failing to buy the traffic, or bringing a weaker proposition into the auction?”",
+       "label": "34 · The Constraint Loop",
+       "notes": "- I came up with this simple framework to find the constraint in the bigger system.\n- Find it: Which constraint most binds the commercial outcome? It is either part of the business, measurement, conversion, traffic, or creative bucket.\n- Fix it: Intervene where it binds, not where it is comfortable.\n- Follow it: Track the result until the constraint moves.\n- Once the constraint is fixed, it will move, and you simply run it again. And again. And again.",
        "thumb": "thumbs/ch2/018.jpg"
       },
       {
        "key": "18",
-       "label": "18 · Business · widen",
-       "notes": "- This is what the shopper compared.\n- Look at how compelling the promotion appears and what shipping adds for the shopper. \n- The Google Ads account showed the auction symptom; the constraint lived primarily in Business.",
+       "label": "35 · Find it",
+       "notes": "- First, ask yourself these questions.\n- 1. What must improve, and what must we protect?\n- 2. Where does the outcome break?\n- 3. What most prevents it, and where does it live?\n- 4. What evidence would make us reopen the choice?",
        "thumb": "thumbs/ch2/019.jpg"
       },
       {
        "key": "19",
-       "label": "19 · Business · fix",
-       "notes": "- To fix this constraint, we built a tailored sale and discount plan around competitor behavior (which was very cyclical).\n- During these sale periods, we dropped prices and introduced free shipping.\n- GMC Promotions were used to surface these discounts in Shopping. \n- We gave Google a stronger offer to amplify.",
+       "label": "36 · Fix it",
+       "notes": "- Next, ask yourself:\n- 1. What is the one bounded action with the highest Return on Effort?\n- 2. Who or what executes it?\n- 3. Which judgment stays owned?\n- You don't have to execute everything personally. \n- You need enough understanding to diagnose, brief, and validate. \n- AI belongs here as execution leverage. ",
        "thumb": "thumbs/ch2/020.jpg"
       },
       {
        "key": "20",
-       "label": "19b · Business · dynamic promos",
-       "notes": "- We built a promo schedule per (sub)category.\n- Then we made it dynamic.\n- GMC promotions were scheduled, and a custom Google Ads script was written (with the help of AI) that reads the lowest live price per (sub)category, feeds it into the text ads via Ad Customizers, and keeps the price extensions in sync. ",
+       "label": "37 · Follow it",
+       "notes": "- And lastly, ask yourself:\n- 1. Which number moves first, and what does it read today?\n- 2. When is the earliest honest review?\n- 3. At the review: did the number move, did the goal move, is it still binding?\n- 4. Where does attention move next?\n- The goal is to solve the constraint so the business result moves. \n- The constraint will continuously move. That's because competitors respond, markets change, et cetera.",
        "thumb": "thumbs/ch2/021.jpg"
       },
       {
        "key": "21",
-       "label": "20c · Business · price script",
-       "notes": "- A script reads the GMC account and writes the lowest price per category into the attributes.\n- That lowest price is then adjusted by the scheduled promos (e.g. 10% category discount).\n- And that price is then used as input for the category-specific Ad Customizers that are used in the RSAs.",
+       "label": "38 · Earn the right",
+       "notes": "- I want to be very clear: Account optimization is not wrong. \n- But it is wrong when performed before the problem is defined. \n- The Traffic bucket may genuinely be the constraint, and only then is deep platform execution the right thing to execute on.",
        "thumb": "thumbs/ch2/022.jpg"
       },
       {
        "key": "22",
-       "label": "20b · Business · ad customizers",
-       "notes": "- Ad customizer attributes are updated dynamically per category, so ad copy always shows the current lowest price.\n- Another script is also updating the price extensions daily based on the lowest calculated price.",
+       "label": "16 · Three wins",
+       "notes": "- Now, let me show you three concrete Google Ads wins that originated outside the platform. \n- One case changes the offer, one changes the asset, and one changes the definition of value. \n- Watch where each problem became visible, and where the decisive work happened.",
        "thumb": "thumbs/ch2/023.jpg"
       },
       {
        "key": "23",
-       "label": "20 · Business · loop card",
-       "notes": "- This fix resulted in a stronger impression share, better positions, and drastically increased volumes.\n- Obviously, we gave back some margin by introducing these discounts.\n- However, it was the better choice than simply lowering ROAS targets and raising bids to amplify a broken offer.",
+       "label": "16a · Chapter · Business",
+       "notes": "- Let's start with case 1. \n- This one lives in the Business bucket, where the offer enters the auction. ",
        "thumb": "thumbs/ch2/024.jpg"
       },
       {
        "key": "24",
-       "label": "16b · Chapter · Creative",
-       "notes": "- Let's continue with case number 2.\n- This one lives in the Creative bucket, where the asset meets the shopper.",
+       "label": "17 · Business · symptom",
+       "notes": "- This e-commerce account was losing ground.\n- These symptoms were genuinely visible in Google Ads. \n- Volume dropped, Lost IS (due to lower ad rank) increased, and we weren't able to hit our growth targets.\n- The temptation was to increase our Profit to Acquisition ratio and bid harder. Or restructure our performance-based campaign structure. \n- However, the real question was: \"Were we failing to buy the traffic, or bringing a weaker proposition into the auction?”",
        "thumb": "thumbs/ch2/025.jpg"
       },
       {
        "key": "25",
-       "label": "21 · Creative · sameness",
-       "notes": "- Same account.\n- Every PLA started to look the same in the SERP. \n- Ours, but also ours vs. competitors. \n- A campaign restructure could not solve category-level sameness. \n- The constraint was in the Creative bucket.",
+       "label": "18 · Business · widen",
+       "notes": "- This is what the shopper compared.\n- Look at how compelling the promotion appears and what shipping adds for the shopper. \n- The Google Ads account showed the auction symptom; the constraint lived primarily in Business.",
        "thumb": "thumbs/ch2/026.jpg"
       },
       {
        "key": "26",
-       "label": "22 · Creative · postponed",
-       "notes": "- Better images was one of the largest available levers in the account.\n- But producing it at quality and scale sat outside my capability and capacity.\n- I continued doing legitimate work I already knew how to perform. \n- However, the constraint stayed the same and did not stop being important because it sat outside my skill set.",
+       "label": "19 · Business · fix",
+       "notes": "- To fix this constraint, we built a tailored sale and discount plan around competitor behavior (which was very cyclical).\n- During these sale periods, we dropped prices and introduced free shipping.\n- GMC Promotions were used to surface these discounts in Shopping. \n- We gave Google a stronger offer to amplify.",
        "thumb": "thumbs/ch2/027.jpg"
       },
       {
        "key": "27",
-       "label": "23 · Creative · excuse",
-       "notes": "- Image generation models like FLUX2 changed what I could execute personally. \n- I learned the missing skills and used world-class models directly myself. ",
+       "label": "19b · Business · dynamic promos",
+       "notes": "- We built a promo schedule per (sub)category.\n- Then we made it dynamic.\n- GMC promotions were scheduled, and a custom Google Ads script was written (with the help of AI) that reads the lowest live price per (sub)category, feeds it into the text ads via Ad Customizers, and keeps the price extensions in sync. ",
        "thumb": "thumbs/ch2/028.jpg"
       },
       {
        "key": "28",
-       "label": "24 · Creative · after (stalen)",
-       "notes": "- Now, this stands out! \n- The same SERP after the creative work: the outlined PLAs are ours.",
+       "label": "20c · Business · price script",
+       "notes": "- A script reads the GMC account and writes the lowest price per category into the attributes.\n- That lowest price is then adjusted by the scheduled promos (e.g. 10% category discount).\n- And that price is then used as input for the category-specific Ad Customizers that are used in the RSAs.",
        "thumb": "thumbs/ch2/029.jpg"
       },
       {
        "key": "29",
-       "label": "24b · Creative · after (loftdeuren)",
-       "notes": "- The same pattern in a second subcategory: houten loftdeuren.\n- Nearly the whole sponsored row is ours.",
+       "label": "20b · Business · ad customizers",
+       "notes": "- Ad customizer attributes are updated dynamically per category, so ad copy always shows the current lowest price.\n- Another script is also updating the price extensions daily based on the lowest calculated price.",
        "thumb": "thumbs/ch2/030.jpg"
       },
       {
        "key": "30",
-       "label": "25 · Creative · half-life",
-       "notes": "- The images produced a higher relative CTR. \n- Competitors responded a few months later, and the relative edge began to decay. \n- Reassess whether more iterations still offer the best Return on Effort. \n- Move when the constraint moves. ",
+       "label": "20 · Business · loop card",
+       "notes": "- This fix resulted in a stronger impression share, better positions, and drastically increased volumes.\n- Obviously, we gave back some margin by introducing these discounts.\n- However, it was the better choice than simply lowering ROAS targets and raising bids to amplify a broken offer.",
        "thumb": "thumbs/ch2/031.jpg"
       },
       {
        "key": "31",
-       "label": "25b · Creative · loop card",
-       "notes": "- Same loop, different bucket.\n- The constraint was creative sameness, not campaign structure or something else.\n- The edge was real but temporary (a couple of months).\n- FOLLOW is what caught the decay and decided the next steps.",
+       "label": "16b · Chapter · Creative",
+       "notes": "- Let's continue with case number 2.\n- This one lives in the Creative bucket, where the asset meets the shopper.",
        "thumb": "thumbs/ch2/032.jpg"
       },
       {
        "key": "32",
-       "label": "16c · Chapter · Measurement",
-       "notes": "- Let's continue with the last case: Case number 3.\n- This one lives in the Measurement bucket: where and how success is defined, and what Google is optimizing for.",
+       "label": "21 · Creative · sameness",
+       "notes": "- Same account.\n- Every PLA started to look the same in the SERP. \n- Ours, but also ours vs. competitors. \n- A campaign restructure could not solve category-level sameness. \n- The constraint was in the Creative bucket.",
        "thumb": "thumbs/ch2/033.jpg"
       },
       {
        "key": "33",
-       "label": "26 · Measurement · green",
-       "notes": "- Nothing was technically broken. \n- Tracking worked. Bidding was doing its thing, and trials arrived.\n- Smart Bidding produced the conversion it was asked to produce. \n- But the business did not need more trials. It needed more paying (new) subscribers.",
+       "label": "22 · Creative · postponed",
+       "notes": "- Better images was one of the largest available levers in the account.\n- But producing it at quality and scale sat outside my capability and capacity.\n- I continued doing legitimate work I already knew how to perform. \n- However, the constraint stayed the same and did not stop being important because it sat outside my skill set.",
        "thumb": "thumbs/ch2/034.jpg"
       },
       {
        "key": "34",
-       "label": "27 · Measurement · proxy",
-       "notes": "- A trial is never the outcome.\n- Trial starts were measurable but not equally likely to become paying customers. \n- The constraint lived in the connection between Measurement and Business.",
+       "label": "23 · Creative · excuse",
+       "notes": "- Image generation models like FLUX2 changed what I could execute personally. \n- I learned the missing skills and used world-class models directly myself. ",
        "thumb": "thumbs/ch2/035.jpg"
       },
       {
        "key": "35",
-       "label": "27b · Measurement · OCI actions",
-       "notes": "- We fixed it by creating new offline conversion actions. \n- One for subscribers and one for resubscribers.\n- Each with its own lookback window, valued on modeled CLV, with lookback windows that match the business.\n- The machine now optimizes against modeled lifetime value instead of a trial count.",
+       "label": "24 · Creative · after (stalen)",
+       "notes": "- Now, this stands out! \n- The same SERP after the creative work: the outlined PLAs are ours.",
        "thumb": "thumbs/ch2/036.jpg"
       },
       {
        "key": "36",
-       "label": "28 · Measurement · truth",
-       "notes": "- The red line marks the week the target changed (before/after > long story ;-)).\n- Above it, the machine is optimizing for trials. \n- Below it, for new subscribers valued on LTV. \n- A better definition of the outcome. \n- The machine was not failing. It was succeeding at the wrong definition of success.\n- Frederik will go deeper into directing and verifying the algorithm against business truth.",
+       "label": "24b · Creative · after (loftdeuren)",
+       "notes": "- The same pattern in a second subcategory: houten loftdeuren.\n- Nearly the whole sponsored row is ours.",
        "thumb": "thumbs/ch2/037.jpg"
       },
       {
        "key": "37",
-       "label": "28b · Measurement · loop card",
-       "notes": "- The machine was not failing; it was succeeding at the wrong definition of success. \n- FIX here was one switch: what counts, and what it is worth.",
+       "label": "25 · Creative · half-life",
+       "notes": "- The images produced a higher relative CTR. \n- Competitors responded a few months later, and the relative edge began to decay. \n- Reassess whether more iterations still offer the best Return on Effort. \n- Move when the constraint moves. ",
        "thumb": "thumbs/ch2/038.jpg"
       },
       {
        "key": "38",
-       "label": "29 · Three wins, no optimization",
-       "notes": "- Here you have it. Three Google Ads wins. \n- None began with in-plaftorm optimizations. \n- I changed the offer, asset and truth.",
+       "label": "25b · Creative · loop card",
+       "notes": "- Same loop, different bucket.\n- The constraint was creative sameness, not campaign structure or something else.\n- The edge was real but temporary (a couple of months).\n- FOLLOW is what caught the decay and decided the next steps.",
        "thumb": "thumbs/ch2/039.jpg"
       },
       {
        "key": "39",
-       "label": "30 · Why start inside",
-       "notes": "- If the advantage moved, why do we keep starting inside the account?\n- The answer is not laziness.",
+       "label": "16c · Chapter · Measurement",
+       "notes": "- Let's continue with the last case: Case number 3.\n- This one lives in the Measurement bucket: where and how success is defined, and what Google is optimizing for.",
        "thumb": "thumbs/ch2/040.jpg"
       },
       {
        "key": "40",
-       "label": "31 · Comfort zone",
-       "notes": "- It's because the account is our comfort zone.\n- The account makes work unusually comfortable and also defensible.\n- It sits within our authority and demonstrates expertise.\n- Outside constraints require uncertainty, learning, collaboration or difficult conversations.",
+       "label": "26 · Measurement · green",
+       "notes": "- Nothing was technically broken. \n- Tracking worked. Bidding was doing its thing, and trials arrived.\n- Smart Bidding produced the conversion it was asked to produce. \n- But the business did not need more trials. It needed more paying (new) subscribers.",
        "thumb": "thumbs/ch2/041.jpg"
       },
       {
        "key": "41",
-       "label": "32 · Productive avoidance",
-       "notes": "- A lot of in-platform optimizations are still very useful.\n- But it becomes avoidance when you start working on the wrong thing.",
+       "label": "27 · Measurement · proxy",
+       "notes": "- A trial is never the outcome.\n- Trial starts were measurable but not equally likely to become paying customers. \n- The constraint lived in the connection between Measurement and Business.",
        "thumb": "thumbs/ch2/042.jpg"
       },
       {
        "key": "42",
-       "label": "33 · The mirror",
-       "notes": "- Ask yourself this: \n- If every diagnosis leads back to the service you already sell … \n- Are you diagnosing the business or defending your business model?\n- Expertise determines which problems we can see and also solve.\n- If the constraint sits outside your skill set, it may mean your skill set has (to) become part of it.",
+       "label": "27b · Measurement · OCI actions",
+       "notes": "- We fixed it by creating new offline conversion actions. \n- One for subscribers and one for resubscribers.\n- Each with its own lookback window, valued on modeled CLV, with lookback windows that match the business.\n- The machine now optimizes against modeled lifetime value instead of a trial count.",
        "thumb": "thumbs/ch2/043.jpg"
       },
       {
        "key": "43",
-       "label": "34 · The Constraint Loop",
-       "notes": "- I use this simple method to prevent productive avoidance.\n- Find it: Which constraint most binds the commercial outcome? It is either part of the business, measurement, conversion, traffic or creative bucket.\n- Fix it: Intervene where it binds, not where it is comfortable.\n- Follow it: Track the result until the constraint moves.\n- Once the constraint is fixed, it will move, and you simply run it again. And again. And again.\n- Tomorrow I will show you concrete examples, and we're also going to use it on your account.",
+       "label": "28 · Measurement · truth",
+       "notes": "- The red line marks the week the target changed (before/after > long story ;-)).\n- Above it, the machine is optimizing for trials. \n- Below it, for new subscribers valued on LTV. \n- A better definition of the outcome. \n- The machine was not failing. It was succeeding at the wrong definition of success.\n- Frederik will go deeper into directing and verifying the algorithm against business truth.",
        "thumb": "thumbs/ch2/044.jpg"
       },
       {
        "key": "44",
-       "label": "35 · Find it",
-       "notes": "- First, ask yourself these questions.\n- 1. What must improve, and what must we protect?\n- 2. Where does the outcome break?\n- 3. What most prevents it, and where does it live?\n- 4. What evidence would make us reopen the choice?",
+       "label": "28b · Measurement · loop card",
+       "notes": "- The machine was not failing; it was succeeding at the wrong definition of success. \n- FIX here was one switch: what counts, and what it is worth.",
        "thumb": "thumbs/ch2/045.jpg"
       },
       {
        "key": "45",
-       "label": "36 · Fix it",
-       "notes": "- Next, ask yourself:\n- 1. What is the one bounded action with the highest Return on Effort?\n- 2. Who or what executes it?\n- 3. Which judgment stays owned?\n- The future specialist does not need to execute everything personally. \n- They need enough understanding to diagnose, brief and validate. \n- AI belongs here as execution leverage. ",
+       "label": "29 · Three wins, no optimization",
+       "notes": "- Here you have it. Three Google Ads wins. \n- None began with in-plaftorm optimizations. \n- I changed the offer, asset and truth.",
        "thumb": "thumbs/ch2/046.jpg"
       },
       {
        "key": "46",
-       "label": "37 · Follow it",
-       "notes": "- And lastly, ask yourself:\n- 1. Which number moves first, and what does it read today?\n- 2. When is the earliest honest review?\n- 3. At the review: did the number move, did the goal move, is it still binding?\n- 4. Where does attention move next?\n- The goal is to solve the constraint so the business result moves. \n- The constraint will continuously move. That's because competitors respond, markets change, et cetera.",
+       "label": "30 · Why start inside",
+       "notes": "- If the advantage moved, why do we keep starting inside the account?\n- The answer is not laziness.",
        "thumb": "thumbs/ch2/047.jpg"
       },
       {
        "key": "47",
-       "label": "38 · Earn the right",
-       "notes": "- I want to be very clear: Account optimization is not wrong. \n- But it is wrong when performed before the problem is defined. \n- The Traffic bucket may genuinely be the constraint, and only then is deep platform execution the right thing to execute on.",
+       "label": "31 · Comfort zone",
+       "notes": "- It's because the account is our comfort zone.\n- The account makes work unusually comfortable and also defensible.\n- It sits within our authority and demonstrates expertise.\n- Outside constraints require uncertainty, learning, collaboration or difficult conversations.",
        "thumb": "thumbs/ch2/048.jpg"
       },
       {
        "key": "48",
-       "label": "39 · Live diagnosis",
-       "notes": "- Okay, your turn.\n- This account's shopping revenue has plateaued, and everything looks good. \n- What do you optimize next? (Show hands for targets/structure/exclusions/feed titles/assets)\n- Obviously, this is a bit of a trick question since we do not have sufficient evidence to prioritize confidently. ",
+       "label": "32 · Productive avoidance",
+       "notes": "- A lot of in-platform optimizations are still very useful.\n- But it becomes productive avoidance when you start working on the wrong thing.",
        "thumb": "thumbs/ch2/049.jpg"
       },
       {
        "key": "49",
-       "label": "40 · Widen the map",
-       "notes": "- Now, let's add what the account cannot see.\n- “If you only inspect the account, the account will always appear to contain the answer.” \n- More context does not mean fixing everything. \n- It allows the strongest constraint to be selected relative to the outcome. \n",
+       "label": "33 · The mirror",
+       "notes": "- Ask yourself this: \n- If every diagnosis leads back to the service you already sell … \n- Are you diagnosing the business or defending your business model?\n- Expertise determines which problems we can see and also solve.\n- If the constraint sits outside your skill set, it may mean your skill set has (to) become part of it.",
        "thumb": "thumbs/ch2/050.jpg"
       },
       {
@@ -3195,357 +3195,381 @@ window.STAGE_MANIFEST = {
       },
       {
        "key": "4",
-       "label": "05 · The four pitfalls",
+       "label": "05 · The four pitfalls · build 1",
        "notes": "",
        "thumb": "thumbs/ch7/005.jpg"
       },
       {
        "key": "5",
-       "label": "06 · The four pitfalls · 1 up",
+       "label": "06 · The four pitfalls · build 2",
        "notes": "",
        "thumb": "thumbs/ch7/006.jpg"
       },
       {
        "key": "6",
-       "label": "07 · My first AI-first audit",
+       "label": "07 · The four pitfalls · build 3",
        "notes": "",
        "thumb": "thumbs/ch7/007.jpg"
       },
       {
        "key": "7",
-       "label": "08 · What AI is really good at",
+       "label": "08 · The four pitfalls · build 4",
        "notes": "",
        "thumb": "thumbs/ch7/008.jpg"
       },
       {
        "key": "8",
-       "label": "09 · The AI-first trap",
+       "label": "09 · The four pitfalls · 1 up",
        "notes": "",
        "thumb": "thumbs/ch7/009.jpg"
       },
       {
        "key": "9",
-       "label": "10 · The AI-first nightmare",
+       "label": "10 · My first AI-first audit",
        "notes": "",
        "thumb": "thumbs/ch7/010.jpg"
       },
       {
        "key": "10",
-       "label": "11 · Lemme just hop on over to Codex",
+       "label": "11 · What AI is really good at · build 1",
        "notes": "",
        "thumb": "thumbs/ch7/011.jpg"
       },
       {
        "key": "11",
-       "label": "12 · OpenAI is having issues too",
+       "label": "12 · What AI is really good at · build 2",
        "notes": "",
        "thumb": "thumbs/ch7/012.jpg"
       },
       {
        "key": "12",
-       "label": "13 · Ok ok Gemini you got me",
+       "label": "13 · The AI-first trap",
        "notes": "",
        "thumb": "thumbs/ch7/013.jpg"
       },
       {
        "key": "13",
-       "label": "14 · Gemini is down as well",
+       "label": "14 · The trap · the chain",
        "notes": "",
        "thumb": "thumbs/ch7/014.jpg"
       },
       {
        "key": "14",
-       "label": "15 · Well then wtf do I do now",
+       "label": "15 · The trap · build 1",
        "notes": "",
        "thumb": "thumbs/ch7/015.jpg"
       },
       {
        "key": "15",
-       "label": "16 · The trap · the chain",
+       "label": "16 · The trap · build 2",
        "notes": "",
        "thumb": "thumbs/ch7/016.jpg"
       },
       {
        "key": "16",
-       "label": "17 · The trap · build 1",
+       "label": "17 · The trap · build 3",
        "notes": "",
        "thumb": "thumbs/ch7/017.jpg"
       },
       {
        "key": "17",
-       "label": "18 · The trap · build 2",
+       "label": "18 · The trap · build 4",
        "notes": "",
        "thumb": "thumbs/ch7/018.jpg"
       },
       {
        "key": "18",
-       "label": "19 · The trap · build 3",
+       "label": "19 · The trap · build 5",
        "notes": "",
        "thumb": "thumbs/ch7/019.jpg"
       },
       {
        "key": "19",
-       "label": "20 · The trap · build 4",
+       "label": "20 · The trap · build 6",
        "notes": "",
        "thumb": "thumbs/ch7/020.jpg"
       },
       {
        "key": "20",
-       "label": "21 · The trap · build 5",
+       "label": "21 · The trap · build 7",
        "notes": "",
        "thumb": "thumbs/ch7/021.jpg"
       },
       {
        "key": "21",
-       "label": "22 · The trap · build 6",
+       "label": "22 · The trap · build 8",
        "notes": "",
        "thumb": "thumbs/ch7/022.jpg"
       },
       {
        "key": "22",
-       "label": "23 · The trap · build 7",
+       "label": "23 · The trap · build 9",
        "notes": "",
        "thumb": "thumbs/ch7/023.jpg"
       },
       {
        "key": "23",
-       "label": "24 · The trap · build 8",
+       "label": "24 · The AI-first nightmare",
        "notes": "",
        "thumb": "thumbs/ch7/024.jpg"
       },
       {
        "key": "24",
-       "label": "25 · The trap · build 9",
+       "label": "25 · Lemme just hop on over to Codex",
        "notes": "",
        "thumb": "thumbs/ch7/025.jpg"
       },
       {
        "key": "25",
-       "label": "26 · Time for a little rant",
+       "label": "26 · OpenAI is having issues too",
        "notes": "",
        "thumb": "thumbs/ch7/026.jpg"
       },
       {
        "key": "26",
-       "label": "27 · Fast is not the same as good",
+       "label": "27 · Ok ok Gemini you got me",
        "notes": "",
        "thumb": "thumbs/ch7/027.jpg"
       },
       {
        "key": "27",
-       "label": "28 · The internet is tired of AI slop",
+       "label": "28 · Gemini is down as well",
        "notes": "",
        "thumb": "thumbs/ch7/028.jpg"
       },
       {
        "key": "28",
-       "label": "29 · Reddit · stop making AI-generated ads",
+       "label": "29 · Well then wtf do I do now",
        "notes": "",
        "thumb": "thumbs/ch7/029.jpg"
       },
       {
        "key": "29",
-       "label": "30 · Isn't it ironic",
+       "label": "30 · Time for a little rant",
        "notes": "",
        "thumb": "thumbs/ch7/030.jpg"
       },
       {
        "key": "30",
-       "label": "31 · Reddit · tired of AI slop on my feed",
+       "label": "31 · Fast is not the same as good",
        "notes": "",
        "thumb": "thumbs/ch7/031.jpg"
       },
       {
        "key": "31",
-       "label": "32 · Platforms are flagging AI slop",
+       "label": "32 · The internet is tired of AI slop",
        "notes": "",
        "thumb": "thumbs/ch7/032.jpg"
       },
       {
        "key": "32",
-       "label": "33 · The AI comment on my post",
+       "label": "33 · Reddit · stop making AI-generated ads",
        "notes": "",
        "thumb": "thumbs/ch7/033.jpg"
       },
       {
        "key": "33",
-       "label": "34 · The biggest risk of shipping slop",
+       "label": "34 · Isn't it ironic",
        "notes": "",
        "thumb": "thumbs/ch7/034.jpg"
       },
       {
        "key": "34",
-       "label": "35 · Reputation is hard to build",
+       "label": "35 · Reddit · tired of AI slop on my feed",
        "notes": "",
        "thumb": "thumbs/ch7/035.jpg"
       },
       {
        "key": "35",
-       "label": "36 · The solution",
+       "label": "36 · Platforms are flagging AI slop",
        "notes": "",
        "thumb": "thumbs/ch7/036.jpg"
       },
       {
        "key": "36",
-       "label": "37 · The solution · 1",
+       "label": "37 · The AI comment on my post",
        "notes": "",
        "thumb": "thumbs/ch7/037.jpg"
       },
       {
        "key": "37",
-       "label": "38 · The solution · 2",
+       "label": "38 · The biggest risk of shipping slop",
        "notes": "",
        "thumb": "thumbs/ch7/038.jpg"
       },
       {
        "key": "38",
-       "label": "39 · The solution · 3",
+       "label": "39 · Reputation is hard to build",
        "notes": "",
        "thumb": "thumbs/ch7/039.jpg"
       },
       {
        "key": "39",
-       "label": "40 · The solution · 4",
+       "label": "40 · The solution",
        "notes": "",
        "thumb": "thumbs/ch7/040.jpg"
       },
       {
        "key": "40",
-       "label": "41 · The solution · 5",
+       "label": "41 · The solution · 1",
        "notes": "",
        "thumb": "thumbs/ch7/041.jpg"
       },
       {
        "key": "41",
-       "label": "42 · The solution · 6",
+       "label": "42 · The solution · 2",
        "notes": "",
        "thumb": "thumbs/ch7/042.jpg"
       },
       {
        "key": "42",
-       "label": "43 · The solution · 7",
+       "label": "43 · The solution · 3",
        "notes": "",
        "thumb": "thumbs/ch7/043.jpg"
       },
       {
        "key": "43",
-       "label": "44 · AI-first does not mean AI-only",
+       "label": "44 · The solution · 4",
        "notes": "",
        "thumb": "thumbs/ch7/044.jpg"
       },
       {
        "key": "44",
-       "label": "45 · You still need a license",
+       "label": "45 · The solution · 5",
        "notes": "",
        "thumb": "thumbs/ch7/045.jpg"
       },
       {
        "key": "45",
-       "label": "46 · Don't let your expertise decay",
+       "label": "46 · The solution · 6",
        "notes": "",
        "thumb": "thumbs/ch7/046.jpg"
       },
       {
        "key": "46",
-       "label": "47 · The four pitfalls · 2 up",
+       "label": "47 · The solution · 7",
        "notes": "",
        "thumb": "thumbs/ch7/047.jpg"
       },
       {
        "key": "47",
-       "label": "48 · AI out of the box has 2 major issues",
+       "label": "48 · AI-first does not mean AI-only",
        "notes": "",
        "thumb": "thumbs/ch7/048.jpg"
       },
       {
        "key": "48",
-       "label": "49 · AI is not smart by itself",
+       "label": "49 · You still need a license",
        "notes": "",
        "thumb": "thumbs/ch7/049.jpg"
       },
       {
        "key": "49",
-       "label": "50 · The custom knowledge base",
+       "label": "50 · Don't let your expertise decay",
        "notes": "",
        "thumb": "thumbs/ch7/050.jpg"
       },
       {
        "key": "50",
-       "label": "51 · Turns into skills · 1",
+       "label": "51 · The four pitfalls · 2 up",
        "notes": "",
        "thumb": "thumbs/ch7/051.jpg"
       },
       {
        "key": "51",
-       "label": "52 · Turns into skills · 2",
+       "label": "52 · AI out of the box has 2 major issues",
        "notes": "",
        "thumb": "thumbs/ch7/052.jpg"
       },
       {
        "key": "52",
-       "label": "53 · Turns into skills · 3",
+       "label": "53 · AI is not smart by itself",
        "notes": "",
        "thumb": "thumbs/ch7/053.jpg"
       },
       {
        "key": "53",
-       "label": "54 · Turns into skills · 4",
+       "label": "54 · The custom knowledge base",
        "notes": "",
        "thumb": "thumbs/ch7/054.jpg"
       },
       {
        "key": "54",
-       "label": "55 · Let AI operate like a senior specialist",
+       "label": "55 · Turns into skills · 1",
        "notes": "",
        "thumb": "thumbs/ch7/055.jpg"
       },
       {
        "key": "55",
-       "label": "56 · Another reason not to let expertise decay",
+       "label": "56 · Turns into skills · 2",
        "notes": "",
        "thumb": "thumbs/ch7/056.jpg"
       },
       {
        "key": "56",
-       "label": "57 · The four pitfalls · 3 up",
+       "label": "57 · Turns into skills · 3",
        "notes": "",
        "thumb": "thumbs/ch7/057.jpg"
       },
       {
        "key": "57",
-       "label": "58 · The trap of AI busy-work",
+       "label": "58 · Turns into skills · 4",
        "notes": "",
        "thumb": "thumbs/ch7/058.jpg"
       },
       {
        "key": "58",
-       "label": "59 · Stay focused. Solve problems.",
+       "label": "59 · Let AI operate like a senior specialist",
        "notes": "",
        "thumb": "thumbs/ch7/059.jpg"
       },
       {
        "key": "59",
-       "label": "60 · Not a Negative Nancy",
+       "label": "60 · Another reason not to let expertise decay",
        "notes": "",
        "thumb": "thumbs/ch7/060.jpg"
       },
       {
        "key": "60",
-       "label": "61 · AI amplifies whatever you already are",
+       "label": "61 · The four pitfalls · 3 up",
        "notes": "",
        "thumb": "thumbs/ch7/061.jpg"
       },
       {
        "key": "61",
-       "label": "62 · The four pitfalls · 4 up",
+       "label": "62 · The trap of AI busy-work",
        "notes": "",
        "thumb": "thumbs/ch7/062.jpg"
       },
       {
        "key": "62",
-       "label": "63 · Over to Mike",
+       "label": "63 · Stay focused. Solve problems.",
        "notes": "",
        "thumb": "thumbs/ch7/063.jpg"
+      },
+      {
+       "key": "63",
+       "label": "64 · Not a Negative Nancy",
+       "notes": "",
+       "thumb": "thumbs/ch7/064.jpg"
+      },
+      {
+       "key": "64",
+       "label": "65 · AI amplifies whatever you already are",
+       "notes": "",
+       "thumb": "thumbs/ch7/065.jpg"
+      },
+      {
+       "key": "65",
+       "label": "66 · The four pitfalls · 4 up",
+       "notes": "",
+       "thumb": "thumbs/ch7/066.jpg"
+      },
+      {
+       "key": "66",
+       "label": "67 · Over to Mike",
+       "notes": "",
+       "thumb": "thumbs/ch7/067.jpg"
       }
      ]
     },
