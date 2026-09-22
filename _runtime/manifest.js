@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-20 15:55",
+ "built": "2026-09-22 06:47",
  "blocks": [
   {
    "id": "block-1",
@@ -210,207 +210,219 @@ window.STAGE_MANIFEST = {
       },
       {
        "key": "16",
-       "label": "17 · Two shifts 1/3",
+       "label": "17 · Two shifts 1/5",
        "notes": "",
        "thumb": "thumbs/ch1/017.jpg"
       },
       {
        "key": "17",
-       "label": "18 · Two shifts 2/3",
+       "label": "18 · Two shifts 2/5",
        "notes": "",
        "thumb": "thumbs/ch1/018.jpg"
       },
       {
        "key": "18",
-       "label": "19 · Two shifts 3/3",
+       "label": "19 · Two shifts 3/5",
        "notes": "",
        "thumb": "thumbs/ch1/019.jpg"
       },
       {
        "key": "19",
-       "label": "20 · Two sides of the same coin",
+       "label": "20 · Two shifts 4/5",
        "notes": "",
        "thumb": "thumbs/ch1/020.jpg"
       },
       {
        "key": "20",
-       "label": "21 · Not all doom and gloom",
+       "label": "21 · Two shifts 5/5",
        "notes": "",
        "thumb": "thumbs/ch1/021.jpg"
       },
       {
        "key": "21",
-       "label": "22 · AI gives you massive leverage",
+       "label": "22 · Not all doom and gloom",
        "notes": "",
        "thumb": "thumbs/ch1/022.jpg"
       },
       {
        "key": "22",
-       "label": "23 · Agents can do anything",
+       "label": "23 · Two sides of the same coin",
        "notes": "",
        "thumb": "thumbs/ch1/023.jpg"
       },
       {
        "key": "23",
-       "label": "24 · How AI agents work",
+       "label": "24 · AI gives you massive leverage",
        "notes": "",
        "thumb": "thumbs/ch1/024.jpg"
       },
       {
        "key": "24",
-       "label": "25 · Agents disrupt the workday",
+       "label": "25 · Agents can do anything",
        "notes": "",
        "thumb": "thumbs/ch1/025.jpg"
       },
       {
        "key": "25",
-       "label": "26 · How's that for leverage",
+       "label": "26 · How AI agents work",
        "notes": "",
        "thumb": "thumbs/ch1/026.jpg"
       },
       {
        "key": "26",
-       "label": "27 · An important distinction",
+       "label": "27 · Agents disrupt the workday",
        "notes": "",
        "thumb": "thumbs/ch1/027.jpg"
       },
       {
        "key": "27",
-       "label": "28 · Schindler",
+       "label": "28 · How's that for leverage",
        "notes": "",
        "thumb": "thumbs/ch1/028.jpg"
       },
       {
        "key": "28",
-       "label": "29 · What you do with the time",
+       "label": "29 · An important distinction",
        "notes": "",
        "thumb": "thumbs/ch1/029.jpg"
       },
       {
        "key": "29",
-       "label": "30 · The rise of the AI-first specialist",
+       "label": "30 · Schindler",
        "notes": "",
        "thumb": "thumbs/ch1/030.jpg"
       },
       {
        "key": "30",
-       "label": "31 · What is AI-first 1/2",
+       "label": "31 · What you do with the time",
        "notes": "",
        "thumb": "thumbs/ch1/031.jpg"
       },
       {
        "key": "31",
-       "label": "32 · What is AI-first 2/2",
+       "label": "32 · The rise of the AI-first specialist",
        "notes": "",
        "thumb": "thumbs/ch1/032.jpg"
       },
       {
        "key": "32",
-       "label": "33 · The new operating model 1/2",
+       "label": "33 · What is AI-first 1/2",
        "notes": "",
        "thumb": "thumbs/ch1/033.jpg"
       },
       {
        "key": "33",
-       "label": "34 · The new operating model 2/2",
+       "label": "34 · What is AI-first 2/2",
        "notes": "",
        "thumb": "thumbs/ch1/034.jpg"
       },
       {
        "key": "34",
-       "label": "35 · The three pillars 1/3",
+       "label": "35 · The new operating model 1/2",
        "notes": "",
        "thumb": "thumbs/ch1/035.jpg"
       },
       {
        "key": "35",
-       "label": "36 · The three pillars 2/3",
+       "label": "36 · The new operating model 2/2",
        "notes": "",
        "thumb": "thumbs/ch1/036.jpg"
       },
       {
        "key": "36",
-       "label": "37 · The three pillars 3/3",
+       "label": "37 · The three pillars 1/3",
        "notes": "",
        "thumb": "thumbs/ch1/037.jpg"
       },
       {
        "key": "37",
-       "label": "38 · A complete rebuild of yourself",
+       "label": "38 · The three pillars 2/3",
        "notes": "",
        "thumb": "thumbs/ch1/038.jpg"
       },
       {
        "key": "38",
-       "label": "39 · Traditionally you had to choose 1/2",
+       "label": "39 · The three pillars 3/3",
        "notes": "",
        "thumb": "thumbs/ch1/039.jpg"
       },
       {
        "key": "39",
-       "label": "40 · Traditionally you had to choose 2/2",
+       "label": "40 · A complete rebuild of yourself",
        "notes": "",
        "thumb": "thumbs/ch1/040.jpg"
       },
       {
        "key": "40",
-       "label": "41 · AI is blending the roles",
+       "label": "41 · Traditionally you had to choose 1/2",
        "notes": "",
        "thumb": "thumbs/ch1/041.jpg"
       },
       {
        "key": "41",
-       "label": "42 · Not only about using AI",
+       "label": "42 · Traditionally you had to choose 2/2",
        "notes": "",
        "thumb": "thumbs/ch1/042.jpg"
       },
       {
        "key": "42",
-       "label": "43 · Increase your value",
+       "label": "43 · AI is blending the roles",
        "notes": "",
        "thumb": "thumbs/ch1/043.jpg"
       },
       {
        "key": "43",
-       "label": "44 · We are still very early",
+       "label": "44 · Not only about using AI",
        "notes": "",
        "thumb": "thumbs/ch1/044.jpg"
       },
       {
        "key": "44",
-       "label": "45 · Innovation adoption lifecycle",
+       "label": "45 · Increase your value",
        "notes": "",
        "thumb": "thumbs/ch1/045.jpg"
       },
       {
        "key": "45",
-       "label": "46 · Where that leaves us 1/2",
+       "label": "46 · We are still very early",
        "notes": "",
        "thumb": "thumbs/ch1/046.jpg"
       },
       {
        "key": "46",
-       "label": "47 · Where that leaves us 2/2",
+       "label": "47 · Innovation adoption lifecycle",
        "notes": "",
        "thumb": "thumbs/ch1/047.jpg"
       },
       {
        "key": "47",
-       "label": "48 · The biggest shift and opportunity",
+       "label": "48 · Where that leaves us 1/2",
        "notes": "",
        "thumb": "thumbs/ch1/048.jpg"
       },
       {
        "key": "48",
-       "label": "49 · The right end of this shift",
+       "label": "49 · Where that leaves us 2/2",
        "notes": "",
        "thumb": "thumbs/ch1/049.jpg"
       },
       {
        "key": "49",
-       "label": "50 · Over to Bob",
+       "label": "50 · The biggest shift and opportunity",
        "notes": "",
        "thumb": "thumbs/ch1/050.jpg"
+      },
+      {
+       "key": "50",
+       "label": "51 · The right end of this shift",
+       "notes": "",
+       "thumb": "thumbs/ch1/051.jpg"
+      },
+      {
+       "key": "51",
+       "label": "52 · Over to Bob",
+       "notes": "",
+       "thumb": "thumbs/ch1/052.jpg"
       }
      ]
     },
