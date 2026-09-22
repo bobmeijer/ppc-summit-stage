@@ -25,7 +25,6 @@ Everything runs offline in Chrome or Edge. You don't need to install anything or
 | Right, Down, PageDown, Space | Next slide or build step |
 | Left, Up, PageUp | Previous |
 | B or . | Black screen on/off |
-| V | Replay the clip on this slide |
 | O | Open audience window |
 | + / - | Notes text size |
 | [ / ] | Zoom the whole presenter view |
@@ -36,18 +35,20 @@ Everything runs offline in Chrome or Edge. You don't need to install anything or
 
 Click a row in the running order to jump straight to that part of the block (for example the break slide). A block runs from start to finish: speaker card, talk, then the break slide.
 
-## Slides with video (CH4, Danique Bras)
+## CH4, Danique Bras: her own deck, not this bundle
 
-Eight of her pages have a clip on them, and one page has four. They do not start by themselves.
+**Her talk is the one part of the day that does not run from these files.** She presents from her own Google Slides, because the clips are embedded in it and play from there.
 
-- **A forward click plays the clip, with sound. It does not move to the next slide.** The click after it moves on.
-- On the page with four clips they play one per click, left to right. The fifth click moves on.
-- The line under the slide in the presenter view always says which one the next click will do, for example *Playing, 0:12 left, next click moves on*.
-- **V** replays the clip. **B** blacks the screen and pauses the sound with it; pressing **B** again picks it up where it stopped.
-- Going back a slide and forward again replays the clip from the start.
-- **If that line says NO SOUND:** the audience window was never clicked. Click it once, then press **V** to replay with sound. Doing step 3 above prevents this.
+In the running order her session shows as **"Danique's own Google Slides (not in this bundle)"**. Open that row and the full instructions are in the notes panel, with the link. The audience screen goes black there on purpose: that is the cue to switch the projector to her deck, not a fault.
 
-Turn the room's sound on before her talk and check page 26 in rehearsal.
+1. When CH3 finishes and Sam introduces her, the speaker card is the last slide this bundle shows.
+2. Click the row after it. The notes panel gives you the link: open it in Chrome, then **Slideshow, then Presenter view**.
+3. Slideshow on the projector, her presenter view on the desk screen.
+4. **This is the only part of the day that needs internet.** Load her deck before the block starts, not at 11:40.
+5. **Check the room's sound before she starts.** Her clips have audio; page 26 is the first one.
+6. When she finishes, come back to this window and press Right for the lunch slide. The talk timer in the top bar keeps running while she is on, so it still tells you where she is against her 35 minutes.
+
+Her PDF is the backup if her deck will not open: `day-1/ch4-stand-out-as-a-human/deck.pdf` on the shared Drive. It has no video, so the clip pages are stills.
 
 ## Timers
 

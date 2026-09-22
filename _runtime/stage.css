@@ -145,6 +145,11 @@ body.dragging iframe, body.dragging img { pointer-events: none; }
 .step-count { font-variant-numeric: tabular-nums; font-size: 17px; color: var(--text); }
 .deck-state { color: var(--accent-2); }
 .video-state { color: var(--accent-2); white-space: nowrap; }
+/* Notes can carry a link for a talk that runs outside the bundle. It has to
+   survive a narrow notes column without running off the edge. */
+.notes { overflow-wrap: anywhere; }
+.notes a { color: var(--accent-2); text-decoration: underline; }
+.notes a:hover { color: var(--text); }
 .shot { min-height: 0; height: 100%; display: flex; align-items: flex-start; cursor: pointer; }
 .shot img, .shot .empty {
   max-width: 100%; max-height: 100%; display: block;

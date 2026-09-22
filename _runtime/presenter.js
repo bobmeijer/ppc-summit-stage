@@ -202,14 +202,23 @@
     return '\u25B6 ' + (v.total - v.played) + ' of ' + v.total + ' clip' + (v.total > 1 ? 's' : '') + ' still to play \u00B7 next click plays';
   }
 
+  // A talk that runs outside the bundle puts its link in the notes, and the
+  // operator has to open it under stage light. Make it clickable, and let it
+  // wrap: a URL that runs off the edge of the panel is no use to anybody.
+  function linkify(html) {
+    return html.replace(/https?:\/\/[^\s<]+/g, function (u) {
+      return '<a href="' + u + '" target="_blank" rel="noreferrer">' + u + '</a>';
+    });
+  }
+
   function formatNotes(t) {
     var lines = String(t).split(/\r?\n/);
     var out = [], inList = false;
     lines.forEach(function (l) {
       var m = l.match(/^\s*[-*•]\s+(.*)$/);
-      if (m) { if (!inList) { out.push('<ul>'); inList = true; } out.push('<li>' + esc(m[1]) + '</li>'); return; }
+      if (m) { if (!inList) { out.push('<ul>'); inList = true; } out.push('<li>' + linkify(esc(m[1])) + '</li>'); return; }
       if (inList) { out.push('</ul>'); inList = false; }
-      if (l.trim()) out.push('<p>' + esc(l).replace(/\[([^\]]+)\]/g, '<span class="dir">[$1]</span>') + '</p>');
+      if (l.trim()) out.push('<p>' + linkify(esc(l).replace(/\[([^\]]+)\]/g, '<span class="dir">[$1]</span>')) + '</p>');
     });
     if (inList) out.push('</ul>');
     return out.join('').replace(/<li>([^<]*)\[([^\]]+)\]/g, '<li>$1<span class="dir">[$2]</span>');
