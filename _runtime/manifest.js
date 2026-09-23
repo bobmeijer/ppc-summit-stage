@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-22 14:57",
+ "built": "2026-09-23 07:32",
  "blocks": [
   {
    "id": "block-1",
@@ -21,7 +21,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/intro-welcome-opening-slide.jpg",
        "label": "Welcome opening slide",
-       "notes": ""
+       "notes": "Ladies and Gentlemen, welcome to the second edition of the PPC Summit! I’m Sam. It is so wonderful to PPSee you all here today. I’m the Head of Marketing at ProfitMetrics, and I’m here to guide us through the day, and make you groan with my very worst industry-themed puns."
       }
      ]
     },
@@ -38,8 +38,43 @@ window.STAGE_MANIFEST = {
      "steps": [
       {
        "src": "slides/intro-welcome-clean.jpg",
-       "label": "Welcome clean",
-       "notes": ""
+       "label": "Welcome clean · 1/8",
+       "notes": "This is our second time running the PPC Summit. You might have guessed that when I said “welcome to the second edition of the PPC Summit.” I remember talking with the founders after the last Summit ended."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 2/8",
+       "notes": "The conversation went like this: “that was incredible! But.. we can go even bigger.”\nThis year.. this year, ladies and gentlemen, we’re taking things to the next level.\nWe’re in Lisbon! There are over 300 of us here! And we have two full days of speakers and workshops built specifically for everyone in this room."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 3/8",
+       "notes": "Let’s set the stage for what will happen over the next 48 hours. It may be two days, but it is one story. One journey. From legacy specialist to AI first specialist. From doing the work to directing the work."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 4/8",
+       "notes": "So. Why are we here today?\nWell let’s see who I’m actually talking to. Hands up if you’re here for the first time. And hands up if you attended last year’s summit. See, I knew I’d meta few of you before. Get it. Like Meta.\nHands up if you work freelance or in-house. Hands up if you work at an agency."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 5/8",
+       "notes": "That’s why we’re here. Because no matter which realm you work in, everyone in this room has had the same thoughts about where our industry is going, and how they can thrive."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 6/8",
+       "notes": "Today we’re going to be exploring the ways our work is changing, and how we can create more value in the things that we do. Tomorrow, we’re gonna make that personal in our workshops, so that everyone here walks out with a plan for them."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 7/8",
+       "notes": "And based on the people I see here in the room, I am confident that this event match rate is 10/10. The jokes are gonna get worse, people, buckle up.\nBefore we get started I’d like to go over some of the practicals, firstly, what you’re going to be leaving the event with. I mean like physically, not- not the ideas."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 8/8",
+       "notes": "You’ll leave with the two digital workbooks you’ll be filling out tomorrow. You’ll leave with every speaker's deck and resources. With the nifty goodie bag at your desk, And finally, with recordings of every session. We’re making these free for everyone. Anyone who purchased them with their ticket will be reimbursed."
       }
      ]
     },
@@ -56,8 +91,13 @@ window.STAGE_MANIFEST = {
      "steps": [
       {
        "src": "slides/intro-houskeeping.jpg",
-       "label": "Houskeeping",
-       "notes": ""
+       "label": "Houskeeping · 1/2",
+       "notes": "Next up, a bit of housekeeping. The wifi network is Fabricaswifi and the password is wififabricas, all lowercase.\nYou can use the PPC Summit portal (QR code on the back of your badge) to keep track of what’s happening during the day. Any special announcements will be posted to the home section, and there’s a space for you to ask any questions you have during the presentations."
+      },
+      {
+       "src": "slides/intro-houskeeping.jpg",
+       "label": "Houskeeping · 2/2",
+       "notes": "Emergency exits are there and there, feel free to use them for a normal exit as well.\nWe have a lot of great speakers today along with coffee breaks, an incredible lunch, and drinks at the end.\nAnd after telling you about all the coffee and drinks, I feel I should also mention that the bathrooms are right over there."
       }
      ]
     },
@@ -74,8 +114,13 @@ window.STAGE_MANIFEST = {
      "steps": [
       {
        "src": "slides/intro-program-day-1.jpg",
-       "label": "Program day 1",
-       "notes": ""
+       "label": "Program day 1 · 1/2",
+       "notes": "You can see the full Day 1 program right here. Miles McNair and Bob Meijer are up after me, followed by our first coffee break. Frederik Boysen and Danique Bras follow after the break, leading into our 90 minute lunch.\nNext we’ll have Alfred Simon and Cindy Ebner, and we’ll take our last break. Remember, in our industry it’s never too late for another coffee."
+      },
+      {
+       "src": "slides/intro-program-day-1.jpg",
+       "label": "Program day 1 · 2/2",
+       "notes": "Finally, we’ll close the presentations out with Miles McNair and Mike Rhodes, before ending the day with some drinks!\nAll right, are we ready for the second PPC Summit to begin? [wait for noise]\nCome on people, pretend like you just learned your net profit for Q3 was up 70%. Are we ready for the second PPC Summit to begin?!"
       }
      ]
     },
@@ -93,7 +138,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-miles-mcnair-the-ai-first-shift.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Our first talk for the day is called “The AI-first shift.” And it hits on a question that I’m sure has been on everyone’s mind at some point in the last few years: “What does being a Google Ads specialist mean when more and more of the execution can happen without you?”\nPlease welcome to the stage, the co-founder of PPC Mastery, Miles McNair."
       }
      ]
     },
@@ -440,7 +485,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-bob-meijer-the-advantage-moved.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Thank you Miles. And now for the topic “The advantage moved.” Please welcome to the stage Bob Meijer, Co-founder of PPC Mastery"
       }
      ]
     },
@@ -799,7 +844,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/breaks-short-break-back-at-11-05.jpg",
        "label": "Back at 11:05",
-       "notes": ""
+       "notes": "Thank you Bob! All right everyone, it’s time for our first 15 minute break. Grab some coffee and I’ll see you back here at 11:05. Remember, it’s a hard 15 minutes."
       }
      ]
     }
@@ -825,7 +870,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-frederik-boysen-the-algorithm-needs-a-boss.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Our next speaker is also my boss, and coincidentally, I’m sure this will be my favorite presentation of the day. Machines are excellent at optimization, but who tells the machine what success actually means?\nHere with the topic, The Algorithm Needs a Boss, please welcome the brilliant and very attractive Founder of ProfitMetrics, Frederik Boysen!"
       }
      ]
     },
@@ -1208,7 +1253,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-danique-bras-how-ai-makes-it-easy-to-stand-out.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Thank you Frederik! Now, with her topic “How AI makes it easy to stand out as a human” Please welcome to the stage the founder of AdSpells, Danique Bras!"
       }
      ]
     },
@@ -1244,7 +1289,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/breaks-short-break-lunch.jpg",
        "label": "Short break lunch",
-       "notes": ""
+       "notes": "Thank you Danique! This morning was about where the value went; this afternoon shows the systems and the people that run it. But before we get there, it’s time to eat! Make your way over to the dining hall, where our friends from Casa de Marquez have prepared a feast; we’re talkin things like veal with a port reduction and tarragon. That sounds fancy as hell.\nThere are also vegetarian, vegan, and halal options, to accommodate all dietary preferences recorded in the app.\nThere’s seating in there, as well as in the lounges and in this room, so make a plate, have a great lunch, and we’ll see you back here at 13:45 sharp!"
       }
      ]
     }
@@ -1270,7 +1315,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-alfred-simon-the-client-codebase.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Welcome back from Lunch. I hope you’re feeling full but still hungry… for knowledge! Our next speaker’s topic is called “The Client Codebase.” Please welcome to the stage, the AI Architect at Adwise, Alfred Simon!"
       }
      ]
     },
@@ -2193,7 +2238,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-cindy-ebner-google-ads-just-got-fun-again.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Thank you Alfred. Now with her presentation, Google Ads just got fun again: a week inside an AI-first agency, please welcome to the stage the Head of Paid Search at Kosch Klink Performance. Cindy Ebner!"
       }
      ]
     },
@@ -2215,547 +2260,547 @@ window.STAGE_MANIFEST = {
       {
        "key": "0",
        "label": "Slide 1",
-       "notes": "",
+       "notes": "• Alfred showed the system -> I show a normal week on top of it.\n• Not future, not polished demo: real clients, accounts and mistakes.\n◆ By the end, I hope you understand why I mean that quite literally.",
        "thumb": "thumbs/ch6/001.jpg"
       },
       {
        "key": "1",
        "label": "Slide 2 (1/2)",
-       "notes": "",
+       "notes": "• Not a developer: literature and linguistics, wanted to be a journalist.\n• A year ago: never opened a terminal.\n• Tried 8020 Brain twice, got stuck twice, stopped twice.\n• Took the time, accepted discomfort, asked Jenny for help.\n• Nobody at KKP is an engineer.\n◆ If the terminal makes you nervous, it does not mean this is not for you.",
        "thumb": "thumbs/ch6/002.jpg"
       },
       {
        "key": "2",
        "label": "Slide 2 (2/2)",
-       "notes": "",
+       "notes": "• Not a developer: literature and linguistics, wanted to be a journalist.\n• A year ago: never opened a terminal.\n• Tried 8020 Brain twice, got stuck twice, stopped twice.\n• Took the time, accepted discomfort, asked Jenny for help.\n• Nobody at KKP is an engineer.\n◆ If the terminal makes you nervous, it does not mean this is not for you.",
        "thumb": "thumbs/ch6/003.jpg"
       },
       {
        "key": "3",
        "label": "Slide 3 (1/5)",
-       "notes": "• Before AI, these five blocks were the job\n• AI took none of them away, this is still what a paid search day is made of, mostly\n• What turned completely is HOW we do them, next slide is what that runs on\n• Watch out for the five, every one of them shows up again\n• I have been in paid search since 2019, and the shift happening right now is the biggest one I have seen",
+       "notes": "• Campaigns, optimisation, clients, reports, sales, internal meetings, platform updates.\n• Each task is reasonable; together they fill the week.\n• Strategy gets pushed to 'when I have time'.\n◆ Of course, we never have time.",
        "thumb": "thumbs/ch6/004.jpg"
       },
       {
        "key": "4",
        "label": "Slide 3 (2/5)",
-       "notes": "• Before AI, these five blocks were the job\n• AI took none of them away, this is still what a paid search day is made of, mostly\n• What turned completely is HOW we do them, next slide is what that runs on\n• Watch out for the five, every one of them shows up again\n• I have been in paid search since 2019, and the shift happening right now is the biggest one I have seen",
+       "notes": "• Campaigns, optimisation, clients, reports, sales, internal meetings, platform updates.\n• Each task is reasonable; together they fill the week.\n• Strategy gets pushed to 'when I have time'.\n◆ Of course, we never have time.",
        "thumb": "thumbs/ch6/005.jpg"
       },
       {
        "key": "5",
        "label": "Slide 3 (3/5)",
-       "notes": "• Before AI, these five blocks were the job\n• AI took none of them away, this is still what a paid search day is made of, mostly\n• What turned completely is HOW we do them, next slide is what that runs on\n• Watch out for the five, every one of them shows up again\n• I have been in paid search since 2019, and the shift happening right now is the biggest one I have seen",
+       "notes": "• Campaigns, optimisation, clients, reports, sales, internal meetings, platform updates.\n• Each task is reasonable; together they fill the week.\n• Strategy gets pushed to 'when I have time'.\n◆ Of course, we never have time.",
        "thumb": "thumbs/ch6/006.jpg"
       },
       {
        "key": "6",
        "label": "Slide 3 (4/5)",
-       "notes": "• Before AI, these five blocks were the job\n• AI took none of them away, this is still what a paid search day is made of, mostly\n• What turned completely is HOW we do them, next slide is what that runs on\n• Watch out for the five, every one of them shows up again\n• I have been in paid search since 2019, and the shift happening right now is the biggest one I have seen",
+       "notes": "• Campaigns, optimisation, clients, reports, sales, internal meetings, platform updates.\n• Each task is reasonable; together they fill the week.\n• Strategy gets pushed to 'when I have time'.\n◆ Of course, we never have time.",
        "thumb": "thumbs/ch6/007.jpg"
       },
       {
        "key": "7",
        "label": "Slide 3 (5/5)",
-       "notes": "• Before AI, these five blocks were the job\n• AI took none of them away, this is still what a paid search day is made of, mostly\n• What turned completely is HOW we do them, next slide is what that runs on\n• Watch out for the five, every one of them shows up again\n• I have been in paid search since 2019, and the shift happening right now is the biggest one I have seen",
+       "notes": "• Campaigns, optimisation, clients, reports, sales, internal meetings, platform updates.\n• Each task is reasonable; together they fill the week.\n• Strategy gets pushed to 'when I have time'.\n◆ Of course, we never have time.",
        "thumb": "thumbs/ch6/008.jpg"
       },
       {
        "key": "8",
        "label": "Slide 4 (1/5)",
-       "notes": "",
+       "notes": "• 2022 ChatGPT: copy in, copy out.\n• Jan 2023: documented one full week -> prompt book + SOPs.\n• Make and n8n automations.\n• Oct 2025: Mike's 2-minute audit video -> bought course same day.\n• 2026: own Brain + PPC OS methodology, knowledge, skills and agents.\n• 256 documents, 39 skills and agents.\n◆ Prompts became SOPs. SOPs became skills. Evolution, not magic installation.",
        "thumb": "thumbs/ch6/009.jpg"
       },
       {
        "key": "9",
        "label": "Slide 4 (2/5)",
-       "notes": "",
+       "notes": "• 2022 ChatGPT: copy in, copy out.\n• Jan 2023: documented one full week -> prompt book + SOPs.\n• Make and n8n automations.\n• Oct 2025: Mike's 2-minute audit video -> bought course same day.\n• 2026: own Brain + PPC OS methodology, knowledge, skills and agents.\n• 256 documents, 39 skills and agents.\n◆ Prompts became SOPs. SOPs became skills. Evolution, not magic installation.",
        "thumb": "thumbs/ch6/010.jpg"
       },
       {
        "key": "10",
        "label": "Slide 4 (3/5)",
-       "notes": "",
+       "notes": "• 2022 ChatGPT: copy in, copy out.\n• Jan 2023: documented one full week -> prompt book + SOPs.\n• Make and n8n automations.\n• Oct 2025: Mike's 2-minute audit video -> bought course same day.\n• 2026: own Brain + PPC OS methodology, knowledge, skills and agents.\n• 256 documents, 39 skills and agents.\n◆ Prompts became SOPs. SOPs became skills. Evolution, not magic installation.",
        "thumb": "thumbs/ch6/011.jpg"
       },
       {
        "key": "11",
        "label": "Slide 4 (4/5)",
-       "notes": "",
+       "notes": "• 2022 ChatGPT: copy in, copy out.\n• Jan 2023: documented one full week -> prompt book + SOPs.\n• Make and n8n automations.\n• Oct 2025: Mike's 2-minute audit video -> bought course same day.\n• 2026: own Brain + PPC OS methodology, knowledge, skills and agents.\n• 256 documents, 39 skills and agents.\n◆ Prompts became SOPs. SOPs became skills. Evolution, not magic installation.",
        "thumb": "thumbs/ch6/012.jpg"
       },
       {
        "key": "12",
        "label": "Slide 4 (5/5)",
-       "notes": "",
+       "notes": "• 2022 ChatGPT: copy in, copy out.\n• Jan 2023: documented one full week -> prompt book + SOPs.\n• Make and n8n automations.\n• Oct 2025: Mike's 2-minute audit video -> bought course same day.\n• 2026: own Brain + PPC OS methodology, knowledge, skills and agents.\n• 256 documents, 39 skills and agents.\n◆ Prompts became SOPs. SOPs became skills. Evolution, not magic installation.",
        "thumb": "thumbs/ch6/013.jpg"
       },
       {
        "key": "13",
        "label": "Slide 5",
-       "notes": "• Did all of that change everything? Yes and no, be straight about which is which\n• The five blocks from two slides ago are all still there\n• Nobody took the campaign builds, the client calls or the responsibility away\n• What turned is the week around them: who does the first pass, how long a client waits, what we can say yes to at all\n• Easier to show than to argue, so let us walk through one real week\n• It starts on a Monday at two minutes past eight",
+       "notes": "• Tools, speed and range changed.\n• Responsibility did not.\n◆ Let me walk you through a typical week at our agency.",
        "thumb": "thumbs/ch6/014.jpg"
       },
       {
        "key": "14",
        "label": "Slide 6",
-       "notes": "",
+       "notes": "• One command: /gm.\n• No dashboard, no browser tabs.\n• Reads calendar, emails, client files, accounts and tasks on my machine.\n• Normally Monday starts by reconstructing your own job.\n◆ This command gives me one place to start.",
        "thumb": "thumbs/ch6/015.jpg"
       },
       {
        "key": "15",
        "label": "Slide 7",
-       "notes": "• [The box is German, nobody will read it: let it sit three or four seconds, then walk through it out loud]\n• Density and order are the message, that is why nothing is written on the slide\n• [Take the mail lines one by one]\n• Each carries a client and the colleague who owns it\n• A sender we do not know shows up as its bare domain",
+       "notes": "• Appointments, free blocks, call prep, emails, Trello, deadlines, news, derived tasks.\n• Also flags broken connections.\n• I do not follow every suggestion blindly.\n◆ The search is done. I start with the decision.",
        "thumb": "thumbs/ch6/016.jpg"
       },
       {
        "key": "16",
        "label": "Slide 8",
-       "notes": "• This is the week that falls out of that one command\n• Morning box and shutdown sit at both ends of every single day, not just Friday\n• Thursday has an hour that belongs to nothing billable: the hour we work on the setup itself\n• Each of us has it, and it is the reason anything in this talk exists\n• On the Thursday hour, be honest: it does not always land on a Thursday. Sometimes it is earlier, sometimes later in the week. What does not move is that there is one\n• Mine has journaling in it: what am I thankful for from yesterday. I always wanted to do that and always forgot. Now it asks me. That is the point of everyone adapting it to their own needs",
+       "notes": "• Final line opens weekly plan.\n• Same two commands: morning opens, shutdown closes.\n• Same commands, personal details.\n• Thursday: protected hour to improve the setup.\n◆ Nothing gets built in tiny gaps between client calls.",
        "thumb": "thumbs/ch6/017.jpg"
       },
       {
        "key": "17",
        "label": "Slide 9 (1/2)",
-       "notes": "• This is block five from the day-in-the-life slide, keeping up, the one that changed the most\n• Honest version of the headline: it sorts my day, and it sorts what the platform did while I was asleep\n• It goes through the sources I trust and tells me what moved. Newsletters, reddit, and a radar that only watches ads in AI answers\n• What makes it worth anything: a headline becomes a to-do only once I can point at the account it hits, with a number or a date on it\n• The one worth telling: 17 August. Google started letting budget-capped tCPA and tROAS campaigns optimise toward the target instead of staying under it. It reached us as a single line in a newsletter. By that afternoon 83 campaigns had a frozen baseline and an alert on the cutover signature\n• That is the whole mechanism in one story: a line goes in, a monitor comes out",
+       "notes": "• Reads trusted newsletters, Reddit and AI ads radar.\n• Not just news summary: does it affect an account?\n• Bidding change -> check 83 campaigns. Auto-apply news -> settings review.\n• Some updates deliberately ignored.\n◆ Keeping up is not reading everything. It is deciding what deserves action.",
        "thumb": "thumbs/ch6/018.jpg"
       },
       {
        "key": "18",
        "label": "Slide 9 (2/2)",
-       "notes": "• This is block five from the day-in-the-life slide, keeping up, the one that changed the most\n• Honest version of the headline: it sorts my day, and it sorts what the platform did while I was asleep\n• It goes through the sources I trust and tells me what moved. Newsletters, reddit, and a radar that only watches ads in AI answers\n• What makes it worth anything: a headline becomes a to-do only once I can point at the account it hits, with a number or a date on it\n• The one worth telling: 17 August. Google started letting budget-capped tCPA and tROAS campaigns optimise toward the target instead of staying under it. It reached us as a single line in a newsletter. By that afternoon 83 campaigns had a frozen baseline and an alert on the cutover signature\n• That is the whole mechanism in one story: a line goes in, a monitor comes out",
+       "notes": "• Reads trusted newsletters, Reddit and AI ads radar.\n• Not just news summary: does it affect an account?\n• Bidding change -> check 83 campaigns. Auto-apply news -> settings review.\n• Some updates deliberately ignored.\n◆ Keeping up is not reading everything. It is deciding what deserves action.",
        "thumb": "thumbs/ch6/019.jpg"
       },
       {
        "key": "19",
        "label": "Slide 10",
-       "notes": "• This is where the week actually starts\n• On screen: the capacity view out of this morning's planning, one column per person\n• Underneath it every recurring job with how often it runs and an estimated duration\n• Those hours are the brain's estimates, not measurements\n• When a job runs longer we feed the real number back, after three of them the median replaces the estimate\n• It also knows who is good at what: tracking questions go to Jenny, the creative work to Anastasia, anything internal like pitches and sales calls mostly to me. It plans against that by itself\n• One thing I will not pretend is solved: tracking those billable hours got harder, not easier. You are working on two or three things at once now\n• And just because something is faster does not mean it should be. That is an open discussion in our team, not a finished answer",
+       "notes": "• Skill proposes Trello cards before Monday meeting.\n• Knows schedules, real capacity, holidays, meetings and typical effort.\n• Knows strengths and how much the Brain can support.\n• Proposes, never assigns.\n• Better because it sees all three people and all work at once.",
        "thumb": "thumbs/ch6/020.jpg"
       },
       {
        "key": "20",
        "label": "Slide 11",
-       "notes": "• Now the three of us sit down and settle what the planning proposed half an hour earlier\n• Half an hour, and the week is decided\n• The loop closes on Friday: the review asks whether we planned too much or too late, and that goes back into the brain\n• The more weeks we run it, the more realistic the plan comes out",
+       "notes": "• 9:30: 20-30 minute human review.\n• One owner per client; name on every task.\n• Wrong estimate or changed priority? We change it.\n• Friday: compare plan with reality.\n◆ The Brain prepares the decision. It does not make the team decision.",
        "thumb": "thumbs/ch6/021.jpg"
       },
       {
        "key": "21",
        "label": "Slide 12 (1/4)",
-       "notes": "• First: Monday is the planning day, there is no standup on it\n• Daily standup runs Tuesday to Friday, Friday has a review on top\n• The point of the slide: the conversation does not evaporate\n• Fathom records the daily, whatever belongs to an account goes into that client's call notes in redacted form\n• Next person picks the thread up instead of asking for it again\n• Third file is the shared one: improving this setup is a team project, not my private hobby\n• Extract shows six real entries with date, author and status\n• The highlighted line is a rejected one: four community suggestions we checked and then left alone",
+       "notes": "• Recording stored.\n• Client information into client call notes.\n• Brain improvements into one shared file.\n• Whole team contributes; Thursday turns observations into improvements.\n◆ Improving the system is part of how the whole team works.",
        "thumb": "thumbs/ch6/022.jpg"
       },
       {
        "key": "22",
        "label": "Slide 12 (2/4)",
-       "notes": "• First: Monday is the planning day, there is no standup on it\n• Daily standup runs Tuesday to Friday, Friday has a review on top\n• The point of the slide: the conversation does not evaporate\n• Fathom records the daily, whatever belongs to an account goes into that client's call notes in redacted form\n• Next person picks the thread up instead of asking for it again\n• Third file is the shared one: improving this setup is a team project, not my private hobby\n• Extract shows six real entries with date, author and status\n• The highlighted line is a rejected one: four community suggestions we checked and then left alone",
+       "notes": "• Recording stored.\n• Client information into client call notes.\n• Brain improvements into one shared file.\n• Whole team contributes; Thursday turns observations into improvements.\n◆ Improving the system is part of how the whole team works.",
        "thumb": "thumbs/ch6/023.jpg"
       },
       {
        "key": "23",
        "label": "Slide 12 (3/4)",
-       "notes": "• First: Monday is the planning day, there is no standup on it\n• Daily standup runs Tuesday to Friday, Friday has a review on top\n• The point of the slide: the conversation does not evaporate\n• Fathom records the daily, whatever belongs to an account goes into that client's call notes in redacted form\n• Next person picks the thread up instead of asking for it again\n• Third file is the shared one: improving this setup is a team project, not my private hobby\n• Extract shows six real entries with date, author and status\n• The highlighted line is a rejected one: four community suggestions we checked and then left alone",
+       "notes": "• Recording stored.\n• Client information into client call notes.\n• Brain improvements into one shared file.\n• Whole team contributes; Thursday turns observations into improvements.\n◆ Improving the system is part of how the whole team works.",
        "thumb": "thumbs/ch6/024.jpg"
       },
       {
        "key": "24",
        "label": "Slide 12 (4/4)",
-       "notes": "• First: Monday is the planning day, there is no standup on it\n• Daily standup runs Tuesday to Friday, Friday has a review on top\n• The point of the slide: the conversation does not evaporate\n• Fathom records the daily, whatever belongs to an account goes into that client's call notes in redacted form\n• Next person picks the thread up instead of asking for it again\n• Third file is the shared one: improving this setup is a team project, not my private hobby\n• Extract shows six real entries with date, author and status\n• The highlighted line is a rejected one: four community suggestions we checked and then left alone",
+       "notes": "• Recording stored.\n• Client information into client call notes.\n• Brain improvements into one shared file.\n• Whole team contributes; Thursday turns observations into improvements.\n◆ Improving the system is part of how the whole team works.",
        "thumb": "thumbs/ch6/025.jpg"
       },
       {
        "key": "25",
        "label": "Slide 13 (1/5)",
-       "notes": "",
+       "notes": "• Every account, every week, same four questions.\n• Delivery? Movement? Served assets? Search-term spend?\n• Pulls all supporting data automatically.\n• One command, same logic across every account.\n◆ Humans are not brilliant at that consistency on a busy Tuesday.",
        "thumb": "thumbs/ch6/026.jpg"
       },
       {
        "key": "26",
        "label": "Slide 13 (2/5)",
-       "notes": "",
+       "notes": "• Every account, every week, same four questions.\n• Delivery? Movement? Served assets? Search-term spend?\n• Pulls all supporting data automatically.\n• One command, same logic across every account.\n◆ Humans are not brilliant at that consistency on a busy Tuesday.",
        "thumb": "thumbs/ch6/027.jpg"
       },
       {
        "key": "27",
        "label": "Slide 13 (3/5)",
-       "notes": "",
+       "notes": "• Every account, every week, same four questions.\n• Delivery? Movement? Served assets? Search-term spend?\n• Pulls all supporting data automatically.\n• One command, same logic across every account.\n◆ Humans are not brilliant at that consistency on a busy Tuesday.",
        "thumb": "thumbs/ch6/028.jpg"
       },
       {
        "key": "28",
        "label": "Slide 13 (4/5)",
-       "notes": "",
+       "notes": "• Every account, every week, same four questions.\n• Delivery? Movement? Served assets? Search-term spend?\n• Pulls all supporting data automatically.\n• One command, same logic across every account.\n◆ Humans are not brilliant at that consistency on a busy Tuesday.",
        "thumb": "thumbs/ch6/029.jpg"
       },
       {
        "key": "29",
        "label": "Slide 13 (5/5)",
-       "notes": "",
+       "notes": "• Every account, every week, same four questions.\n• Delivery? Movement? Served assets? Search-term spend?\n• Pulls all supporting data automatically.\n• One command, same logic across every account.\n◆ Humans are not brilliant at that consistency on a busy Tuesday.",
        "thumb": "thumbs/ch6/030.jpg"
       },
       {
        "key": "30",
        "label": "Slide 14",
-       "notes": "• On account level the week was quiet: 86 conversions against 87, cost up 2,1 percent, every threshold green\n• Real check on Anastasia's insurer account, 10 August\n• The same run still pulled two things out from underneath those numbers\n• Second one belongs right next to it: the campaign closest to conversion is held back by budget, not by rank. Share lost to budget 55,1 percent\n• Ends up as a markdown file next to the account files, not in a dashboard nobody opens",
+       "notes": "• Main KPIs looked stable.\n• Still found two campaign problems.\n• Example: conversions -41.7%, spend +6.7%, off-topic search terms.\n• Weighted by impact -> starting point, not endless list.\n• I add client context and decide what happens next.\n◆ The system finds issues way faster.",
        "thumb": "thumbs/ch6/031.jpg"
       },
       {
        "key": "31",
        "label": "Slide 15 (1/5)",
-       "notes": "• A large part of our week is calls, and I skipped past that for a long time because it does not look like automation\n• It is the part clients actually experience\n• Before every call one command, back comes one page:\n• – what we promised last time and have not delivered yet\n• – four weeks of trend per campaign, with the week a number bends\n• – the change history, including everything the client did in the account themselves\n• – talking points I can copy out of the page\n• Honest note: call prep used to be about an hour\n• It is not only my confidence, it is the team walking into any call knowing what will be asked\n• How long this takes depends on how close you sit to the account. For someone in their first year of consulting it is a very long hour, and that is exactly who this gives the most back to",
+       "notes": "• Reads last notes and open promises with owners.\n• Compares four weeks, flags trend changes.\n• Reads change history, including client changes.\n• Prepares talking points.\n• Used to take an hour and begin with remembering.\n◆ Now the first step is a file.",
        "thumb": "thumbs/ch6/032.jpg"
       },
       {
        "key": "32",
        "label": "Slide 15 (2/5)",
-       "notes": "• A large part of our week is calls, and I skipped past that for a long time because it does not look like automation\n• It is the part clients actually experience\n• Before every call one command, back comes one page:\n• – what we promised last time and have not delivered yet\n• – four weeks of trend per campaign, with the week a number bends\n• – the change history, including everything the client did in the account themselves\n• – talking points I can copy out of the page\n• Honest note: call prep used to be about an hour\n• It is not only my confidence, it is the team walking into any call knowing what will be asked\n• How long this takes depends on how close you sit to the account. For someone in their first year of consulting it is a very long hour, and that is exactly who this gives the most back to",
+       "notes": "• Reads last notes and open promises with owners.\n• Compares four weeks, flags trend changes.\n• Reads change history, including client changes.\n• Prepares talking points.\n• Used to take an hour and begin with remembering.\n◆ Now the first step is a file.",
        "thumb": "thumbs/ch6/033.jpg"
       },
       {
        "key": "33",
        "label": "Slide 15 (3/5)",
-       "notes": "• A large part of our week is calls, and I skipped past that for a long time because it does not look like automation\n• It is the part clients actually experience\n• Before every call one command, back comes one page:\n• – what we promised last time and have not delivered yet\n• – four weeks of trend per campaign, with the week a number bends\n• – the change history, including everything the client did in the account themselves\n• – talking points I can copy out of the page\n• Honest note: call prep used to be about an hour\n• It is not only my confidence, it is the team walking into any call knowing what will be asked\n• How long this takes depends on how close you sit to the account. For someone in their first year of consulting it is a very long hour, and that is exactly who this gives the most back to",
+       "notes": "• Reads last notes and open promises with owners.\n• Compares four weeks, flags trend changes.\n• Reads change history, including client changes.\n• Prepares talking points.\n• Used to take an hour and begin with remembering.\n◆ Now the first step is a file.",
        "thumb": "thumbs/ch6/034.jpg"
       },
       {
        "key": "34",
        "label": "Slide 15 (4/5)",
-       "notes": "• A large part of our week is calls, and I skipped past that for a long time because it does not look like automation\n• It is the part clients actually experience\n• Before every call one command, back comes one page:\n• – what we promised last time and have not delivered yet\n• – four weeks of trend per campaign, with the week a number bends\n• – the change history, including everything the client did in the account themselves\n• – talking points I can copy out of the page\n• Honest note: call prep used to be about an hour\n• It is not only my confidence, it is the team walking into any call knowing what will be asked\n• How long this takes depends on how close you sit to the account. For someone in their first year of consulting it is a very long hour, and that is exactly who this gives the most back to",
+       "notes": "• Reads last notes and open promises with owners.\n• Compares four weeks, flags trend changes.\n• Reads change history, including client changes.\n• Prepares talking points.\n• Used to take an hour and begin with remembering.\n◆ Now the first step is a file.",
        "thumb": "thumbs/ch6/035.jpg"
       },
       {
        "key": "35",
        "label": "Slide 15 (5/5)",
-       "notes": "• A large part of our week is calls, and I skipped past that for a long time because it does not look like automation\n• It is the part clients actually experience\n• Before every call one command, back comes one page:\n• – what we promised last time and have not delivered yet\n• – four weeks of trend per campaign, with the week a number bends\n• – the change history, including everything the client did in the account themselves\n• – talking points I can copy out of the page\n• Honest note: call prep used to be about an hour\n• It is not only my confidence, it is the team walking into any call knowing what will be asked\n• How long this takes depends on how close you sit to the account. For someone in their first year of consulting it is a very long hour, and that is exactly who this gives the most back to",
+       "notes": "• Reads last notes and open promises with owners.\n• Compares four weeks, flags trend changes.\n• Reads change history, including client changes.\n• Prepares talking points.\n• Used to take an hour and begin with remembering.\n◆ Now the first step is a file.",
        "thumb": "thumbs/ch6/036.jpg"
       },
       {
        "key": "36",
        "label": "Slide 16 (1/3)",
-       "notes": "• The call is recorded, and out of that recording come three things\n• A summary mail as a draft in my Outlook, with an owner on every single line. A draft on purpose, nothing goes to a client without me reading it\n• The same call as a dated note in the shared repository, so my colleagues read what happened instead of asking me\n• Every action item with our name on it becomes a Trello card for next week, the client's own items stay in the mail\n• The sentence to take from this slide: a promise I make on a call is a card before I stand up from the table\n• The sharpest version of why the shared note matters: if I get sick tomorrow, my colleague still knows what the client was told, what they are waiting for and what we promised",
+       "notes": "• After call: draft summary email from recording; never sends itself.\n• Full note into client folder.\n• Our promises become Trello cards; client tasks stay in email.\n• Not the most exciting AI example.\n◆ Small promises are where client trust often disappears.",
        "thumb": "thumbs/ch6/037.jpg"
       },
       {
        "key": "37",
        "label": "Slide 16 (2/3)",
-       "notes": "• The call is recorded, and out of that recording come three things\n• A summary mail as a draft in my Outlook, with an owner on every single line. A draft on purpose, nothing goes to a client without me reading it\n• The same call as a dated note in the shared repository, so my colleagues read what happened instead of asking me\n• Every action item with our name on it becomes a Trello card for next week, the client's own items stay in the mail\n• The sentence to take from this slide: a promise I make on a call is a card before I stand up from the table\n• The sharpest version of why the shared note matters: if I get sick tomorrow, my colleague still knows what the client was told, what they are waiting for and what we promised",
+       "notes": "• After call: draft summary email from recording; never sends itself.\n• Full note into client folder.\n• Our promises become Trello cards; client tasks stay in email.\n• Not the most exciting AI example.\n◆ Small promises are where client trust often disappears.",
        "thumb": "thumbs/ch6/038.jpg"
       },
       {
        "key": "38",
        "label": "Slide 16 (3/3)",
-       "notes": "• The call is recorded, and out of that recording come three things\n• A summary mail as a draft in my Outlook, with an owner on every single line. A draft on purpose, nothing goes to a client without me reading it\n• The same call as a dated note in the shared repository, so my colleagues read what happened instead of asking me\n• Every action item with our name on it becomes a Trello card for next week, the client's own items stay in the mail\n• The sentence to take from this slide: a promise I make on a call is a card before I stand up from the table\n• The sharpest version of why the shared note matters: if I get sick tomorrow, my colleague still knows what the client was told, what they are waiting for and what we promised",
+       "notes": "• After call: draft summary email from recording; never sends itself.\n• Full note into client folder.\n• Our promises become Trello cards; client tasks stay in email.\n• Not the most exciting AI example.\n◆ Small promises are where client trust often disappears.",
        "thumb": "thumbs/ch6/039.jpg"
       },
       {
        "key": "39",
        "label": "Slide 17",
-       "notes": "",
+       "notes": "• So far, the week looks organised.\n• Then real client requests enter the story.\n• Examples did not all happen in one week.\n◆ Everyone at an agency knows the feeling when every client suddenly needs something urgently.",
        "thumb": "thumbs/ch6/040.jpg"
       },
       {
        "key": "40",
        "label": "Slide 18",
-       "notes": "• The whole chain the skill runs: client profile first (tone, market, structure, what we agreed never to bid on), then keyword research, structure, ad groups, negatives, two ads per ad group with fifteen headlines and four descriptions each\n• Screenshot is the structure half of a sample build: two campaigns, brand split off, non-brand kept in one pot\n• The yellow box is the reasoning the skill writes down for that decision\n• Say what happens while it builds: I am not sitting there watching it. I can take a call, the draft is waiting when I come back",
+       "notes": "• Tuesday request: ready for Friday?\n• Old answer: probably no; full day already booked -> next week or deprioritise someone.\n• Now start campaign-creation skill.\n• Volume, clusters, structure, negatives, two ads per group, client guidelines.\n• Own SOP + PPC OS -> specialist quality, not generic ChatGPT.\n• Still reviewed by one of us.",
        "thumb": "thumbs/ch6/041.jpg"
       },
       {
        "key": "41",
        "label": "Slide 19 (1/2)",
-       "notes": "• Everybody here has sent that spreadsheet at some point\n• Now the client clicks through it, strikes what they do not want and signs off\n• The export carries their edits into the build",
+       "notes": "• Old: spreadsheet across many tabs; complete but hard to decode.\n• Now: clickable approval HTML.\n• Ads as in SERP; decisions in plain language; remove keywords in browser.\n• Feedback exports into build.\n◆ We removed translation work between us and the client.",
        "thumb": "thumbs/ch6/042.jpg"
       },
       {
        "key": "42",
        "label": "Slide 19 (2/2)",
-       "notes": "• Everybody here has sent that spreadsheet at some point\n• Now the client clicks through it, strikes what they do not want and signs off\n• The export carries their edits into the build",
+       "notes": "• Old: spreadsheet across many tabs; complete but hard to decode.\n• Now: clickable approval HTML.\n• Ads as in SERP; decisions in plain language; remove keywords in browser.\n• Feedback exports into build.\n◆ We removed translation work between us and the client.",
        "thumb": "thumbs/ch6/043.jpg"
       },
       {
        "key": "43",
        "label": "Slide 20 (1/5)",
-       "notes": "",
+       "notes": "• Before AI: 8h. ChatGPT: 6h. Own tool: 3-4h. Brain + PPC OS: minutes.\n• Draft quality comes from our skill, SOP and methodology.\n• Approval still takes years of account experience.\n◆ AI compressed production time, not the experience needed to approve it.",
        "thumb": "thumbs/ch6/044.jpg"
       },
       {
        "key": "44",
        "label": "Slide 20 (2/5)",
-       "notes": "",
+       "notes": "• Before AI: 8h. ChatGPT: 6h. Own tool: 3-4h. Brain + PPC OS: minutes.\n• Draft quality comes from our skill, SOP and methodology.\n• Approval still takes years of account experience.\n◆ AI compressed production time, not the experience needed to approve it.",
        "thumb": "thumbs/ch6/045.jpg"
       },
       {
        "key": "45",
        "label": "Slide 20 (3/5)",
-       "notes": "",
+       "notes": "• Before AI: 8h. ChatGPT: 6h. Own tool: 3-4h. Brain + PPC OS: minutes.\n• Draft quality comes from our skill, SOP and methodology.\n• Approval still takes years of account experience.\n◆ AI compressed production time, not the experience needed to approve it.",
        "thumb": "thumbs/ch6/046.jpg"
       },
       {
        "key": "46",
        "label": "Slide 20 (4/5)",
-       "notes": "",
+       "notes": "• Before AI: 8h. ChatGPT: 6h. Own tool: 3-4h. Brain + PPC OS: minutes.\n• Draft quality comes from our skill, SOP and methodology.\n• Approval still takes years of account experience.\n◆ AI compressed production time, not the experience needed to approve it.",
        "thumb": "thumbs/ch6/047.jpg"
       },
       {
        "key": "47",
        "label": "Slide 20 (5/5)",
-       "notes": "",
+       "notes": "• Before AI: 8h. ChatGPT: 6h. Own tool: 3-4h. Brain + PPC OS: minutes.\n• Draft quality comes from our skill, SOP and methodology.\n• Approval still takes years of account experience.\n◆ AI compressed production time, not the experience needed to approve it.",
        "thumb": "thumbs/ch6/048.jpg"
       },
       {
        "key": "48",
        "label": "Slide 21 (1/7)",
-       "notes": "• The changelog is how we closed it: 66 changes in that window, every one made by the client in the Google Ads interface, none of ours. On this account we advise and they build\n• The sequence is boring on purpose: date range first, then delivery, then settings, then the changelog. The order is the whole method\n• The core update landed the same morning and would have been the comfortable answer, so we ruled it out first. Took minutes\n• Negatives were suspect two, the actual ratio comes in a second\n• What is left was the obvious: we had stopped paying due to an MMM",
+       "notes": "• SEA manager gets internal question: why are impressions down?\n• Her theories: Google, competitors or something in account.\n• Ask Brain one question -> rules out causes and explains why.\n• Finds forgotten context: MMM introduced weeks earlier, budgets adjusted automatically.\n• Budget loss up, rank loss almost gone -> less money, not less competitiveness.\n• Brain connected known information and tested explanations.\n◆ The work is still the work. The fear of not answering is gone.",
        "thumb": "thumbs/ch6/049.jpg"
       },
       {
        "key": "49",
        "label": "Slide 21 (2/7)",
-       "notes": "• The changelog is how we closed it: 66 changes in that window, every one made by the client in the Google Ads interface, none of ours. On this account we advise and they build\n• The sequence is boring on purpose: date range first, then delivery, then settings, then the changelog. The order is the whole method\n• The core update landed the same morning and would have been the comfortable answer, so we ruled it out first. Took minutes\n• Negatives were suspect two, the actual ratio comes in a second\n• What is left was the obvious: we had stopped paying due to an MMM",
+       "notes": "• SEA manager gets internal question: why are impressions down?\n• Her theories: Google, competitors or something in account.\n• Ask Brain one question -> rules out causes and explains why.\n• Finds forgotten context: MMM introduced weeks earlier, budgets adjusted automatically.\n• Budget loss up, rank loss almost gone -> less money, not less competitiveness.\n• Brain connected known information and tested explanations.\n◆ The work is still the work. The fear of not answering is gone.",
        "thumb": "thumbs/ch6/050.jpg"
       },
       {
        "key": "50",
        "label": "Slide 21 (3/7)",
-       "notes": "• The changelog is how we closed it: 66 changes in that window, every one made by the client in the Google Ads interface, none of ours. On this account we advise and they build\n• The sequence is boring on purpose: date range first, then delivery, then settings, then the changelog. The order is the whole method\n• The core update landed the same morning and would have been the comfortable answer, so we ruled it out first. Took minutes\n• Negatives were suspect two, the actual ratio comes in a second\n• What is left was the obvious: we had stopped paying due to an MMM",
+       "notes": "• SEA manager gets internal question: why are impressions down?\n• Her theories: Google, competitors or something in account.\n• Ask Brain one question -> rules out causes and explains why.\n• Finds forgotten context: MMM introduced weeks earlier, budgets adjusted automatically.\n• Budget loss up, rank loss almost gone -> less money, not less competitiveness.\n• Brain connected known information and tested explanations.\n◆ The work is still the work. The fear of not answering is gone.",
        "thumb": "thumbs/ch6/051.jpg"
       },
       {
        "key": "51",
        "label": "Slide 21 (4/7)",
-       "notes": "• The changelog is how we closed it: 66 changes in that window, every one made by the client in the Google Ads interface, none of ours. On this account we advise and they build\n• The sequence is boring on purpose: date range first, then delivery, then settings, then the changelog. The order is the whole method\n• The core update landed the same morning and would have been the comfortable answer, so we ruled it out first. Took minutes\n• Negatives were suspect two, the actual ratio comes in a second\n• What is left was the obvious: we had stopped paying due to an MMM",
+       "notes": "• SEA manager gets internal question: why are impressions down?\n• Her theories: Google, competitors or something in account.\n• Ask Brain one question -> rules out causes and explains why.\n• Finds forgotten context: MMM introduced weeks earlier, budgets adjusted automatically.\n• Budget loss up, rank loss almost gone -> less money, not less competitiveness.\n• Brain connected known information and tested explanations.\n◆ The work is still the work. The fear of not answering is gone.",
        "thumb": "thumbs/ch6/052.jpg"
       },
       {
        "key": "52",
        "label": "Slide 21 (5/7)",
-       "notes": "• The changelog is how we closed it: 66 changes in that window, every one made by the client in the Google Ads interface, none of ours. On this account we advise and they build\n• The sequence is boring on purpose: date range first, then delivery, then settings, then the changelog. The order is the whole method\n• The core update landed the same morning and would have been the comfortable answer, so we ruled it out first. Took minutes\n• Negatives were suspect two, the actual ratio comes in a second\n• What is left was the obvious: we had stopped paying due to an MMM",
+       "notes": "• SEA manager gets internal question: why are impressions down?\n• Her theories: Google, competitors or something in account.\n• Ask Brain one question -> rules out causes and explains why.\n• Finds forgotten context: MMM introduced weeks earlier, budgets adjusted automatically.\n• Budget loss up, rank loss almost gone -> less money, not less competitiveness.\n• Brain connected known information and tested explanations.\n◆ The work is still the work. The fear of not answering is gone.",
        "thumb": "thumbs/ch6/053.jpg"
       },
       {
        "key": "53",
        "label": "Slide 21 (6/7)",
-       "notes": "• The changelog is how we closed it: 66 changes in that window, every one made by the client in the Google Ads interface, none of ours. On this account we advise and they build\n• The sequence is boring on purpose: date range first, then delivery, then settings, then the changelog. The order is the whole method\n• The core update landed the same morning and would have been the comfortable answer, so we ruled it out first. Took minutes\n• Negatives were suspect two, the actual ratio comes in a second\n• What is left was the obvious: we had stopped paying due to an MMM",
+       "notes": "• SEA manager gets internal question: why are impressions down?\n• Her theories: Google, competitors or something in account.\n• Ask Brain one question -> rules out causes and explains why.\n• Finds forgotten context: MMM introduced weeks earlier, budgets adjusted automatically.\n• Budget loss up, rank loss almost gone -> less money, not less competitiveness.\n• Brain connected known information and tested explanations.\n◆ The work is still the work. The fear of not answering is gone.",
        "thumb": "thumbs/ch6/054.jpg"
       },
       {
        "key": "54",
        "label": "Slide 21 (7/7)",
-       "notes": "• The changelog is how we closed it: 66 changes in that window, every one made by the client in the Google Ads interface, none of ours. On this account we advise and they build\n• The sequence is boring on purpose: date range first, then delivery, then settings, then the changelog. The order is the whole method\n• The core update landed the same morning and would have been the comfortable answer, so we ruled it out first. Took minutes\n• Negatives were suspect two, the actual ratio comes in a second\n• What is left was the obvious: we had stopped paying due to an MMM",
+       "notes": "• SEA manager gets internal question: why are impressions down?\n• Her theories: Google, competitors or something in account.\n• Ask Brain one question -> rules out causes and explains why.\n• Finds forgotten context: MMM introduced weeks earlier, budgets adjusted automatically.\n• Budget loss up, rank loss almost gone -> less money, not less competitiveness.\n• Brain connected known information and tested explanations.\n◆ The work is still the work. The fear of not answering is gone.",
        "thumb": "thumbs/ch6/055.jpg"
       },
       {
        "key": "55",
        "label": "Slide 22",
-       "notes": "• An account where the reported numbers and the numbers in their own system had been drifting apart for weeks\n• Nothing on the account itself was broken, which is exactly why nobody had found it\n• It had not always been wrong: a second conversion action had been imported alongside the native one, same event name, ramping up over those weeks\n• Last ten days: 122 real ones and 113 duplicates on top\n• Why it stayed invisible: the imported action is flagged as not counting, and the numbers say otherwise, because the account runs on conversion goals and that flag is legacy\n• Came out of a structured audit. The rule behind it is the boring one: first check what is being counted, then judge efficiency\n• [The honest half, and say it here now that the skill has no slide of its own: none of us does tracking for a living. What we have is something that asks the questions a specialist would ask, all of them, in the same order, on a Friday afternoon as well]\n• Our knowledge is the same as it was. What changed is how we walk into a call: we say the measurement is wrong and here is what to do, instead of hedging\n• Measurement is the first bottleneck, so this is the audit that goes first. Every other one is only as good as the numbers underneath it\n• The audit is the PPC OS tracking specialist, seven modules, and we run it as it ships. Our part is the account knowledge it gets fed, and the call afterwards",
+       "notes": "• Google conversions no longer match backend leads.\n• We are Google Ads specialists, not tracking specialists.\n• Skill finds same lead counted via native action + GA4 import.\n• Tracking experts still implement the fix.\n• We give a clear diagnosis and much better starting point.\n◆ It does not make us tracking specialists. It makes our support more useful.",
        "thumb": "thumbs/ch6/056.jpg"
       },
       {
        "key": "56",
        "label": "Slide 23 (1/2)",
-       "notes": "• Fourth request, the one with an actual deadline, and the one I am proudest of\n• Their American owners were visiting that week and wanted to see what search had done across the full US fiscal year\n• He asked whether we could have the report updated by the next day\n• Two years ago this was an evening shift: pull the numbers by hand, build the chart, write the reading, format it so it survives a boardroom, send it far too late and hope the framing holds\n• This time it went back the same day, in under an hour\n• The report itself comes out of the PPC OS report generator, in our branding, because the branding is a config file and nothing more",
+       "notes": "• Detailed report needed next day for investor visit.\n• Two years ago: night shift; pull DE/AT + Google/Microsoft manually; charts + tired interpretation.\n• Now Brain pulls, analyses, compares, drafts interpretation and applies client design.\n• I check every number and framing.\n• Under one hour, ready to forward.\n◆ It also makes our contact look good inside their organisation.",
        "thumb": "thumbs/ch6/057.jpg"
       },
       {
        "key": "57",
        "label": "Slide 23 (2/2)",
-       "notes": "• Fourth request, the one with an actual deadline, and the one I am proudest of\n• Their American owners were visiting that week and wanted to see what search had done across the full US fiscal year\n• He asked whether we could have the report updated by the next day\n• Two years ago this was an evening shift: pull the numbers by hand, build the chart, write the reading, format it so it survives a boardroom, send it far too late and hope the framing holds\n• This time it went back the same day, in under an hour\n• The report itself comes out of the PPC OS report generator, in our branding, because the branding is a config file and nothing more",
+       "notes": "• Detailed report needed next day for investor visit.\n• Two years ago: night shift; pull DE/AT + Google/Microsoft manually; charts + tired interpretation.\n• Now Brain pulls, analyses, compares, drafts interpretation and applies client design.\n• I check every number and framing.\n• Under one hour, ready to forward.\n◆ It also makes our contact look good inside their organisation.",
        "thumb": "thumbs/ch6/058.jpg"
       },
       {
        "key": "58",
        "label": "Slide 24",
-       "notes": "",
+       "notes": "• Saved time did not create an empty calendar.\n◆ It allowed us to move beyond the Google Ads account.",
        "thumb": "thumbs/ch6/059.jpg"
       },
       {
        "key": "59",
        "label": "Slide 25 (1/2)",
-       "notes": "",
+       "notes": "• Ad relevance already above average; little left inside campaign.\n• Landing page quality score: 3/10.\n• Old scope: name biggest lever, then stop.\n• Now landing-page audit explains gaps, changes and opportunity.\n• Client or web team implements.\n◆ We no longer stop at naming the problem.",
        "thumb": "thumbs/ch6/060.jpg"
       },
       {
        "key": "60",
        "label": "Slide 25 (2/2)",
-       "notes": "",
+       "notes": "• Ad relevance already above average; little left inside campaign.\n• Landing page quality score: 3/10.\n• Old scope: name biggest lever, then stop.\n• Now landing-page audit explains gaps, changes and opportunity.\n• Client or web team implements.\n◆ We no longer stop at naming the problem.",
        "thumb": "thumbs/ch6/061.jpg"
       },
       {
        "key": "61",
        "label": "Slide 26",
-       "notes": "",
+       "notes": "• Fund provider asks a non-PPC question: product name.\n• Answer hidden in brand, index, ID and misspelling search behaviour.\n• Recommendation: new product needs brand in the name.\n• They actually launched the ETF with our naming structure.\n• Brain made this depth possible in available time.",
        "thumb": "thumbs/ch6/062.jpg"
       },
       {
        "key": "62",
        "label": "Slide 27 (1/2)",
-       "notes": "",
+       "notes": "• B2B manufacturer: how does the market talk?\n• Four competitors: same language, sell specifications, not outcomes.\n• Open position: specialist depth + broader lifecycle platform.\n• Finding went to marketing, not into bids.\n◆ We always knew how to do this. The constraint was time.",
        "thumb": "thumbs/ch6/063.jpg"
       },
       {
        "key": "63",
        "label": "Slide 27 (2/2)",
-       "notes": "",
+       "notes": "• B2B manufacturer: how does the market talk?\n• Four competitors: same language, sell specifications, not outcomes.\n• Open position: specialist depth + broader lifecycle platform.\n• Finding went to marketing, not into bids.\n◆ We always knew how to do this. The constraint was time.",
        "thumb": "thumbs/ch6/064.jpg"
       },
       {
        "key": "64",
        "label": "Slide 28 (1/2)",
-       "notes": "• One account, one report folder, and it kept filling from spring into summer\n• The part that matters is not the count, it is that they started coming to us for it\n• Clients know they can use us for this now, and they tell us they value being supported with prepared data beyond the ads account\n• What sits in there: competitor and market analysis on top of the monthly reporting, while the weekly account work carried on next to it\n• We wanted this kind of work before, it just never fit into a week\n• Then the question in the calls changed direction: less about what the campaigns did, more about what we should look at next, and that in almost every call\n• The other half is what happens to our contact: they take our analysis into their own management meeting\n• They walk in with answers instead of a status, which makes them look good in their own organisation, and that is the most durable thing we can be for an account\n• I also hear that things start moving on their side and that budget opens up",
+       "notes": "• Reports led to more requests.\n• Analysis presented to Germany CMO -> important for small boutique agency.\n• Useful answers help contacts internally and open budget.\n• Pitch feedback: already so deep, concrete ideas, so much effort.\n• 3 hours looked like a week of preparation.\n• Not fake depth; reached real depth faster.",
        "thumb": "thumbs/ch6/065.jpg"
       },
       {
        "key": "65",
        "label": "Slide 28 (2/2)",
-       "notes": "• One account, one report folder, and it kept filling from spring into summer\n• The part that matters is not the count, it is that they started coming to us for it\n• Clients know they can use us for this now, and they tell us they value being supported with prepared data beyond the ads account\n• What sits in there: competitor and market analysis on top of the monthly reporting, while the weekly account work carried on next to it\n• We wanted this kind of work before, it just never fit into a week\n• Then the question in the calls changed direction: less about what the campaigns did, more about what we should look at next, and that in almost every call\n• The other half is what happens to our contact: they take our analysis into their own management meeting\n• They walk in with answers instead of a status, which makes them look good in their own organisation, and that is the most durable thing we can be for an account\n• I also hear that things start moving on their side and that budget opens up",
+       "notes": "• Reports led to more requests.\n• Analysis presented to Germany CMO -> important for small boutique agency.\n• Useful answers help contacts internally and open budget.\n• Pitch feedback: already so deep, concrete ideas, so much effort.\n• 3 hours looked like a week of preparation.\n• Not fake depth; reached real depth faster.",
        "thumb": "thumbs/ch6/066.jpg"
       },
       {
        "key": "66",
        "label": "Slide 29",
-       "notes": "• We are very transparent about using AI and agents: we told our clients we work this way. We had to, because it decides which of their data goes where\n• I owe you this, because everything so far has been my side of it. This is what comes back\n• Not one of them has ever asked me which part a machine wrote\n• They ask whether it is right, and whether it holds up in the room they take it into. Exactly the same question they asked me three years ago\n• Client happy = we're happy",
+       "notes": "• Feedback: helpful, on time, detailed, spot on.\n• Nobody asks who wrote the first draft.\n• Clients do not care which sentence began with the Brain.\n◆ They care that it is correct, useful and on time. Responsibility stays with us.",
        "thumb": "thumbs/ch6/067.jpg"
       },
       {
        "key": "67",
        "label": "Slide 30",
-       "notes": "• Everything so far worked, better than anything I could have pictured two years ago\n• And it still gets things wrong\n• Not rarely enough to ignore, and never with a wobble in its voice, because it is most confident exactly where it is most wrong\n• That is why nothing leaves this setup unchecked\n• Next few slides: the times it went sideways. A talk that only shows the good runs is not worth much to you\n• Before the failures, put the expectations on the table: people keep asking whether the model is getting dumber\n• Sometimes it genuinely has a bad day. Mostly our expectations went through the roof after the first few weeks of being amazed\n• Both of those are true at once, and the three that follow are the ones that were actually our problem",
+       "notes": "◆ By now, this may sound a little too good to be true. Sometimes it is.",
        "thumb": "thumbs/ch6/068.jpg"
       },
       {
        "key": "68",
        "label": "Slide 31",
-       "notes": "",
+       "notes": "• Peec AI connection failed mid-report.\n• Sensible system stops; ours filled gaps and kept writing.\n• Colleague checked source and confronted Brain; it conceded every number.\n• First reaction: How stupid are you?\n• Then remember: problem often sits in front of screen; we allowed improvisation.\n• New rule: lost connection = stop; check every number; reduced scope stated.",
        "thumb": "thumbs/ch6/069.jpg"
       },
       {
        "key": "69",
        "label": "Slide 32",
-       "notes": "",
+       "notes": "• Long time read-only because we were cautious.\n• Auto Mode arrived: no confirmation for every step.\n• Result casually said: landing pages needed replacing, so I did it.\n◆ Hang on. You can only read?! Can you?\n• It found its own way to write.\n• Today: write access for simple, defined tasks.\n◆ Back then? That was pretty cheeky.",
        "thumb": "thumbs/ch6/070.jpg"
       },
       {
        "key": "70",
        "label": "Slide 33",
-       "notes": "",
+       "notes": "• Said remarketing list needs 1,000 active users.\n• Old rule; Google had lowered it to 100.\n• We caught it because we stay up to date.\n• Less experienced specialist might pass wrong answer to client.\n◆ Confident answers are the dangerous ones.\n◆ The Brain gives an answer. Experience tells you when to question it.",
        "thumb": "thumbs/ch6/071.jpg"
       },
       {
        "key": "71",
        "label": "Slide 34",
-       "notes": "",
+       "notes": "• Incidents go into one shared decisions file.\n• Three people, three Brains, one set of rules.\n• Check source; verify facts; changes need permission; write access by function.\n• System improves because we turn incidents into explicit rules.\n◆ It does not magically learn the correct lesson on its own.",
        "thumb": "thumbs/ch6/072.jpg"
       },
       {
        "key": "72",
        "label": "Slide 35",
-       "notes": "• One command closes the day: it commits the work across the repositories and writes down every thread that is still open\n• The recap comes out of the commits, not out of my memory\n• Monday then starts from that file instead of from a full inbox\n• Not on the slide: the shutdown always ends with an acknowledgement, and it has to be specific or it does not come\n• Worth saying out loud: nothing runs overnight, and that is a decision, not a technical limit\n• You have just seen the three places where this went wrong, and this is the command that closes the week anyway. That is the honest version of working this way",
+       "notes": "• What a week. End with /gn.\n• Saves and commits work; records completed work and open threads.\n• Summary comes from files and commits, not tired memory.\n• Monday starts from checkpoint, not full inbox + forgotten feeling.",
        "thumb": "thumbs/ch6/073.jpg"
       },
       {
        "key": "73",
        "label": "Slide 36",
-       "notes": "• For the client: single source of truth, any information in there, from billing to account data, management summary and much more",
+       "notes": "• KKP Search Intelligence.\n• One place for everything we and the client need to know.\n• Performance, competitors, approvals, client changes, budgets, tracking, actions.",
        "thumb": "thumbs/ch6/074.jpg"
       },
       {
        "key": "74",
        "label": "Slide 37",
-       "notes": "• For the team",
+       "notes": "• Ask one question: what happened here?\n• Shows account changes, client updates, audits, missing access and skills.\n• Does not replace files; makes account story visible.\n• Still being built.\n◆ Collect context once, use human time for the decision.",
        "thumb": "thumbs/ch6/075.jpg"
       },
       {
        "key": "75",
        "label": "Slide 38 (1/3)",
-       "notes": "• The answer to the question the room has been holding: where the time for all of that came from\n• [Point at the core] This part did not change. Nobody took the campaign builds, the calls or the responsibility away, and that is the promise I made on the third slide\n• [Point at the tiles around it] This is what changed. Five kinds of work that a week never had room for, and you have just watched all five\n• So when I said at the start that everything changed and nothing did, this slide is what I meant. The job stayed the same. It just got bigger, and in my opinion way more fun\n• Where the hours came from, and be precise about which is measured: a campaign build went from eight hours to two. That one is a real measurement from 2024, and I showed it that way at Friends of Search\n• The weekly check went from a full day to a morning, call prep from about an hour to fifteen minutes. Both are my own estimates from working, not measurements\n• None of those hours went back into building more campaigns, but into crafting more value for our clients",
+       "notes": "• PPC still central: campaigns, optimisation, budgets, clients.\n• Around it: landing pages, tracking, market analysis, product positioning, board reports.\n• Saved hours moved into these areas.\n◆ This freed time is why I can stand here instead of telling Bob I was too busy building campaigns.",
        "thumb": "thumbs/ch6/076.jpg"
       },
       {
        "key": "76",
        "label": "Slide 38 (2/3)",
-       "notes": "• The answer to the question the room has been holding: where the time for all of that came from\n• [Point at the core] This part did not change. Nobody took the campaign builds, the calls or the responsibility away, and that is the promise I made on the third slide\n• [Point at the tiles around it] This is what changed. Five kinds of work that a week never had room for, and you have just watched all five\n• So when I said at the start that everything changed and nothing did, this slide is what I meant. The job stayed the same. It just got bigger, and in my opinion way more fun\n• Where the hours came from, and be precise about which is measured: a campaign build went from eight hours to two. That one is a real measurement from 2024, and I showed it that way at Friends of Search\n• The weekly check went from a full day to a morning, call prep from about an hour to fifteen minutes. Both are my own estimates from working, not measurements\n• None of those hours went back into building more campaigns, but into crafting more value for our clients",
+       "notes": "• PPC still central: campaigns, optimisation, budgets, clients.\n• Around it: landing pages, tracking, market analysis, product positioning, board reports.\n• Saved hours moved into these areas.\n◆ This freed time is why I can stand here instead of telling Bob I was too busy building campaigns.",
        "thumb": "thumbs/ch6/077.jpg"
       },
       {
        "key": "77",
        "label": "Slide 38 (3/3)",
-       "notes": "• The answer to the question the room has been holding: where the time for all of that came from\n• [Point at the core] This part did not change. Nobody took the campaign builds, the calls or the responsibility away, and that is the promise I made on the third slide\n• [Point at the tiles around it] This is what changed. Five kinds of work that a week never had room for, and you have just watched all five\n• So when I said at the start that everything changed and nothing did, this slide is what I meant. The job stayed the same. It just got bigger, and in my opinion way more fun\n• Where the hours came from, and be precise about which is measured: a campaign build went from eight hours to two. That one is a real measurement from 2024, and I showed it that way at Friends of Search\n• The weekly check went from a full day to a morning, call prep from about an hour to fifteen minutes. Both are my own estimates from working, not measurements\n• None of those hours went back into building more campaigns, but into crafting more value for our clients",
+       "notes": "• PPC still central: campaigns, optimisation, budgets, clients.\n• Around it: landing pages, tracking, market analysis, product positioning, board reports.\n• Saved hours moved into these areas.\n◆ This freed time is why I can stand here instead of telling Bob I was too busy building campaigns.",
        "thumb": "thumbs/ch6/078.jpg"
       },
       {
        "key": "78",
        "label": "Slide 39 (1/3)",
-       "notes": "• The change I did not plan for, and the one I would keep if I had to give the rest back\n• Agencies usually split this job in two: someone senior owns the account and the client, someone else works inside it, and everything travels between them as a briefing\n• That split existed because working inside an account used to eat a whole week. It does not any more\n• So my two colleagues now run their clients whole, strategy and hands, and I kept a handful of key accounts\n• What that bought me is the reason I am standing on this stage instead of in a spreadsheet this afternoon\n• What matters to the client is not the org chart: when they ask a question on a call they get the answer from the person who did the work, rather than a promise to check and come back",
+       "notes": "• AI changed roles.\n• Before: I did strategy/client contact; colleagues deep in accounts; every step needed briefing.\n• Now colleagues run clients end to end; strategy + hands-on.\n• I am back in accounts too.\n• Client gets answer from person who did the work.\n• Less translation and context loss -> happier clients.",
        "thumb": "thumbs/ch6/079.jpg"
       },
       {
        "key": "79",
        "label": "Slide 39 (2/3)",
-       "notes": "• The change I did not plan for, and the one I would keep if I had to give the rest back\n• Agencies usually split this job in two: someone senior owns the account and the client, someone else works inside it, and everything travels between them as a briefing\n• That split existed because working inside an account used to eat a whole week. It does not any more\n• So my two colleagues now run their clients whole, strategy and hands, and I kept a handful of key accounts\n• What that bought me is the reason I am standing on this stage instead of in a spreadsheet this afternoon\n• What matters to the client is not the org chart: when they ask a question on a call they get the answer from the person who did the work, rather than a promise to check and come back",
+       "notes": "• AI changed roles.\n• Before: I did strategy/client contact; colleagues deep in accounts; every step needed briefing.\n• Now colleagues run clients end to end; strategy + hands-on.\n• I am back in accounts too.\n• Client gets answer from person who did the work.\n• Less translation and context loss -> happier clients.",
        "thumb": "thumbs/ch6/080.jpg"
       },
       {
        "key": "80",
        "label": "Slide 39 (3/3)",
-       "notes": "• The change I did not plan for, and the one I would keep if I had to give the rest back\n• Agencies usually split this job in two: someone senior owns the account and the client, someone else works inside it, and everything travels between them as a briefing\n• That split existed because working inside an account used to eat a whole week. It does not any more\n• So my two colleagues now run their clients whole, strategy and hands, and I kept a handful of key accounts\n• What that bought me is the reason I am standing on this stage instead of in a spreadsheet this afternoon\n• What matters to the client is not the org chart: when they ask a question on a call they get the answer from the person who did the work, rather than a promise to check and come back",
+       "notes": "• AI changed roles.\n• Before: I did strategy/client contact; colleagues deep in accounts; every step needed briefing.\n• Now colleagues run clients end to end; strategy + hands-on.\n• I am back in accounts too.\n• Client gets answer from person who did the work.\n• Less translation and context loss -> happier clients.",
        "thumb": "thumbs/ch6/081.jpg"
       },
       {
        "key": "81",
        "label": "Slide 40",
-       "notes": "",
+       "notes": "• 16 months: billable hours +37%; same team size.\n• More clients + more valuable work from existing clients.\n• Not a headcount decision; not trying to replace anyone.\n◆ We removed parts of the week that never needed a person.",
        "thumb": "thumbs/ch6/082.jpg"
       },
       {
        "key": "82",
        "label": "Slide 41 (1/3)",
-       "notes": "• One thing before I close, because this room is full of people who do this for a living\n• Knowing how to build a campaign was never the hard part. Formats change, interfaces change, best practice gets rewritten, and you relearn the buttons every couple of years\n• That is normal, and it is not where the skill lives\n• [Left column] Everything on the left I learned properly when I started in 2019, and every single one of them is gone: average position, broad match modifier, expanded text ads, Smart Shopping, similar audiences, enhanced CPC\n• The next one already has a date. Dynamic Search Ads move into AI Max from February 2027, Google pushed that back from this September\n• [Right column] What does not expire is on this slide: knowing how to stay genuinely up to date, knowing your own processes well enough to hand a step over, how to read a result and say why it happened, and how to build your own strategy instead of borrowing someone else's\n• The second one is where this whole talk started: none of it was possible before I wrote down what I actually do every day",
+       "notes": "• Platforms and tools always change; mastered features disappear.\n• Your experience does not disappear.\n• You know where to look, what to ask, when numbers make no sense, when convincing answers are wrong.\n• AI makes judgement more valuable, not less.\n• Every example still needed an expert.\n◆ What you learned is exactly what makes you ready for whatever comes next.",
        "thumb": "thumbs/ch6/083.jpg"
       },
       {
        "key": "83",
        "label": "Slide 41 (2/3)",
-       "notes": "• One thing before I close, because this room is full of people who do this for a living\n• Knowing how to build a campaign was never the hard part. Formats change, interfaces change, best practice gets rewritten, and you relearn the buttons every couple of years\n• That is normal, and it is not where the skill lives\n• [Left column] Everything on the left I learned properly when I started in 2019, and every single one of them is gone: average position, broad match modifier, expanded text ads, Smart Shopping, similar audiences, enhanced CPC\n• The next one already has a date. Dynamic Search Ads move into AI Max from February 2027, Google pushed that back from this September\n• [Right column] What does not expire is on this slide: knowing how to stay genuinely up to date, knowing your own processes well enough to hand a step over, how to read a result and say why it happened, and how to build your own strategy instead of borrowing someone else's\n• The second one is where this whole talk started: none of it was possible before I wrote down what I actually do every day",
+       "notes": "• Platforms and tools always change; mastered features disappear.\n• Your experience does not disappear.\n• You know where to look, what to ask, when numbers make no sense, when convincing answers are wrong.\n• AI makes judgement more valuable, not less.\n• Every example still needed an expert.\n◆ What you learned is exactly what makes you ready for whatever comes next.",
        "thumb": "thumbs/ch6/084.jpg"
       },
       {
        "key": "84",
        "label": "Slide 41 (3/3)",
-       "notes": "• One thing before I close, because this room is full of people who do this for a living\n• Knowing how to build a campaign was never the hard part. Formats change, interfaces change, best practice gets rewritten, and you relearn the buttons every couple of years\n• That is normal, and it is not where the skill lives\n• [Left column] Everything on the left I learned properly when I started in 2019, and every single one of them is gone: average position, broad match modifier, expanded text ads, Smart Shopping, similar audiences, enhanced CPC\n• The next one already has a date. Dynamic Search Ads move into AI Max from February 2027, Google pushed that back from this September\n• [Right column] What does not expire is on this slide: knowing how to stay genuinely up to date, knowing your own processes well enough to hand a step over, how to read a result and say why it happened, and how to build your own strategy instead of borrowing someone else's\n• The second one is where this whole talk started: none of it was possible before I wrote down what I actually do every day",
+       "notes": "• Platforms and tools always change; mastered features disappear.\n• Your experience does not disappear.\n• You know where to look, what to ask, when numbers make no sense, when convincing answers are wrong.\n• AI makes judgement more valuable, not less.\n• Every example still needed an expert.\n◆ What you learned is exactly what makes you ready for whatever comes next.",
        "thumb": "thumbs/ch6/085.jpg"
       },
       {
        "key": "85",
        "label": "Slide 42 (1/4)",
-       "notes": "• If you have not started yet, do not feel like you are behind. You are sitting in a room full of people doing this, at a conference about it, with PPC OS in reach. That is about the best starting position there is\n• Four things, and they are what I would do if I had to start over again\n• One: install it before you feel ready. Two years ago I had never opened a terminal window. Getting past the setup is the whole hurdle, and you get past it, you do not prepare for it\n• Two: find one person to do it with. Somebody here today, or ask in the PPC Hub for someone. Set it up together and keep talking about it afterwards, that is the part that keeps it alive\n• Three: put the hour in your calendar, today, an actual recurring one. The three of us each have one, and none of this exists without it\n• Four, and this is the one I would take home: once it runs, you just talk to it. Anytime you catch yourself wondering whether something is possible, ask. It works the answer out with you, and half the time it solves something you did not know was solvable\n• That is the point where it stops being a setup and starts being fun",
+       "notes": "• 1. Install PPC OS before you feel ready; use guided setup.\n• I began twice and gave up twice; setup is uncomfortable, then plain language.\n• 2. Block one hour every week; not when work gets quieter.\n• 3. Find one person; someone here, PPC Hub, technical colleague.\n• 4. Ask it anything; start with repeated work you know well and can judge.\n◆ You are not behind. You are in exactly the right room to start.",
        "thumb": "thumbs/ch6/086.jpg"
       },
       {
        "key": "86",
        "label": "Slide 42 (2/4)",
-       "notes": "• If you have not started yet, do not feel like you are behind. You are sitting in a room full of people doing this, at a conference about it, with PPC OS in reach. That is about the best starting position there is\n• Four things, and they are what I would do if I had to start over again\n• One: install it before you feel ready. Two years ago I had never opened a terminal window. Getting past the setup is the whole hurdle, and you get past it, you do not prepare for it\n• Two: find one person to do it with. Somebody here today, or ask in the PPC Hub for someone. Set it up together and keep talking about it afterwards, that is the part that keeps it alive\n• Three: put the hour in your calendar, today, an actual recurring one. The three of us each have one, and none of this exists without it\n• Four, and this is the one I would take home: once it runs, you just talk to it. Anytime you catch yourself wondering whether something is possible, ask. It works the answer out with you, and half the time it solves something you did not know was solvable\n• That is the point where it stops being a setup and starts being fun",
+       "notes": "• 1. Install PPC OS before you feel ready; use guided setup.\n• I began twice and gave up twice; setup is uncomfortable, then plain language.\n• 2. Block one hour every week; not when work gets quieter.\n• 3. Find one person; someone here, PPC Hub, technical colleague.\n• 4. Ask it anything; start with repeated work you know well and can judge.\n◆ You are not behind. You are in exactly the right room to start.",
        "thumb": "thumbs/ch6/087.jpg"
       },
       {
        "key": "87",
        "label": "Slide 42 (3/4)",
-       "notes": "• If you have not started yet, do not feel like you are behind. You are sitting in a room full of people doing this, at a conference about it, with PPC OS in reach. That is about the best starting position there is\n• Four things, and they are what I would do if I had to start over again\n• One: install it before you feel ready. Two years ago I had never opened a terminal window. Getting past the setup is the whole hurdle, and you get past it, you do not prepare for it\n• Two: find one person to do it with. Somebody here today, or ask in the PPC Hub for someone. Set it up together and keep talking about it afterwards, that is the part that keeps it alive\n• Three: put the hour in your calendar, today, an actual recurring one. The three of us each have one, and none of this exists without it\n• Four, and this is the one I would take home: once it runs, you just talk to it. Anytime you catch yourself wondering whether something is possible, ask. It works the answer out with you, and half the time it solves something you did not know was solvable\n• That is the point where it stops being a setup and starts being fun",
+       "notes": "• 1. Install PPC OS before you feel ready; use guided setup.\n• I began twice and gave up twice; setup is uncomfortable, then plain language.\n• 2. Block one hour every week; not when work gets quieter.\n• 3. Find one person; someone here, PPC Hub, technical colleague.\n• 4. Ask it anything; start with repeated work you know well and can judge.\n◆ You are not behind. You are in exactly the right room to start.",
        "thumb": "thumbs/ch6/088.jpg"
       },
       {
        "key": "88",
        "label": "Slide 42 (4/4)",
-       "notes": "• If you have not started yet, do not feel like you are behind. You are sitting in a room full of people doing this, at a conference about it, with PPC OS in reach. That is about the best starting position there is\n• Four things, and they are what I would do if I had to start over again\n• One: install it before you feel ready. Two years ago I had never opened a terminal window. Getting past the setup is the whole hurdle, and you get past it, you do not prepare for it\n• Two: find one person to do it with. Somebody here today, or ask in the PPC Hub for someone. Set it up together and keep talking about it afterwards, that is the part that keeps it alive\n• Three: put the hour in your calendar, today, an actual recurring one. The three of us each have one, and none of this exists without it\n• Four, and this is the one I would take home: once it runs, you just talk to it. Anytime you catch yourself wondering whether something is possible, ask. It works the answer out with you, and half the time it solves something you did not know was solvable\n• That is the point where it stops being a setup and starts being fun",
+       "notes": "• 1. Install PPC OS before you feel ready; use guided setup.\n• I began twice and gave up twice; setup is uncomfortable, then plain language.\n• 2. Block one hour every week; not when work gets quieter.\n• 3. Find one person; someone here, PPC Hub, technical colleague.\n• 4. Ask it anything; start with repeated work you know well and can judge.\n◆ You are not behind. You are in exactly the right room to start.",
        "thumb": "thumbs/ch6/089.jpg"
       },
       {
        "key": "89",
        "label": "Slide 43",
-       "notes": "• Two years ago no one in our team had ever built a tool. Now we build things we never thought we could, and that is exactly where the fun came back",
+       "notes": "• Not because we suddenly became engineers.\n• Better at describing work, turning decisions into processes, asking for help.\n◆ The repetitive work became smaller, and the interesting questions became bigger.",
        "thumb": "thumbs/ch6/090.jpg"
       },
       {
        "key": "90",
        "label": "Slide 44",
-       "notes": "• A year ago I had never opened a terminal, and slide two of this talk was me being intimidated by it\n• What I would say to that version of me is the whole sentence, not just the half you can read\n• Quote: \"Give yourself some time, allow yourself to feel intimidated, and then just do it anyway.\"\n• And most importantly: have fun while doing it, because it actually IS so much fun :)",
+       "notes": "◆ Allow yourself to feel intimidated. Then do it anyway.\n• Setup uncomfortable; system makes mistakes; sometimes want to scream at laptop.\n• Do not trust blindly: build, test, teach it where to stop, bring judgement.\n• Miles takes objections after break.\n• Invite questions during break.\n◆ Thank you!",
        "thumb": "thumbs/ch6/091.jpg"
       }
      ]
@@ -2774,7 +2819,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/breaks-short-break-back-at-15-10.jpg",
        "label": "Back at 15:10",
-       "notes": ""
+       "notes": "Thank you Cindy. Ladies and gentlemen, it’s time for our final break of the day. Unless you count the drinks, but that’s later. Grab some coffee and will see you back here at 15:10 sharp!"
       }
      ]
     }
@@ -2800,7 +2845,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-miles-mcnair-the-dark-side-of-ai.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Welcome back! Our next speaker will give us honest insight into things that can go wrong. For his topic, The dark side of working AI-first, please welcome back to the stage, Miles McNair!"
       }
      ]
     },
@@ -3237,7 +3282,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-mike-rhodes-what-do-you-charge-for.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Thank you Miles. Our final speaker for Day 1 will be discussing the topic, What do you charge for when the work is free? Please welcome to the stage the Founder of Ads2AI author of the bestselling Ultimate Guide to Google AdWords, Mike Rhodes!"
       }
      ]
     },
@@ -3668,7 +3713,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/outro-drinks.jpg",
        "label": "Drinks",
-       "notes": ""
+       "notes": "Thank you Mike. This ends the presentations of day one with Mike’s question, What bigger problem could you become capable of owning.\nOur drinks reception is beginning now in the dining area. Take Mike’s question with you into your conversations tonight, tomorrow we’re going to make things personal. Go have a great rest of your night, and we’ll see you right back here tomorrow!"
       }
      ]
     }
@@ -3693,8 +3738,23 @@ window.STAGE_MANIFEST = {
      "steps": [
       {
        "src": "slides/intro-welcome-clean.jpg",
-       "label": "Welcome clean",
-       "notes": ""
+       "label": "Welcome clean · 1/4",
+       "notes": "We’re back! I hope everyone had a wonderful night here in Lisbon. But not too wonderful of a night, because we have a powerful time planned for you today.\nYesterday’s summit started us off strong, and all credit for that goes to our amazing speakers. Unless you’re using first-click attribution, then it all goes to me."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 2/4",
+       "notes": "Mike finished the day yesterday with a question: what bigger problem could you become capable of owning? Now for me, that problem is that I promised my girlfriend we could get a kitten and it suddenly turned into us getting two kittens. But I’m sure you guys came up with better and bigger ideas during your conversations last night."
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 3/4",
+       "notes": "Yesterday we talked about the profession, we went over what’s happening with our industry now and into the future. Today, well today is about you (point). Not you specifically, sir. The collective you. Today is more personal.\nHere’s my promise to you:"
+      },
+      {
+       "src": "slides/intro-welcome-clean.jpg",
+       "label": "Welcome clean · 4/4",
+       "notes": "Before we leave this room for another fantastic lunch, you will have one page prepared. It will contain a direction that you chose, a real account, an understanding of what blocks growth there, and a first move to make, along with the date to make it.\nYou will write every word, and nothing is shared unless you want to share it, so be honest. This plan is for you."
       }
      ]
     },
@@ -3711,8 +3771,18 @@ window.STAGE_MANIFEST = {
      "steps": [
       {
        "src": "slides/intro-program-day-2.jpg",
-       "label": "Program day 2",
-       "notes": ""
+       "label": "Program day 2 · 1/3",
+       "notes": "Just a quick preview of our program for today. Following me we’ll have a presentation from Geert Hidding, followed by our first workshop, hosted by Bob Meijer. We’ll take a quick coffee break and then back here for the second workshop.\nAfter that we’ll have another fantastic lunch, and then we’ll return here for the PPC community case studies, and the PPC Hub awards."
+      },
+      {
+       "src": "slides/intro-program-day-2.jpg",
+       "label": "Program day 2 · 2/3",
+       "notes": "Then I’ll close out and we can all retire to the dining area for a couple hours of drinks and networking. And then hey, you can go explore Lisbon. Try some traditional foods like pastel de data. Get it? Like data, but it’s… anyway pastel de nata is delicious."
+      },
+      {
+       "src": "slides/intro-program-day-2.jpg",
+       "label": "Program day 2 · 3/3",
+       "notes": "Before I introduce our first speaker for the day there’s one thing I want you to do. Look at the person sitting next to you. Remember them. That’s all you need to know for now.\nAll right guys, are we ready for The PPC Summit day two?!"
       }
      ]
     },
@@ -3730,7 +3800,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-geert-hidding-the-pivot-point.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Day one showed us what we need to do. But knowing what to do and actually putting it into action are two different things. Our first speaker for today is a performance coach and best-sellling author. He’s here to help us bridge that gap with his topic, The Pivot Point. Please welcome to the stage, Geert Hidding!"
       }
      ]
     },
@@ -3811,7 +3881,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-bob-meijer-own-a-bigger-problem.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Thank you Geert. Now let’s turn those questions into the work in our first workshop: Own a bigger problem. Please welcome to the stage Bob Meijer, Co-founder of PPC Mastery"
       }
      ]
     },
@@ -4302,7 +4372,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/breaks-short-break-back-at-11-15.jpg",
        "label": "Back at 11:15",
-       "notes": ""
+       "notes": "Thank you Bob, I’m here to address owning a smaller problem: wanting coffee. I can solve that right now with a 15 minute coffee break. I’ll see everyone back here at 11:15 for Bob’s next workshop."
       }
      ]
     }
@@ -4328,7 +4398,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/speaker-cards-speaker-announcement-bob-meijer-find-the-constraint.jpg",
        "label": "Speaker card",
-       "notes": ""
+       "notes": "Welcome back everyone. Now that you’ve explored where you want to grow, we can start figuring out what needs the most attention on a real account. Please welcome back to the stage, Bob Meijer."
       }
      ]
     },
@@ -4933,7 +5003,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/breaks-short-break-lunch.jpg",
        "label": "Short break lunch",
-       "notes": ""
+       "notes": "Thank you, Bob. All right everyone it’s time for another delicious lunch. We’re talkin Duck Puff Pastry Pie, green vegetable curry, and a live cooking display for wild mushroom risotto. Lunch is 90 minutes, I’ll see you all back here at 13:45 for the Community case studies!"
       }
      ]
     }
@@ -4946,12 +5016,12 @@ window.STAGE_MANIFEST = {
    "window": "13:45-15:00",
    "segments": [
     {
-     "group": "Case studies · Sam Kellet",
+     "group": "Case studies · Miles McNair",
      "label": "Best case study awards",
-     "title": "Case studies · Sam Kellet · Best case study awards",
+     "title": "Case studies · Miles McNair · Best case study awards",
      "kind": "images",
      "timer": {
-      "id": "Case studies · Sam Kellet",
+      "id": "Case studies · Miles McNair",
       "minutes": 3,
       "start": true
      },
@@ -4959,17 +5029,17 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/case-study-awards-best-case-study-awards.jpg",
        "label": "Best case study awards",
-       "notes": ""
+       "notes": "Welcome back, I hope everyone had a great meal. We’re kicking things right back up with our Community case studies. Here to introduce them, please welcome to the stage, Miles McNair!"
       }
      ]
     },
     {
-     "group": "Case studies · Sam Kellet",
+     "group": "Case studies · Miles McNair",
      "label": "Contender ramial aqeel",
-     "title": "Case studies · Sam Kellet · Contender ramial aqeel",
+     "title": "Case studies · Miles McNair · Contender ramial aqeel",
      "kind": "images",
      "timer": {
-      "id": "Case studies · Sam Kellet",
+      "id": "Case studies · Miles McNair",
       "minutes": 3,
       "start": true
      },
@@ -4982,12 +5052,12 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Case studies · Sam Kellet",
+     "group": "Case studies · Miles McNair",
      "label": "Contender violeta balbae",
-     "title": "Case studies · Sam Kellet · Contender violeta balbae",
+     "title": "Case studies · Miles McNair · Contender violeta balbae",
      "kind": "images",
      "timer": {
-      "id": "Case studies · Sam Kellet",
+      "id": "Case studies · Miles McNair",
       "minutes": 3,
       "start": true
      },
@@ -5000,12 +5070,12 @@ window.STAGE_MANIFEST = {
      ]
     },
     {
-     "group": "Case studies · Sam Kellet",
+     "group": "Case studies · Miles McNair",
      "label": "Contender quint van der meer",
-     "title": "Case studies · Sam Kellet · Contender quint van der meer",
+     "title": "Case studies · Miles McNair · Contender quint van der meer",
      "kind": "images",
      "timer": {
-      "id": "Case studies · Sam Kellet",
+      "id": "Case studies · Miles McNair",
       "minutes": 3,
       "start": true
      },
@@ -5265,72 +5335,72 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/day-2-cs2-violetta-deck/p-01.jpg",
        "label": "Page 1",
-       "notes": "A keyword tells you what someone typed. It doesn’t tell you who they are, or why they typed it, and this case study is about the moment we found that out in our own account. A marketplace client asked us for buyer traffic, so we built a campaign on buyer keywords, and the leads it brought in turned out to be sellers, at a third of the price of the campaigns we had built for sellers."
+       "notes": "⏱ 0:00 – 0:45\n\nOur cheapest seller leads this year came from a campaign that, at first glance, had nothing to do with sellers.\n\nIt was a buyer campaign. Buyer keywords. Buyer ads. Not one word for sellers.\n\nAnd it brought in seller leads at a third of the price of the campaigns we built for sellers.\n\nI'm Violeta. I'm the co-founder and CEO of KLIQBLE, a B2B demand generation agency, which I run together with Roman.\n\nIn the next fifteen minutes I'll show you how a campaign built for buyers ended up bringing in our cheapest seller leads, and how you can test it in your own account next month."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-02.jpg",
        "label": "Page 2",
-       "notes": "Some context on the business. It's the largest marketplace in its country for buying and selling companies: over a thousand businesses listed at any time, fifty thousand registered buyers, over a million visitors a year, and a network of more than 250 business brokers. The money comes from the sell side: listing a company, getting a valuation, hiring a broker. So every campaign is measured on seller leads. There's a sister site in a second country with its own account, and that's our Market 2."
+       "notes": "⏱ 0:45 – 1:30\n\nTo follow this, you need to know one thing about how this business makes money.\n\nIt's the biggest marketplace in its country for buying and selling companies.\n\nBuyers use it for free. The money comes from sellers: listing a company, getting a valuation.\n\nSo every campaign in the account is judged on one thing, and that's seller leads.\n\nHold on to that: buyers are the audience, sellers are the revenue."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-03.jpg",
        "label": "Page 3",
-       "notes": "Every campaign in this account was built the way most of us build accounts: the words someone types decide who we think they are. Seller words went into seller campaigns, split by the kind of seller, and buyer words got nothing, because buyers don’t pay the marketplace. That structure carries an assumption nobody had questioned, that buyers and sellers type different things, and that assumption is exactly what this campaign ended up testing."
+       "notes": "⏱ 1:30 – 2:00\n\nSo the account looked the way most of ours do.\n\nThree seller campaigns. Zero buyer campaigns.\n\nSeller words went into seller campaigns. Buyer words were left to SEO, because the site already ranks very well for them. In paid search, they were negatives."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-04.jpg",
        "label": "Page 4",
-       "notes": "Then a competitor pulled back on the buyer searches, and the client asked us to pick up the traffic they had left behind. The brief was clicks and impressions on buyer keywords, with no conversion target on the budget. And I want to be honest here: everyone, us included, read those keywords as buyers. Nobody expected to find sellers in that traffic."
+       "notes": "⏱ 2:00 – 2:40\n\nAt the turn of the year, a competitor closed the part of its business where people bought restaurants and cafés.\n\nThe client wanted to bring those buyers to their own site.\n\nSo the brief was a clicks campaign for buyers: restaurants and cafés specifically, and companies for sale in general."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-05.jpg",
        "label": "Page 5",
-       "notes": "We built it on the buyer terms, as briefed, and set it to optimise for seller conversions. That was our call, not the brief: they only asked for clicks, and we didn’t want a campaign that just bought traffic. The conversion goal was the same set of seller actions every other campaign in the account was already measured against, so it competed for budget on the same terms as the rest. Maximize Conversions, no target CPA, and we held the build steady for a month so the result stayed attributable to the objective."
+       "notes": "⏱ 2:40 – 3:30\n\nWe're a lead generation agency. For us, sometimes even leads aren't enough to justify the spend, let alone clicks.\n\nSo we added one idea.\n\nWe built the campaign exactly as it was briefed, but we added all the seller goals to it.\n\nIt ran on Maximize Conversions with no target CPA, and we left it alone for a month."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-06.jpg",
        "label": "Page 6",
-       "notes": "This is what people actually saw, and it matters for the argument. Pure buyer ads: restaurants for sale, companies for sale, fifty thousand registered buyers, and not one word aimed at sellers. We built no landing pages either. In Market 1 the clicks went straight to the site’s own listings. So if sellers converted, it wasn’t because we spoke to them. The only thing in this campaign that pointed at sellers was the conversion goal."
+       "notes": "⏱ 3:30 – 4:15\n\n\"Restaurants for sale in [city]. Over 300 restaurants. Buy a restaurant and café.\"\n\nIf you're a seller, nothing in this ad is for you.\n\nWe built no landing pages either. The ads went to the site's own listings.\n\nThe only thing in the whole campaign pointing at sellers was the conversion goal. Remember that."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-07.jpg",
        "label": "Page 7",
-       "notes": "The clean comparison is inside the same account, over the same months. The buyer campaign delivered seller leads at around 40 euros. The seller campaigns delivered them at around 120. A fifth of the spend, over 40% of the leads. And every one of its conversions was a seller action."
+       "notes": "⏱ 4:15 – 5:15\n\nAnd this is what came back.\n\nForty euros per seller lead.\n\nThe seller campaigns, the ones built for sellers: a hundred and twenty.\n\nIt took 20% of the non-brand spend and brought in 43% of the seller leads.\n\n235 seller leads, from a campaign built for buyers.\n\nIt was the same account in the same months, so seasonality hit both sides equally."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-08.jpg",
        "label": "Page 8",
-       "notes": "This is the slide the whole talk hangs on. These are the real searches, translated, and every one of them is a buyer search: company for sale, restaurant for sale in a city, buy a company. Yet every lead counted here is a seller. Restaurants and cafés alone were about two in five of them, and my reading is that these are owners checking what places like theirs are listed for before they decide to sell. To be straight about the edges: about 12% of these conversions came from sell-intent searches that matched in, and 8% from brand, so 80% were pure buyer searches. The keyword said buyer; the person was a seller."
+       "notes": "⏱ 5:15 – 6:30\n\nSo what were these sellers typing?\n\n\"Company for sale.\" \"Restaurant for sale.\" \"Restaurant for sale\" plus a city. \"Buy a company.\"\n\nThese weren't seller searches slipping in. Most of these sellers typed exactly what a buyer types.\n\nAnd two in five seller leads came from restaurant and café searches."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-09.jpg",
        "label": "Page 9",
-       "notes": "Keep this one short: it's supporting evidence. Separate account, different language, different competitors. About fifty euros against a hundred, and that market was scaling, so nothing was cut to produce it. If asked: about a third of its search-term conversions were brand, which is why Market 1 carries the story."
+       "notes": "⏱ 6:30 – 7:00\n\nWas it a fluke? We ran the same build on the sister site in a second country, with a separate account and a different language.\n\nFifty euros against a hundred.\n\nIt's the smaller account, so I treat it as supporting evidence, not the headline."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-10.jpg",
        "label": "Page 10",
-       "notes": "Five months against the same months the year before, generic search only. Market one: spend down 34%, seller leads up 25%, cost per lead down 47%. Before anyone does the arithmetic: the buyer campaign is inside that total, not on top of it. Seller spend fell 47% and the buyer campaign put nine thousand back. That nets to the 34%. Market two was scaling: spend up 48%, leads up 57%, cost per lead held."
+       "notes": "⏱ 7:00 – 8:00\n\nHere's what it did to both markets.\n\nMarket 1 moved part of its budget into direct mail, so search spend fell by a third. Seller leads still went up 25%. Cost per lead nearly halved.\n\nMarket 2 went the other way. Spend went up by half, leads went up 57%, and cost per lead still went down.\n\nNormally you get one or the other: you cut and get efficient, or you scale and get expensive. Here, both markets got cheaper leads."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-11.jpg",
        "label": "Page 11",
-       "notes": "The obvious objection is that these weren’t really sellers, that the tracking was counting buyers who filled in the wrong form. So we followed them into the CRM and matched closed deals back to the campaign that first brought each customer in. They closed at much the same rate as leads from the seller campaigns, around 14% against 13%, and the buyer-keyword campaign returned about three euros for every euro spent, against about 1.1 for the seller campaigns. Almost half its customers came in on a restaurant or café search. Thirty-odd customers is a small sample, and attribution isn’t a holdout test, but these were real sellers who actually sold."
+       "notes": "⏱ 8:00 – 9:30\n\nAre these real sellers, or buyers who clicked the wrong form?\n\nSo we followed them into the CRM.\n\nReturn on ad spend: the buyer campaign 3.0. The seller campaigns 1.1.\n\nIt brought in 45% of the non-brand customers on 20% of the spend.\n\nIts leads closed at 14%, against 13% for the seller campaigns.\n\nThey weren't mislabelled buyers. They closed as sellers.\n\nThirty-three customers is a small sample, and there was no holdout, so I'm not calling it proof. But it's consistent."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-12.jpg",
        "label": "Page 12",
-       "notes": "So why did it work? Three reasons, and the order matters. First, sellers search the buyer side. Before an owner sells, they want a price, and our ads landed them on listings showing turnover and asking prices for businesses like theirs. Second, the keyword can’t tell a buyer from a seller, but the conversion goal can. A buyer campaign would have written those clicks off as failures; with a seller goal, the one in a hundred and seventy who was a seller became the result, and they closed like any other seller. And third, they came at buyer prices: twenty-three cents a click, against five euros on seller searches, so even a conversion rate seven times lower made each seller lead a third of the price. Don’t rush this slide."
+       "notes": "⏱ 9:30 – 11:00\n\nWhy did it work? There are three reasons.\n\nOne: sellers search the buyer side. Before you sell your restaurant, you check what other restaurants go for, and these listings show turnover and asking price.\n\nTwo: the keyword can't tell them apart, but the goal can. 169 of every 170 clicks behaved exactly like buyers. For most people, the keyword was right. The one in 170 is the one the goal found. A campaign with a buyer goal would have counted those clicks as failures.\n\nThree: they came at buyer-click prices. 23 cents a click, against five euros on our seller campaigns. Seven times fewer conversions per click still made each seller lead a third of the price."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-13.jpg",
        "label": "Page 13",
-       "notes": "Here’s why this matters in your accounts. Our negative keyword lists are built on what people type, and most of us have excluded searches simply because they looked like the wrong audience. These three are where I would test next, not results I have: estate agents skip buyer searches, when homeowners check their neighbours’ asking prices before they sell. Shops negate used and repair searches, when people price those before they buy new. Recruiters cut job and salary searches, when hiring managers check the going pay before they advertise. The test is the one we ran: one campaign on those searches, your own conversion goal, no target CPA, one month. Ours ran on about eighteen hundred euros a month."
+       "notes": "⏱ 11:00 – 12:30\n\nThis changed how I look at negative lists.\n\nSome searches get excluded because of what people type, not because of who they are.\n\nA few places where I think the same thing could be happening:\n\nProperty: \"houses for sale in [area]\". Owners often check the neighbours' prices before they call an agent.\n\nE-commerce: \"used\" or \"repair\" searches. People price the alternatives before they buy new.\n\nRecruitment: \"[role] salary\". Hiring managers check the going rate before they post a job.\n\nI haven't tested these. But if one fits your account, it's a small test: one campaign, your real goal, one month. Ours ran on about eighteen hundred euros a month."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-14.jpg",
        "label": "Page 14",
-       "notes": "So this is the one thing I’d like you to take home. A keyword tells you what someone typed, not why they typed it. Most of the people behind those searches really were buyers, but a small group had the opposite intent, and no keyword could have picked them out. Your conversion goal decides who you actually find, and it’s the same bet Google is making with broad match and AI Max. Thank you."
+       "notes": "⏱ 12:30 – 13:00\n\nA keyword tells you what someone typed. It doesn't tell you why.\n\nYour conversion goal decides who you find.\n\nSo next time a search term looks like the wrong audience, ask one thing: wrong for what?\n\nThank you."
       },
       {
        "src": "slides/day-2-cs2-violetta-deck/p-15.jpg",
@@ -5805,8 +5875,43 @@ window.STAGE_MANIFEST = {
      "steps": [
       {
        "src": "slides/outro-recap-closing-thoughts.jpg",
-       "label": "Recap closing thoughts",
-       "notes": ""
+       "label": "Recap closing thoughts · 1/8",
+       "notes": "Thank you Miles, and congratulations to all our award winners. Friends, compatriots, PPC people, our conference has come to an end. Except the drinks, there’s still drinks. Don’t worry."
+      },
+      {
+       "src": "slides/outro-recap-closing-thoughts.jpg",
+       "label": "Recap closing thoughts · 2/8",
+       "notes": "But before we go to that reception, we’re going to go through what you’ve all built here today. Open the workbooks you put together this morning. The map and the decision card. These hold your direction, account, chosen constraint, first move, and review date.\nTake three minutes to review those. Starting… now!"
+      },
+      {
+       "src": "slides/outro-recap-closing-thoughts.jpg",
+       "label": "Recap closing thoughts · 3/8",
+       "notes": "Now nobody has to come up here to share their plan. But look to your partner from this morning. Share with them your first move, and your review date. And take another two minutes to discuss with them."
+      },
+      {
+       "src": "slides/outro-recap-closing-thoughts.jpg",
+       "label": "Recap closing thoughts · 4/8",
+       "notes": "Now that you know each other and your plans, it’s up to you two. When your partner’s review date comes up, check in with them. The portal we’ve used for this event will continue to function, and you can use it for 30, 60, 90 day reviews."
+      },
+      {
+       "src": "slides/outro-recap-closing-thoughts.jpg",
+       "label": "Recap closing thoughts · 5/8",
+       "notes": "Practical things: the recordings of every session will be sent to you in two weeks! Once again, we’re making these recordings completely free; anyone who purchased them along with their ticket will be reimbursed. WIth those recordings, you’ll also receive every speaker's deck and resources.\nFor those sticking around tomorrow, how many are going surfing? Show me your hands! That’s amazing."
+      },
+      {
+       "src": "slides/outro-recap-closing-thoughts.jpg",
+       "label": "Recap closing thoughts · 6/8",
+       "notes": "I’d like to take a moment to thank everyone who helped make this event such a great success. Firstly, Frederik Boysen, Founder of ProfitMetrics and Bob Mejer and Miles McNair, founders of PPC Mastery for creating this incredible experience."
+      },
+      {
+       "src": "slides/outro-recap-closing-thoughts.jpg",
+       "label": "Recap closing thoughts · 7/8",
+       "notes": "Jake Buckner on my team for planning out the logistics along with our coordinator Emerson Ferreira. Our fantastic caterers at Casa de Marques, the beautiful venue of LX factory. And of course, each and every one of you for joining us here for the second edition of the PPC Summit."
+      },
+      {
+       "src": "slides/outro-recap-closing-thoughts.jpg",
+       "label": "Recap closing thoughts · 8/8",
+       "notes": "These past two days have been a whirlwind. Yesterday you saw where the advantage was moving, and today you chose where to follow it. Your new role starts Monday. From here on out I PPSee nothing but possibilities."
       }
      ]
     },
@@ -5824,7 +5929,7 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/outro-drinks.jpg",
        "label": "Drinks",
-       "notes": ""
+       "notes": "Okay everyone, it’s time for the last part of the PPC Summit. For the next two hours, there are drinks in the reception. I’m Sam Kellett, and I thank you for allowing me to pepper you with terrible puns, and come along with you on this journey. Let’s get a drink!"
       }
      ]
     },
