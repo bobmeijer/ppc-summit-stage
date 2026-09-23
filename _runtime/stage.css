@@ -208,3 +208,4 @@ body.picker h2 { margin: 28px 0 10px; }
 .blockcard .actions { display: flex; gap: 8px; }
 .howto { margin-top: 36px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 4px 20px 14px; }
 .howto li { margin: 6px 0; }
+#btn-timer.armed { background: #4a3500; border-color: var(--accent-2); color: #fff; }

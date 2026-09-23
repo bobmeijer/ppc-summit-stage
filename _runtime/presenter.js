@@ -155,6 +155,7 @@
   function esc(t) { return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
   function render() {
+    if (timerArm && armedSeg !== pos.seg) disarmTimer();
     var seg = block.segments[pos.seg];
     if (seg.timer && seg.timer.minutes && seg.timer.start) startTimer(seg.timer.id, false);
     var steps = seg.steps;
@@ -340,10 +341,26 @@
   bind('btn-list', function () { prefs.list = !prefs.list; applyPrefs(); });
   bind('btn-help', function () { $('help').classList.toggle('on'); });
   bind('btn-reload-deck', function () { if (link.connected()) link.send({ type: 'cmd', cmd: 'reload-deck' }); });
+  // No window.confirm here: Chrome drops fullscreen on every window in the
+  // opener chain when a JS dialog opens, so it would knock the audience out of
+  // fullscreen. The button confirms in place instead: click, then click again.
+  var timerArm = 0, armedSeg = -1;
+  function disarmTimer() {
+    clearTimeout(timerArm); timerArm = 0;
+    $('btn-timer').textContent = 'Restart timer';
+    $('btn-timer').classList.remove('armed');
+  }
   function restartTimer(ask) {
     var t = currentTimer();
     if (!t || !t.minutes) return;
-    if (ask && !window.confirm('Restart the ' + t.minutes + '-minute timer for ' + t.id + '?')) return;
+    if (ask && !timerArm) {
+      $('btn-timer').textContent = 'Click again to restart ' + t.minutes + ' min';
+      $('btn-timer').classList.add('armed');
+      armedSeg = pos.seg;
+      timerArm = setTimeout(disarmTimer, 3000);
+      return;
+    }
+    disarmTimer();
     startTimer(t.id, true);
     tick();
   }
