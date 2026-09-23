@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-23 07:32",
+ "built": "2026-09-23 13:32",
  "blocks": [
   {
    "id": "block-1",
@@ -5449,164 +5449,164 @@ window.STAGE_MANIFEST = {
      },
      "steps": [
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-01.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-01.jpg",
        "label": "Page 1",
-       "notes": ""
+       "notes": "These are real searches. People typed them into Google in the last two weeks, and every one of them brought someone to our client.\n\nNobody in this room is above this list. You have googled something at two in the morning that you would not want on a slide. So have I.\n\nThis talk is about taking that question seriously. As data."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-02.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-02.jpg",
        "label": "Page 2",
-       "notes": ""
+       "notes": "My name is Quint, I am working as a Managing Director at Taskforce. This is the story of an account that had already grown a 118% percent in 2024, and how we got it moving again with fifteen years of customer data."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-03.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-03.jpg",
        "label": "Page 3",
-       "notes": ""
+       "notes": "So first, who is the client. Mediumchat is a platform where you talk to a coach about whatever keeps you up at night. Love, work, the future. Hundreds of verified coaches. You buy credits and pay per minute, starting at ten euros. People can do a free 3 minutes conversation, and if the 3 minutes aren’t sufficient enough.. They can buy extra minutes, starting at ten euros"
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-04.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-04.jpg",
        "label": "Page 4",
-       "notes": ""
+       "notes": "Which gives me a slightly strange job for the next fifteen minutes. I am going to do a reading. The client on the table is a Google Ads account of Mediumchat.  Every card on this table says the same thing: give it two more weeks, it is still in the learning phase."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-05.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-05.jpg",
        "label": "Page 5",
-       "notes": ""
+       "notes": "Let me warm up on you first. I sense someone in this room has a client who wants more volume at the same CPA. I am seeing a conversion action… counted twice. And someone here recently heard: we tried Performance Max once, it did not work.\n\nThat is called a cold reading. It works because it is true for everyone. Which is also how most account audits work.\n\nEvery reading starts with the past. In 2024 this account grew a hundred and eighteen percent.\n\nThen 2025 arrived and it stopped. Nothing broke. Click prices went up, competition went up, search volume stayed flat, and every extra bit of visibility got too expensive for a good CPA.\n\nThere was nothing left to squeeze."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-06.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-06.jpg",
        "label": "Page 6",
-       "notes": ""
+       "notes": "Then the briefing for year two/2025. 15 percent more new customers. A healthy cost per new customer, with a 130  euros as the line. And the conversion rate up by at least ten percent.\n\nWith one constraint: without exceeding coach capacity. You cannot sell conversations nobody is available to have. So buying more traffic was never going to be enough."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-07.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-07.jpg",
        "label": "Page 7",
-       "notes": ""
+       "notes": "And here is the awkward part. This is a business full of people who are professionally certain about your future. Hundreds of them. Available right now. But not one could help us out."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-08.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-08.jpg",
        "label": "Page 8",
-       "notes": ""
+       "notes": "Not one of them could tell us which customer was going to be worth anything.\n\nTo be fair, that was our problem. In the ad account every paid conversation counted as the same. One conversion, one value. Whether that person never came back, or kept buying credits for three years.\n\nWe were bidding on a signal that could not tell those two people apart."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-09.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-09.jpg",
        "label": "Page 9",
-       "notes": ""
+       "notes": "So we did what everyone in this industry does. We got out the crystal ball.\n\nIn fairness, our crystal ball is mostly a Looker Studio dashboard with the lights off."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-10.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-10.jpg",
        "label": "Page 10",
-       "notes": ""
+       "notes": "And the crystal ball said: you are asking the wrong question.\n\nHow do we get more customers is a fine question. It sends every extra euro to whoever is cheapest to buy, and cheapest to buy is almost never worth the most.\n\nThe question we needed was: which customer becomes valuable? There is no setting for that in Google Ads.\n\nPeople literally search \"ask universe a question\". In our industry we call the universe Smart Bidding. You send it your intentions, it calls them a target CPA, and it gives you what it thinks you deserve.\n\nThe answer had to come from somewhere else."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-11.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-11.jpg",
        "label": "Page 11",
-       "notes": ""
+       "notes": "Same cost per acquisition, 20 euros each. One is worth a 150, the other 250. These two numbers are made up. The problem is real: your bidding treats them as twins."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-12.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-12.jpg",
        "label": "Page 12",
-       "notes": ""
+       "notes": "We contacted the other side. The other side turned out to be a database. It did not speak through a candle. It spoke in SQL.  We used Bigquery and started analyzing 15 years of conversations, purchases, topics, questions, spend patterns, sitting in a database doing nothing. We started running regression analysis at scale on one question: what predicts lifetime value? Age and gender were not the interesting part. Speed to the second conversatino, duration, spend, topic and spending pattern were."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-13.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-13.jpg",
        "label": "Page 13",
-       "notes": ""
+       "notes": "1 of those 5 mattered more than the rest. Speed.\n\nCome back for a second conversation within 7 to 14 days, and you end up worth substantially more over 90 and even 365 days than someone who comes back after 30 days. And the topic of that first question predicts part of the value too. So we noticed a pattern when the time to second conversation was combined with subject of the conversation.\n\nSo the tell is how fast people come back to ask again.\n\nAstrology says who you are depends on the day you were born. Our regression says what you are worth depends on the day you come back. Only one of those has a p-value."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-14.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-14.jpg",
        "label": "Page 14",
-       "notes": ""
+       "notes": "An insight is only worth something if you can use it. So BigQuery built these segments and pushed them straight into Google Ads. The one to look at is the third: the customers with potential. Most accounts never separate them out, so they underbid them.\n\nNow the obvious question. People tell this platform the most private things in their life. How is this allowed?\n\nPersonal data never went into the classification. Every conversation starts with the same prompt: what is your question? Nobody answers that with their surname. And the first question sets the foundation for the rest of the conversation."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-15.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-15.jpg",
        "label": "Page 15",
-       "notes": ""
+       "notes": "Which brings us to part two. If the first question predicts value, which questions are worth the most?"
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-16.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-16.jpg",
        "label": "Page 16",
-       "notes": ""
+       "notes": "We noticed different shares of subjects on different times of the year. If it was around christmas, people where looking for answers if they were going to find the one next year. If it was in the summer, people were asking more questions regarding jobs, career, earning more, etc. So there was a correlation between time of the year, but also based on the weather."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-17.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-17.jpg",
        "label": "Page 17",
-       "notes": ""
+       "notes": "The questions move with the news, which you would expect. And with the weather, which I did not. So we could not blame Mercury for this one. And in our industry we do not blame Mercury anyway.\n\nWe blame a core update. Same excuse, better press office. What it does mean: a topic list you write in January is wrong by March. So the processing had to be dynamic."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-18.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-18.jpg",
        "label": "Page 18",
-       "notes": ""
+       "notes": "So we built a machine that reads the opening question.\n\nEvery first question goes into a feed, anonymised. N8N runs the keyword analysis, an OpenAI agent sorts the topic and writes commercial search terms, and Channable's PPC Generator builds the campaigns and the ads.\n\nWithin a day there is a live campaign on a question people are asking today. When a category proves more valuable, its bids and budget go up by themselves.\n\nAnd then Mediumchat puts its best coaches on that category. No pipeline replaces that part.\n\nAnd yes, we see the irony. Real searches in this account: \"AI tarot reading free\". \"Mystic tarot reader ChatGPT\". So we built an AI to find people who are looking for an AI, and sold them a human."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-19.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-19.jpg",
        "label": "Page 19",
-       "notes": ""
+       "notes": "Spare a thought for that agent. Its whole job, every hour of every day, is reading other people's heartbreak and turning it into keywords."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-20.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-20.jpg",
        "label": "Page 20",
-       "notes": ""
+       "notes": "The brief needed ten percent more conversion rate, and more traffic does not give you that. Finding people nobody is answering does.\n\nIn the search data we found a group we had never bid on. People who want a coach in person and have no idea online coaching exists. They search with their own town in the query. That, and \"near me\". Astrologer near me. Witch doctors near me. A psychic who needs your location first.\n\nSo someone searching on London terms now lands on an London page that makes the case for online, with bids that follow the value of the topic.\n\nThey were already searching. Nobody was answering them."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-21.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-21.jpg",
        "label": "Page 21",
-       "notes": ""
+       "notes": "Above that sits top and middle of funnel search, sending people to advertorials, listicles and blogs, at a target of twenty euros per free conversation.\n\nAnd nobody is written off after one visit. In remarketing terms we are, professionally, the ex that keeps texting. Landed but did not click: Demand Gen, telling them they can have a free conversation. Clicked but did not convert: Demand Gen again, now with user generated content and testimonials."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-22.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-22.jpg",
        "label": "Page 22",
-       "notes": ""
+       "notes": "A first purchase is where it starts. And remember what the data told us: the value is in how fast they come back.\n\nSo customers who had not come back went into Demand Gen by how long they had been quiet. The more recent, the harder we pushed, with a different message per window.\n\nEmail ran on the same signals. Paid media and CRM stopped being two departments with two dashboards."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-23.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-23.jpg",
        "label": "Page 23",
-       "notes": ""
+       "notes": "One word keeps coming back in the search terms of this account: free. \"Free psychic reading.\" \"Absolutely free psychic reading.\"\n\nSo for the customers who had gone quiet, the cheapest spell we ever cast. A coupon for three free minutes with their favourite consultant. That was the whole offer.\n\nHalf the people who opened that email used it. One in five of those went on to top up with real credits.\n\n3 free minutes. Put that next to what you pay for a click. The only love spell in this talk that works immediately."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-24.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-24.jpg",
        "label": "Page 24",
-       "notes": ""
+       "notes": "Now we stop predicting and start testing.\n\nOn top of everything we put Performance Max. Three campaigns, fed with the high, medium and low lifetime value audiences as signals.\n\nPerformance Max is the closest thing Google has to a tarot deck. You do not get to see the cards, and you are told to trust the process.\n\nI know what happens in this room when someone says Performance Max on top of a working search account. Half of you just tensed up. Fair.\n\nSo sixty days, United Kingdom only, testing specifically whether it would eat non-branded search. We found the opposite. Higher incremental value, better MER, and a higher lifetime value after 60 days. That last one tells you whether growth is real or just moved around.\n\nOnly then did we roll it out to the United States and the Netherlands."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-25.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-25.jpg",
        "label": "Page 25",
-       "notes": ""
+       "notes": "One more, because it is my favourite.\n\nMarch 2025. A trade war starts and the dollar drops against the pound. So we thought: what if American visitors go to the UK website and pay in pounds?\n\nI would love to call that strategy. It was mostly reading the news at breakfast. No psychic on the platform saw the trade war coming either. In their defence, neither did the markets.\n\nConversion rate dropped a little on that traffic. The currency difference more than covered it. And the obvious objection, time zones, the product had already solved: the site only shows consultants who are online right now."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-26.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-26.jpg",
        "label": "Page 26",
-       "notes": ""
+       "notes": "So. Was the reading correct? This is where I stop being a medium and become an accountant. Both professions tell you about your future with numbers you cannot check. Today, you can."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-27.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-27.jpg",
        "label": "Page 27",
-       "notes": ""
+       "notes": "The target was 15 percent more new customers. It became 19.\n\nConversion rate: target 10 percent, actual 17.\n\nCost per new customer: a hundred and eight euros, against a line of a hundred and thirty.\n\nLifetime value went from 500 euros in January to six hundred and seventy six in december.\n\nAnd the one I care about most: the share of customers coming back within 7 to 14 days grew almost 30 percent. The variable the whole system was built around. It moved."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-28.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-28.jpg",
        "label": "Page 28",
-       "notes": ""
+       "notes": "All of that while media spend went from five hundred and forty five thousand to seven hundred and fifty seven thousand euros. So this is not efficiency with the handbrake on.\n\nAnd every target in this table was agreed before the year started. Unlike a horoscope, which only sounds right once the week is over."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-29.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-29.jpg",
        "label": "Page 29",
-       "notes": ""
+       "notes": "A case without the sum underneath is a story, so here is the sum.\n\n4.7 million euros in value from the new customers we won, based on their lifetime value. Against 750K  in media and just under 50K in agency fees. Compared to 2024, that is 1.8 million more."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-30.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-30.jpg",
        "label": "Page 30",
-       "notes": ""
+       "notes": "Four things to take home.\n\nThe first three you have seen. The fourth is the one you can use on Monday.\n\nThe measurement came from outside the ad platform. Every account with one flat conversion value has this problem, and most of them do not know it, because the reported ROAS looks fine. Go and check yours."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-31.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-31.jpg",
        "label": "Page 31",
-       "notes": ""
+       "notes": "What the cards say next. Australia, Canada and New Zealand, on the same model.\n\nAnd after one more clean quarter of lifetime value data, we deliberately start bidding higher and accept a higher cost per new customer. That sounds wrong until you remember what the average customer is now worth.\n\nSo far this was about holding the cost of a customer down. Next, it is about being willing to pay more for the right one."
       },
       {
-       "src": "slides/day-2-cs3-quint-taskforce-mediumchat-from-cac-to-clv-keynote-sept-2026/p-32.jpg",
+       "src": "slides/day-2-cs3-quint-deck/p-32.jpg",
        "label": "Page 32",
-       "notes": ""
+       "notes": "I saw that coming.\n\nThank you. I am around all day, and happy to talk about everything I did not have time for."
       }
      ]
     },
