@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-24 20:31",
+ "built": "2026-09-24 20:39",
  "blocks": [
   {
    "id": "block-1",
@@ -3975,19 +3975,19 @@ window.STAGE_MANIFEST = {
       {
        "key": "12",
        "label": "09 · Belief · more work",
-       "notes": "- Let's assume we can't charge for execution within the next 3 years.\n- Treat that as a thought experiment, not a forecast or opinion we have to agree on now.\n[Clicks 1 and 2]\n- More account work doesn't equal more value.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- And what if the output that we use right now to get our invoices paid become worthless?",
+       "notes": "- Let's assume we can't charge for execution within the next 3 years.\n- Treat that as a thought experiment, not a forecast or opinion we have to agree on now.",
        "thumb": "thumbs/w1/013.jpg"
       },
       {
        "key": "12.1",
        "label": "09 · Belief · more work",
-       "notes": "- Let's assume we can't charge for execution within the next 3 years.\n- Treat that as a thought experiment, not a forecast or opinion we have to agree on now.\n[Clicks 1 and 2]\n- More account work doesn't equal more value.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- And what if the output that we use right now to get our invoices paid become worthless?",
+       "notes": "- More account work doesn't equal more value.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- And what if the output that we use right now to get our invoices paid become worthless?",
        "thumb": "thumbs/w1/014.jpg"
       },
       {
        "key": "12.2",
        "label": "09 · Belief · more work",
-       "notes": "- Let's assume we can't charge for execution within the next 3 years.\n- Treat that as a thought experiment, not a forecast or opinion we have to agree on now.\n[Clicks 1 and 2]\n- More account work doesn't equal more value.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- And what if the output that we use right now to get our invoices paid become worthless?",
+       "notes": "- More account work doesn't equal more value.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- And what if the output that we use right now to get our invoices paid become worthless?",
        "thumb": "thumbs/w1/015.jpg"
       },
       {
@@ -3999,19 +3999,19 @@ window.STAGE_MANIFEST = {
       {
        "key": "14",
        "label": "10b · Bob's map · the sort",
-       "notes": "- Let's look at my map.\n[Click 1: left]\n- For me, campaign builds and edits, search term analysis, ad and asset writing + testing, bid and budget optimizations, reporting and experiment analysis, creating first wireframing drafts, and more, can go on the left.\n- This, including WAY more work can already be done by AI in a great way.\n- No need to do any of this manually anymore if you've got the right systems, just like Alfred, Cindy and Mike showed you yesterday.\n[Click 2: right]\n- The right gets interesting.\n- Especially when you use Mike's TRUST framework or \"Mike's five\".\n- These cover: Business understanding, taste and judgment, relationship building, strategic thinking, and asking the right questions.\n- For me, it's things like: agreeing what a worthwhile enquiry looks like, judging whether the ad and page make a convincing, consistent promise, having the honest conversation when the leads look good but sales do not, etc.\n- And yes, relationship building can also overlap with asking the right questions so your stakeholder will trust you sooner ;-).",
+       "notes": "- Let's look at my map.",
        "thumb": "thumbs/w1/017.jpg"
       },
       {
        "key": "14.1",
        "label": "10b · Bob's map · the sort",
-       "notes": "- Let's look at my map.\n[Click 1: left]\n- For me, campaign builds and edits, search term analysis, ad and asset writing + testing, bid and budget optimizations, reporting and experiment analysis, creating first wireframing drafts, and more, can go on the left.\n- This, including WAY more work can already be done by AI in a great way.\n- No need to do any of this manually anymore if you've got the right systems, just like Alfred, Cindy and Mike showed you yesterday.\n[Click 2: right]\n- The right gets interesting.\n- Especially when you use Mike's TRUST framework or \"Mike's five\".\n- These cover: Business understanding, taste and judgment, relationship building, strategic thinking, and asking the right questions.\n- For me, it's things like: agreeing what a worthwhile enquiry looks like, judging whether the ad and page make a convincing, consistent promise, having the honest conversation when the leads look good but sales do not, etc.\n- And yes, relationship building can also overlap with asking the right questions so your stakeholder will trust you sooner ;-).",
+       "notes": "- For me, campaign builds and edits, search term analysis, ad and asset writing + testing, bid and budget optimizations, reporting and experiment analysis, creating first wireframing drafts, and more, can go on the left.\n- This, including WAY more work can already be done by AI in a great way.\n- No need to do any of this manually anymore if you've got the right systems, just like Alfred, Cindy and Mike showed you yesterday.",
        "thumb": "thumbs/w1/018.jpg"
       },
       {
        "key": "14.2",
        "label": "10b · Bob's map · the sort",
-       "notes": "- Let's look at my map.\n[Click 1: left]\n- For me, campaign builds and edits, search term analysis, ad and asset writing + testing, bid and budget optimizations, reporting and experiment analysis, creating first wireframing drafts, and more, can go on the left.\n- This, including WAY more work can already be done by AI in a great way.\n- No need to do any of this manually anymore if you've got the right systems, just like Alfred, Cindy and Mike showed you yesterday.\n[Click 2: right]\n- The right gets interesting.\n- Especially when you use Mike's TRUST framework or \"Mike's five\".\n- These cover: Business understanding, taste and judgment, relationship building, strategic thinking, and asking the right questions.\n- For me, it's things like: agreeing what a worthwhile enquiry looks like, judging whether the ad and page make a convincing, consistent promise, having the honest conversation when the leads look good but sales do not, etc.\n- And yes, relationship building can also overlap with asking the right questions so your stakeholder will trust you sooner ;-).",
+       "notes": "- The right gets interesting.\n- Especially when you use Mike's TRUST framework or \"Mike's five\".\n- These cover: Business understanding, taste and judgment, relationship building, strategic thinking, and asking the right questions.\n- For me, it's things like: agreeing what a worthwhile enquiry looks like, judging whether the ad and page make a convincing, consistent promise, having the honest conversation when the leads look good but sales do not, etc.\n- And yes, relationship building can also overlap with asking the right questions so your stakeholder will trust you sooner ;-).",
        "thumb": "thumbs/w1/019.jpg"
       },
       {
@@ -4071,13 +4071,13 @@ window.STAGE_MANIFEST = {
       {
        "key": "24",
        "label": "16 · Knowledge and the rep",
-       "notes": "- I started taking courses in my spare time.\n- Think about Conversion XL's CRO minidegree, AnalyticsMania's GTM course bundles, GrowthTribe masterclasses (RIP), Danique's social courses, and many many more.\n- I also started consuming loads of free content.\n- Learning helped me recognize the issues.\n- However, my week stayed identical.\n- I just became a slightly smarter version of the same me, doing the same work.\n[Click]\n- Until I started putting in the reps.\n- A rep became a set. A set became a workout.\n- Doing adjacent work changed my contribution.\n- An unpaid CRO audit became a wireframe and a concrete conversation.\n- I demonstrated proof of my expertise and got a foot in the door.\n- Keep in mind that all of this comes down to agency, the willingness to learn and level-up, wanting to do better for yourself and your client.\n- The best opportunities often come from demonstrating proof and having a concrete gameplan in your hand, instead of waiting for a request.",
+       "notes": "- I started taking courses in my spare time.\n- Think about Conversion XL's CRO minidegree, AnalyticsMania's GTM course bundles, GrowthTribe masterclasses (RIP), Danique's social courses, and many many more.\n- I also started consuming loads of free content.\n- Learning helped me recognize the issues.\n- However, my week stayed identical.\n- I just became a slightly smarter version of the same me, doing the same work.",
        "thumb": "thumbs/w1/029.jpg"
       },
       {
        "key": "24.1",
        "label": "16 · Knowledge and the rep",
-       "notes": "- I started taking courses in my spare time.\n- Think about Conversion XL's CRO minidegree, AnalyticsMania's GTM course bundles, GrowthTribe masterclasses (RIP), Danique's social courses, and many many more.\n- I also started consuming loads of free content.\n- Learning helped me recognize the issues.\n- However, my week stayed identical.\n- I just became a slightly smarter version of the same me, doing the same work.\n[Click]\n- Until I started putting in the reps.\n- A rep became a set. A set became a workout.\n- Doing adjacent work changed my contribution.\n- An unpaid CRO audit became a wireframe and a concrete conversation.\n- I demonstrated proof of my expertise and got a foot in the door.\n- Keep in mind that all of this comes down to agency, the willingness to learn and level-up, wanting to do better for yourself and your client.\n- The best opportunities often come from demonstrating proof and having a concrete gameplan in your hand, instead of waiting for a request.",
+       "notes": "- Until I started putting in the reps.\n- A rep became a set. A set became a workout.\n- Doing adjacent work changed my contribution.\n- An unpaid CRO audit became a wireframe and a concrete conversation.\n- I demonstrated proof of my expertise and got a foot in the door.\n- Keep in mind that all of this comes down to agency, the willingness to learn and level-up, wanting to do better for yourself and your client.\n- The best opportunities often come from demonstrating proof and having a concrete gameplan in your hand, instead of waiting for a request.",
        "thumb": "thumbs/w1/030.jpg"
       },
       {

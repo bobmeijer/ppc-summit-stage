@@ -112,7 +112,11 @@
             if (arr && arr[i]) n = arr[i];
           } catch (e) {}
         }
-        return n || '';
+        // A "---" line splits a slide's notes per build: each click shows its own
+        // part, and builds past the last part keep showing the last one.
+        var parts = (n || '').split(/\r?\n---\r?\n/);
+        this.slide();
+        return parts[Math.min(this._build || 0, parts.length - 1)];
       },
       label: function () {
         var d = this.el(), s = d._slides && d._slides[d.index];
