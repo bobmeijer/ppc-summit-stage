@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-24 18:24",
+ "built": "2026-09-24 20:31",
  "blocks": [
   {
    "id": "block-1",
@@ -3903,458 +3903,452 @@ window.STAGE_MANIFEST = {
       {
        "key": "0",
        "label": "19 · Title",
-       "notes": "CUE (not spoken): Let the room settle after Geert. No second stand-up or hands-up exercise.\n\nSAY:\n- Thank you, Geert for your inspiring talk to kick things off!\n- Yesterday, Mike asked what people will pay us for when execution gets cheaper. \n- Geert has just asked what we are going to do about it.\n- This hour makes that personal. \n- Choose one responsibility worth growing into and one practical way to test it.",
+       "notes": "- Yesterday, I spoke about why the advantage moved.\n- And why the next Google Ads win might begin outside of your account.\n- I'm a firm believer of the fact that you should own bigger problems to remain valuable, but even better, become even more valuable.\n- This is deliberately NOT a workshop about AI. I honestly think that knowledge and judgment is the cornerstone of everything. Without it, you're nowhere.\n- The Google Ads specialists that are leveling up their breadth of knowledge, across the five buckets I shared yesterday, AND are able to build AI systems on top that they can Judge, will win.",
        "thumb": "thumbs/w1/001.jpg"
       },
       {
        "key": "1",
        "label": "01 · Mike's question",
-       "notes": "CUE (not spoken): Pause on Mike’s question. Do not recap his whole talk.\n\nSAY:\n- What do you charge for when the work is free?\n- When producing reports, campaigns and analysis becomes easier, what does someone still need you to understand, decide or take responsibility for?",
+       "notes": "- Yesterday, Mike asked you \"What do you charge for when the work is free?\"\n- That was a pretty thought provoking question to end the day with.",
        "thumb": "thumbs/w1/002.jpg"
       },
       {
        "key": "2",
        "label": "02 · The AI question",
-       "notes": "CUE (not spoken): Address the whole room, including people already accountable for business results.\n\nSAY:\n- If AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n- Freelancers: think about a client. \n- In-house or agency: think about your employer or a client. \n- Team leads: think about the decisions that become better because you are there.\n- You may already have a strong answer. We will make it specific and decide where to develop it.",
+       "notes": "- If AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n- What makes you valuable?\n- What makes you worth it?",
        "thumb": "thumbs/w1/003.jpg"
       },
       {
        "key": "3",
        "label": "13 · The three questions",
-       "notes": "CUE (not spoken): Trace the three parts once; do not explain every workbook field.\n\nSAY:\n- We will use Geert’s three questions.\n- What is the gap? Connect today’s work to the result someone relies on you for.\n- What matters most? Choose a direction, a capability and a boundary.\n- What is my next step? Leave with a test, feedback and a date.\n- You will leave with one useful decision about your next ninety days.",
+       "notes": "- Geert's three questions are going to structure this hour's interactive workshop\n- 1) What is the gap (where can your value grow)?\n- 2) What matters most (what is worth building?)\n- 3) What is my next step?\n- You will leave with one useful decision about your next ninety days.\n- Your decisions are a direction. They are not definitive.",
        "thumb": "thumbs/w1/004.jpg"
       },
       {
        "key": "4",
        "label": "03 · Workbook QR",
-       "notes": "CUE (not spoken): Twenty seconds of room time is budgeted here; avoid device troubleshooting on stage.\n\nSAY:\n- Let's start with the workbook. \n- You can open the workbook by going to the URL.",
+       "notes": "- The first step is to get your workbook\n- Go to the URL or open the workbook in the portal\n- HTML workbook, browser cached, save/print whenever you want",
        "thumb": "thumbs/w1/005.jpg"
       },
       {
        "key": "5",
        "label": "04 · Your seat",
-       "notes": "CUE (not spoken): Give twelve seconds to mark page 2, additional to the numbered exercise timers.\n\nSAY:\n- Circle your main seat. Team lead can apply alongside another role.\n- Mark where your responsibility stops today: the work, the channel result, pipeline or revenue, or profitable growth.\n- Your next move could mean broader responsibility, deeper expertise or better decisions through other people. \n- All three are valid. Start from where you are.",
+       "notes": "- First, I want to circle your seat or current position\n- From that role, you're going to fill in the workbook\n- Then, Mark where your responsibility stops today: the work, the channel result, pipeline or revenue, or profitable growth.\n- Your next move could mean broader responsibility, deeper expertise or better decisions through other people.\n- If you have a management role, then I'd suggest completing this exercise as if you were your Google Ads team.",
        "thumb": "thumbs/w1/006.jpg"
       },
       {
        "key": "6",
        "label": "05 · Write · my stakeholder",
-       "notes": "CUE (not spoken): Explain now; start the thirty seconds only on the countdown slide.\n\nSAY:\n- Page four, question one. Choose one real person you could involve in a test: a client, manager or someone on your team.\n- Write their role and business. Keep that person in mind through the exercises. A real stakeholder will make your answers more useful.",
+       "notes": "- Question 1.\n- Choose one real person you could involve in a test: a client, manager or someone on your team.\n- Write their role and business.\n- Keep that person in mind through the exercises.\n- A real stakeholder will make your answers way more useful.",
        "thumb": "thumbs/w1/007.jpg"
       },
       {
        "key": "7",
        "label": "05b · Bob's map · my stakeholder",
-       "notes": "CUE (not spoken): This anonymized example does not assert an agreed pilot. Advance to the timer.\n\nSAY:\n- My stakeholder is a client who owns a high-value service business. I work directly with the owner.\n- You will see my proposed next step throughout. It is a direction I want to personally explore. \n- Now choose your stakeholder.",
+       "notes": "- I'm going to give you some concrete examples throughout all exercises.\n- These are my answers and mine only. I want you to write your own.\n- This is just meant for some additional clarification.",
        "thumb": "thumbs/w1/008.jpg"
       },
       {
        "key": "8",
        "label": "06 · Countdown 0:30",
-       "notes": "CUE (not spoken): Start the 0:30 countdown. Stay silent. At zero, advance after a brief visual check of the room.",
+       "notes": "",
        "thumb": "thumbs/w1/009.jpg"
       },
       {
        "key": "9",
        "label": "07 · Write · what they pay me for",
-       "notes": "CUE (not spoken): Still page 4. The dedicated timer protects the writing time.\n\nSAY:\n- Question two: what does this stakeholder pay you for today? \n- Write at least five lines, including tasks, decisions and conversations.\n- What did you work on last week? \n- Which decisions came to you? \n- What would they notice if you stopped? \n- Write the actual list.",
+       "notes": "- Question 2.\n- What does this stakeholder pay you for today?\n- What did you work on last week?\n- What would your stakeholder notice if you stopped working?\n- I want you to write down the actual list.\n- Write at least five lines, including tasks, decisions and conversations. Ideally more.",
        "thumb": "thumbs/w1/010.jpg"
       },
       {
        "key": "10",
        "label": "07b · Bob's map · what they pay me for",
-       "notes": "CUE (not spoken): Read the grouping, not every numbered line individually. Advance to the timer.\n\nSAY:\n- Mine includes Google Ads strategy, campaigns, budgets, acquisition targets and deciding which tests to run.\n- I also lead landing-page strategy, create wireframes and conversion copy, and work with a designer. \n- And I explain results and agree priorities with the client.\n- That is my current responsibility. \n- Put your actual contribution on the page.",
+       "notes": "- Mine includes Google Ads strategy, campaigns, budget allocation, hitting growth and efficiency targets, deciding which tests to run.\n- I also lead landing-page strategy, create wireframes and conversion copy and work with a skilled graphic designer to bring it to life in my stakeholder's brand guidelines.\n- Once again, these are just examples to explain the exercise.\n- Put your actual contribution to the page.\n- Be detailed.",
        "thumb": "thumbs/w1/011.jpg"
       },
       {
        "key": "11",
        "label": "08 · Countdown 1:30",
-       "notes": "CUE (not spoken): Run the full 1:30 in silence. At zero, move to Mike’s thought experiment.",
+       "notes": "",
        "thumb": "thumbs/w1/012.jpg"
       },
       {
        "key": "12",
        "label": "09 · Belief · more work",
-       "notes": "CUE (not spoken): Build 0: Mike’s question. Click 1 before “If producing…” to show the belief. Click 2 before the final sentence.\n\nSAY:\n- Mike asked us to imagine that we cannot charge for execution within three years. Treat that as a thought experiment, not a forecast we have to agree on.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- The question becomes: which decisions, agreements and responsibilities still matter?",
+       "notes": "- Let's assume we can't charge for execution within the next 3 years.\n- Treat that as a thought experiment, not a forecast or opinion we have to agree on now.\n[Clicks 1 and 2]\n- More account work doesn't equal more value.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- And what if the output that we use right now to get our invoices paid become worthless?",
        "thumb": "thumbs/w1/013.jpg"
       },
       {
        "key": "12.1",
        "label": "09 · Belief · more work",
-       "notes": "CUE (not spoken): Build 0: Mike’s question. Click 1 before “If producing…” to show the belief. Click 2 before the final sentence.\n\nSAY:\n- Mike asked us to imagine that we cannot charge for execution within three years. Treat that as a thought experiment, not a forecast we have to agree on.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- The question becomes: which decisions, agreements and responsibilities still matter?",
+       "notes": "- Let's assume we can't charge for execution within the next 3 years.\n- Treat that as a thought experiment, not a forecast or opinion we have to agree on now.\n[Clicks 1 and 2]\n- More account work doesn't equal more value.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- And what if the output that we use right now to get our invoices paid become worthless?",
        "thumb": "thumbs/w1/014.jpg"
       },
       {
        "key": "12.2",
        "label": "09 · Belief · more work",
-       "notes": "CUE (not spoken): Build 0: Mike’s question. Click 1 before “If producing…” to show the belief. Click 2 before the final sentence.\n\nSAY:\n- Mike asked us to imagine that we cannot charge for execution within three years. Treat that as a thought experiment, not a forecast we have to agree on.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- The question becomes: which decisions, agreements and responsibilities still matter?",
+       "notes": "- Let's assume we can't charge for execution within the next 3 years.\n- Treat that as a thought experiment, not a forecast or opinion we have to agree on now.\n[Clicks 1 and 2]\n- More account work doesn't equal more value.\n- If producing the work gets cheaper, doing more of it does not automatically give your stakeholder a stronger reason to pay you.\n- And what if the output that we use right now to get our invoices paid become worthless?",
        "thumb": "thumbs/w1/015.jpg"
       },
       {
        "key": "13",
        "label": "10 · Write · the sort",
-       "notes": "CUE (not spoken): Keep the distinction about output versus responsibility, not work AI can never assist with.\n\nSAY:\n- Page five, question three. Sort your list.\n- Left: work AI can increasingly produce. \n- Right: what your stakeholder relies on you to judge, agree or take responsibility for.\n- An activity can span both. \n- AI might produce a budget analysis while you agree on the trade-off with the client. \n- Split it when that is more honest. \n- Add anything your first list missed.",
+       "notes": "- Question 3.\n- I want you to sort your list that you've completed in question 2\n- Left: This is the work AI can increasingly produce.\n- Right: This is the work your stakeholder relies on you to judge, agree or take responsibility for.\n- An activity can span both. AI might produce a budget analysis while you agree on the trade-off with the client. Split it when that is more honest.\n- Add anything your first list missed.",
        "thumb": "thumbs/w1/016.jpg"
       },
       {
        "key": "14",
        "label": "10b · Bob's map · the sort",
-       "notes": "CUE (not spoken): Click 1 for the left answers. Click 2 before “On the right…” for responsibility examples. Do not read category labels as a second list.\n\nSAY:\n- For me, campaign builds, analysis, variations and first drafts can go on the left.\n- On the right: agreeing what a worthwhile enquiry looks like. \n- Judging the ad and page. \n- Having the honest conversation when leads look good but sales do not.\n- Then agreeing priorities, and asking what happened to the enquiries we paid for.\n- Those are Mike’s five points he discussed yesterday, in my my own words. \n- Now sort yours.",
+       "notes": "- Let's look at my map.\n[Click 1: left]\n- For me, campaign builds and edits, search term analysis, ad and asset writing + testing, bid and budget optimizations, reporting and experiment analysis, creating first wireframing drafts, and more, can go on the left.\n- This, including WAY more work can already be done by AI in a great way.\n- No need to do any of this manually anymore if you've got the right systems, just like Alfred, Cindy and Mike showed you yesterday.\n[Click 2: right]\n- The right gets interesting.\n- Especially when you use Mike's TRUST framework or \"Mike's five\".\n- These cover: Business understanding, taste and judgment, relationship building, strategic thinking, and asking the right questions.\n- For me, it's things like: agreeing what a worthwhile enquiry looks like, judging whether the ad and page make a convincing, consistent promise, having the honest conversation when the leads look good but sales do not, etc.\n- And yes, relationship building can also overlap with asking the right questions so your stakeholder will trust you sooner ;-).",
        "thumb": "thumbs/w1/017.jpg"
       },
       {
        "key": "14.1",
        "label": "10b · Bob's map · the sort",
-       "notes": "CUE (not spoken): Click 1 for the left answers. Click 2 before “On the right…” for responsibility examples. Do not read category labels as a second list.\n\nSAY:\n- For me, campaign builds, analysis, variations and first drafts can go on the left.\n- On the right: agreeing what a worthwhile enquiry looks like. \n- Judging the ad and page. \n- Having the honest conversation when leads look good but sales do not.\n- Then agreeing priorities, and asking what happened to the enquiries we paid for.\n- Those are Mike’s five points he discussed yesterday, in my my own words. \n- Now sort yours.",
+       "notes": "- Let's look at my map.\n[Click 1: left]\n- For me, campaign builds and edits, search term analysis, ad and asset writing + testing, bid and budget optimizations, reporting and experiment analysis, creating first wireframing drafts, and more, can go on the left.\n- This, including WAY more work can already be done by AI in a great way.\n- No need to do any of this manually anymore if you've got the right systems, just like Alfred, Cindy and Mike showed you yesterday.\n[Click 2: right]\n- The right gets interesting.\n- Especially when you use Mike's TRUST framework or \"Mike's five\".\n- These cover: Business understanding, taste and judgment, relationship building, strategic thinking, and asking the right questions.\n- For me, it's things like: agreeing what a worthwhile enquiry looks like, judging whether the ad and page make a convincing, consistent promise, having the honest conversation when the leads look good but sales do not, etc.\n- And yes, relationship building can also overlap with asking the right questions so your stakeholder will trust you sooner ;-).",
        "thumb": "thumbs/w1/018.jpg"
       },
       {
        "key": "14.2",
        "label": "10b · Bob's map · the sort",
-       "notes": "CUE (not spoken): Click 1 for the left answers. Click 2 before “On the right…” for responsibility examples. Do not read category labels as a second list.\n\nSAY:\n- For me, campaign builds, analysis, variations and first drafts can go on the left.\n- On the right: agreeing what a worthwhile enquiry looks like. \n- Judging the ad and page. \n- Having the honest conversation when leads look good but sales do not.\n- Then agreeing priorities, and asking what happened to the enquiries we paid for.\n- Those are Mike’s five points he discussed yesterday, in my my own words. \n- Now sort yours.",
+       "notes": "- Let's look at my map.\n[Click 1: left]\n- For me, campaign builds and edits, search term analysis, ad and asset writing + testing, bid and budget optimizations, reporting and experiment analysis, creating first wireframing drafts, and more, can go on the left.\n- This, including WAY more work can already be done by AI in a great way.\n- No need to do any of this manually anymore if you've got the right systems, just like Alfred, Cindy and Mike showed you yesterday.\n[Click 2: right]\n- The right gets interesting.\n- Especially when you use Mike's TRUST framework or \"Mike's five\".\n- These cover: Business understanding, taste and judgment, relationship building, strategic thinking, and asking the right questions.\n- For me, it's things like: agreeing what a worthwhile enquiry looks like, judging whether the ad and page make a convincing, consistent promise, having the honest conversation when the leads look good but sales do not, etc.\n- And yes, relationship building can also overlap with asking the right questions so your stakeholder will trust you sooner ;-).",
        "thumb": "thumbs/w1/019.jpg"
       },
       {
        "key": "15",
        "label": "11 · Countdown 3:00",
-       "notes": "CUE (not spoken): Run 3:00 in silence. This export has no visible Mike-five help panel, so do not announce an automatic panel. Floor team can quietly point stuck attendees to the printed prompt.",
+       "notes": "",
        "thumb": "thumbs/w1/020.jpg"
       },
       {
        "key": "16",
        "label": "12 · Where could your contribution grow?",
-       "notes": "CUE (not spoken): Allow a short look back at page 5. They write in Q4 shortly.\n\nSAY:\n- Look at your right-hand column. Where could your contribution grow?\n- Which responsibility could become a bigger part of your role? \n- Perhaps you do it occasionally and want to become trusted for it consistently.\n- Find something worth developing from where you already are.",
+       "notes": "- Now, Look at your right-hand column.\n- Where could your contribution grow?\n- Which responsibility could become a bigger part of your role?\n- Find something worth developing from where you already are.",
        "thumb": "thumbs/w1/021.jpg"
       },
       {
        "key": "17",
        "label": "20 · The outcome ladder",
-       "notes": "CUE (not spoken): Trace left to right. This is a value connection, not a promotion hierarchy.\n\nSAY:\n- For example, campaigns contribute to qualified demand, sales pipeline and profitable growth. \n- Follow that connection without assuming you must personally own every step.\n- If you already own a commercial result, your gap might be deeper expertise or a team that makes better decisions without depending on you for everything.\n- Where could your contribution become stronger?",
+       "notes": "- For example, campaigns contribute to qualified demand, sales pipeline and eventually to profitable growth.\n- Follow that connection without assuming you must personally own every step.\n- Broader responsibility, deeper expertise or better decisions through others are equally credible.\n- Where could your contribution become stronger?",
        "thumb": "thumbs/w1/022.jpg"
       },
       {
        "key": "18",
        "label": "21 · Write · the result",
-       "notes": "CUE (not spoken): Separate the stakeholder’s desired result from the attendee’s proposed contribution.\n\nSAY:\n- Question four, still page five. Write the result your stakeholder buys.\n- Then finish the gap sentence: today they rely on me for this; I want to become trusted for that.\n- Keep it provisional. You are making one possible next contribution visible.",
+       "notes": "- Question 4.\n- Write the business result your stakeholder buys.\n- Then finish the gap sentence: today they rely on me for this; I want to become trusted for that.\n- Keep it provisional. You are making one possible next contribution visible.",
        "thumb": "thumbs/w1/023.jpg"
       },
       {
        "key": "19",
        "label": "21b · Bob's map · the result",
-       "notes": "CUE (not spoken): Present desired value, not a performance guarantee. Advance to 1:30.\n\nSAY:\n- My client wants a steady flow of profitable customers the business can serve.\n- Today I lead Google Ads and landing-page conversion. \n- Next, I want to connect that with Paid Social, matching pages to the traffic temperature, message and offer.\n- Broader acquisition responsibility, built on existing strengths. \n- Write your result and possible next contribution.",
+       "notes": "- For example, My client wants a steady flow of profitable customers the business can serve.\n- Today I lead Google Ads and landing-page conversion.\n- Next, I want to connect that with Paid Social, matching pages to the traffic temperature, message and offer.\n- I want broader acquisition responsibility, built on my existing strengths.\n- Write your result and possible next contribution.",
        "thumb": "thumbs/w1/024.jpg"
       },
       {
        "key": "20",
        "label": "22 · Countdown 1:30",
-       "notes": "CUE (not spoken): Run 1:30 in silence. Transition into Part 2 at zero. First major clock checkpoint.",
+       "notes": "",
        "thumb": "thumbs/w1/025.jpg"
       },
       {
        "key": "21",
        "label": "23 · Act 2 · What matters most?",
-       "notes": "CUE (not spoken): Part 2 begins. Keep the divider brief.\n\nSAY:\n- Now, you have a starting point and a possible gap. \n- But what is worth building?\n- We will look at your capability, compare directions, and choose one that matters to your stakeholder and is work you want more of.",
+       "notes": "- Now, you have a starting point and a possible gap.\n- But what is worth building? What matters most?\n- We will look at your capability, compare directions, and choose one that matters to your stakeholder and is work you want more of.\n- Because there's a huge difference between what matters to your stakeholder and if that's the work you want to do more of.",
        "thumb": "thumbs/w1/026.jpg"
       },
       {
        "key": "22",
        "label": "14 · Doing more",
-       "notes": "CUE (not spoken): Personal history, not an accusation about the room.\n\nSAY:\n- Earlier in my career, I thought becoming more valuable meant doing more Google Ads work. More optimizations, more account attention.\n- My skills improved, but my definition of useful work stayed inside the thing I already knew how to do.",
+       "notes": "- Little storytime.\n- Earlier in my career, I thought becoming more valuable meant doing more Google Ads work.\n- More optimizations, more account attention, more output.\n- My skills improved, but my definition of useful work stayed inside the thing I already knew how to do.",
        "thumb": "thumbs/w1/027.jpg"
       },
       {
        "key": "23",
        "label": "15 · Diagnosis left the account",
-       "notes": "CUE (not spoken): Short CH2 callback. Do not retell Day 1 cases or diagnose an attendee’s account.\n\nSAY:\n- The useful diagnosis kept taking me outside the account: measurement, the page, the offer, how the business handled leads.\n- You saw that pattern yesterday. The account could show the symptom without containing the answer.\n- Once I could see the issue, how could I contribute to resolving it?",
+       "notes": "- But, the useful diagnosis kept taking me outside the account: measurement, the page, the offer, how the business handled leads.\n- You saw that pattern in my yesterday's talk.\n- The account could show the symptom without containing the answer.\n- Once I could see the issue, how could I contribute to resolving it?",
        "thumb": "thumbs/w1/028.jpg"
       },
       {
        "key": "24",
        "label": "16 · Knowledge and the rep",
-       "notes": "CUE (not spoken): Build 0: certificates/knowledge. Click 1 before “An unpaid CRO audit…” to show the audit/wireframe/conversation. Use only the story already on the slide; add no name, uplift, fee or timeline.\n\nSAY:\n- Learning helped me recognize the issues. \n- Doing adjacent work changed my contribution.\n- An unpaid CRO audit became a wireframe and a concrete conversation. \n- The useful sequence was practice, a deliverable, and feedback.\n- Your first repetition can happen inside a paid role, with supervision. It does not need to be an unpaid evening project.",
+       "notes": "- I started taking courses in my spare time.\n- Think about Conversion XL's CRO minidegree, AnalyticsMania's GTM course bundles, GrowthTribe masterclasses (RIP), Danique's social courses, and many many more.\n- I also started consuming loads of free content.\n- Learning helped me recognize the issues.\n- However, my week stayed identical.\n- I just became a slightly smarter version of the same me, doing the same work.\n[Click]\n- Until I started putting in the reps.\n- A rep became a set. A set became a workout.\n- Doing adjacent work changed my contribution.\n- An unpaid CRO audit became a wireframe and a concrete conversation.\n- I demonstrated proof of my expertise and got a foot in the door.\n- Keep in mind that all of this comes down to agency, the willingness to learn and level-up, wanting to do better for yourself and your client.\n- The best opportunities often come from demonstrating proof and having a concrete gameplan in your hand, instead of waiting for a request.",
        "thumb": "thumbs/w1/029.jpg"
       },
       {
        "key": "24.1",
        "label": "16 · Knowledge and the rep",
-       "notes": "CUE (not spoken): Build 0: certificates/knowledge. Click 1 before “An unpaid CRO audit…” to show the audit/wireframe/conversation. Use only the story already on the slide; add no name, uplift, fee or timeline.\n\nSAY:\n- Learning helped me recognize the issues. \n- Doing adjacent work changed my contribution.\n- An unpaid CRO audit became a wireframe and a concrete conversation. \n- The useful sequence was practice, a deliverable, and feedback.\n- Your first repetition can happen inside a paid role, with supervision. It does not need to be an unpaid evening project.",
+       "notes": "- I started taking courses in my spare time.\n- Think about Conversion XL's CRO minidegree, AnalyticsMania's GTM course bundles, GrowthTribe masterclasses (RIP), Danique's social courses, and many many more.\n- I also started consuming loads of free content.\n- Learning helped me recognize the issues.\n- However, my week stayed identical.\n- I just became a slightly smarter version of the same me, doing the same work.\n[Click]\n- Until I started putting in the reps.\n- A rep became a set. A set became a workout.\n- Doing adjacent work changed my contribution.\n- An unpaid CRO audit became a wireframe and a concrete conversation.\n- I demonstrated proof of my expertise and got a foot in the door.\n- Keep in mind that all of this comes down to agency, the willingness to learn and level-up, wanting to do better for yourself and your client.\n- The best opportunities often come from demonstrating proof and having a concrete gameplan in your hand, instead of waiting for a request.",
        "thumb": "thumbs/w1/030.jpg"
       },
       {
        "key": "25",
        "label": "17 · Own what you can judge",
-       "notes": "CUE (not spoken): Make the past-to-present transition explicit. No implemented-result claim for the wireframe.\n\nSAY:\n- Today I lead landing-page strategy, wireframes and conversion copy. \n- I can specify what the page needs to do and judge that work.\n- I do not \"lead\" design and development yet. My designer has much stronger visual design skills. Development has its own expertise too.\n- I lead strategy and coordinate delivery while specialists lead their craft. That is an ownership model you can build on.",
+       "notes": "- Today I lead landing-page strategy, wireframes and conversion copy.\n- I can specify what the page needs to do and judge that work.\n- I do not \"lead\" design and development (yet). My designer has much stronger visual design skills. Development has its own expertise too.\n- I lead strategy and coordinate delivery while specialists lead their craft. That is an ownership model you can build on.\n- However, the tools that are available nowadays (e.g. Claude Design) and the systems we're able to build are changing this at a rapid pace.",
        "thumb": "thumbs/w1/031.jpg"
       },
       {
        "key": "26",
        "label": "25 · The five buckets",
-       "notes": "CUE (not spoken): Point across the buckets without teaching each definition again.\n\nSAY:\n- Here are the five buckets from yesterday, now applied to capability.\n- Build enough breadth to recognize an issue in business, measurement, conversion, creative or traffic, and recognize when someone else’s judgment is stronger.\n- Breadth helps you ask better questions and involve the right person. You do not need equal depth everywhere.",
+       "notes": "- Here are the five buckets from yesterday, now applied to capability.\n- Build enough breadth to recognize an issue in business, measurement, conversion, creative or traffic, and recognize when someone else’s judgment is stronger.\n- Breadth helps you ask better questions and involve the right person. You do not need equal depth everywhere.",
        "thumb": "thumbs/w1/032.jpg"
       },
       {
        "key": "27",
        "label": "26 · The M-shaped specialist",
-       "notes": "CUE (not spoken): Point to existing depth, breadth and provisional next capability.\n\nSAY:\n- We talked a lot about becoming a T-shape specialist, but I think we should evolve into a M-shape specialist.\n- Why? I think, with AI, we can free up time to learn new skills and learn those skills much faster.\n- The M-shaped idea is selective depth. You already have deep Google Ads expertise and perhaps other strengths.\n- Your next capability could sit in another bucket or elsewhere in the same one.\n- Choose depth because it serves your direction.",
+       "notes": "- We talked a lot about becoming a T-shape specialist, but I think we should evolve into a M-shape specialist.\n- Why? I think, with AI, we can free up time to learn new skills and learn those skills much faster.\n- The M-shaped idea is selective depth. You already have deep Google Ads expertise and perhaps other strengths.\n- Your next capability could sit in another bucket or elsewhere in the same one.\n- Choose depth because it serves your direction.",
        "thumb": "thumbs/w1/033.jpg"
       },
       {
        "key": "28",
        "label": "27 · The four levels",
-       "notes": "CUE (not spoken): Explain once. Do not add evidence scoring or a certification standard.\n\nSAY:\n- Use four levels.\n- Recognize: spot something that needs checking. \n- Understand: explain how it works and ask useful questions. \n- Judge: direct the work and evaluate its output. \n- Lead: guide difficult work, explain tradeoffs and review others’ decisions.\n- Mark a specific capability. \n- Keep capability separate from scope: what you can reliably do and judge versus what someone has agreed you are responsible for.",
+       "notes": "- There are four levels of depth.\n- Recognize: spot something that needs checking.\n- Understand: explain how it works and ask useful questions.\n- Judge: direct the work and evaluate its output.\n- Lead: guide difficult work, explain tradeoffs and review others’ decisions.",
        "thumb": "thumbs/w1/034.jpg"
       },
       {
        "key": "29",
        "label": "28 · My M, honestly",
-       "notes": "CUE (not spoken): Explain Judge+ as a mixed profile, not a fifth workbook level. Do not reread the other bucket ratings.\n\nSAY:\n- My Traffic depth is Google Ads. Paid Social is what I'd like to develop.\n- Conversion is mixed: I lead strategy, wireframes and copy. \n- A/B testing and deeper CRO are development areas for me. \n- That is what Judge-plus is showing. \n- Use the workbook’s four levels and explain differences in a note.",
+       "notes": "- This is my honest M-shape and where I think I stand.",
        "thumb": "thumbs/w1/035.jpg"
       },
       {
        "key": "30",
-       "label": "18 · Today and next",
-       "notes": "CUE (not spoken): Bridge Bob’s self-assessment to the room’s self-assessment.\n\nSAY:\n- Today I lead Google Ads, measurement, and landing-page conversion. \n- Next, I want to connect that with Paid Social.",
+       "label": "29 · Write · my M-shape",
+       "notes": "- Question 5.\n- Mark your depth and note which capability you mean.\n- One mark cannot describe everything in a bucket; your note makes it useful.\n- Pencil in a capability you might develop next (or write it down in the notes).\n- You have ninety seconds for an honest first version, which you can refine when you choose your direction.",
        "thumb": "thumbs/w1/036.jpg"
       },
       {
        "key": "31",
-       "label": "29 · Write · my M-shape",
-       "notes": "CUE (not spoken): Protect the full ninety seconds on the next slide.\n\nSAY:\n- Page seven, question five. \n- Mark your depth and note which capability you mean. \n- One mark cannot describe everything in a bucket; your note makes it useful.\n- Pencil in a capability you might develop next. \n- You have ninety seconds for an honest first version, which you can refine when you choose your direction.",
+       "label": "30 · Countdown 1:30",
+       "notes": "",
        "thumb": "thumbs/w1/037.jpg"
       },
       {
        "key": "32",
-       "label": "30 · Countdown 1:30",
-       "notes": "CUE (not spoken): Run 1:30 in silence. At zero, move into possible directions.",
+       "label": "32 · The direction sentence",
+       "notes": "- Question 6.\n- Now, we want to turn your capability interest into a contribution your stakeholder values.\n- \"My stakeholder would still pay for someone who does THIS, because THIS is WHY IT MATTERS.\"\n- Use the \"because\" to make that connection.",
        "thumb": "thumbs/w1/038.jpg"
       },
       {
        "key": "33",
-       "label": "32 · The direction sentence",
-       "notes": "CUE (not spoken): Do not read the long example in full; the next Bob slide supplies the comparison.\n\nSAY:\n- Turn the capability interest into a contribution somebody values.\n- My stakeholder would still pay for someone who does this, because this is why it matters.\n- Learn Paid Social describes my interest. \n- Connecting channel and page decisions to the same acquisition goal describes a contribution. \n- Use the because to make that connection.",
+       "label": "33 · Write · three directions",
+       "notes": "- Explore up to three directions.\n- Could be broader responsibility, deeper expertise or better decisions through others.\n- Spend a minute on each. If you have two credible directions, use the final minute to sharpen them.\n- There is a word bank here and role examples on page fourteen if you need a starting point.\n- These are just examples to get the juices flowing!",
        "thumb": "thumbs/w1/039.jpg"
       },
       {
        "key": "34",
-       "label": "33 · Write · three directions",
-       "notes": "CUE (not spoken): The four-role teaching slide has been removed. Point to the workbook without adding a lecture.\n\nSAY:\n- Page eight, question six. \n- Explore up to three directions: broader responsibility, deeper expertise or better decisions through others.\n- Spend a minute on each. If you have two credible directions, use the final minute to sharpen them.\n- There is a word bank here and role examples on page fourteen if you need a starting point.",
+       "label": "33b · Bob's map · three directions",
+       "notes": "- I have two directions I genuinely want to explore next.\n- I think both of these would drastically make me more valuable in client work.\n- My first direction combines Google Ads, Paid Social and landing pages tailored to the traffic temperature, message and offer.\n- My second is deeper conversion expertise: stronger hypotheses, better testing and understanding what produces qualified enquiries and customers.\n- Both would be useful to the client. Both interest me.\n- I am choosing between broader acquisition responsibility and deeper conversion expertise.",
        "thumb": "thumbs/w1/040.jpg"
       },
       {
        "key": "35",
-       "label": "33b · Bob's map · three directions",
-       "notes": "CUE (not spoken): Show two credible directions. The commercial value is the reason to explore them, not a promised uplift.\n\nSAY:\n- My first direction combines Google Ads, Paid Social and landing pages tailored to the traffic temperature, message and offer.\n- My second is deeper conversion expertise: stronger hypotheses, better testing and understanding what produces qualified enquiries and customers.\n- Both would be useful to the client. Both interest me. \n- I am choosing between broader acquisition responsibility and deeper conversion expertise. \n- I have two genuine options. Now write yours.",
+       "label": "34 · Countdown 3:00",
+       "notes": "- Now write yours.",
        "thumb": "thumbs/w1/041.jpg"
       },
       {
        "key": "36",
-       "label": "34 · Countdown 3:00",
-       "notes": "CUE (not spoken): Run 3:00 in silence. The on-screen markers suggest switching direction after one minute and sharpening or adding a third after two.",
+       "label": "35 · Belief · the closed door",
+       "notes": "- You may already be thinking: my stakeholder will never let me near that.\n- Sometimes the next step is a smaller ask. \n- Offer one useful contribution and ask for feedback. \n- That gives you something concrete to discuss when you ask for more responsibility.\n- A no also tells you something. It may change your scope, your first test or your direction.",
        "thumb": "thumbs/w1/042.jpg"
       },
       {
        "key": "37",
-       "label": "35 · Belief · the closed door",
-       "notes": "CUE (not spoken): Keep access and permission real. Evidence can help earn trust; it cannot guarantee authority.\n\nSAY:\n- You may already be thinking: my stakeholder will never let me near that.\n- Sometimes the next step is a smaller ask. \n- Offer one useful contribution and ask for feedback. \n- That gives you something concrete to discuss when you ask for more responsibility.\n- A no also tells you something. It may change your scope, your first test or your direction.",
+       "label": "36 · This move has been made",
+       "notes": "- Let me show you three concrete examples from the PPC Hub community.",
        "thumb": "thumbs/w1/043.jpg"
       },
       {
        "key": "38",
-       "label": "36 · This move has been made",
-       "notes": "CUE (not spoken): Use these as mechanisms, not unsupported success or uplift claims. Do not elaborate beyond the displayed stories.\n\nSAY:\n- Three examples from the community.\n- Michael set the landing-page requirements; the agency built the pages. He could contribute beyond campaigns through other specialists.\n- Benjamin uses AI personas to challenge landing-page assumptions. That can generate questions to investigate; it does not replace evidence from customers.\n- Kenza worked with data and finance around an agreed twenty-one-month payback target. Her contribution included aligning people around a commercial decision.\n- Different roles, different moves. Each makes the contribution more specific than simply doing more account work.",
+       "label": "38 · Write · both lines",
+       "notes": "- Question 7.\n- What work do you want more of, and what work do you want less of?\n- This is an extremely important question.\n- Something can matter to the business without being work you want to build your career around.\n- Luckily for you, there are 4 levels of depth: Recognize, Understand, Judge, Lead\n- If something is truly important for your stakeholder or ICP, I'd personally want to be able to \"Judge\", but from there let somebody else \"Lead\" or \"Own\" it.\n- Somebody else could also be \"AI\" in this story by the way.",
        "thumb": "thumbs/w1/044.jpg"
       },
       {
        "key": "39",
-       "label": "38 · Write · both lines",
-       "notes": "CUE (not spoken): Explain the private exercise without asking for a public confession.\n\nSAY:\n- Question seven, page nine. What work do you want more of, and what work do you want less of?\n- Think about last week. Be specific enough to picture it in your calendar.\n- Something can matter to the business without being work you want to build your career around. \n- You can flag it responsibly or work with someone who wants to lead it.",
+       "label": "38b · Bob's map · both lines",
+       "notes": "- I want more of planning how Google Ads, Paid Social, and tailored landing pages work together to drive clients' results.\n- I want less of in-platform optimizations that do not move business results. \n- That is productive avoidance: doing familiar work because it feels useful.\n- Valuable Google Ads work stays valuable. \n- I want my time to follow the contribution, rather than the comfort of the task.",
        "thumb": "thumbs/w1/045.jpg"
       },
       {
        "key": "40",
-       "label": "38b · Bob's map · both lines",
-       "notes": "CUE (not spoken): Keep the distinction about value, not abandoning account optimization.\n\nSAY:\n- I want more of planning how Google Ads, Paid Social, and tailored landing pages work together to drive clients' results.\n- I want less of in-platform optimizations that do not move business results. \n- That is productive avoidance: doing familiar work because it feels useful.\n- Valuable Google Ads work stays valuable. \n- I want my time to follow the contribution, rather than the comfort of the task.",
+       "label": "39 · Countdown 1:00",
+       "notes": "",
        "thumb": "thumbs/w1/046.jpg"
       },
       {
        "key": "41",
-       "label": "39 · Countdown 1:00",
-       "notes": "CUE (not spoken): Run 1:00 in silence. Move straight into comparing directions at zero.",
+       "label": "40 · Two lenses",
+       "notes": "- Now, compare the stakeholder value, your access and your own interest.\n- Impact: what decision or result could improve?\n- Access: can you get close enough to learn?",
        "thumb": "thumbs/w1/047.jpg"
       },
       {
        "key": "42",
-       "label": "40 · Two lenses",
-       "notes": "CUE (not spoken): Essential oral definition: this export has no standalone Own / Influence / Flag teaching slide. Deliver it before the comparison table.\n\nSAY:\n- Compare the stakeholder value, your access and your own interest.\n- Impact: what decision or result could improve? \n- Access: can you get close enough to learn? \n- Pull: do you want more of this work?\n- Also choose your desired scope. \n- Own means taking agreed responsibility for the work and decisions. \n- Influence means contributing while someone else remains accountable. \n- Flag means making the issue visible to the right owner.\n- These are useful choices. You can lead through specialists, and deeper existing expertise can be the strongest direction.",
+       "label": "41 · Write · compare and circle",
+       "notes": "- Besides \"impact\" and \"access\" I also want you to choose your \"desired scope\" and \"pull\".\n- Desired scope: Do you want to \"own\", \"Influence\" or \"flag\"?\n- Own means taking agreed responsibility for the work and decisions.\n- Influence means contributing while someone else remains accountable.\n- Flag means making the issue visible to the right owner.\n- And lastly, \"pull\": do you want more or less of this work?",
        "thumb": "thumbs/w1/048.jpg"
       },
       {
        "key": "43",
-       "label": "41 · Write · compare and circle",
-       "notes": "CUE (not spoken): Page 9. Do not add numeric scoring or require a third row.\n\nSAY:\n- Compare only the directions you wrote. \n- Mark impact and access high, medium or low. \n- Choose your desired scope and whether the pull is strong or weak. Then circle one direction.\n- These are provisional judgments, not calculated scores. \n- If access is low, consider a smaller first test. \n- You are choosing what to explore next, not signing a new job description.",
+       "label": "41b · Bob's map · compare and circle",
+       "notes": "- Both my directions have high potential value and strong pull. \n- I have easier access to deeper conversion work. The broader acquisition direction needs more learning and another specialist’s input.\n- I still choose it because it builds on my conversion strengths and expands my responsibility across channels.\n- Own is the scope I want to agree with the client. It is not permission I already have. \n- Now make your choice.",
        "thumb": "thumbs/w1/049.jpg"
       },
       {
        "key": "44",
-       "label": "41b · Bob's map · compare and circle",
-       "notes": "CUE (not spoken): Point to H/M versus H/H, then the selected first row. No automatic highest-score rule.\n\nSAY:\n- Both my directions have high potential value and strong pull. \n- I have easier access to deeper conversion work. The broader acquisition direction needs more learning and another specialist’s input.\n- I still choose it because it builds on my conversion strengths and expands my responsibility across channels.\n- Own is the scope I want to agree with the client. It is not permission I already have. \n- Now make your choice.",
+       "label": "42 · Countdown 2:30",
+       "notes": "",
        "thumb": "thumbs/w1/050.jpg"
       },
       {
        "key": "45",
-       "label": "42 · Countdown 2:30",
-       "notes": "CUE (not spoken): Run the full 2:30 in silence. At zero, move to the capability required by the circled direction.",
+       "label": "43 · Write · capability edge",
+       "notes": "- Question 9.\n- What must you become able to do, judge or coordinate for this direction to be credible?\n- Make it observable and concrete. \"Learn more about marketing\" is too broad.",
        "thumb": "thumbs/w1/051.jpg"
       },
       {
        "key": "46",
-       "label": "43 · Write · capability edge",
-       "notes": "CUE (not spoken): Point back to the pencil mark on page 7 without requiring another page change.\n\nSAY:\n- Question nine, page ten. What must you become able to do, judge or coordinate for this direction to be credible?\n- Make it observable. Learn more about marketing is too broad. What part of a recommendation can you not yet evaluate confidently?\n- Check the capability you pencilled in earlier. Your chosen direction may point somewhere different. Write one specific capability to practise.",
+       "label": "43b · Bob's map · capability edge",
+       "notes": "- Let's look at my map.\n- My next capability is to: Judge a Paid Social campaign concept and adapt the landing page to its traffic temperature, message and offer.\n- Who is the ad for? What is it promising? What does that person need from the page before taking the next step?\n- Also, can I check off all \"Cs\" in Danique's \"CCC framework\"?\n- I want to make those judgments and have a specialist challenge what I missed.\n- Danique, expect me to slide into your DMs in a couple of weeks.",
        "thumb": "thumbs/w1/052.jpg"
       },
       {
        "key": "47",
-       "label": "43b · Bob's map · capability edge",
-       "notes": "CUE (not spoken): Link the capability to the proposed contribution, rather than simply learning another platform.\n\nSAY:\n- For me: judge a Paid Social campaign concept and adapt the landing page to its traffic temperature, message and offer.\n- Who is the ad for? What is it promising? What does that person need from the page before taking the next step?\n- I want to make those judgments and have a specialist challenge what I missed.",
+       "label": "44 · Countdown 1:00",
+       "notes": "",
        "thumb": "thumbs/w1/053.jpg"
       },
       {
        "key": "48",
-       "label": "44 · Countdown 1:00",
-       "notes": "CUE (not spoken): Run 1:00 in silence. Transition to the boundary at zero.",
+       "label": "45 · Write · boundary",
+       "notes": "- Question 10.\n- What stays with someone else?\n- This is an important question, because you don't have to do everything yourself.\n- A clear boundary makes your responsibility credible.\n- It shows how the work can be delivered and where you still need someone else’s expertise.\n- It also takes into consideration the work you want MORE of and LESS of.",
        "thumb": "thumbs/w1/054.jpg"
       },
       {
        "key": "49",
-       "label": "45 · Write · boundary",
-       "notes": "CUE (not spoken): Still page 10. Boundary is a deliberate division of responsibility, not a list of weaknesses.\n\nSAY:\n- Question ten: what stays with someone else?\n- Name the work or decision and the role that leads it. Designer, developer, sales lead, finance partner, another specialist. Choose what applies to your direction.\n- A clear boundary makes your responsibility credible. It shows how the work can be delivered and where you still need someone else’s expertise.",
+       "label": "45b · Bob's map · boundary",
+       "notes": "- I want to coordinate acquisition strategy and lead the landing-page strategy, wireframes and conversion copy.\n- My designer leads visual design. A developer leads custom landing-page development. Those are real specialist responsibilities.\n- Paid Social judgment is the capability I am developing. \n- The test will include an experienced specialist who can challenge my work before I propose a pilot.",
        "thumb": "thumbs/w1/055.jpg"
       },
       {
        "key": "50",
-       "label": "45b · Bob's map · boundary",
-       "notes": "CUE (not spoken): Follow the updated designer/developer boundary. Do not restore the previous version’s automatic Paid Social execution handoff.\n\nSAY:\n- I want to coordinate acquisition strategy and lead the landing-page strategy, wireframes and conversion copy.\n- My designer leads visual design. A developer leads custom landing-page development. Those are real specialist responsibilities.\n- Paid Social judgment is the capability I am developing. \n- The test will include an experienced specialist who can challenge my work before I propose a pilot.",
+       "label": "46 · Countdown 1:00",
+       "notes": "",
        "thumb": "thumbs/w1/056.jpg"
       },
       {
        "key": "51",
-       "label": "46 · Countdown 1:00",
-       "notes": "CUE (not spoken): Run 1:00 in silence. At zero, begin Part 3. Second major clock checkpoint.",
+       "label": "49 · Act 3 · What is my next step?",
+       "notes": "- You have chosen a direction, named a capability, and drawn a boundary. \n- Now make the next step small enough to take.\n- You are going to put the decision on one card and design a test that tells you whether to keep investing in it.",
        "thumb": "thumbs/w1/057.jpg"
       },
       {
        "key": "52",
-       "label": "49 · Act 3 · What is my next step?",
-       "notes": "CUE (not spoken): Keep the Part 3 divider brief.\n\nSAY:\n- You have chosen a direction, named a capability, and drawn a boundary. \n- Now make the next step small enough to take.\n- You are going to put the decision on one card and design a test that tells you whether to keep investing in it.",
+       "label": "50 · Belief · takes years",
+       "notes": "- Useful judgment develops through practice and feedback. \n- Start with one piece of unfamiliar work and someone qualified to challenge it.\n- Make an attempt, get specific corrections and revise. Then decide what to practise next.\n- That first repetition can reveal a lot about the gap. It does not need to establish that you have mastered the whole discipline.",
        "thumb": "thumbs/w1/058.jpg"
       },
       {
        "key": "53",
-       "label": "50 · Belief · takes years",
-       "notes": "CUE (not spoken): The years claim is the belief being challenged. Do not promise mastery in thirty days.\n\nSAY:\n- Useful judgment develops through practice and feedback. \n- Start with one piece of unfamiliar work and someone qualified to challenge it.\n- Make an attempt, get specific corrections and revise. Then decide what to practise next.\n- That first repetition can reveal a lot about the gap. It does not need to establish that you have mastered the whole discipline.",
+       "label": "54 · The pivot point",
+       "notes": "- This is the pivot point: attach action to the direction.\n- Open page twelve. Your ninety-day bet names where you want to develop. Your thirty-day test checks something you need to learn before investing more.\n- We will gather the choices you already made, identify the main uncertainty and design that test.",
        "thumb": "thumbs/w1/059.jpg"
       },
       {
        "key": "54",
-       "label": "54 · The pivot point",
-       "notes": "CUE (not spoken): Page 12 is the complete decision card. Leave it open through the close.\n\nSAY:\n- This is the pivot point: attach action to the direction.\n- Open page twelve. Your ninety-day bet names where you want to develop. Your thirty-day test checks something you need to learn before investing more.\n- We will gather the choices you already made, identify the main uncertainty and design that test.",
+       "label": "55 · Write · direction and 90-day bet",
+       "notes": "- Question eleven: fill the first block with short phrases. \n- Stakeholder, direction for the next ninety days, desired scope, capability and boundary.\n- Reuse the answers you already wrote. This is where they come together.\n- If the scope still needs agreement, say so. You are recording a bet to explore, not claiming a mandate. \n- Two minutes is enough for a usable first version.",
        "thumb": "thumbs/w1/060.jpg"
       },
       {
        "key": "55",
-       "label": "55 · Write · direction and 90-day bet",
-       "notes": "CUE (not spoken): No new framework or extra planning fields. Advance through Bob’s card to the timer.\n\nSAY:\n- Question eleven: fill the first block with short phrases. \n- Stakeholder, direction for the next ninety days, desired scope, capability and boundary.\n- Reuse the answers you already wrote. This is where they come together.\n- If the scope still needs agreement, say so. You are recording a bet to explore, not claiming a mandate. \n- Two minutes is enough for a usable first version.",
+       "label": "55b · Bob's map · direction and 90-day bet",
+       "notes": "- My bet is to develop and test the Google Ads and Paid Social approach for one client offer, with tailored landing pages.\n- The desired scope is Own, by agreement and with specialist support. \n- The capability is judging the Paid Social concept and adapting the page.\n- The designer leads visual design, with development handled by a developer as we saw earlier. I coordinate strategy and landing-page work.",
        "thumb": "thumbs/w1/061.jpg"
       },
       {
        "key": "56",
-       "label": "55b · Bob's map · direction and 90-day bet",
-       "notes": "CUE (not spoken): Summarize the bet, capability and boundary. The designer and developer retain their specialist responsibilities; Bob coordinates acquisition strategy and leads landing-page strategy, wireframes and copy.\n\nSAY:\n- My bet is to develop and test the Google Ads and Paid Social approach for one client offer, with tailored landing pages.\n- The desired scope is Own, by agreement and with specialist support. \n- The capability is judging the Paid Social concept and adapting the page.\n- The designer leads visual design, with development handled by a developer as we saw earlier. I coordinate strategy and landing-page work.",
+       "label": "56 · Countdown 2:00",
+       "notes": "",
        "thumb": "thumbs/w1/062.jpg"
       },
       {
        "key": "57",
-       "label": "56 · Countdown 2:00",
-       "notes": "CUE (not spoken): Run 2:00 in silence. At zero, move to the uncertainty field on the same page.",
+       "label": "57 · Write · critical uncertainty",
+       "notes": "- Question twelve: what do you need to learn before investing more time?\n- Choose the uncertainty that matters first. \n- Knowledge: can I do or judge this? \n- Access: can I reach the people, information or work? \n- Permission: will the accountable person agree? \n- Desire: do I actually want this work?\n- Write one uncertainty and tag it. A useful no can change the direction.",
        "thumb": "thumbs/w1/063.jpg"
       },
       {
        "key": "58",
-       "label": "57 · Write · critical uncertainty",
-       "notes": "CUE (not spoken): Explain the four options once. Their forty seconds begin on slide 61.\n\nSAY:\n- Question twelve: what do you need to learn before investing more time?\n- Choose the uncertainty that matters first. \n- Knowledge: can I do or judge this? \n- Access: can I reach the people, information or work? \n- Permission: will the accountable person agree? \n- Desire: do I actually want this work?\n- Write one uncertainty and tag it. A useful no can change the direction.",
+       "label": "57b · Bob's map · critical uncertainty",
+       "notes": "- Mine is Knowledge: can I judge how Paid Social should work alongside Google Ads, and what its traffic needs from the landing page?\n- That gives my first test a clear job. I need to see where my current judgment holds up and where a specialist has to correct it.",
        "thumb": "thumbs/w1/064.jpg"
       },
       {
        "key": "59",
-       "label": "57b · Bob's map · critical uncertainty",
-       "notes": "CUE (not spoken): Permission and commercial fit also matter, but keep one primary learning question.\n\nSAY:\n- Mine is Knowledge: can I judge how Paid Social should work alongside Google Ads, and what its traffic needs from the landing page?\n- That gives my first test a clear job. I need to see where my current judgment holds up and where a specialist has to correct it.",
+       "label": "58 · Countdown 0:40",
+       "notes": "",
        "thumb": "thumbs/w1/065.jpg"
       },
       {
        "key": "60",
-       "label": "58 · Countdown 0:40",
-       "notes": "CUE (not spoken): Run 0:40 in silence. At zero, introduce the test shapes.",
+       "label": "59 · Five test shapes",
+       "notes": "- The test should answer that uncertainty. \n- It might be a conversation, access to evidence, shadowing someone, making a diagnostic artifact or contributing alongside an accountable owner.\n- Look at the sales-call example. Assess five calls yourself, compare with the sales lead and record what you missed. That gives you feedback on your judgment.\n- Choose the smallest useful version for your question. A finished artifact only matters if it helps you learn what you need to know.",
        "thumb": "thumbs/w1/066.jpg"
       },
       {
        "key": "61",
-       "label": "59 · Five test shapes",
-       "notes": "CUE (not spoken): The sales example illustrates a test shape; it is not a return to follow-up work in Bob’s direction.\n\nSAY:\n- The test should answer that uncertainty. \n- It might be a conversation, access to evidence, shadowing someone, making a diagnostic artifact or contributing alongside an accountable owner.\n- Look at the sales-call example. Assess five calls yourself, compare with the sales lead and record what you missed. That gives you feedback on your judgment.\n- Choose the smallest useful version for your question. A finished artifact only matters if it helps you learn what you need to know.",
+       "label": "60 · Write · the 30-day test",
+       "notes": "- Question thirteen, still page twelve. By twenty-five October, one test that can change your decision.\n- Fill six fields: the action, the person, the access you need, the evidence you will bring back, who can challenge it and what would make you continue, narrow, change or stop.\n- Make the evidence specific. Completing a course alone does not tell you whether your judgment improved.\n- You have five minutes. \n- My full card is on page thirteen; role examples are on fourteen.",
        "thumb": "thumbs/w1/067.jpg"
       },
       {
        "key": "62",
-       "label": "60 · Write · the 30-day test",
-       "notes": "CUE (not spoken): Keep October deadline explicit. The timer starts after Bob’s example, not during these instructions.\n\nSAY:\n- Question thirteen, still page twelve. By twenty-five October, one test that can change your decision.\n- Fill six fields: the action, the person, the access you need, the evidence you will bring back, who can challenge it and what would make you continue, narrow, change or stop.\n- Make the evidence specific. Completing a course alone does not tell you whether your judgment improved.\n- You have five minutes. \n- My full card is on page thirteen; role examples are on fourteen.",
+       "label": "60b · Bob's map · the 30-day test",
+       "notes": "- I will draft a Paid Social concept and matching wireframe independently, then review and revise them with a specialist before discussing a pilot with the client.\n- I need the offer, Google Ads results, current page, creative assets and client context.\n- I will keep both versions and the corrections, plus a measurement proposal and delivery responsibilities. \n- The specialist challenges channel assumptions; the client challenges commercial fit.\n- If the key corrections are addressed and scope is agreed, I can propose a pilot. \n- Otherwise I practise the weak area or let the specialist lead more.",
        "thumb": "thumbs/w1/068.jpg"
       },
       {
        "key": "63",
-       "label": "60b · Bob's map · the 30-day test",
-       "notes": "CUE (not spoken): The independent attempt makes the feedback informative. Proposed pilot is a learning decision, not a live-launch promise.\n\nSAY:\n- I will draft a Paid Social concept and matching wireframe independently, then review and revise them with a specialist before discussing a pilot with the client.\n- I need the offer, Google Ads results, current page, creative assets and client context.\n- I will keep both versions and the corrections, plus a measurement proposal and delivery responsibilities. \n- The specialist challenges channel assumptions; the client challenges commercial fit.\n- If the key corrections are addressed and scope is agreed, I can propose a pilot. \n- Otherwise I practise the weak area or let the specialist lead more.",
+       "label": "61 · Countdown 5:00",
+       "notes": "",
        "thumb": "thumbs/w1/069.jpg"
       },
       {
        "key": "64",
-       "label": "61 · Countdown 5:00",
-       "notes": "CUE (not spoken): Run 5:00 in silence. Floor team quietly identifies up to two willing sharers in different roles and positions a microphone if available. No compulsory pairing. At zero, move straight to the one-minute completion slide. Planned start of this five-minute timer: about 10:46. Recovery target: begin by 10:51:45 at the latest; omit sharing on that route. Protect the full writing time and the following completion minute.",
+       "label": "66 · Completion check · Countdown 1:00",
+       "notes": "- Check the test answers your uncertainty and names a qualified reviewer. \n- Schedule your first step and October review. \n- Photograph pages five and twelve. \n- Fix your weakest answer.",
        "thumb": "thumbs/w1/070.jpg"
       },
       {
        "key": "65",
-       "label": "66 · Completion check · Countdown 1:00",
-       "notes": "CUE (not spoken): Speak these instructions as the one-minute countdown starts; speech is INSIDE the minute. The remaining time is quiet. Phones can be used for the calendar and photos.\n\nSAY:\n- Check the test answers your uncertainty and names a qualified reviewer. \n- Schedule your first step and October review. \n- Photograph pages five and twelve. \n- Fix your weakest answer.",
+       "label": "62 · Four seats, four moves",
+       "notes": "- Let's go over two quick examples from different roles. \n- Does anyone wants to share their next move?",
        "thumb": "thumbs/w1/071.jpg"
       },
       {
        "key": "66",
-       "label": "62 · Four seats, four moves",
-       "notes": "CUE (not spoken): OPTIONAL: maximum 2:00 total INCLUDING Bob’s words, responses and microphone movement. The four seat labels represent the room, not four required speakers. Use the pre-identified volunteers. Skip if no one is ready or the clock is tight. If the completion check finishes after 10:56, skip this optional slide and go directly to slide 68. The maximum sharing block is two minutes including introduction, replies and microphone movement.\n\nSAY:\n- Let's go over two quick examples from different roles. \n- Does anyone wants to share their next move?",
+       "label": "63 · Trust is demonstrated",
+       "notes": "- Mike said: trust is demonstrated, not asked for.\n- Your next step gives someone a concrete contribution to challenge.\n- You can show the first attempt, the feedback and what changed.\n- That is something you can build on when you discuss greater responsibility.",
        "thumb": "thumbs/w1/072.jpg"
       },
       {
        "key": "67",
-       "label": "63 · Trust is demonstrated",
-       "notes": "CUE (not spoken): Let the quote breathe briefly. Do not introduce another framework or sales pitch.\n\nSAY:\n- Mike said: trust is demonstrated, not asked for.\n- Your next step gives someone a concrete contribution to challenge.\n- You can show the first attempt, the feedback and what changed.\n- That is something you can build on when you discuss greater responsibility.",
+       "label": "64 · Mike's question, answered through three questions",
+       "notes": "- Come back to Mike’s question: If AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n- You now have a more specific answer. The value you want to strengthen. One direction you chose over the others. And a test, due twenty-five October, that will tell you what to do next.\n- You have answered Geert’s three questions on paper.",
        "thumb": "thumbs/w1/073.jpg"
       },
       {
-       "key": "68",
+       "key": "67.1",
        "label": "64 · Mike's question, answered through three questions",
-       "notes": "CUE (not spoken): Build 0: Mike’s question. Click 1 before “You now have…” to reveal the three answers. Do not ask for a public answer.\n\nSAY:\n- Come back to Mike’s question: If AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n- You now have a more specific answer. The value you want to strengthen. One direction you chose over the others. And a test, due twenty-five October, that will tell you what to do next.\n- You have answered Geert’s three questions on paper.",
+       "notes": "- Come back to Mike’s question: If AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n- You now have a more specific answer. The value you want to strengthen. One direction you chose over the others. And a test, due twenty-five October, that will tell you what to do next.\n- You have answered Geert’s three questions on paper.",
        "thumb": "thumbs/w1/074.jpg"
       },
       {
-       "key": "68.1",
-       "label": "64 · Mike's question, answered through three questions",
-       "notes": "CUE (not spoken): Build 0: Mike’s question. Click 1 before “You now have…” to reveal the three answers. Do not ask for a public answer.\n\nSAY:\n- Come back to Mike’s question: If AI ran your accounts tomorrow, what would your stakeholder still pay you for?\n- You now have a more specific answer. The value you want to strengthen. One direction you chose over the others. And a test, due twenty-five October, that will tell you what to do next.\n- You have answered Geert’s three questions on paper.",
-       "thumb": "thumbs/w1/075.jpg"
-      },
-      {
-       "key": "69",
+       "key": "68",
        "label": "68 · Step into the arena",
-       "notes": "CUE (not spoken): Hard release by 11:00. No Q&A block. Keep the final slide on screen.\n\nSAY:\n- You zoomed out and chose a direction. Your next step is on the page.\n- After the break, we will decide what one account needs next. \n- Your career direction and that account’s priority may be different. We will let the evidence guide that decision.\n- Keep the workbook. Enjoy the break. We are back here at eleven fifteen.",
-       "thumb": "thumbs/w1/076.jpg"
+       "notes": "- You zoomed out and chose a direction. Your next step is on the page.\n- After the break, we will decide what one account needs next. \n- Your career direction and that account’s priority may be different. We will let the evidence guide that decision.\n- Keep the workbook. Enjoy the break. We are back here at eleven fifteen.",
+       "thumb": "thumbs/w1/075.jpg"
       }
      ]
     },
