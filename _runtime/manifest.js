@@ -1,5 +1,5 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-24 08:38",
+ "built": "2026-09-24 18:24",
  "blocks": [
   {
    "id": "block-1",
@@ -3818,52 +3818,52 @@ window.STAGE_MANIFEST = {
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-01.jpg",
        "label": "Page 1",
-       "notes": ""
+       "notes": "Why can change feel so uncomfortable?\nHow do you close the gap…?\nAnd how many of you…?"
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-02.jpg",
        "label": "Page 2",
-       "notes": ""
+       "notes": "What I will do:\nIntroduce the Pivot Point\nto help you overcome the gap you feel right now\nbetween where you are and where you want to be\nwith three simple steps\nthat we will also use as a system in the next workshop."
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-03.jpg",
        "label": "Page 3",
-       "notes": ""
+       "notes": "We’re no robots; we’ve got the deal with thoughts, feelings and emotions.\nThree parted brain: limbic system\nVisualisation: If you can imagine it, you can built it (Mike)\nVisualize your success: see your future self a year from now\nSeeing the vision is great. But seeing the gap is something else.\nThe gap comes with anxiety, uncertainty and doubts\nThe only way to close the gap is by taking action"
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-04.jpg",
        "label": "Page 4",
-       "notes": ""
+       "notes": "When Bob steps back onto the stage, he will help you audit yourself and answer this question in detail.\nThe misconception of high achievers on focus"
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-05.jpg",
        "label": "Page 5",
-       "notes": ""
+       "notes": "Zoom out versus Zoom in\nNo rocket science\nThe good news: you are doing it already\nLet’s have a look"
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-06.jpg",
        "label": "Page 6",
-       "notes": ""
+       "notes": "My message is not: zoom in or zoom out\nMake sure not to overshoot your focus (too mcuch)\nSecond elephant: you think you’re in control\nNot your fault. But it is your responsibilty\nKey: make a decision: zoom in or zoom out\nThat moment I call The Pivot Point"
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-07.jpg",
        "label": "Page 7",
-       "notes": ""
+       "notes": "Small pivot points\nBig pivot points\nKey question: of everything I can do…"
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-08.jpg",
        "label": "Page 8",
-       "notes": ""
+       "notes": "Bob will help you answer this question in the next workshop\nIn this new world there are two types op people"
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-09.jpg",
        "label": "Page 9",
-       "notes": ""
+       "notes": "A journey of a thousand miles begins with a single step.\nSo the only thing you have to ask yourself is: What is my next step?\nAnd then you take it.\nThat’s when you stop watching change. And start creating it.\nIt starts right now.\nThe third step is making a decision before you feel ready."
       },
       {
        "src": "slides/day-2-ch9-the-pivot-point-deck/p-10.jpg",
        "label": "Page 10",
-       "notes": ""
+       "notes": "If you’re ready to step into the arena, please stand up.\nThis arena that you step into is a messy place.\nYou have to do it by yourself – nobody is going to save you.\nBut look around you: you are not alone.\nWe are all in this together\nAnd now that you made your decision, it’s time\nto turn our potential into performance"
       }
      ]
     },
