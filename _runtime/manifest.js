@@ -1,11 +1,11 @@
 window.STAGE_MANIFEST = {
- "built": "2026-09-23 16:23",
+ "built": "2026-09-24 08:38",
  "blocks": [
   {
    "id": "block-1",
    "day": 1,
    "title": "Block 1 · Opening, CH1, CH2",
-   "window": "09:30-10:50",
+   "window": "10:00-11:20",
    "segments": [
     {
      "group": "Welcome · Sam Kellet",
@@ -832,19 +832,19 @@ window.STAGE_MANIFEST = {
     },
     {
      "group": "Break",
-     "label": "Back at 11:05",
-     "title": "Break · Back at 11:05",
+     "label": "Back at 11:35",
+     "title": "Break · Back at 11:35",
      "kind": "images",
      "timer": {
       "id": "Break",
-      "until": "11:05",
+      "until": "11:35",
       "start": true
      },
      "steps": [
       {
-       "src": "slides/breaks-short-break-back-at-11-05.jpg",
-       "label": "Back at 11:05",
-       "notes": "Thank you Bob! All right everyone, it’s time for our first 15 minute break. Grab some coffee and I’ll see you back here at 11:05. Remember, it’s a hard 15 minutes."
+       "src": "slides/breaks-short-break-back-at-11-35.jpg",
+       "label": "Back at 11:35",
+       "notes": "Thank you Bob! All right everyone, it’s time for our first 15 minute break. Grab some coffee and I’ll see you back here at 11:35. Remember, it’s a hard 15 minutes."
       }
      ]
     }
@@ -854,7 +854,7 @@ window.STAGE_MANIFEST = {
    "id": "block-2",
    "day": 1,
    "title": "Block 2 · CH3, CH4",
-   "window": "11:05-12:15",
+   "window": "11:35-12:45",
    "segments": [
     {
      "group": "CH3 · Frederik Boysen",
@@ -1277,19 +1277,19 @@ window.STAGE_MANIFEST = {
     },
     {
      "group": "Lunch",
-     "label": "Short break lunch",
-     "title": "Lunch · Short break lunch",
+     "label": "Short break lunch day 1",
+     "title": "Lunch · Short break lunch day 1",
      "kind": "images",
      "timer": {
       "id": "Lunch",
-      "until": "13:45",
+      "until": "14:15",
       "start": true
      },
      "steps": [
       {
-       "src": "slides/breaks-short-break-lunch.jpg",
-       "label": "Short break lunch",
-       "notes": "Thank you Danique! This morning was about where the value went; this afternoon shows the systems and the people that run it. But before we get there, it’s time to eat! Make your way over to the dining hall, where our friends from Casa de Marquez have prepared a feast; we’re talkin things like veal with a port reduction and tarragon. That sounds fancy as hell.\nThere are also vegetarian, vegan, and halal options, to accommodate all dietary preferences recorded in the app.\nThere’s seating in there, as well as in the lounges and in this room, so make a plate, have a great lunch, and we’ll see you back here at 13:45 sharp!"
+       "src": "slides/breaks-short-break-lunch-day-1.jpg",
+       "label": "Short break lunch day 1",
+       "notes": "Thank you Danique! This morning was about where the value went; this afternoon shows the systems and the people that run it. But before we get there, it’s time to eat! Make your way over to the dining hall, where our friends from Casa de Marquez have prepared a feast; we’re talkin things like veal with a port reduction and tarragon. That sounds fancy as hell.\nThere are also vegetarian, vegan, and halal options, to accommodate all dietary preferences recorded in the app.\nThere’s seating in there, as well as in the lounges and in this room, so make a plate, have a great lunch, and we’ll see you back here at 14:15 sharp!"
       }
      ]
     }
@@ -1299,7 +1299,7 @@ window.STAGE_MANIFEST = {
    "id": "block-3",
    "day": 1,
    "title": "Block 3 · CH5, CH6",
-   "window": "13:45-14:55",
+   "window": "14:15-15:25",
    "segments": [
     {
      "group": "CH5 · Alfred Simon",
@@ -2807,19 +2807,19 @@ window.STAGE_MANIFEST = {
     },
     {
      "group": "Break",
-     "label": "Back at 15:10",
-     "title": "Break · Back at 15:10",
+     "label": "Back at 15:40",
+     "title": "Break · Back at 15:40",
      "kind": "images",
      "timer": {
       "id": "Break",
-      "until": "15:10",
+      "until": "15:40",
       "start": true
      },
      "steps": [
       {
-       "src": "slides/breaks-short-break-back-at-15-10.jpg",
-       "label": "Back at 15:10",
-       "notes": "Thank you Cindy. Ladies and gentlemen, it’s time for our final break of the day. Unless you count the drinks, but that’s later. Grab some coffee and will see you back here at 15:10 sharp!"
+       "src": "slides/breaks-short-break-back-at-15-40.jpg",
+       "label": "Back at 15:40",
+       "notes": "Thank you Cindy. Ladies and gentlemen, it’s time for our final break of the day. Unless you count the drinks, but that’s later. Grab some coffee and will see you back here at 15:40 sharp!"
       }
      ]
     }
@@ -2829,7 +2829,7 @@ window.STAGE_MANIFEST = {
    "id": "block-4",
    "day": 1,
    "title": "Block 4 · CH7, CH8, drinks",
-   "window": "15:10-16:20",
+   "window": "15:40-16:50",
    "segments": [
     {
      "group": "CH7 · Miles McNair",
@@ -3706,7 +3706,7 @@ window.STAGE_MANIFEST = {
      "kind": "images",
      "timer": {
       "id": "Drinks",
-      "until": "17:30",
+      "until": "18:00",
       "start": true
      },
      "steps": [
